@@ -1,3 +1,10 @@
+pygments: true
+permalink: /:title
 auto: true
-title: Breizhcamp 2013
-description: BreizhCamp, un mix de technos
+
+name: Zach Holman
+url: http://zachholman.com
+description: A fantastic blog that is fantastic.
+twitter: holman
+github: holman
+gravatar_url: http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c

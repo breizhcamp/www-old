@@ -1,0 +1,121 @@
+---
+layout: layout
+label: Speakers
+---
+
+<h3>Speakers</h3>
+{% raw %}
+<div>
+    <style type="text/css">
+        .talk {
+            float: left;
+            margin: 0;
+            border-top: 1px solid #954d5a;
+            border-left: 1px solid #954d5a;
+            width: 200px;
+            height: 200px;
+        }
+
+        .talk .avatar {
+            width: 200px;
+            height: 200px;
+        }
+
+        .talk .caption {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff!important;
+            position: relative;
+            overflow: hidden;
+            bottom: 60px;
+            height: 60px;
+            line-height: 1.2em;
+        }
+
+        .talk .caption .speaker {
+            font-size: 20px;
+            width:200px;
+            text-align:center;
+        }
+
+        .talk .caption a {
+            color: #ffffff!important;
+            text-decoration: none;
+        }
+
+        .ng-cloak {
+            display:none;
+        }
+    </style>
+    <div class="container" ng-app="AcceptedTalks" ng-controller="AcceptedTalksCtrl">
+        <h3 ng-show="loading">Chargement des speakers...</h3>
+
+        <div class="talk ng-cloak" ng-repeat="talk in talks">
+            <img class="avatar" ng-src="{{talk.speaker.avatar}}"/>
+            <div class="caption">
+                <div class="speaker">
+                    <a href="#speaker{{talk.id}}" role="button" data-toggle="modal">{{talk.speaker.fullname}}</a>
+                </div>
+                <div class="title">
+                    <a href="#talk{{talk.id}}" role="button" data-toggle="modal">{{talk.title}}</a>
+                </div>
+            </div>
+            <div id="speaker{{talk.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="speakerLabel{{talk.id}}" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="speakerLabel{{talk.id}}">{{talk.speaker.fullname}}</h3>
+                </div>
+                <div class="modal-body">
+                    <p ng-bind-html-unsafe="getSafeDescription(talk.speaker.description)"></p>
+                    <p><b ng-show="talk.speaker.liens.length > 0"><u>Liens :</u></b>
+                    <ul>
+                        <li ng-repeat="lien in talk.speaker.liens"><a href="{{lien.url}}" target="_blank">{{lien.label}}</a></li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+            <div id="talk{{talk.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="talkLabel{{talk.id}}" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="talkLabel{{talk.id}}">{{talk.title}}</h3>
+                </div>
+                <div class="modal-body">
+                    <p ng-bind-html-unsafe="getSafeDescription(talk.description)"></p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        angular.module("AcceptedTalks", []);
+
+        function AcceptedTalksCtrl($scope, $http, $log) {
+
+            $scope.loading = true;
+
+            $http.jsonp("http://cfp.breizhcamp.org/accepted/jsonp?callback=JSON_CALLBACK")
+                    .success(function(data) {
+                        $scope.talks = data;
+                        $scope.loading = false;
+                    });
+
+
+            $scope.converter = new Markdown.getSanitizingConverter();
+
+            $scope.getSafeDescription = function(description) {
+                if (description) {
+                    return $scope.converter.makeHtml(description);
+                }
+            };
+        }
+    </script>
+</div>
+{% endraw %}
+
+<div class="foot_info">
+    plus de speakers annoncés ... bientôt, avec le programme complet
+</div>

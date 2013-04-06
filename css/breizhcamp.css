@@ -132,3 +132,9 @@ a {
 .vert {
     color: rgb(56,118,29);
 }
+
+.foot_info {
+    font-weight: bold;
+    width:100%;
+    text-align: center;
+}

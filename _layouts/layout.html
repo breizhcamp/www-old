@@ -21,13 +21,11 @@
     </a>
     <div class="navigation">
         <ul>
-            <li class="current"><a href="{{site.url}}/home">Accueil</a></li>
-            <li><a href="{{site.url}}/programme">Programme</a></li>
-            <li><a href="{{site.url}}/speakers">Speakers</a></li>
-            <li><a href="{{site.url}}/inscription">Inscription</a></li>
-            <li><a href="{{site.url}}/en-pratique">En pratique</a></li>
-            <li><a href="{{site.url}}/partenaires">Partenaires</a></li>
-            <li><a href="{{site.url}}/contact">Contact</a></li>
+
+            {% for post in site.posts %}
+                <li {% if post.url == page.url %}class="current" {% endif %}><a href="{{site.url}}/{{post.url}}">{{post.label}}</a></li>
+            {% endfor %}
+
             <li><a href="http://2011.breizhcamp.org">Edition 2011</a></li>
             <li><a href="http://2012.breizhcamp.org">Edition 2012</a></li>
         </ul>

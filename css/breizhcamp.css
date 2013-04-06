@@ -69,6 +69,10 @@ header .navigation li.current>a:hover {
     padding: 10px;
 }
 
+.container h3 {
+    color: #ff882a!important;
+}
+
 .detail {
     color: black;
     font-size: large;
@@ -96,4 +100,35 @@ a {
 .dateblock .date {
     color: rgb(255, 153, 0);
     font-size: xx-large;
+}
+
+.contenuprogramme {
+    border: solid 1px #000;
+    width: 100%;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-left:50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size:large;
+}
+
+.violet {
+    color: rgb(153, 0, 255);
+}
+
+.rouge {
+    color: rgb(255, 0, 0);
+}
+
+.bleu {
+    color: rgb(61,133,198);
+}
+
+.orange {
+    color: rgb(255, 153, 0);
+}
+
+.vert {
+    color: rgb(56,118,29);
 }

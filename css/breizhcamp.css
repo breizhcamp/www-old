@@ -50,11 +50,20 @@ header .navigation li.current:hover {
 
 header .navigation li>a {
     color: #cccccc !important;
+    text-decoration: none;
+}
+
+header .navigation li>a:hover {
+    text-decoration: underline;
 }
 
 header .navigation li.current>a,
 header .navigation li.current>a:hover {
     color: #ff882a!important;
+}
+
+header .navigation li.current>a:hover {
+    text-decoration: underline;
 }
 
 .presentation {

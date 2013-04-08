@@ -3,12 +3,12 @@
 Contient l'ensemble du site du breizhcamp 2013 : http://www.breizhcamp.org
 
 Jekyll est utilisé pour servir le contenu de ce site, voici quelques explications sur le contenu :
-    - _config.yml : contient la config jekyll.
-    - index.html : contient la page racine du site (ne fait que reprendre le contenu de la première page).
-    - img/ : contient toutes les images du site.
-    - css/ : contient la css du site.
-    - _layouts/ : contient le layout du site (template).
-    - _posts/ : contient toutes les pages du site.
+ * _config.yml : contient la config jekyll.
+ * index.html : contient la page racine du site (ne fait que reprendre le contenu de la première page).
+ * img/ : contient toutes les images du site.
+ * css/ : contient la css du site.
+ * _layouts/ : contient le layout du site (template).
+ * _posts/ : contient toutes les pages du site.
 
 ## Le layout
 
@@ -79,6 +79,7 @@ Toutes les pages sont contenue dans _posts.
 Le nom d'une page est de la forme ```YYYY-MM-DD-<title>.html```.
 
 La date est importante, les menus seront afficher par order décroissant de date (jekyll est un moteur de blog à la base).
+
 La partie ```title``` sera utilisée pour l'URL de la page.
 
 Le contenu d'une page doit toujours commencer par :

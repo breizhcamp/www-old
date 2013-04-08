@@ -92,3 +92,18 @@ label: <Titre de la page>
 
 La partie ```label``` sera utilisée pour le menu.
 
+## Mettre à jour
+Il faut avoir Ruby sur sa machine (RTFM).
+
+Ensuite :
+
+```gem install jekyll```
+
+```jekyll --server 4000```
+Démarre un serveur qui écoute sur le port 4000
+
+```jekyll```
+Génère en continu dans le répertoire _site
+
+Bref (RTFM) :
+```jekyll --help```

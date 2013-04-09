@@ -101,8 +101,15 @@ label: Speakers
                     .success(function(data) {
                         $scope.talks = data;
                         for (var i=0;i<$scope.talks.length;i++) {
+                            // Optim gravatar
                             if ($scope.talks[i].speaker.avatar && $scope.talks[i].speaker.avatar.indexOf("gravatar") !== -1) {
                                 $scope.talks[i].speaker.avatar = $scope.talks[i].speaker.avatar + "&s=200";
+                            }
+                            // Optim twitter
+                            if ($scope.talks[i].speaker.avatar && $scope.talks[i].speaker.avatar.indexOf("twimg") !== -1) {
+                                if ($scope.talks[i].speaker.avatar.indexOf("_normal") !== -1) {
+                                    $scope.talks[i].speaker.avatar = $scope.talks[i].speaker.avatar.replace("_normal", "");
+                                }
                             }
                         }
                         $scope.loading = false;

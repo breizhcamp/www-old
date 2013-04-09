@@ -100,6 +100,11 @@ label: Speakers
             $http.jsonp("http://cfp.breizhcamp.org/accepted/jsonp?callback=JSON_CALLBACK")
                     .success(function(data) {
                         $scope.talks = data;
+                        for (var i=0;i<$scope.talks.length;i++) {
+                            if ($scope.talks[i].speaker.avatar && $scope.talks[i].speaker.avatar.indexOf("gravatar") !== -1) {
+                                $scope.talks[i].speaker.avatar = $scope.talks[i].speaker.avatar + "&s=200";
+                            }
+                        }
                         $scope.loading = false;
                     });
 

@@ -7,7 +7,7 @@ label: Speakers
 {% raw %}
 <div>
     <style type="text/css">
-        .talk {
+        .speaker {
             float: left;
             margin: 0;
             border-top: 1px solid rgba(0, 0, 0, 0.4);
@@ -18,63 +18,90 @@ label: Speakers
             background-color: rgba(0, 0, 0, 0.4);
         }
 
-        .talk .avatar {
+        .speaker .avatar {
             max-width: 200px;
             height: 200px;
         }
 
-        .talk .caption {
+        .speaker .captionUp {
             background-color: rgba(0, 0, 0, 0.4);
             color: #ffffff!important;
             position: relative;
             overflow: hidden;
-            bottom: 60px;
-            height: 60px;
+            bottom: 200px;
+            height: 25px;
             line-height: 1.2em;
         }
 
-        .talk .caption .speaker {
-            font-size: 20px;
+        .speaker .captionDown {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff!important;
+            position: relative;
+            overflow: hidden;
+            bottom: 50px;
+            height: 25px;
+            line-height: 1.2em;
+        }
+
+        .speaker .captionDown .bioLink {
+            width:50%;
+            float: left;
+            margin-top:4px;
+        }
+
+        .speaker .captionDown .talksLink {
+            width:50%;
+            float: left;
+            margin-top:4px;
+        }
+
+        .speaker .speakerName {
+            font-size: 18px;
             width:200px;
             text-align:center;
+            margin-top: 3px;
         }
 
-        .talk .caption a {
-            color: #ffffff!important;
-            text-decoration: none;
-        }
-
-        .talk .modal-body {
+        .speaker .modal-body {
             text-align: left;
+        }
+
+        .speaker .modal-body h4 {
+            color: #ff882a!important;
         }
 
         .ng-cloak {
             display:none;
         }
     </style>
-    <div class="container" ng-app="AcceptedTalks" ng-controller="AcceptedTalksCtrl">
+    <div class="container" ng-app="AcceptedSpeakers" ng-controller="AcceptedSpeakersCtrl">
         <h3 ng-show="loading">Chargement des speakers...</h3>
 
-        <div class="talk ng-cloak" ng-repeat="talk in talks">
-            <img class="avatar" ng-src="{{talk.speaker.avatar}}"/>
-            <div class="caption">
-                <div class="speaker">
-                    <a href="#speaker{{talk.id}}" role="button" data-toggle="modal">{{talk.speaker.fullname}}</a>
-                </div>
-                <div class="title">
-                    <a href="#talk{{talk.id}}" role="button" data-toggle="modal">{{talk.title}}</a>
+        <div class="speaker ng-cloak" ng-repeat="speaker in speakers">
+            <img class="avatar" ng-src="{{speaker.avatar}}"/>
+            <div class="captionUp">
+                <div class="speakerName">
+                    <span>{{speaker.fullname}}</span>
                 </div>
             </div>
-            <div id="speaker{{talk.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="speakerLabel{{talk.id}}" aria-hidden="true">
+            <div class="captionDown">
+                <div class="bioLink">
+                    <a href="#speaker{{speaker.id}}" role="button" data-toggle="modal">Sa bio</a>
+                </div>
+                <div class="talksLink">
+                    <a href="#talks{{speaker.id}}" role="button" data-toggle="modal">Ses talks</a>
+                </div>
+            </div>
+            <div id="speaker{{speaker.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="speakerLabel{{speaker.id}}" aria-hidden="true">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="speakerLabel{{talk.id}}">{{talk.speaker.fullname}}</h3>
+                    <h3 id="speakerLabel{{speaker.id}}">{{speaker.fullname}}</h3>
                 </div>
                 <div class="modal-body">
-                    <p ng-bind-html-unsafe="getSafeDescription(talk.speaker.description)"></p>
-                    <p><b ng-show="talk.speaker.liens.length > 0"><u>Liens :</u></b>
+                    <p ng-bind-html-unsafe="getSafeDescription(speaker.description)"></p>
+                    <p><b ng-show="speaker.liens.length > 0"><u>Liens :</u></b>
                     <ul>
-                        <li ng-repeat="lien in talk.speaker.liens"><a href="{{lien.url}}" target="_blank">{{lien.label}}</a></li>
+                        <li ng-repeat="lien in speaker.liens"><a href="{{lien.url}}" target="_blank">{{lien.label}}</a></li>
                     </ul>
                     </p>
                 </div>
@@ -82,13 +109,24 @@ label: Speakers
                     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
                 </div>
             </div>
-            <div id="talk{{talk.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="talkLabel{{talk.id}}" aria-hidden="true">
+            <div id="talks{{speaker.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="talkLabel{{speaker.id}}" aria-hidden="true">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="talkLabel{{talk.id}}">{{talk.title}}</h3>
+                    <h4 id="talkLabel{{speaker.id}}">Talks présentés par {{speaker.fullname}}</h4>
                 </div>
                 <div class="modal-body">
-                    <p ng-bind-html-unsafe="getSafeDescription(talk.description)"></p>
+                    <div ng-repeat="talk in speaker.talks">
+                        <h4>{{talk.title}}</h4>
+                        <p ng-show="talk.otherspeakers.length > 0">Également présenté par
+                            <ul>
+                                <li ng-repeat="autreSpeaker in talk.otherspeakers">
+                                    <a ng-click="changeModalTalkToSpeaker(speaker.id, autreSpeaker.id)">{{autreSpeaker.fullname}}</a>
+                                </li>
+                            </ul>
+                        </p>
+                        <p ng-bind-html-unsafe="getSafeDescription(talk.description)"></p>
+                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
@@ -97,24 +135,25 @@ label: Speakers
         </div>
     </div>
     <script>
-        angular.module("AcceptedTalks", []);
+        angular.module("AcceptedSpeakers", []);
 
-        function AcceptedTalksCtrl($scope, $http, $log) {
+        function AcceptedSpeakersCtrl($scope, $http, $log) {
 
             $scope.loading = true;
 
-            $http.jsonp("http://cfp.breizhcamp.org/accepted/jsonp?callback=JSON_CALLBACK")
+            $http.jsonp("http://cfp.breizhcamp.org/accepted/speakers/jsonp?callback=JSON_CALLBACK")
                     .success(function(data) {
-                        $scope.talks = data;
-                        for (var i=0;i<$scope.talks.length;i++) {
+
+                        $scope.speakers = data;
+                        for (var i=0;i<$scope.speakers.length;i++) {
                             // Optim gravatar
-                            if ($scope.talks[i].speaker.avatar && $scope.talks[i].speaker.avatar.indexOf("gravatar") !== -1) {
-                                $scope.talks[i].speaker.avatar = $scope.talks[i].speaker.avatar + "&s=200";
+                            if ($scope.speakers[i].avatar && $scope.speakers[i].avatar.indexOf("gravatar") !== -1) {
+                                $scope.speakers[i].avatar = $scope.speakers[i].avatar + "&s=200";
                             }
                             // Optim twitter
-                            if ($scope.talks[i].speaker.avatar && $scope.talks[i].speaker.avatar.indexOf("twimg") !== -1) {
-                                if ($scope.talks[i].speaker.avatar.indexOf("_normal") !== -1) {
-                                    $scope.talks[i].speaker.avatar = $scope.talks[i].speaker.avatar.replace("_normal", "");
+                            if ($scope.speakers[i].avatar && $scope.speakers[i].avatar.indexOf("twimg") !== -1) {
+                                if ($scope.speakers[i].avatar.indexOf("_normal") !== -1) {
+                                    $scope.speakers[i].avatar = $scope.speakers[i].avatar.replace("_normal", "");
                                 }
                             }
                         }
@@ -128,6 +167,12 @@ label: Speakers
                 if (description) {
                     return $scope.converter.makeHtml(description);
                 }
+                return "";
+            };
+
+            $scope.changeModalTalkToSpeaker = function(oldId, newId) {
+                $('#talks' + oldId).modal('hide');
+                $('#speaker' + newId).modal('show');
             };
         }
     </script>

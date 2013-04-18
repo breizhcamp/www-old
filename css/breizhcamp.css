@@ -131,7 +131,7 @@ a {
 }
 
 .rouge {
-    color: rgb(255, 0, 0);
+    color: rgb(221, 0, 0);
 }
 
 .bleu {
@@ -144,6 +144,10 @@ a {
 
 .vert {
     color: rgb(56,118,29);
+}
+
+.gris {
+    color: rgb(105,105,105);
 }
 
 .foot_info {

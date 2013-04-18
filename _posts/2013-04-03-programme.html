@@ -35,7 +35,7 @@ label: Programme
                                 <p>Présenté par
                                     <ul>
                                         <li ng-repeat="speaker in talkModal.speakers">
-                                            <a>{{speaker.fullname}}</a>
+                                            <a ng-click="showSpeakerDetail(talk.id, speaker)">{{speaker.fullname}}</a>
                                         </li>
                                     </ul>
                                 </p>
@@ -49,7 +49,27 @@ label: Programme
                 </div>
             </fieldset>
         </div>
+
+        <div id="speaker" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="speakerLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="speakerLabel">{{speakerModal.fullname}}</h3>
+            </div>
+            <div class="modal-body">
+                <p ng-bind-html-unsafe="getSafeDescription(speakerModal.description)"></p>
+                <p><b ng-show="speakerModal.liens.length > 0"><u>Liens :</u></b>
+                <ul>
+                    <li ng-repeat="lien in speakerModal.liens"><a href="{{lien.url}}" target="_blank">{{lien.label}}</a></li>
+                </ul>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+
     </div>
+
 
     <script>
         var app = angular.module("Programme", []);
@@ -184,6 +204,12 @@ label: Programme
                                 $scope.talkModal = data;
                             });
                 }
+            };
+
+            $scope.showSpeakerDetail = function(talkId, speaker) {
+                $scope.speakerModal = speaker;
+                $('#talk' + talkId).modal('hide');
+                $('#speaker').modal('show');
             }
         }
 

@@ -16,7 +16,6 @@ label: Programme
         }
     </style>
     <div class="container" ng-app="Programme" ng-controller="ProgrammeCtrl">
-
         <h3 ng-show="loading">Chargement du programme...</h3>
 
         <div id="programme" class="ng-cloak">
@@ -24,6 +23,30 @@ label: Programme
                 <legend ng-click="loadCalendar(jour)">Programme du {{jour.date}}</legend>
                 <div id='calendar{{jour.title}}'></div>
                 <div calendar umbilical="programme.jours[$index]"></div>
+
+                <div ng-repeat="track in jour.tracks">
+                    <div ng-repeat="talk in track.talks">
+                        <div id="talk{{talk.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="talkLabel{{talk.id}}" aria-hidden="true">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h4 id="talkLabel{{talk.id}}">{{talk.title}}</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Présenté par
+                                    <ul>
+                                        <li ng-repeat="speaker in talkModal.speakers">
+                                            <a>{{speaker.fullname}}</a>
+                                        </li>
+                                    </ul>
+                                </p>
+                                <p ng-bind-html-unsafe="getSafeDescription(talkModal.description)"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </fieldset>
         </div>
     </div>
@@ -48,89 +71,6 @@ label: Programme
         colors['conference'] = '#FF9900';
         colors['lab'] = '#FF9900';
 
-        function loadCalendar(jour) {
-
-            var dateInFields = jour.date.split('/');
-            var year = parseInt(dateInFields[2]);
-            var month = parseInt(dateInFields[1]);
-            var day = parseInt(dateInFields[0]);
-
-            var events = [];
-
-            var maxHour = 0;
-            var minHour = 24;
-
-            angular.forEach(jour.tracks, function(track){
-                angular.forEach(track.talks, function(talk){
-
-                    var timeInField = talk.time.split(':');
-                    var startHour = parseInt(timeInField[0]);
-                    var startMinutes = parseInt(timeInField[1]);
-                    var timeOfTalk = creneaux[talk.format];
-                    var endHour = startHour;
-                    var endMinutes = startMinutes + timeOfTalk;
-                    while (endMinutes > 60) {
-                        endMinutes = endMinutes - 60;
-                        endHour = endHour + 1;
-                    }
-
-                    if (endHour > maxHour) {
-                        maxHour = endHour;
-                    }
-                    if (startHour < minHour) {
-                        minHour = startHour;
-                    }
-
-                    var event = {
-                        title: talk.title,
-                        start: new Date(year, month-1, day, startHour,startMinutes),
-                        end: new Date(year, month-1, day, endHour,endMinutes),
-                        id : jour.title + track.type + talk.time,
-                        allDay: false,
-                        color:colors[talk.format]
-                        //url: '/talk/28.htm'
-                    };
-                    events.push(event);
-                });
-            });
-
-
-            $('#calendar' + jour.title).fullCalendar({
-                defaultView: 'agendaDay',
-                slotMinutes: 15,
-                header: {
-                    left:   '',
-                    center: '',
-                    right: ''
-                },
-                titleFormat: {
-                    day: ''
-                },
-                columnFormat: {
-                    day: ''
-                },
-                allDaySlot: false,
-                minTime: minHour,
-                maxTime: maxHour+1,
-                axisFormat: 'HH:mm',
-                contentHeight:10000,
-                height:10000,
-                timeFormat: {
-                    agenda: 'HH:mm{ - HH:mm}'
-                },
-                events: events
-            });
-
-            $('#calendar' + jour.title).fullCalendar(
-                    'gotoDate',
-                    year,
-                    month - 1,
-                    day);
-        }
-
-
-
-
         function ProgrammeCtrl($scope, $http, $log) {
             $scope.loading = true;
 
@@ -140,6 +80,111 @@ label: Programme
                         $scope.programme = data.programme;
                         $scope.loading = false;
                     });
+
+
+            $scope.converter = new Markdown.getSanitizingConverter();
+
+            $scope.getSafeDescription = function(description) {
+                if (description) {
+                    return $scope.converter.makeHtml(description);
+                }
+                return "";
+            };
+
+            $scope.loadCalendar = function(jour) {
+
+                var dateInFields = jour.date.split('/');
+                var year = parseInt(dateInFields[2]);
+                var month = parseInt(dateInFields[1]);
+                var day = parseInt(dateInFields[0]);
+
+                var events = [];
+
+                var maxHour = 0;
+                var minHour = 24;
+
+                angular.forEach(jour.tracks, function(track){
+                    angular.forEach(track.talks, function(talk){
+
+                        var timeInField = talk.time.split(':');
+                        var startHour = parseInt(timeInField[0]);
+                        var startMinutes = parseInt(timeInField[1]);
+                        var timeOfTalk = creneaux[talk.format];
+                        var endHour = startHour;
+                        var endMinutes = startMinutes + timeOfTalk;
+                        while (endMinutes > 60) {
+                            endMinutes = endMinutes - 60;
+                            endHour = endHour + 1;
+                        }
+
+                        if (endHour > maxHour) {
+                            maxHour = endHour;
+                        }
+                        if (startHour < minHour) {
+                            minHour = startHour;
+                        }
+
+                        var event = {
+                            title: talk.title,
+                            start: new Date(year, month-1, day, startHour,startMinutes),
+                            end: new Date(year, month-1, day, endHour,endMinutes),
+                            id : talk.id,
+                            allDay: false,
+                            color:colors[talk.format]
+                        };
+                        events.push(event);
+                    });
+                });
+
+
+                $('#calendar' + jour.title).fullCalendar({
+                    defaultView: 'agendaDay',
+                    slotMinutes: 15,
+                    header: {
+                        left:   '',
+                        center: '',
+                        right: ''
+                    },
+                    titleFormat: {
+                        day: ''
+                    },
+                    columnFormat: {
+                        day: ''
+                    },
+                    allDaySlot: false,
+                    minTime: minHour,
+                    maxTime: maxHour+1,
+                    axisFormat: 'HH:mm',
+                    contentHeight:10000,
+                    height:10000,
+                    timeFormat: {
+                        agenda: 'HH:mm{ - HH:mm}'
+                    },
+                    eventClick:function(calEvent, jsEvent, view) {
+                        $scope.showDetailOfTalk(calEvent.id);
+                    },
+                    events: events
+                });
+
+                $('#calendar' + jour.title).fullCalendar(
+                        'gotoDate',
+                        year,
+                        month - 1,
+                        day);
+            };
+
+            $scope.showDetailOfTalk = function(talkId) {
+                $scope.talkModal = undefined;
+                $scope.$apply();
+                if (talkId !== undefined) {
+                    $('#talk' + talkId).modal('show');
+
+                    $http.jsonp("http://cfp.breizhcamp.org/accepted/talk/" + talkId + "/jsonp?callback=JSON_CALLBACK")
+                            .success(function(data) {
+                                $scope.talkModal = data;
+                            });
+                }
+            }
         }
 
         app.directive('calendar', function($parse, $timeout) {
@@ -154,7 +199,7 @@ label: Programme
                     return function(scope, el, attrs) {
                         var jour = scope.umbilical();
                         $timeout(function() {
-                            loadCalendar(jour);
+                            scope.$parent.loadCalendar(jour);
                         }, 0);
                     }
                 }

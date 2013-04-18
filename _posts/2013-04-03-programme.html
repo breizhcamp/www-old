@@ -5,15 +5,147 @@ label: Programme
 
 <h3>Programme</h3>
 
-<div class="contenuprogramme">
-    <ul>
-        <li><b class="violet">Universités</b>, sessions longues pour traiter un sujet en profondeur</li>
-        <li><b class="rouge">Hands-on</b>, session main dans le cambouis, 100% pratique</li>
-        <li><b class="bleu">Tools in action</b>, 100% pratique pour découvrir concrètement un sujet</li>
-        <li><b class="orange">Conférences</b> format classique d'une heure, et <b class="orange">Labs</b> de mise en pratiques</li>
-        <li><b class="vert">Quickies</b>, sessions express pendant la pause déjeuner pour ne pas perdre une miette</li>
-    </ul>
+
+{% raw %}
+
+<div>
+
+    <style type="text/css">
+        .ng-cloak {
+            display:none;
+        }
+    </style>
+    <div class="container" ng-app="Programme" ng-controller="ProgrammeCtrl">
+
+        <h3 ng-show="loading">Chargement du programme...</h3>
+
+        <div id="programme" class="ng-cloak">
+            <fieldset  ng-repeat="jour in programme.jours" >
+                <legend ng-click="loadCalendar(jour)">Programme du {{jour.date}}</legend>
+                <div id='calendar{{jour.title}}'></div>
+                <div calendar umbilical="programme.jours[$index]"></div>
+            </fieldset>
+        </div>
+    </div>
+
+    <script>
+        var app = angular.module("Programme", []);
+
+        var creneaux = {};
+        creneaux['universite'] = 175;
+        creneaux['quickie'] = 15;
+        creneaux['hands-on'] = 175;
+        creneaux['tools in action'] = 25;
+        creneaux['conference'] = 55;
+        creneaux['lab'] = 175;
+
+        function loadCalendar(jour) {
+
+            var dateInFields = jour.date.split('/');
+            var year = parseInt(dateInFields[2]);
+            var month = parseInt(dateInFields[1]);
+            var day = parseInt(dateInFields[0]);
+
+            var events = [];
+
+            angular.forEach(jour.tracks, function(track){
+                angular.forEach(track.talks, function(talk){
+
+                    var timeInField = talk.time.split(':');
+                    var startHour = parseInt(timeInField[0]);
+                    var startMinutes = parseInt(timeInField[1]);
+                    var timeOfTalk = creneaux[talk.format];
+                    var endHour = startHour;
+                    var endMinutes = startMinutes + timeOfTalk;
+                    while (endMinutes > 60) {
+                        endMinutes = endMinutes - 60;
+                        endHour = endHour + 1;
+                    }
+
+                    var event = {
+                        title: talk.title,
+                        start: new Date(year, month-1, day, startHour,startMinutes),
+                        end: new Date(year, month-1, day, endHour,endMinutes),
+                        id : jour.title + track.type + talk.time,
+                        allDay: false
+                        //url: '/talk/28.htm'
+                    };
+                    events.push(event);
+                });
+            });
+
+
+            $('#calendar' + jour.title).fullCalendar({
+                defaultView: 'agendaDay',
+                slotMinutes: 15,
+                header: {
+                    left:   '',
+                    center: '',
+                    right: ''
+                },
+                titleFormat: {
+                    day: ''
+                },
+                columnFormat: {
+                    day: ''
+                },
+                allDaySlot: false,
+                minTime: 9,
+                maxTime: 19,
+                axisFormat: 'HH:mm',
+                contentHeight:10000,
+                height:10000,
+                timeFormat: {
+                    agenda: 'HH:mm{ - HH:mm}'
+                },
+                events: events
+            });
+
+            $('#calendar' + jour.title).fullCalendar(
+                    'gotoDate',
+                    year,
+                    month - 1,
+                    day);
+        }
+
+
+
+
+        function ProgrammeCtrl($scope, $http, $log) {
+            $scope.loading = true;
+
+
+            $http.jsonp("http://cfp.breizhcamp.org/programme/jsonp?callback=JSON_CALLBACK")
+                    .success(function(data) {
+                        $scope.programme = data.programme;
+                        $scope.loading = false;
+                    });
+        }
+
+        app.directive('calendar', function($parse, $timeout) {
+            return {
+                restrict: "A",
+                replace: true,
+                scope: {
+                    umbilical: "&"
+                },
+                transclude: false,
+                compile: function($parse) {
+                    return function(scope, el, attrs) {
+                        var jour = scope.umbilical();
+                        $timeout(function() {
+                            loadCalendar(jour);
+                        }, 0);
+                    }
+                }
+            };
+        });
+    </script>
+
 </div>
+
+{% endraw %}
+
 
 <div class="information">
     <b>Equivalence en DIF : 7 heures par journée</b>

@@ -37,8 +37,16 @@ label: Programme
         creneaux['hands-on'] = 175;
         creneaux['tools in action'] = 25;
         creneaux['conference'] = 55;
-        creneaux['lab'] = 175;
+        creneaux['lab'] = 55;
         creneaux['keynote'] = 30;
+
+        var colors = {};
+        colors['universite'] = '#9900FF';
+        colors['quickie'] = '#38761D';
+        colors['hands-on'] = '#FF0000';
+        colors['tools in action'] = '#3D85C6';
+        colors['conference'] = '#FF9900';
+        colors['lab'] = '#FF9900';
 
         function loadCalendar(jour) {
 
@@ -78,7 +86,8 @@ label: Programme
                         start: new Date(year, month-1, day, startHour,startMinutes),
                         end: new Date(year, month-1, day, endHour,endMinutes),
                         id : jour.title + track.type + talk.time,
-                        allDay: false
+                        allDay: false,
+                        color:colors[talk.format]
                         //url: '/talk/28.htm'
                     };
                     events.push(event);
@@ -156,6 +165,18 @@ label: Programme
 </div>
 
 {% endraw %}
+
+
+
+<div class="contenuprogramme">
+    <ul>
+        <li><b class="violet">Universités</b>, sessions longues pour traiter un sujet en profondeur</li>
+        <li><b class="rouge">Hands-on</b>, session main dans le cambouis, 100% pratique</li>
+        <li><b class="bleu">Tools in action</b>, 100% pratique pour découvrir concrètement un sujet</li>
+        <li><b class="orange">Conférences</b> format classique d'une heure, et <b class="orange">Labs</b> de mise en pratiques</li>
+        <li><b class="vert">Quickies</b>, sessions express pendant la pause déjeuner pour ne pas perdre une miette</li>
+    </ul>
+</div>
 
 
 <div class="information">

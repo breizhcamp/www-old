@@ -38,6 +38,7 @@ label: Programme
         creneaux['tools in action'] = 25;
         creneaux['conference'] = 55;
         creneaux['lab'] = 175;
+        creneaux['keynote'] = 30;
 
         function loadCalendar(jour) {
 
@@ -47,6 +48,9 @@ label: Programme
             var day = parseInt(dateInFields[0]);
 
             var events = [];
+
+            var maxHour = 0;
+            var minHour = 24;
 
             angular.forEach(jour.tracks, function(track){
                 angular.forEach(track.talks, function(talk){
@@ -60,6 +64,13 @@ label: Programme
                     while (endMinutes > 60) {
                         endMinutes = endMinutes - 60;
                         endHour = endHour + 1;
+                    }
+
+                    if (endHour > maxHour) {
+                        maxHour = endHour;
+                    }
+                    if (startHour < minHour) {
+                        minHour = startHour;
                     }
 
                     var event = {
@@ -90,8 +101,8 @@ label: Programme
                     day: ''
                 },
                 allDaySlot: false,
-                minTime: 9,
-                maxTime: 19,
+                minTime: minHour,
+                maxTime: maxHour+1,
                 axisFormat: 'HH:mm',
                 contentHeight:10000,
                 height:10000,

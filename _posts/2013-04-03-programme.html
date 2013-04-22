@@ -21,6 +21,11 @@ label: Programme
         <h3 ng-show="loading">Chargement du programme...</h3>
 
         <div id="programme" class="ng-cloak">
+            <fieldset ng-show="!loading">
+                <legend>Choisissez le(s) type(s) de track(s)</legend>
+                <select ng-model="selectedTracks" ng-options="track for track in allTracks" multiple="true" ng-change="loadAllCalendar()" size="11" class="input-xlarge"></select>
+            </fieldset>
+
             <fieldset  ng-repeat="jour in programme.jours" >
                 <legend ng-click="loadCalendar(jour)">Programme du {{jour.date}}</legend>
                 <div id='calendar{{jour.title}}'></div>
@@ -95,10 +100,20 @@ label: Programme
 
         function ProgrammeCtrl($scope, $http, $log) {
             $scope.loading = true;
+            $scope.allTracks = [];
+            $scope.selectedTracks = [];
 
 
             $http.jsonp("http://cfp.breizhcamp.org/programme/jsonp?callback=JSON_CALLBACK")
                     .success(function(data) {
+                        angular.forEach(data.programme.jours, function(jour){
+                            angular.forEach(jour.tracks, function(track){
+                                if ($.inArray(track.type, $scope.allTracks) === -1) {
+                                    $scope.allTracks.push(track.type);
+                                    $scope.selectedTracks.push(track.type);
+                                }
+                            });
+                        });
                         $scope.programme = data.programme;
                         $scope.loading = false;
                     });
@@ -111,6 +126,12 @@ label: Programme
                     return $scope.converter.makeHtml(description);
                 }
                 return "";
+            };
+
+            $scope.loadAllCalendar = function() {
+                angular.forEach($scope.programme.jours, function(jour){
+                    $scope.loadCalendar(jour);
+                });
             };
 
             $scope.loadCalendar = function(jour) {
@@ -126,38 +147,44 @@ label: Programme
                 var minHour = 24;
 
                 angular.forEach(jour.tracks, function(track){
-                    angular.forEach(track.talks, function(talk){
+                    if ($.inArray(track.type, $scope.selectedTracks) !== -1) {
+                        angular.forEach(track.talks, function(talk){
 
-                        var timeInField = talk.time.split(':');
-                        var startHour = parseInt(timeInField[0]);
-                        var startMinutes = parseInt(timeInField[1]);
-                        var timeOfTalk = creneaux[talk.format];
-                        var endHour = startHour;
-                        var endMinutes = startMinutes + timeOfTalk;
-                        while (endMinutes > 60) {
-                            endMinutes = endMinutes - 60;
-                            endHour = endHour + 1;
-                        }
+                            var timeInField = talk.time.split(':');
+                            var startHour = parseInt(timeInField[0]);
+                            var startMinutes = parseInt(timeInField[1]);
+                            var timeOfTalk = creneaux[talk.format];
+                            var endHour = startHour;
+                            var endMinutes = startMinutes + timeOfTalk;
+                            while (endMinutes > 60) {
+                                endMinutes = endMinutes - 60;
+                                endHour = endHour + 1;
+                            }
 
-                        if (endHour > maxHour) {
-                            maxHour = endHour;
-                        }
-                        if (startHour < minHour) {
-                            minHour = startHour;
-                        }
+                            if (endHour > maxHour) {
+                                maxHour = endHour;
+                            }
+                            if (startHour < minHour) {
+                                minHour = startHour;
+                            }
 
-                        var event = {
-                            title: talk.title,
-                            start: new Date(year, month-1, day, startHour,startMinutes),
-                            end: new Date(year, month-1, day, endHour,endMinutes),
-                            id : talk.id,
-                            allDay: false,
-                            color:colors[talk.format]
-                        };
-                        events.push(event);
-                    });
+                            var event = {
+                                title: talk.title,
+                                start: new Date(year, month-1, day, startHour,startMinutes),
+                                end: new Date(year, month-1, day, endHour,endMinutes),
+                                id : talk.id,
+                                allDay: false,
+                                color:colors[talk.format]
+                            };
+                            events.push(event);
+                        });
+                    }
                 });
 
+
+                $('#calendar' + jour.title).fullCalendar('removeEvents');
+
+                $('#calendar' + jour.title).html('');
 
                 $('#calendar' + jour.title).fullCalendar({
                     defaultView: 'agendaDay',

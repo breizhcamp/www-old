@@ -40,9 +40,17 @@ label: Programme
                             </div>
                             <div class="modal-body">
                                 <p>Présenté par
-                                    <ul>
-                                        <li ng-repeat="speaker in talkModal.speakers">
-                                            <a ng-click="showSpeakerDetail(talk.id, speaker)">{{speaker.fullname}}</a>
+                                    <ul class="media-list">
+                                        <li ng-repeat="speaker in talkModal.speakers" class="media">
+                                            <a class="pull-left" ng-click="showSpeakerDetail(talk.id, speaker)">
+                                                <img ng-src="{{speaker.avatar}}" style="max-height: 64px;max-width: 64px"/>
+                                            </a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">
+                                                    <br/>
+                                                    <a ng-click="showSpeakerDetail(talk.id, speaker)">{{speaker.fullname}}</a>
+                                                </h4>
+                                            </div>
                                         </li>
                                     </ul>
                                 </p>
@@ -60,7 +68,13 @@ label: Programme
         <div id="speaker" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="speakerLabel" aria-hidden="true">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h3 id="speakerLabel">{{speakerModal.fullname}}</h3>
+                <div class="media">
+                    <img class="pull-left" ng-src="{{speakerModal.avatar}}" style="max-height: 64px;max-width: 64px"/>
+                    <div class="media-body">
+                        <br/>
+                        <h3 class="media-heading" id="speakerLabel">{{speakerModal.fullname}}</h3>
+                    </div>
+                </div>
             </div>
             <div class="modal-body">
                 <p ng-bind-html-unsafe="getSafeDescription(speakerModal.description)"></p>
@@ -232,6 +246,18 @@ label: Programme
 
                     $http.jsonp("http://cfp.breizhcamp.org/accepted/talk/" + talkId + "/jsonp?callback=JSON_CALLBACK")
                             .success(function(data) {
+                                angular.forEach(data.speakers, function(speaker){
+                                    // Optim gravatar
+                                    if (speaker.avatar && speaker.avatar.indexOf("gravatar") !== -1) {
+                                        speaker.avatar = speaker.avatar + "&s=200";
+                                    }
+                                    // Optim twitter
+                                    if (speaker.avatar && speaker.avatar.indexOf("twimg") !== -1) {
+                                        if (speaker.avatar.indexOf("_normal") !== -1) {
+                                            speaker.avatar = speaker.avatar.replace("_normal", "");
+                                        }
+                                    }
+                                });
                                 $scope.talkModal = data;
                             });
                 }

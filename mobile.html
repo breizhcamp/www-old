@@ -39,6 +39,41 @@
         function MobileCtrl($scope, $http) {
             $scope.loading = true;
 
+            $scope.creneaux = {
+                "universite": {
+                    title: 'Université (3h)',
+                    color: '#9900FF'
+                },
+                "quickie": {
+                    title: 'Quickie (15min)',
+                    color: '#38761D'
+                },
+                "hands-on": {
+                    title: 'Hands-on (3h)',
+                    color: '#DD0000'
+                },
+                "tools in action": {
+                    title: 'Tools in action (30min)',
+                    color: '#3D85C6'
+                },
+                "conference": {
+                    title: 'Conférence (1h)',
+                    color: '#FF9900'
+                },
+                "lab": {
+                    title: 'Lab (1h)',
+                    color: '#696969'
+                },
+                "biglab": {
+                    title: 'Lab (2h)',
+                    color: '#696969'
+                },
+                "keynote": {
+                    title: 'Keynote (30min)',
+                    color: '#5E87B0'
+                }
+            };
+
             $http.jsonp("http://cfp.breizhcamp.org/programme/jsonp?callback=JSON_CALLBACK")
                     .success(function(data) {
                         angular.forEach(data.programme.jours, function(jour){
@@ -78,48 +113,6 @@
                     });
         }
 
-        app.directive('horaires', function factory() {
-            var directiveDefinitionObject = {
-                restrict: 'A',
-                replace: true,
-                require: 'ngModel',
-                transclude: true,
-                link: function postLink(scope, iElement, iAttr,ngModel) {
-
-                    scope.$watch(function () {
-                        return ngModel.$modelValue;
-                    }, function(value) {
-                        var output = '';
-                        angular.forEach(value, function(horaire){
-                            output += '<li data-role="list-divider">';
-                            output += horaire.time;
-                            output += '</li>';
-
-                            angular.forEach(horaire.talks, function(talk) {
-                                output += '<li>';
-                                output += talk.title;
-                                output += '<span class="ui-li-count">';
-                                output += talk.track;
-                                output += '</span></li>'
-                            });
-
-                        });
-
-                        iElement.html(output);
-                    });
-
-                }
-
-            };
-            return directiveDefinitionObject;
-        });
-
-        app.directive('horaires', function() {
-            return function(scope, element, attr, ngModel) {
-
-            }
-        });
-
     </script>
 </head>
 <body>
@@ -150,6 +143,22 @@
     </div>
 
     <div data-role=content>
+
+        <div data-role="collapsible-set" data-theme="b" data-content-theme="d">
+            <div data-role="collapsible" ng-repeat="horaire in jour.horaires">
+                <h2>{{horaire.time}}</h2>
+                <ul data-role=listview>
+                    <li ng-repeat="talk in horaire.talks">
+                        <h2>{{talk.title}}</h2>
+                        <p style="color: {{creneaux[talk.format].color}}">
+                            <strong>{{creneaux[talk.format].title}}</strong>
+                        </p>
+                        <span class="ui-li-count">{{talk.track}}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
         <ul data-role=listview data-inset=true horaires ng-model="jour.horaires">
         </ul>
 

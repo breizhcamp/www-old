@@ -2,7 +2,7 @@
 
 ---
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr'" lang="fr-fr" ng-app ng-controller="MobileCtrl">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr'" lang="fr-fr" ng-app="MobileProgramme" ng-controller="MobileCtrl">
 <head>
     <meta charset="utf-8">
     <meta name="title" content="{{site.title}}">
@@ -24,6 +24,18 @@
 
 {% raw %}
     <script>
+        var app = angular.module("MobileProgramme", []);
+
+        function findHoraireByTime(horaires, time) {
+            var horaireFound = undefined;
+            angular.forEach(horaires, function(horaire) {
+                if (horaire.time === time) {
+                    horaireFound = horaire;
+                }
+            });
+            return horaireFound;
+        }
+
         function MobileCtrl($scope, $http) {
             $scope.loading = true;
 
@@ -32,15 +44,81 @@
                         angular.forEach(data.programme.jours, function(jour){
 
                             jour.countTalks = 0;
+                            jour.horaires = [];
+
 
                             angular.forEach(jour.tracks, function(track){
                                 jour.countTalks += track.talks.length;
+                                angular.forEach(track.talks, function(talk){
+                                    if (talk.time.length < 5) {
+                                        talk.time = '0' + talk.time;
+                                    }
+                                    talk.track = track.type;
+
+                                    var currentHoraire = findHoraireByTime(jour.horaires, talk.time);
+
+                                    if (currentHoraire === undefined) {
+                                        currentHoraire = {
+                                            time : talk.time,
+                                            talks : []
+                                        };
+                                        jour.horaires.push(currentHoraire);
+                                    }
+
+                                    currentHoraire.talks.push(talk);
+                                });
+                            });
+
+                            jour.horaires.sort(function (horaire1, horaire2){
+                                return horaire1.time.localeCompare(horaire2.time);
                             });
                         });
                         $scope.programme = data.programme;
                         $scope.loading = false;
                     });
         }
+
+        app.directive('horaires', function factory() {
+            var directiveDefinitionObject = {
+                restrict: 'A',
+                replace: true,
+                require: 'ngModel',
+                transclude: true,
+                link: function postLink(scope, iElement, iAttr,ngModel) {
+
+                    scope.$watch(function () {
+                        return ngModel.$modelValue;
+                    }, function(value) {
+                        var output = '';
+                        angular.forEach(value, function(horaire){
+                            output += '<li data-role="list-divider">';
+                            output += horaire.time;
+                            output += '</li>';
+
+                            angular.forEach(horaire.talks, function(talk) {
+                                output += '<li>';
+                                output += talk.title;
+                                output += '<span class="ui-li-count">';
+                                output += talk.track;
+                                output += '</span></li>'
+                            });
+
+                        });
+
+                        iElement.html(output);
+                    });
+
+                }
+
+            };
+            return directiveDefinitionObject;
+        });
+
+        app.directive('horaires', function() {
+            return function(scope, element, attr, ngModel) {
+
+            }
+        });
 
     </script>
 </head>
@@ -49,7 +127,7 @@
 
 
 <!-- Home -->
-<div data-role="page" id="jours">
+<div data-role="page" id="jours" data-theme="d">
     <div data-role="header">
         <h3>
             Breizhcamp 2013
@@ -66,12 +144,14 @@
     </div>
 </div>
 
-<div data-role="page" id="{{jour.title}}" ng-repeat="jour in programme.jours">
+<div data-role="page" id="{{jour.title}}" ng-repeat="jour in programme.jours" data-theme="d">
     <div data-role="header">
-        <h3>Breizhcamp 2013 > {{jour.title}}</h3>
+        <h3>{{jour.title}}</h3>
     </div>
 
     <div data-role=content>
+        <ul data-role=listview data-inset=true horaires ng-model="jour.horaires">
+        </ul>
 
     </div>
 </div>

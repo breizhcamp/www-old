@@ -9,6 +9,7 @@ Jekyll est utilisé pour servir le contenu de ce site, voici quelques explicatio
  * css/ : contient la css du site.
  * _layouts/ : contient le layout du site (template).
  * _posts/ : contient toutes les pages du site.
+ * mobile.html : todo
 
 ## Le layout
 
@@ -100,10 +101,44 @@ Ensuite :
 ```gem install jekyll```
 
 ```jekyll --server 4000```
-Démarre un serveur qui écoute sur le port 4000
+=> Démarre un serveur qui écoute sur le port 4000
 
-```jekyll```
-Génère en continu dans le répertoire _site
+```jekyll ```
+=> Génère en continu dans le répertoire _site
 
 Bref (RTFM) :
 ```jekyll --help```
+
+## Configuration en mode DEV 
+pour utilisation en env local et maj du site
+Confuration réalisée avec la version 1.0.1 de jekyll
+```jekyll -v```  
+=>1.0.1
+
+se deplacer dans le repertoire de l'application
+```
+cd /Users/eheb/Devs/labs/workspace/breizhcamp/breizhcamp2013-site
+jekyll serve 4000
+```
+la commande ```jekyll serveur``` est un alias et n'existe pas par defaut
+
+```
+Deprecation: Auto-regeneration can no longer be set from your configuration file(s).
+Use the --watch/-w command-line option instead.```
+Source: /Users/eheb/Devs/labs/workspace/breizhcamp/breizhcamp2013-site
+Destination: /Users/eheb/Devs/labs/workspace/breizhcamp/breizhcamp2013-site/_site
+```
+Ne pas en tenir compte ??
+
+Configuration file: ```/Users/eheb/Devs/labs/workspace/breizhcamp/breizhcamp2013-site/_config.yml``` à appliquer :
+```
+pygments: true
+permalink: /:title
+auto: true
+suprimer : url: "http://eheb.github.io/breizhcamp2013-site"
+ajouter  : url: "http://localhost:4000"
+description: BreizhCamp, un mix de technos
+title: breizhcamp2013
+```
+
+-supprimer le fichier CNAME

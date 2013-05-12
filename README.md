@@ -95,15 +95,53 @@ La partie ```label``` sera utilisée pour le menu.
 ## Mettre à jour
 Il faut avoir Ruby sur sa machine (RTFM).
 
-Ensuite :
+Ensuite vous allez installer bundler pour gérer les versions de librairies. Et j'ai forcé les versions des gems pour coller à celles des pages Github.
 
-```gem install jekyll```
+```
+$ gem install bundler
+Successfully installed bundler-1.3.5
+1 gem installed
 
-```jekyll --server 4000```
-Démarre un serveur qui écoute sur le port 4000
+$ bundle
+Using RedCloth (4.2.9)
+Using fast-stemmer (1.0.2)
+Using classifier (1.3.3)
+Using directory_watcher (1.5.1)
+Using kramdown (0.13.8)
+Using liquid (2.4.1)
+Using syntax (1.0.0)
+Using maruku (0.6.0)
+Using posix-spawn (0.3.6)
+Using yajl-ruby (1.1.0)
+Using pygments.rb (0.3.7)
+Using jekyll (0.12.0)
+Using rdiscount (1.6.8)
+Using redcarpet (2.1.1)
+Using bundler (1.3.5)
+Your bundle is complete!
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+```
 
-```jekyll```
-Génère en continu dans le répertoire _site
+Pour ceux qui ne connaissent pas [Bundler](http://gembundler.com/).
+
+Pour démarrer un serveur qui écoute sur le port 4000 :
+
+```
+$ bundle exec jekyll --pygments --no-lsi --safe --server 4000
+```
+
+Pour générer en continu dans le répertoire _site :
+
+```
+$ bundle exec jekyll --pygments --no-lsi --safe
+```
 
 Bref (RTFM) :
-```jekyll --help```
+
+```
+$ bundle exec jekyll --help
+```
+
+Pour ceux qui n'aurait pas suivi, j'ai comme prompt `$` donc ne le tapez pas :p.
+
+Et préfixer les commandes par `bundle exec` permet de forcer l'utilisation des bonnes versions.

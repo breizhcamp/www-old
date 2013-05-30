@@ -29,7 +29,20 @@ label: Programme
         <div id="programme" class="ng-cloak">
             <fieldset ng-show="!loading">
                 <legend>Choisissez le(s) type(s) de track(s)</legend>
-                <select ng-model="selectedTracks" ng-options="track for track in allTracks" multiple="true" ng-change="loadAllCalendar()" size="11" class="input-xlarge"></select>
+                <div class="row">
+					<div class="span3">
+						<select ng-model="selectedTracks" ng-options="track for track in allTracks" multiple="true" ng-change="loadAllCalendar()" size="11" class="input-xlarge"></select>
+					</div>
+					<div class="contenuprogramme span8">
+						<ul>
+							<li><b class="violet">Universités</b>, sessions longues pour traiter un sujet en profondeur</li>
+							<li><b class="rouge">Hands-on</b>, session main dans le cambouis, 100% pratique</li>
+							<li><b class="bleu">Tools in action</b>, 100% pratique pour découvrir concrètement un sujet</li>
+							<li><b class="orange">Conférences</b> format classique d'une heure, et <b class="gris">Labs</b> de mise en pratiques</li>
+							<li><b class="vert">Quickies</b>, sessions express pendant la pause déjeuner pour ne pas perdre une miette</li>
+						</ul>
+					</div>
+				</div>
             </fieldset>
 
             <fieldset  ng-repeat="jour in programme.jours" >
@@ -299,18 +312,6 @@ label: Programme
 </div>
 
 {% endraw %}
-
-
-
-<div class="contenuprogramme">
-    <ul>
-        <li><b class="violet">Universités</b>, sessions longues pour traiter un sujet en profondeur</li>
-        <li><b class="rouge">Hands-on</b>, session main dans le cambouis, 100% pratique</li>
-        <li><b class="bleu">Tools in action</b>, 100% pratique pour découvrir concrètement un sujet</li>
-        <li><b class="orange">Conférences</b> format classique d'une heure, et <b class="gris">Labs</b> de mise en pratiques</li>
-        <li><b class="vert">Quickies</b>, sessions express pendant la pause déjeuner pour ne pas perdre une miette</li>
-    </ul>
-</div>
 
 
 <div class="information">

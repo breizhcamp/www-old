@@ -211,7 +211,7 @@ label: Programme
                             }
 
                             var event = {
-                                title: talk.title,
+                                title: talk.title + " (" + talk.room + ")",
                                 start: new Date(year, month-1, day, startHour,startMinutes),
                                 end: new Date(year, month-1, day, endHour,endMinutes),
                                 id : talk.id,

@@ -13,6 +13,12 @@ label: Programme
         }
 
         .fc-event { cursor: pointer; }
+        .room { 
+            float:right;
+            color:#000; 
+            border: solid 1px #888; 
+            background-color: #eee; 
+            padding: 2px; }
     </style>
 
     <div class="alert hidden-desktop">
@@ -57,7 +63,7 @@ label: Programme
                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h4 id="talkLabel{{talk.id}}">{{talk.title}}</h4>
                             </div>
-                            <div style="float:right">{{talk.room}}</div>
+                            <div class="room">{{talk.room}}</div>
                             <div class="modal-body">
                                 <p>Présenté par
                                     <ul class="media-list">

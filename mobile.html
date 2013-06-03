@@ -205,7 +205,7 @@
                 <ul data-role=listview>
                     <li ng-repeat="talk in horaire.talks">
                         <a ng-click="openTalk(talk)">
-                        <h2>{{talk.title}}</h2>
+                        <h2>{{talk.title}} - @{{talk.room}}</h2>
                         <p style="color: {{creneaux[talk.format].color}}">
                             <strong>{{creneaux[talk.format].title}}</strong>
                         </p>

@@ -94,30 +94,51 @@ La partie ```label``` sera utilisée pour le menu.
 
 ## Mettre à jour
 Il faut avoir Ruby sur sa machine (RTFM).
+Sur Debian / Ubuntu / Mint, l'installation se fait par :
+```
+$ sudo apt-get install ruby ruby-dev
+```
 
-Ensuite vous allez installer bundler pour gérer les versions de librairies. Et j'ai forcé les versions des gems pour coller à celles des pages Github.
+Ensuite vous allez installer bundler pour gérer les versions de librairies. Utiliser 'sudo' sur les commandes suivantes si vous êtes sur Debian / Ubuntu / Mint.
 
 ```
 $ gem install bundler
-Successfully installed bundler-1.3.5
+Fetching: bundler-1.5.3.gem (100%)
+Successfully installed bundler-1.5.3
 1 gem installed
+Installing ri documentation for bundler-1.5.3...
+Installing RDoc documentation for bundler-1.5.3...
 
 $ bundle
+Fetching gem metadata from https://rubygems.org/.........
+Fetching additional metadata from https://rubygems.org/..
+Resolving dependencies...
 Using RedCloth (4.2.9)
+Using blankslate (2.1.2.4)
 Using fast-stemmer (1.0.2)
-Using classifier (1.3.3)
-Using directory_watcher (1.5.1)
-Using kramdown (0.13.8)
-Using liquid (2.4.1)
-Using syntax (1.0.0)
-Using maruku (0.6.0)
-Using posix-spawn (0.3.6)
-Using yajl-ruby (1.1.0)
-Using pygments.rb (0.3.7)
-Using jekyll (0.12.0)
-Using rdiscount (1.6.8)
-Using redcarpet (2.1.1)
-Using bundler (1.3.5)
+Using classifier (1.3.4)
+Installing colorator (0.1)
+Installing highline (1.6.21)
+Installing commander (4.1.6)
+Installing ffi (1.9.3)
+Using liquid (2.5.5)
+Installing rb-fsevent (0.9.4)
+Installing rb-inotify (0.9.3)
+Installing rb-kqueue (0.2.2)
+Installing listen (1.3.1)
+Installing maruku (0.7.0)
+Installing posix-spawn (0.3.8)
+Installing yajl-ruby (1.1.0)
+Installing pygments.rb (0.5.4)
+Installing redcarpet (2.3.0)
+Installing safe_yaml (0.9.7)
+Installing parslet (1.5.0)
+Installing toml (0.1.1)
+Installing jekyll (1.4.3)
+Installing kramdown (1.3.1)
+Installing rdiscount (2.1.7)
+Installing github-pages (15)
+Using bundler (1.5.3)
 Your bundle is complete!
 Use `bundle show [gemname]` to see where a bundled gem is installed.
 ```
@@ -127,13 +148,13 @@ Pour ceux qui ne connaissent pas [Bundler](http://gembundler.com/).
 Pour démarrer un serveur qui écoute sur le port 4000 :
 
 ```
-$ bundle exec jekyll --pygments --no-lsi --safe --server 4000
+$ bundle exec jekyll --watch --safe serve
 ```
 
-Pour générer en continu dans le répertoire _site :
+Pour générer le contenu dans le répertoire _site :
 
 ```
-$ bundle exec jekyll --pygments --no-lsi --safe
+$ bundle exec jekyll --safe build
 ```
 
 Bref (RTFM) :

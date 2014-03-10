@@ -1,7 +1,6 @@
 pygments: true
 permalink: /:title
-auto: true
 
 url: http://www.breizhcamp.org
 description: BreizhCamp, un mix de technos
-title: breizhcamp2013
+title: breizhcamp2014

@@ -293,6 +293,24 @@ a {
     transform: rotate(-45deg);
 }
 
+.github-fork-ribbon-wrapper.home {
+    width: 200px;
+    height: 200px;
+}
+
+.github-fork-ribbon-wrapper.home .github-fork-ribbon {
+    background-color: #ff882a;
+    top: 35px;
+    right: -57px;
+}
+
+.github-fork-ribbon-wrapper.home .github-fork-ribbon span {
+    font-size: 40px;
+    width: 250px;
+    line-height: 50px;
+}
+
+
 
 
 

@@ -1,0 +1,729 @@
+[
+    {
+        "title": "De 20 000 \u00E0 4 millions d'utilisateurs",
+        "cospeaker": [
+            
+        ],
+        "id": 34,
+        "track": "Cloud et BigData",
+        "description": "Passer de 20 000 utilisateurs \u00E0 4 millions : c'est le challenge qui \u00E9tait demand\u00E9.\n\nPour ce faire, il a \u00E9t\u00E9 n\u00E9cessaire de revoir certaines parties du SI afin de pouvoir stocker en masse les donn\u00E9es des utilisateurs mais \u00E9galement afin d'\u00EAtre capable de les traiter.\n\nCe retour d'exp\u00E9rience montrera comment, avec une approche et des technologies simples, il a \u00E9t\u00E9 possible de revoir la fa\u00E7on de faire et comment il a \u00E9t\u00E9 propos\u00E9 de traiter le sujet.\n\nIl montrera \u00E9galement les pistes qui ont \u00E9t\u00E9 \u00E9tudi\u00E9es et les solutions qui ont \u00E9t\u00E9 retenues.\n\nLes diff\u00E9rents points qui seront abord\u00E9s seront : Cassandra, REST, Netty, Spring Integration, Jolokia, Metrics saupoudr\u00E9 d'un peu de \"Big Data\".",
+        "speaker": "Khanh Tuong Maudoux",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Cassandra, retour vers le futur",
+        "cospeaker": [
+            
+        ],
+        "id": 39,
+        "track": "Cloud et BigData",
+        "description": "Depuis les 18 derniers mois, Cassandra a \u00E9volu\u00E9 \u00E9norm\u00E9ment avec l'introduction de nouvelles optimisations  pour pousser encore plus loin la performance. Du c\u00F4t\u00E9 d\u00E9veloppement, l'arriv\u00E9e du language CQL3 a chang\u00E9 drastiquement la donne et facilit\u00E9 la prise en main. D\u00E9sormais d\u00E9velopper avec Cassandra est tr\u00E8s facile m\u00EAme pour les d\u00E9butants. Ces am\u00E9liorations ont permis un d\u00E9collage ph\u00E9nom\u00E9nale de Cassandra outre Atlantique et la vague arrive maintenant chez nous.\n\n  Pendant cette conf\u00E9rence, nous allons passer en revue toutes ces nouveaut\u00E9s et zoomer sur les apports du language CQL3 avec quelques exemples concrets en d\u00E9mo live",
+        "speaker": "DuyHai DOAN",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Node.js dans Microsoft Azure",
+        "cospeaker": [
+            "St\u00E9phane Goudeau"
+        ],
+        "id": 72,
+        "track": "Cloud et BigData",
+        "description": "Coupler les m\u00E9canismes \u00E9v\u00E8nementiels nativement asynchrones du framework opensource node.hjs avec un h\u00E9bergement dans IIS permet aujourd'hui d'impl\u00E9menter des solutions extr\u00EAmement \u00AB scalables \u00BB sur la plateforme Windows. Si l'on ajoute \u00E0 cette recette l'ingr\u00E9dient Cloud, les gains n'en sont que plus nombreux : self-provisioning, \u00E9lasticit\u00E9, facturation \u00E0 l'utilisation.... L'objectif de cette session est de pr\u00E9senter diff\u00E9rents contextes d'utilisation du framework node.js dans Azure : Cloud Services PaaS, Web Site, Azure Mobiles Services",
+        "speaker": "Pierre Lagarde",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "MongoDB 2.6 : Quoi de neuf doc?",
+        "cospeaker": [
+            
+        ],
+        "id": 157,
+        "track": "Cloud et BigData",
+        "description": "La version 2.6 de MongoDB est sortie le 8 avril et toute fraiche. Je vous propose dans cette session de faire le tour des nouveaut\u00E9s. Parmi les nouveaut\u00E9s mises en avant et \"d\u00E9montr\u00E9es\" vous verrez:\n\n - Full Text Search\n - Agr\u00E9gration Framework (nouveaux op\u00E9rateurs, et fonctionnalit\u00E9s)\n - S\u00E9curit\u00E9\n - Am\u00E9liorations des index et requ\u00EAtes Geo\n\nNous profiterons de cette pr\u00E9sentation pour rappeler les cas d'usages et applications utilisant MongoDB,",
+        "speaker": "Tugdual Grall",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Du web temps r\u00E9el avec SimpleWeb4J",
+        "cospeaker": [
+            
+        ],
+        "id": 16,
+        "track": "Web et Mobile",
+        "description": "Au travers de cette pr\u00E9sentation full live coding, nous verrons comment utiliser EventSource (ou Server-Sent-Events) dans un framework simple tel que SimpleWeb4j pour faire du web temps r\u00E9el tout en restant en Java. \n\nCette pr\u00E9sentation sera aussi l'occasion de montrer comment le JDK8 (lambda et api collection) nous permet de simplifier grandement notre code.",
+        "speaker": "yan bonnel",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "WebRTC : Real Time Communication",
+        "cospeaker": [
+            
+        ],
+        "id": 18,
+        "track": "Web et Mobile",
+        "description": "Avez d\u00E9j\u00E0 r\u00EAv\u00E9 de faire une visio avec votre grand m\u00E8re, elle sur son smartphone et vous install\u00E9s dans votre canap\u00E9 avec votre ordinateur portable. Le probl\u00E8me : elle n'a pas Skype, pas de compte Google et elle ne connait pas Facetime ? Et si votre navigateur \u00E9tait la solution ! Vous pourrez m\u00EAme lui partager les photos de votre petite derni\u00E8re. Vous l'aurez compris, l'objectif de cette session est de pr\u00E9senter ce qu'est le WebRTC et de comprendre ce qui ce cache derri\u00E8re.",
+        "speaker": "jean-francois garreau",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Live coding: Web temps r\u00E9el avec Play 2",
+        "cospeaker": [
+            
+        ],
+        "id": 22,
+        "track": "Web et Mobile",
+        "description": "Les applications web temps r\u00E9el font usage de WebSockets, Server Sent Events, Comet et d'autres protocoles pour offrir une communication permanente entre le serveur et le navigateur. De nombreux frameworks web offrent ce genre de possibilit\u00E9 \u00E0 travers des APIs tr\u00E8s basiques.\n\nCette pr\u00E9sentation vous montrera comment utiliser l'API des Iteratees offerte par Play 2 pour manipuler, filtrer et fusionner \u00E0 la demande des flux de donn\u00E9es de mani\u00E8re r\u00E9active dans une application compl\u00E8te et concr\u00E8te.",
+        "speaker": "Mathieu ANCELIN",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Android bashing : apprendre des erreurs des grands",
+        "cospeaker": [
+            
+        ],
+        "id": 27,
+        "track": "Web et Mobile",
+        "description": "Microsoft, Facebook, Yahoo, ... Ces g\u00E9ants du soft sont tous de grands \u00E9diteurs d'applications et leur r\u00E9putation n'est plus \u00E0 faire. Il leur arrive malgr\u00E9 tout de ne pas rencontrer le succ\u00E8s sur le PlayStore Android.\n\nDurant cette conf\u00E9rence je vous raconterai l'histoire de ces applications qui avaient tout pour r\u00E9ussir et qui ont \u00E9chou\u00E9 \u00E0 satisfaire les utilisateurs. On identifiera ensemble les erreurs commises afin de pouvoir prendre soin de ne jamais les reproduire.",
+        "speaker": "Eyal LEZMY",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "UX Design, Design thinking\u2026? De quoi parle t-on ?",
+        "cospeaker": [
+            
+        ],
+        "id": 53,
+        "track": "Web et Mobile",
+        "description": "D\u00E9finition et pr\u00E9sentation de la d\u00E9marche UX dans un projet. A quelles \u00E9tapes du projet intervient l'UX design ? Sous quelle forme ? Avec quels outils ? Quelles m\u00E9thodes ?\n\nPourquoi s'int\u00E9resse t-on (enfin !) \u00E0 l'utilisateur ?\n\nM\u00E9thodes et \u00E9tudes de cas. Le r\u00F4le de l'UX dans l'entreprise et sa cons\u00E9quence sur la conduite du changement, comment vendre l'UX et qui l'ach\u00E8te ? Qui sont les UX Designers, ergonomes, architectes de l'information\u2026 ? \n\nToutes ces questions pour comprendre les enjeux de la d\u00E9marche Design thinking, ce qu'elle r\u00E9volutionne dans l'organisation et la culture des projets de l'entreprise.",
+        "speaker": "C\u00E9dric Bour\u00E9",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "HTML5 Gaming",
+        "cospeaker": [
+            
+        ],
+        "id": 62,
+        "track": "Web et Mobile",
+        "description": "Venez d\u00E9couvrir les API HTML5 ainsi que les m\u00E9canismes qui vous permettront de r\u00E9aliser un jeu en 2D, sans aucune librairie !\nNous analyserons le code source d'un prototype de jeu des ann\u00E9es 90 r\u00E9\u00E9crit en HTML5 pour l'occasion.",
+        "speaker": "Alan Menant",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Dart, it's Angular too!",
+        "cospeaker": [
+            
+        ],
+        "id": 64,
+        "track": "Web et Mobile",
+        "description": "AngularJS n'est d\u00E9sormais plus \u00E0 pr\u00E9senter mais la vie du d\u00E9veloppeur ne se r\u00E9sume pas au JavaScript! De nouveaux langages prometteurs \u00E9mergent et Dart est l'un d'eux: soutenu par Google, open-source, client-serveur... Il permet de faire du d\u00E9veloppement web de mani\u00E8re structur\u00E9 en permettant aux d\u00E9veloppeurs objets de le prendre en mains en, seulement, quelques heures. Mais Dart a r\u00E9cemment subi un changement majeur: le portage d'Angular dans son \u00E9cosyst\u00E8me.\n\nOn peut donc utiliser Dart avec des notions comme le 2-way binding, les filtres, les directives afin de r\u00E9aliser nos single page applications avec un unique langage du serveur au navigateur. \n\nCette conf\u00E9rence a pour but de pr\u00E9senter rapidement comment, lorsque Dart rencontre Angular, le seul gagnant est le d\u00E9veloppeur.",
+        "speaker": "Pierre Reliquet",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Cr\u00E9er des jeux 3D pour le web",
+        "cospeaker": [
+            "David Rousset"
+        ],
+        "id": 70,
+        "track": "Web et Mobile",
+        "description": "Nous verrons dans cette session comment cr\u00E9er des jeux HTML5 en 3D temps r\u00E9el \u00E0 destination du Web (IE11/Chrome/Firefox & Opera). Pour cela, nous vous pr\u00E9senterons un framework de jeux WebGL gratuit et open source nomm\u00E9e Babylon.JS. Il est cr\u00E9\u00E9 en France et compatible multi-plateformes. Vous d\u00E9couvrirez comment couvrir toutes la chaine de production, de la cr\u00E9ation des assets 3d depuis Blender, son export vers Babylon, le support de diff\u00E9rent type de cam\u00E9ra (touch, acc\u00E9l\u00E9rom\u00E8tre, etc.), la gestion du moteur physique et l'impl\u00E9mentation de la logique du jeux en JavaScript.",
+        "speaker": "Pierre Lagarde",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Workshop: MongoDB par la pratique!",
+        "cospeaker": [
+            "S\u00E9bastien Prunier"
+        ],
+        "id": 17,
+        "track": "Cloud et BigData",
+        "description": "Ce workshop est l'occasion de d\u00E9couvrir MongoDB par la pratique en s'appuyant sur Java et/ou NodeJS. Durant ces 2h00 nous verrons les points suivants:\n\n- Installation et configuration\n- Op\u00E9ration CRUD\n  - Manipulation de la base\n   de donn\u00E9es depuis le MongoShell\n  - Indexation\n- D\u00E9veloppement d\u2019une application\n  - D\u00E9couverte des Drivers Java & Node\n  - Cr\u00E9ation d'un API REST et int\u00E9gration avec AngularJS\n- Document Design\n  - Bonnes pratiques et\n   options \n- Requetes avanc\u00E9es : G\u00E9ospatial, Full Text\n  - Recherche G\u00E9ospatiale \n  - Activation et utilisation des index Full Text\n- Agr\u00E9gation\n  - Analyse des donn\u00E9es avec le MongoDB Aggregation Framework\n- D\u00E9ploiement\n  - R\u00E9plication & Sharding\n\nPr\u00E9requis:\n\n- MongoDB 2.4 ou 2.6\n- Git\n- Developer Java\n  - JDK 6 ou 7\n  - Maven\n- Developer Node\n  - NodeJS",
+        "speaker": "Tugdual Grall",
+        "format": "Hands-on"
+    },
+    {
+        "title": "Premiers pas avec Symfony",
+        "cospeaker": [
+            
+        ],
+        "id": 109,
+        "track": "Web et Mobile",
+        "description": "Utilis\u00E9 par de grandes entreprises, Symfony 2 est un outil de d\u00E9veloppement PHP fiable, pour r\u00E9aliser des applications web robustes et \u00E9volutives.\n\nCette pr\u00E9sentation de Symfony 2 qui associe th\u00E9orie et exercices pratiques, vous permettra d\u2019appr\u00E9hender l'architecture du framework, de conna\u00EEtre les diff\u00E9rents outils disponibles et ses principales fonctionnalit\u00E9s telles que l'architecture MVC, la cr\u00E9ation des formulaires, la s\u00E9curit\u00E9, l'interfa\u00E7age avec une base de donn\u00E9es et les services.",
+        "speaker": "Tony Dubreil",
+        "format": "Hands-on"
+    },
+    {
+        "title": "Pourquoi versionner ses donn\u00E9es en noSQL",
+        "cospeaker": [
+            
+        ],
+        "id": 137,
+        "track": "Cloud et BigData",
+        "description": "Lorsque l'on traite des donn\u00E9es documentaires avec couchbase, riak ou mongo, on est souvent tent\u00E9 de modifier le mod\u00E8le de donn\u00E9es durant la vie du projet.\nCe talk a pour but d'expliquer comment versionner une donn\u00E9es noSQL et le g\u00E9rer dans votre code.",
+        "speaker": "Quentin ADAM",
+        "format": "quickie"
+    },
+    {
+        "title": "Les Sensors et le HTML5  (TIA)",
+        "cospeaker": [
+            
+        ],
+        "id": 20,
+        "track": "Web et Mobile",
+        "description": "Html5 nous donne acc\u00E8s \u00E0 un certain nombre de capteurs / p\u00E9riph\u00E9riques qu\u2019auparavant on pouvait seulement utiliser par le biais de plugins. Nous allons jouer avec nos t\u00E9l\u00E9phones / nos ordinateurs pour d\u00E9couvrir comment interpr\u00E9ter des \u00E9l\u00E9ments tels que l'orientation du t\u00E9l\u00E9phone, la captation de la voix, la cr\u00E9ation de sons, la cam\u00E9ra...\n\nCet atelier montrera comment impl\u00E9menter chacune de ces fonctionnalit\u00E9s. Au programme : giroscope / microphone / usermedia / vibration ...\n\nBase en Javascript requises. NodeJS doit \u00EAtre install\u00E9 aussi ! Et enfin, il vous faut un smartphone",
+        "speaker": "jean-francois garreau",
+        "format": "quickie"
+    },
+    {
+        "title": "Lib\u00E9rez la puissance de Couchbase",
+        "cospeaker": [
+            
+        ],
+        "id": 23,
+        "track": "Cloud et BigData",
+        "description": "Cette pr\u00E9sentation sera l\u2019occasion de voir comment utiliser au mieux Couchbase depuis une application Scala ou Java tout en b\u00E9n\u00E9ficiant d\u2019une int\u00E9gration pouss\u00E9e avec la surpuissante API JSON de Play 2, son API asynchrone non bloquante et les Futures Scala, ainsi que des nombreux goodies fournis par le framework depuis Java ou Scala. Cette pr\u00E9sentation montrera comment rapidement cr\u00E9er une application CRUD basique fournissant une API RESTful avec AngularJS puis comment aller plus loin en utilisant ReactiveCouchbase et ses nombreuses astuces pour am\u00E9liorer la productivit\u00E9 du d\u00E9veloppeur.",
+        "speaker": "Mathieu ANCELIN",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "5 ingr\u00E9dients pour pimenter Elasticsearch",
+        "cospeaker": [
+            
+        ],
+        "id": 118,
+        "track": "Cloud et BigData",
+        "description": "Elasticsearch est un moteur de recherche tr\u00E8s facile \u00E0 utiliser.  Il n\u2019y a qu\u2019\u00E0 t\u00E9l\u00E9charger, d\u00E9zipper, lancer, indexer pour rechercher. Pourtant, il cache quelques des pi\u00E8ges \u00E0 \u00E9viter pour que l\u2019exp\u00E9rience ne tourne au vinaigre.\nJ\u00E9r\u00F4me vous pr\u00E9sentera quelques ingr\u00E9dients et recettes sympas pour pimenter vos r\u00E9alisations en quelques tours de mains. Venez et d\u00E9gustez sans mod\u00E9ration !",
+        "speaker": "J\u00E9r\u00F4me Mainaud",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Ionic In Action",
+        "cospeaker": [
+            
+        ],
+        "id": 85,
+        "track": "Web et Mobile",
+        "description": "Ionic est un framework permettant de construire des applications mobiles hybrides avec HTML5. Il propose un mod\u00E8le de programmation reposant sur des briques technologiques existantes (AngularJS, Sass, etc.).\n\nCette session vous propose en 30 min une pr\u00E9sentation de Ionic et une d\u00E9monstration.",
+        "speaker": "Rossi ODDET",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Behat : Automatisation des tests fonctionnels",
+        "cospeaker": [
+            "Tony Dubreil"
+        ],
+        "id": 113,
+        "track": "Web et Mobile",
+        "description": "**Behat** ([site officiel][1]) est un produit openSource permettant de piloter l\u2019ex\u00E9cution de plans de tests fonctionnels. Interfac\u00E9 avec **Selenium** ([site officiel][2]) il permet notamment l\u2019ex\u00E9cution de tests dans de vrais navigateurs.\n\nCette pr\u00E9sentation abordera les points suivants :\n\n 1. Pr\u00E9sentation d\u2019une architecture compl\u00E8te mettant en jeu Behat et\n    Selenium, \n 2. Premier pas et d\u00E9mo, \n 3. Tips&Tricks, CI : Int\u00E9gration dans Jenkins, \n 4. Et le futur ? D\u00E9monstration du tasperbot, robot physique de test sur mobile.\n \nFort d\u2019une exp\u00E9rience de plus d\u2019un an sur l\u2019utilisation industrielle de Behat, cette pr\u00E9sentation r\u00E9sumera l\u2019exp\u00E9rience acquise par Niji sur le produit Behat. Nous en profiterons \u00E9galement pour pr\u00E9senter le robot **tapsterbot** ([site officiel][3]), derni\u00E8re acquisition de Niji et solution prometteuse pour tester physiquement sur devices mobiles.\n\n  [1]: http://behat.org/\n  [2]: http://docs.seleniumhq.org/\n  [3]: https://www.tindie.com/products/hugs/tapster/",
+        "speaker": "Joel Seguillon",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Mutualiser du code natif multiplateforme",
+        "cospeaker": [
+            
+        ],
+        "id": 146,
+        "track": "Web et Mobile",
+        "description": "Lorsque l'on vise plusieurs plateformes, \u00E0 commencer par iOS et Android, il y a plusieurs approches.\n\nParfois on voit une seule \u00E9quipe qui fait une application enti\u00E8rement g\u00E9n\u00E9rique (en g\u00E9n\u00E9ral HTML5) avec les parties communes des plateformes, et qui l'encapsule pour la diffuser sur toutes les marketplace \u00E0 l'identique, mais aujourd'hui les utilisateurs s'attendent \u00E0 avoir des applications bien plus int\u00E9gr\u00E9s \u00E0 leur plateforme que cela.\n\nSouvent on voit des \u00E9quipes diff\u00E9rentes sp\u00E9cialis\u00E9es sur chacune des plateformes, qui profite en natif de toute la richesse de chaque plateforme, mais sans partager leurs connaissances, avec des fonctionnalit\u00E9s pas toujours identiques et un backend \u00E0 faire \u00E9voluer en commun quand m\u00EAme, et du temps \u00E0 passer pour red\u00E9velopper la m\u00EAme chose sur chaque plate-forme avec des librairies tierces diff\u00E9rentes \u00E0 chaque fois.\n\nNous vous proposons une autre approche : Xamarin. L'id\u00E9e est de d\u00E9velopper des applications r\u00E9ellement native. On code les parties sp\u00E9cifiques pour chaque plateforme en tirant toute leur richesse : on a un acc\u00E8s direct \u00E0 l'int\u00E9gralit\u00E9 des API sp\u00E9cifiques (en particuliers pour les vues). On peut par contre r\u00E9utiliser tout le reste entre toutes les plateformes, autour d'un langage commun : C#, qui n'effraiera pas les d\u00E9veloppeurs Java. Plus besoin de recoder le code m\u00E9tier ou la connexion back-end 3 fois. On peut s'attendre \u00E0 70% de r\u00E9utilisation de code en commun. Et l'\u00E9quipe n'est plus en silo, c'est bien plus simple de travailler en \u00E9quipe, dans un objectif commun.",
+        "speaker": "Guillaume Collic",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "RxJava + Java8 pour sortir de l'enfer des Callback",
+        "cospeaker": [
+            
+        ],
+        "id": 58,
+        "track": "Functional",
+        "description": "Callback de callback de callback de callback... D\u00E9j\u00E0 rencontr\u00E9 une telle situation, qui vous ferais perdre votre amour immod\u00E9r\u00E9 des tabulations (ou des n-espaces, on est pas sectaires)?\n\nAu cours de cette session nous pr\u00E9senterons la librairie de programmation asynchrone **RxJava** : concepts de la programmation r\u00E9active, comparaison avec d'autres solutions pour de l'asynchrone, aper\u00E7u de l'API.\n\nNous verrons ensuite comment celle-ci, combin\u00E9e aux **Lambdas** de Java 8, pourrait nous faire voir la lumi\u00E8re lorsque l'on est coinc\u00E9 au coeur de *l'Enfer Des Callbacks*...",
+        "speaker": "Simon BASLE",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Programmation fonctionnelle avec Groovy",
+        "cospeaker": [
+            
+        ],
+        "id": 79,
+        "track": "Functional",
+        "description": "Et oui, Groovy sait aussi faire du fonctionnel !\n\nAu menu, en entr\u00E9e, les closures : faites de la r\u00E9cursion, composez-les, m\u00E9moiser-les, currifiez-les, faites en des high-order functions, et plus encore. \n\nEn plat de r\u00E9sistance, on mapera, filterra et on r\u00E9duira des collections.\n\nEn dessert, parlons d'immutabilit\u00E9, de laziness, et m\u00EAme de concurrence et de collections persistentes.\n\nTous les ingr\u00E9dients pour faitre votre tambouille fonctionnelle !",
+        "speaker": "Guillaume Laforge",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "We Are Family",
+        "cospeaker": [
+            
+        ],
+        "id": 35,
+        "track": "Agilit\u00E9",
+        "description": "The traditional way of running a company has been documented by people from Harvard Business School and many other reputable institutions. If you do it differently you are considered to be in uncharted territory. I've started to notice that the new approaches companies like GitHub are taking to running a business are influenced a lot from the way families and family businesses are run.\n\nBecoming close with your coworkers and treating them like family helps foster innovation and creates an amazing culture where a variety of people can feel comfortable and enjoy themselves. Family members are honest with each other. Sometimes when someone critics you it can hurt, but when you know that it is backed with great respect and love you use it to help you become better.\n\nHaving a great idea, creating useful products, and writing stellar code can be done by smart people. The difficult part is figuring out how to get tons of smart people to work well together. The social aspect is hard, but when you build a culture based off of values that are important to a family you'll see the amazing things that can be done.",
+        "speaker": "Danish Khan",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Trois bonnes raisons de travailler avec agilit\u00E9",
+        "cospeaker": [
+            
+        ],
+        "id": 81,
+        "track": "Agilit\u00E9",
+        "description": "Le monde du d\u00E9veloppement de logiciel nous offre un cadre unique o\u00F9 le meilleur et le pire sont possible.\nChacun des acteurs d'un projet seront d'accord pour partager un m\u00EAme diagnostique : *\"Le probl\u00E8me vient des autres\"*\n\n - L'\u00E9quipe est ultra comp\u00E9tente et ne fais que ce qui lui plait...\n - Le marketing a des id\u00E9es innovantes et n'\u00E9coute pas les solutions propos\u00E9es par l'\u00E9quipe... \n - L'organisation, les processus sont bien rod\u00E9s et nos produit n'arrivent pas a atteindre leur cible ...\n\nCe constat d'\u00E9chec, a amener un groupe d'experts du d\u00E9veloppement de logiciel a r\u00E9diger le manifeste agile. Depuis la mouvance agile essaie de *permettre aux Hommes impliqu\u00E9s dans la r\u00E9alisation d'apprendre avant de parvenir au succ\u00E8s.*\n\nJe vous propose d'\u00E9changer sur ce th\u00E8me autour de :\n\n - Travailler en \u00E9quipe\n - Organisation et communication\n - Faire \u00E9merger le bon produit\n \nCar l'agilit\u00E9 est l'affaire de tous et que nous d\u00E9veloppeur, nous pouvons adopter la bonne posture,\nensemble, nous essaierons d'identifier les leviers d'actions qui nous permettrons d'atteindre dans votre contexte le bon \u00E9quilibre entre : Comp\u00E9tence - Organisation - Id\u00E9e",
+        "speaker": "Julien Fallet",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Des petits pas vers le Continuous Delivery",
+        "cospeaker": [
+            
+        ],
+        "id": 83,
+        "track": "Agilit\u00E9",
+        "description": "LesFurets.com est pass\u00E9 en 18 mois d'une organisation solide de type \"\u00E9diteur logiciel\" avec une release par mois \u00E0 une organisation non moins solide en \"Continuous Delivery\" avec une mise en production par jour de \"ce qui est pr\u00EAt\" (sans \u00EAtre bloqu\u00E9 par les d\u00E9veloppements en cours).\n\nC'est un d\u00E9veloppeur qui vous pr\u00E9sentera l'histoire v\u00E9cue de l'int\u00E9rieur : << Ce changement nous pousse \u00E0 devenir de meilleurs d\u00E9veloppeurs, car avant de livrer tous les jours, il y a des \u00E9tapes interm\u00E9diaires n\u00E9cessaires pour faire na\u00EEtre le besoin et d\u00E9velopper la capacit\u00E9 de l\u2019\u00E9quipe \u00E0 changer. >>\n\nUn bon produit ne sort pas du chapeau, il se construit par it\u00E9ration, en essayant, en se trompant et en corrigeant. Raccourcir la boucle de retour entre les concepteurs et les utilisateurs apporte une tr\u00E8s grande valeur comp\u00E9titive. Adoptez le continuous delivery pour devenir l\u2019\u00E9quipe IT dont le business r\u00EAve.\n\nLe vouloir n\u2019est pas tout, il reste \u00E0 savoir comment s\u2019y prendre. Le mod\u00E8le it\u00E9ratif de SCRUM atteint ses limites lorsque l\u2019on vise \u00E0 mettre en prod plus souvent (Time to Market aggressif). Les co\u00FBts de recette explosent et la synchronisation des t\u00E2ches se complique.\n\nChez LesFurets.com nous avons enti\u00E8rement chang\u00E9 notre gestion de projet et nos m\u00E9thodes de d\u00E9veloppement. Le fonctionnement adh\u00E8re fortement \u00E0 une philosophie o\u00F9 le planning de release et deadlines n\u2019existent plus, les d\u00E9veloppements sont livr\u00E9s simplement quand ils sont pr\u00EAts (Flux).\n\nLa pr\u00E9sentation passera en revue tous les moyens techniques et organisationnels que nous employons pour garantir le m\u00EAme niveau de qualit\u00E9 qu\u2019auparavant : mise en production, livraison de code, validation, int\u00E9gration continue, travail en feature branches, it\u00E9ration avec le business, sp\u00E9cifications fonctionnels.\n\nTechniquement nous pr\u00E9senterons notre Usine Logicielle, le poste et les actions du d\u00E9veloppeur, et l'organisation de la QA.",
+        "speaker": "Pflieger Arnaud",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Continuous Delivery chez Capitaine Train",
+        "cospeaker": [
+            
+        ],
+        "id": 88,
+        "track": "Agilit\u00E9",
+        "description": "Je souhaite vous montrer comment nous sommes pass\u00E9 de livraisons rares et douloureuses \u00E0 des livraisons banales et fr\u00E9quentes. Livrer son logiciel en production c'est un chemin parsem\u00E9 d'emb\u00FBches, donc il sera souvent question de ce qui ne marche pas ! Etre agile c'est aussi apprendre de ses erreurs, et vous verrez que si nous avons des choses \u00E0 dire, c'est que nous avons beaucoup appris !\n\nOn parlera de technique, de discipline de groupe et beaucoup de solidarit\u00E9. On parlera de gestion des priorit\u00E9s, des contraintes externes comme les fixes de s\u00E9curit\u00E9 ou les mont\u00E9es de versions de services tiers.\nLivrer tous les jours c'est possible et c'est m\u00EAme assez banal !",
+        "speaker": "Fr\u00E9d\u00E9ric Menou",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Faire agile c'est bien, \u00EAtre agile c'est mieux, vivre agile c'est...",
+        "cospeaker": [
+            
+        ],
+        "id": 144,
+        "track": "Agilit\u00E9",
+        "description": "L'agilit\u00E9 nous la pratiquons quotidiennement au travail. Rentrer \u00E0 la maison et ne plus \u00EAtre agile nous parait inconcevable. Du coup, venez d\u00E9couvrir la richesse agile qui fourmille chez nous et que nous r\u00E9-introduisons dans notre quotidien professionnel.\n\nJe vous propose cette session parce que les valeurs de l'agilit\u00E9 ne concernent pas que le travail au quotidien, venez partager avec nous votre \"Agile Way of Life\"!\n\nA travers les pratiques et autres exp\u00E9riences personnelles que nous mettons en oeuvre au quotidien, nous vous proposons de vous faire d\u00E9couvrir ce que l'agilit\u00E9 peut nous apporter dans la gestion du quotidien. \nDe la recherche d'un emploi \u00E0 la l\u2019\u00E9ducation de nos enfants, de la tentative de perte de poids \u00E0 l'organisation de r\u00E9union de famille, nous vous montrerons comment peuvent se transposer de bonnes pratiques issues de l'agilit\u00E9 \u00E0 votre contexte personnel. \nNous verrons avec vous et vos propres exp\u00E9riences si nous sommes atteints ou si nous sommes une communaut\u00E9 de personnes qui vivent l'agilit\u00E9\n\nAu final, notre but est de partager et enrichir vos/nos pratiques et \u00E9ventuellement le faire d\u00E9border sur le monde professionnel ! un r\u00E9el paradoxe !",
+        "speaker": "Aur\u00E9lien Morvant",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Developpez en mode kick-ass",
+        "cospeaker": [
+            
+        ],
+        "id": 163,
+        "track": "Agilit\u00E9",
+        "description": "D\u00E9velopper en mode Kick-Ass permet de vraiment faire les choses.\n\nDans cette pr\u00E9sentation je vous montrerai comment: - nous utilisons les Pull Requests pour la qualit\u00E9 du code - collaborer rapidement pour d\u00E9velopper vos id\u00E9es - \u00E9viter les meetings pour \u00EAtre productif - raccourcir les boucles de retour pour \u00E9chouer plus rapidement - raccourcir vos cycles de livraison - et travailler ensemble \u00E0 travers diff\u00E9rents continents.\n\nCela peut fonctionner aussi dans votre entreprise.",
+        "speaker": "Nicolas De Loof",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Demarrer avec Docker",
+        "cospeaker": [
+            
+        ],
+        "id": 48,
+        "track": "DevOps",
+        "description": "Docker est un moteur de d\u00E9ploiement d'application sous la forme de conteneur autonome, virtualis\u00E9 et portable. Ces conteneurs peuvent ensuite s'installer sur une machine physique, des VMs ou sur le Cloud par exemple. Docker est un nouvel outil, encore jeune mais offrant d\u00E9j\u00E0 des fonctionnalit\u00E9s int\u00E9ressantes, que ce soit pour le d\u00E9veloppement que la mise en production.Quelques avantages :\n\n- l\u00E9ger, on peut lancer plusieurs conteneurs pour une charge machine inf\u00E9rieure \u00E0une seule VM VirtualBox\n- disposant d'un index public, la r\u00E9cup\u00E9ration d'une image est simplissime\n- le commit permet de sauvegarder l'\u00E9tat complet d'un conteneur pour sauvegarde et r\u00E9-utilisation \n\nCette session m\u00E9lange th\u00E9orie et exercice de manipulation, il vous faut donc un VirtualBox fonctionnel sur votre machine.",
+        "speaker": "Sebastien Douche",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Vers des infrastructures agiles",
+        "cospeaker": [
+            
+        ],
+        "id": 54,
+        "track": "DevOps",
+        "description": "Apr\u00E8s avoir fait ses preuves dans le monde du d\u00E9veloppement, l'agilit\u00E9 s'invite dans le monde de l'infrastructure.\n\nLors de cette conf\u00E9rence, vous d\u00E9courirez comment, en s'appuyant notamment sur les concepts tels qu'Infrastructure as Code et Software Defined Datacenter, il est possible de g\u00E9rer ses plateformes et environnements avec flexibilit\u00E9\".",
+        "speaker": "Sylvain REVEREAULT",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Trend it",
+        "cospeaker": [
+            
+        ],
+        "id": 67,
+        "track": "DevOps",
+        "description": "Vous \u00EAtes surpris par les retour d'utilisateurs m\u00E9contents de la lenteur de votre application?\n\nVous ignorez quelle version a introduit cette nouvelle fuite m\u00E9moire?\n\nLe copier-coller de donn\u00E9es sous Excel pour cr\u00E9er des graphs ou la complexit\u00E9 des templates [Cacti][1] vous insupporte?\n\nLe product owner vous demande sans cesse de nouveaux graphs pour illustrer ses pr\u00E9sentations?\n\n[Graphite][2] est la solution \u00E0 vos probl\u00E8mes. Je vais pr\u00E9senter durant ce talk cet outil de monitoring temps r\u00E9el ainsi que les moyens de cr\u00E9er les graphiques dont vous avez besoin pour monitorer votre production.\n\n\n  [1]: http://www.cacti.net/\n  [2]: http://graphite.wikidot.com/",
+        "speaker": "Philippe Mioulet",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "D\u00E9veloppeurs, venez jouer avec les pratiques XP !",
+        "cospeaker": [
+            "Julien Balas"
+        ],
+        "id": 26,
+        "track": "Agilit\u00E9",
+        "description": "L'Extreme Programming (XP) est une m\u00E9thode de d\u00E9veloppement de projet dont le but principal est de r\u00E9duire le co\u00FBt des changements.\n\nXP s'appuie sur le respect de quatre valeurs essentielles ainsi que sur treize pratiques (int\u00E9gration continue, bin\u00F4mage, TDD, ...).\nVenez d\u00E9couvrir quelques-unes de ces pratiques au travers de petits jeux qui mettront en lumi\u00E8re l'int\u00E9r\u00EAt de leur mise en place dans les projets au quotidien.",
+        "speaker": "C\u00E9cilia Bossard",
+        "format": "Hands-on"
+    },
+    {
+        "title": "D\u00E9marrer avec SaltStack",
+        "cospeaker": [
+            
+        ],
+        "id": 47,
+        "track": "DevOps",
+        "description": "Si Puppet ou Chef viennent rapidement \u00E0 l'esprit, j'ai trouv\u00E9 ces outils trop compliqu\u00E9s. J'ai donc test\u00E9 SaltStack et fut rapidement s\u00E9duit. A la fois shell distribu\u00E9 et outil de gestion de configuration, il est simple d'usage, puissant et rapide. J'ai ainsi rapidement automatis\u00E9 mon infrastructure.\n\nCette session couvre les fonctionnalit\u00E9s majeures avant de passer \u00E0 de la manipulation. Il faut donc disposer d'une VirtualBox fonctionnel.",
+        "speaker": "Sebastien Douche",
+        "format": "Hands-on"
+    },
+    {
+        "title": "Yeoman, g\u00E9n\u00E8re moi un g\u00E9n\u00E9rateur",
+        "cospeaker": [
+            
+        ],
+        "id": 160,
+        "track": "Web et Mobile",
+        "description": "Yeoman est un ensemble d'outils destin\u00E9s aux d\u00E9veloppeurs front. Cet ensemble int\u00E8gre une commande \"Yo\" dont le r\u00F4le est de d\u00E9marrer un projet web en un instant en g\u00E9n\u00E9rant une arborescence compl\u00E8te, destin\u00E9e \u00E0 l'\u00E9quipe de dev.\n\nDans ce quickie nous allons voir comment cr\u00E9er et personnaliser son propre g\u00E9n\u00E9rateur pour Yeoman.",
+        "speaker": "Wassim Chegham",
+        "format": "quickie"
+    },
+    {
+        "title": "D\u00E9velopper en Java et en Cale\u00E7on",
+        "cospeaker": [
+            
+        ],
+        "id": 55,
+        "track": "Agilit\u00E9",
+        "description": "CloudBees est une soci\u00E9t\u00E9 totalement distribu\u00E9e. Depuis une douzaine de pays et de timezones, l'\u00E9quipe collabore en pur t\u00E9l\u00E9travail. \nComment organiser le boulot dans une structure aussi h\u00E9t\u00E9roclite ? Quid de l'agilit\u00E9 dans un tel contexte ? Faut-il regretter le stand-up matinal au milieu de l'open-space ?\n\nRetour d'exp\u00E9rience apr\u00E8s 3 ans de t\u00E9l\u00E9travail pour une soci\u00E9t\u00E9 atypique.",
+        "speaker": "Nicolas De Loof",
+        "format": "quickie"
+    },
+    {
+        "title": "Dur d'\u00EAtre \u00E0 son compte : mythe && r\u00E9alit\u00E9",
+        "cospeaker": [
+            
+        ],
+        "id": 140,
+        "track": "Agilit\u00E9",
+        "description": "\u00CAtre \u00E0 son compte, c'est pas si compliqu\u00E9 que \u00E7a.<br/>\n\u00CAtre \u00E0 son compte, c'est pas si simple que \u00E7a.<br/>\nQue vous soyez salari\u00E9, patron, ou ind\u00E9pendant, que vous ayez des questions ou des r\u00E9ponses, parlons en !\n\nApr\u00E8s quelques ann\u00E9es en soci\u00E9t\u00E9 de service, je suis devenu l'unique salari\u00E9 d'un ind\u00E9pendant, j'ai ensuite pris mon propre envol : d'abord en tant qu'auto-entrepreneur, suivi d'une cr\u00E9ation d'EURL, en effectuant une transition entre les 2 par du portage salarial. On m'a dit qu'un retour d'exp\u00E9rience serait bienvenu, le voici ;-)",
+        "speaker": "Guillaume Collic",
+        "format": "quickie"
+    },
+    {
+        "title": "AngularJS \u00E0 60fps",
+        "cospeaker": [
+            "Wassim Chegham"
+        ],
+        "id": 142,
+        "track": "Web et Mobile",
+        "description": "Ce tools in action pr\u00E9sente en 4 parties les probl\u00E9matiques et leurs solutions dans le cadre du d\u00E9veloppement d'une SPA avec le framework AngularJS.\n\nLa plupart des points \u00E9voqu\u00E9s seront agr\u00E9ment\u00E9s de cas pratiques.\n\nLe plan sera le suivant : \n\n - les probl\u00E9mes de performances courants en SPA\n - les conseils de base\n - diagnostiquer des probl\u00E8mes de performances\n - am\u00E9liorer les performances de votre SPA avec AngularJS\n\nDes directives en passant par la boucle d'\u00E9x\u00E9cution d'AngularJS ou le $watch, nous verrons comment il est facile de cr\u00E9er des probl\u00E8mes de performances lorsque votre application consomme un grand nombre de donn\u00E9es, ou que les subtilit\u00E9s du framework ne sont pas bien mises en pratique.\n\nMise en cache des templates, lazy-loading, ng-if vs ng-show, mono-binding seront parmi les pistes et solutions \u00E9voqu\u00E9es lors de ce tools in action.",
+        "speaker": "Vincent Ogloblinsky",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Y sont pas cher mes tests !",
+        "cospeaker": [
+            
+        ],
+        "id": 94,
+        "track": "Agilit\u00E9",
+        "description": "C'est marrant tout, le monde est convaincu que les tests apportent beaucoup. Mais une fois le projet \u00E0 livrer, les tests deviennent moins importants.\n\nEffectivement pour 55 lignes de codes, j'ai 150 lignes de tests.\n\nSauf que votre m\u00E9thode de calcul n'est pas la bonne.\n\nVenez m'\u00E9couter et \u00E0 la fin de la session, vous serez convaincu de passer au TDD.\n\n\u00C0 vous les joies du code maitris\u00E9 !",
+        "speaker": "Nicolas Ledez",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Initiation \u00E0 PowerShell",
+        "cospeaker": [
+            
+        ],
+        "id": 25,
+        "track": "DevOps",
+        "description": "Toi, oui toi qui utilises encore des GOTO dans tes scripts .bat.\nToi qui fais encore du vbs pour appeller des objets COM.\nToi qui penses que Windows c'est uniquement des UI.\nEt m\u00EAme toi, qui fait du shell sur tes serveurs linux, si tu veux voir un peu son cousin chez Microsoft.\n\nEt bien, cette session est pour toi !\n\nAu programme des d\u00E9mos, encore des d\u00E9mos et que des d\u00E9mos !",
+        "speaker": "Fabien Dibot",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Le monitoring \u00E0 l'heure de DevOps et BigData",
+        "cospeaker": [
+            
+        ],
+        "id": 89,
+        "track": "DevOps",
+        "description": "Le monitoring d'applications ... pas vraiment hype comme sujet. Et pourtant c'est un domaine en mutation parce que le d\u00E9ploiement continu et la d\u00E9marche DevOps modifient les \u00E9changes d'informations avec la production et aussi parce qu'il est maintenant possible stocker massivement les informations collect\u00E9es. Je vous propose d'explorer ces sujets autour de quelques exemples.",
+        "speaker": "Claude Falguiere",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "D\u00E9veloppeur Entreprise, dessine moi un Linux",
+        "cospeaker": [
+            
+        ],
+        "id": 123,
+        "track": "DevOps",
+        "description": "Le d\u00E9veloppeur entreprise a mauvaise r\u00E9putation. Dans les univers javajideuzeu ou spring, on lui reproche souvent une sur-ench\u00E8re de m\u00E9ta-abstractions et d'imbrications de conteneurs \u00E0 un niveau auquel m\u00EAme les sc\u00E9naristes d'Inception n'ont pas os\u00E9 aller. Tout \u00E7a pour des CRUD dira-t-on.\n\nAlors, peut-il contribuer \u00E0 une distribution GNU/Linux ? R\u00E9ponse courte : oui. Pour le reste, je vous expliquerai comment je contribue \u00E0 Fedora, et ce que \u00E7a m'apporte. Je parlerai \u00E9galement de l'\u00E9cosyst\u00E8me Java, en prenant pour exemple Gradle et les d\u00E9fis li\u00E9s aux contraintes fortes que s'impose Fedora.",
+        "speaker": "Dridi Boukelmoune",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Qu'est-ce qui rends Groovy \"groovy\" ?",
+        "cospeaker": [
+            
+        ],
+        "id": 78,
+        "track": "Langages",
+        "description": "Groovy n'est pas un nouveau venu parmi les langages alternatifs avec ses 3 millions de t\u00E9l\u00E9chargements par an. En quoi est-il un excellent choix pour vos projets ?\n\n- courbe d'apprentissage plate\n- int\u00E9gration transparente avec Java\n- syntaxe concise, parfaite pour les DSL\n- approche originale du typage\n- riche \u00E9cosyst\u00E8me : Grails, Gradle, Spock, Geb\n\nNous verrons ensemble quand et o\u00F9 vous pouvez l'utiliser et comment en tirer parti pour am\u00E9liorer votre productivit\u00E9.",
+        "speaker": "Guillaume Laforge",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "DevOps Mindstorms",
+        "cospeaker": [
+            "Aur\u00E9lien Morvant",
+            "Sylvain REVEREAULT"
+        ],
+        "id": 116,
+        "track": "DevOps",
+        "description": "Pas encore convaincu de passer aux bonnes pratiques DevOps ?\n\nEt tu aimes les Legos ?\n\nViens donc jouer avec nous dans ce serious game. Et tu va vraiment comprendre les int\u00E9r\u00EAts de te t'int\u00E9resser \u00E0 toute cette plan\u00E8te DevOps.",
+        "speaker": "Nicolas Ledez",
+        "format": "Hands-on"
+    },
+    {
+        "title": "NodeSchool : workshops NodeJS en self-service",
+        "cospeaker": [
+            "Laurent HUET"
+        ],
+        "id": 24,
+        "track": "Langages",
+        "description": "Nous vous proposons de suivre un workshop convivial [NodeSchool](http://nodeschool.io/) pour faire du JavaScript c\u00F4t\u00E9 serveur avec NodeJS. Vous pourrez choisir entre le workshop d'introduction ou celui plus avanc\u00E9. Vous avancerez \u00E0 votre rythme, avec les autres participants pour s'entraider et une \u00E9quipe d'Helper.\n\nVenir avec Node install\u00E9 est un plus, mais pas obligatoire. Nous aurons des installs \u00E0 disposition.",
+        "speaker": "Guillaume Collic",
+        "format": "Hands-on"
+    },
+    {
+        "title": "JavaFX2, un tour d'horizon",
+        "cospeaker": [
+            
+        ],
+        "id": 59,
+        "track": "Tooling",
+        "description": "Je vous propose d'embarquer pour un petit tour d'horizon de la technologie JavaFX 2 (ou 8, pour ceux qui aiment les developers preview), le successeur de Swing.\n\nD\u00E9coration en css, sp\u00E9cification des ihm en xml, animations et effets graphiques, acc\u00E9l\u00E9ration mat\u00E9rielle, rendu web (WebKit), bindings, mais aussi impression, support multim\u00E9dia (y compris l'enregistrement), support du multitouch... Il y en a sous le capot!\n\nAlors venez vous laisser convaincre que l'on peut retrouver du fun dans la cr\u00E9ation d'ihm riches et attrayantes en Java :)",
+        "speaker": "Simon BASLE",
+        "format": "quickie"
+    },
+    {
+        "title": "Pr\u00E9sentation de la Plateforme de RA ORA-1",
+        "cospeaker": [
+            
+        ],
+        "id": 100,
+        "track": "Tooling",
+        "description": "The ORA-1 is a best in class hands free wireless see-through wearable display platform in the form of digital eyewear allowing hands-free mobile computing applications. It is based on Optinvent's patented Clear-Vu display engine. ORA-1 will enable many yet unimagined \"always-on\" hands free mobile applications including geo-localization (GPS), sports, messaging, situation awareness, and more. It can be connected via a standard wi-fi connection to a smartphone or tablet and will act as a hands-free wearable computer.\n\nOptinvent's ORA-1 is the most viable product to achieve widespread industry and consumer acceptance for AR glasses based on its bright, see-through, large field of view display with true seethrough capability. Furthermore, the display has a patented \"Flip-Vu\" feature which can position the virtual image in full augmented reality mode (directly in the user's line of sight), and a dashboard mode (below the user's line of sight). Along with the patented display engine, the ORA-1 includes a WiFi and Bluetooth connectivity, front facing camera, 9 axis motion sensor, ambient light sensor, microphone, loudspeaker, and a high capacity rechargeable battery.\n\nOptinvent's ORA-1 is a standalone Android based device.",
+        "speaker": "Valentin de Montis",
+        "format": "quickie"
+    },
+    {
+        "title": "Une fille dans mon \u00E9quipe ?",
+        "cospeaker": [
+            "jean-francois garreau"
+        ],
+        "id": 121,
+        "track": "Tooling",
+        "description": "Actuellement, 20% des postes dans le domaine de l\u2019IT sont occup\u00E9s par des femmes, et la tendance ne va pas en s'arrangeant. Pourquoi ce d\u00E9sint\u00E9r\u00EAt ? <br/>\nLe groupe Women In Technology vous propose de revenir sur ce sujet et de pr\u00E9senter son approche pour essayer d\u2019inverser la tendance.",
+        "speaker": "C\u00E9cilia Bossard",
+        "format": "quickie"
+    },
+    {
+        "title": "Stressez votre serveur avec Gatling",
+        "cospeaker": [
+            
+        ],
+        "id": 139,
+        "track": "Tooling",
+        "description": "Ambitionnant de remplacer JMeter, Gatling est un outil de test de mont\u00E9e en charge qui utilise les derni\u00E8res innovations en mati\u00E8re de parall\u00E8lisation et d'asynchronisme. Nous aborderons les diff\u00E9rents concepts se cachant derri\u00E8re Gatling et etudieront son langage d\u00E9di\u00E9 pour la cr\u00E9ation des sc\u00E9narii, avant de se lancer dans la prise en main (simple) de ce bel outil.",
+        "speaker": "Sebastien Quioc",
+        "format": "quickie"
+    },
+    {
+        "title": "Java 8 - Les interfaces fonctionnelles",
+        "cospeaker": [
+            
+        ],
+        "id": 44,
+        "track": "Langages",
+        "description": "Java 8 introduit la notion d'\"interface fonctionnelle\". Derri\u00E8re ce terme obscure se cache un m\u00E9canisme qui permet de passer des r\u00E9f\u00E9rences sur m\u00E9thodes et des lambdas en param\u00E8tre. Et ce, en toute transparence pour le code appel\u00E9.\n\nPas \u00E0 pas, nous d\u00E9couvrirons comment utiliser cette nouveaut\u00E9 du langage qui permet d'introduire du code fonctionnel dans notre code Java !",
+        "speaker": "Alexis Seigneurin",
+        "format": "quickie"
+    },
+    {
+        "title": "RAML",
+        "cospeaker": [
+            
+        ],
+        "id": 152,
+        "track": "Langages",
+        "description": "RAML est un langage de mod\u00E9lisation d'API REST (ressources REST, verbes HTTP, repr\u00E9sentations des donn\u00E9es, etc). \n\nAutour de ce langage (ind\u00E9pendant de toute impl\u00E9mentation REST), un \u00E9cosyst\u00E8me d'outils permettant de booster la productivit\u00E9 des d\u00E9veloppeurs d'API REST (\u00E9diteurs, outils de test, g\u00E9n\u00E9rateur de code) est en train d'\u00E9merger.\n\nL'objectif de ce quickie, est de pr\u00E9senter rapidement ce langage ainsi que certains \u00E9l\u00E9ments de cet \u00E9cosyst\u00E8me.\n\nPour commencer, nous mod\u00E9liserons une API REST simple (gestion de personnages) en utilisant l'\u00E9diteur en ligne API Designer.\n\nPuis nous g\u00E9n\u00E9rerons le squelette des services REST mod\u00E9lis\u00E9s (Spec Java EE JAX-RS) en utilisant le g\u00E9n\u00E9rateur JAX-RS Codegen. \n\nPour terminer, nous utiliserons l'\u00E9diteur pour tester les services impl\u00E9ment\u00E9s.",
+        "speaker": "Mehdi Elkouhen",
+        "format": "quickie"
+    },
+    {
+        "title": "Branchez Node.js \u00E0 votre compteur EDF",
+        "cospeaker": [
+            
+        ],
+        "id": 131,
+        "track": "Internet of Things",
+        "description": "Venez voir comment coupler votre compteur EDF \u00E0 une carte RaspberryPi / Beaglebone / ... pour avoir une vision temps r\u00E9el de votre consommation \u00E9lectrique.\n\nCot\u00E9 hardware, un montage \u00E9lectronique rudimentaire est utilis\u00E9 (< 2 \u20AC).\n\nCot\u00E9 soft, Node.js, MongoDB et AngularJS constituent les briques applicatives principales.",
+        "speaker": "Laurent HUET",
+        "format": "quickie"
+    },
+    {
+        "title": "Centralisez vos logs avec logstash",
+        "cospeaker": [
+            
+        ],
+        "id": 108,
+        "track": "DevOps",
+        "description": "Vous en avez marre de vous connecter sur tous les serveurs en ssh pour consulter vos logs, voir pire vous devez faire un ticket \u00E0 l'exploit \u00E0 chaque probl\u00E8me pour obtenir les traces.\nLorsque vous r\u00E9cup\u00E9rez le fichier de log sur votre machine, votre \u00E9diteur de texte ne peut pas l'ouvrir car il est trop gros. \n\nUne solution simple est d'utiliser logstash. Logstash offre une stack souple pour collecter, transformer, filtrer, centraliser, indexer et visualiser vos logs. \nCette s\u00E9ance pr\u00E9sentera les concepts de ce produits \u00E0 travers des exemples.",
+        "speaker": "Alexandre Del\u00E8gue",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Soyez Productifs ! \"I MEAN it !\"",
+        "cospeaker": [
+            
+        ],
+        "id": 32,
+        "track": "Tooling",
+        "description": "Le but de MEAN ( http://mean.io ) est de fournir aux d\u00E9veloppeurs use solution pour rapidement d\u00E9velopper des applications Web en s'appuyant sur les solutions suivante:\n\n - MongoDB pour la persistence \n - NodeJS et Express pour la partie serveur (REST, oAuth, ...) \n - AngularJS pour la partie IHM\n\nCette session sera \u00E9galement l'occasion de pr\u00E9senter les quelques librairies tr\u00E8s utilis\u00E9es par les d\u00E9veloppeurs Nodes notamment Express, Mongoose, Passport",
+        "speaker": "Tugdual Grall",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Vagrant pour les d\u00E9veloppeurs",
+        "cospeaker": [
+            
+        ],
+        "id": 75,
+        "track": "Tooling",
+        "description": "En tant que d\u00E9veloppeurs, nous travaillons souvent sur des environnements de d\u00E9veloppement dont les caract\u00E9ristiques diff\u00E8rent plus ou moins de ce que l'on peut retrouver ensuite en production. Utiliser des machines virtuelles, pourquoi pas, mais c'est souvent peu pratique.\n\nDans cette session, nous verrons comment Vagrant va nous aider pour reproduire des environnements de prod sur nos postes de d\u00E9veloppement. Nous \u00E9tudierons tous les m\u00E9canismes de base de l'outil : le provisioning, le mode multi-machines, la configuration r\u00E9seau, les r\u00E9pertoires partag\u00E9s. Nous n'aurons plus d'excuses pour ne pas livrer du code qui marche en prod !",
+        "speaker": "Alexis Seigneurin",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Le Multi-Langage dans SonarQube",
+        "cospeaker": [
+            
+        ],
+        "id": 136,
+        "track": "Tooling",
+        "description": "Avec la version 4.2 de SonarQube, le ticket le plus vot\u00E9 par la communaut\u00E9 a \u00E9t\u00E9 r\u00E9solu: https://jira.codehaus.org/browse/SONAR-926.\n\nCette pr\u00E9sentation sera l'occasion de montre comment configurer, ou plut\u00F4t d\u00E9configurer, le multi-langage dans SonarQube mais surtout d'en montrer les b\u00E9n\u00E9fices. Nous verrons \u00E9galement comment ceci s'int\u00E8gre dans l'IDE afin de raccourcir au maximum la boucle de r\u00E9troaction.",
+        "speaker": "Olivier Gaudin",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Orika, mapping objet Java sans r\u00E9flexion",
+        "cospeaker": [
+            
+        ],
+        "id": 151,
+        "track": "Tooling",
+        "description": "Apr\u00E8s une bonne dose de r\u00E9flexion, les d\u00E9veloppeurs Java disposent d\u00E9sormais de la biblioth\u00E8que Orika pour mapper des objets Java d'une couche logicielle \u00E0 une autre. Orika utilise un g\u00E9n\u00E9rateur de bytecode pour cr\u00E9er des mappers tr\u00E8s rapides : fini l'\u00E9criture manuelle d'une couche de mapping pour garder des performances correctes ! Dans ce Tools in Action, je vous montrerai ce qu'Orika a dans le ventre : de nombreuses fonctionnalit\u00E9s et d'excellentes performances. Vous n'aurez plus d'excuses pour exposer directement vos objets m\u00E9tiers dans votre couche d'interface REST.",
+        "speaker": "Yoann Dubreuil",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "\"Bash\" et moi",
+        "cospeaker": [
+            
+        ],
+        "id": 153,
+        "track": "Tooling",
+        "description": "La ligne de commandes vous fait peur ? Vous vous dites qu'un clic dans l'explorateur de fichier, c'est quand m\u00EAme plus simple et plus rapide qu'un 'ls' ou un 'cd' ? Venez d\u00E9couvrir qu'utiliser la ligne de commande n'est pas si terrible que \u00E7a, et qu'une fois bien apprivois\u00E9e, on gagne en efficacit\u00E9 et en expressivit\u00E9. Je vous montrerai quelques trucs et astuces bien pratiques, du raccourci clavier \u00E0 la commande magique en passant par quelques outils pour ceux qui regardent par la fen\u00EAtre le monde Unix ;) Venez avec les v\u00F4tres pour les partager \u00E0 la fin de la session !",
+        "speaker": "Yoann Dubreuil",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "D\u00E9livrer en continu avec VSO et Windows Azure",
+        "cospeaker": [
+            
+        ],
+        "id": 155,
+        "track": "Tooling",
+        "description": "L'objectif de cette session est de rapidement pr\u00E9senter ce qu'est Visual Studio Online avec un focus sur les fonctions de gestion des d\u00E9veloppements, du code source avec GIT et de l'int\u00E9gration continue. Ensuite, nous pr\u00E9senterons les principales caract\u00E9ristiques des sites web Azure et des services Cloud Azure. Enfin, nous pr\u00E9senterons les liens entre Visual Studio Online et Windows Azure et comment on peut d\u00E9ployer en continue de sites web Azure ou des services cloud Azure.\n\nL'ensemble de la pr\u00E9sentation sera illustr\u00E9e par une d\u00E9mo en live.",
+        "speaker": "Fran\u00E7ois Bouteruche",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "faire un jeu sur Leap Motion en Java",
+        "cospeaker": [
+            
+        ],
+        "id": 91,
+        "track": "Internet of Things",
+        "description": "La Leap Motion est un dispositif d'interface gestuelle. Cette session vous pr\u00E9sente l'API Leap Motion en Java et comment l'utiliser avec le moteur de jeu 2D Hermes pour Processing.",
+        "speaker": "Claude Falguiere",
+        "format": "Tools in Action"
+    },
+    {
+        "title": "Approche des architectures micro-services",
+        "cospeaker": [
+            
+        ],
+        "id": 77,
+        "track": "Architecture",
+        "description": "Les architectures orient\u00E9es microservices sont encore un concept flou. On en trouve de nombreuses d\u00E9finitions et il est difficile de savoir comment en tirer un parti efficace pour son SI.\n\nVenez faire le tour des sources int\u00E9ressantes sur le sujet, tirez la quintessence des visions offertes \u00E0 la communaut\u00E9, et des contraintes techniques qu'elles imposent. Nous passerons \u00E9galement en revue une impl\u00E9mentation possible d'architecture, puis une liste des frameworks et outils permettant d'exp\u00E9rimenter sur le sujet.",
+        "speaker": "Aur\u00E9lien Maury",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Une partie de cache-cache",
+        "cospeaker": [
+            
+        ],
+        "id": 102,
+        "track": "Architecture",
+        "description": "Les bonnes performances d'un site web passent in\u00E9vitablement par l'exploitation des syst\u00E8mes de cache.\n\n\"Cache-Control\", \"proxy public\", \"TTL\", \"hit ratio\", \"LRU/LFU\", \"CDN\", \"cache de longue tra\u00EEne\", \"cache pr\u00E9-construit\", \"cache froid / cache chaud\", \"hook 404\", \"cache m\u00E9moire ou fichier\", \"cache d'op-code\", \"tag ESI\", \"r\u00E9partition\", sharding\", etc., dans cette jungle de terminologies pas toujours tr\u00E8s claires, cette conf\u00E9rence tentera de faire une synth\u00E8se des technologies et solutions dont vous aurez besoin pour mettre au point une solution adapt\u00E9e \u00E0 vos contraintes.\n\nUn point sera \u00E9galement fait sur les pi\u00E8ges \u00E0 \u00E9viter comme les probl\u00E8mes de fra\u00EEcheur, la d\u00E9synchronisation et le gel des pages.",
+        "speaker": "Frederic Bouchery",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "De z\u00E9ro \u00E0 h\u00E9ros en 5 minutes avec Spring Boot",
+        "cospeaker": [
+            
+        ],
+        "id": 117,
+        "track": "Architecture",
+        "description": "Si vous \u00EAtes un \u00E9ternel impatient et que vous aimeriez une infrastructure pour vous aider \u00E0 d\u00E9velopper tr\u00E8s rapidement des applications bas\u00E9es sur Spring, cette session est pour vous !  Spring Boot est une bo\u00EEte \u00E0 outils qui vous permet de d\u00E9velopper vos applications en un temps record.  Durant cette session de d\u00E9monstration, nous illustrerons les nombreuses possibilit\u00E9s de Spring Boot, notamment en terme de configuration et d'extensions.\n\nSpring Boot est une initiative relativement r\u00E9cente: la version 1.0 finale vient de sortir d\u00E9but avril et rend tr\u00E8s facile la cr\u00E9ation d\u2019applications en g\u00E9rant un maximum de d\u00E9tails pour le d\u00E9veloppeur. On peut grossi\u00E8rement cat\u00E9goriser les objectifs de Boot de la fa\u00E7on suivante:\n\n* Fournir une micro-plateforme pour cr\u00E9er des applications autonomes  (`java -jar monapp.jar`) tout en permettant de les d\u00E9ployer dans un environnement \u201Cplus classique\u201D.\n* En fonction des besoins, fournir un environnement qui se veut \u00EAtre fonctionnel et pratique, tout en permettant de le surcharger tr\u00E8s facilement (partiellement ou globalement)\n* Fournir des fonctionnalit\u00E9s p\u00E9riph\u00E9riques suppl\u00E9mentaires comme un rapport sur les beans d\u00E9ploy\u00E9s, des m\u00E9triques, un endpoint qui valide que l\u2019application est d\u00E9marr\u00E9e, etc\n* Etre un point central d\u2019attention pour appr\u00E9hender et utiliser tr\u00E8s rapidement l\u2019ensemble du portfolio Spring \n\nSpring Boot ne n\u00E9cessite absolument pas de g\u00E9n\u00E9ration de code et ne va pas modifier votre code en quoi que ce soit. Le principe g\u00E9n\u00E9ral, c\u2019est que Boot va auto-configurer une s\u00E9rie de services en fonction de conditions (typiquement est-ce que X est dans le classpath).  Il fournit des modules \u201Cstarter\u201D dont le but est de ramener les d\u00E9pendances n\u00E9cessaires pour utiliser le composant. En d\u00E9tectant le composant dans le classpath, l\u2019application est pr\u00EAte \u00E0 l\u2019utiliser _par d\u00E9faut_.",
+        "speaker": "St\u00E9phane Nicoll",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Le tour de Varnish en 80 jours",
+        "cospeaker": [
+            
+        ],
+        "id": 124,
+        "track": "Architecture",
+        "description": "Dans cette pr\u00E9sentation, nous allons litt\u00E9ralement faire le tour du monde pour d\u00E9couvrir Varnish. L'outil conna\u00EEt un succ\u00E8s fulgurant (on me souffle dans l'oreillette que c'est le cas aussi en France), il s'agit en fait d'un cache HTTP qui vous permet d'acc\u00E9l\u00E9rer significativement votre trafic web. Sous le capot, on trouve une architecture moderne et r\u00E9active, mais je pr\u00E9sente surtout Varnish tel que vous allez l'appr\u00E9hender: un DSL \u00E9l\u00E9gant pour la politique de cache, et un ensemble d'outils simples pour l'administrer.",
+        "speaker": "Dridi Boukelmoune",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "How to scale ?",
+        "cospeaker": [
+            
+        ],
+        "id": 134,
+        "track": "Architecture",
+        "description": "Scaling is complicated. You need to design your application to be ready to upscale and/or outscale, and to be maintainable time to time. This talk is about that : which pattern, tools, way to work, are efficient to allow your application to scale.\n\nFirst given at dotscale 2013, this talk will be refreshed and adapted to the audience.",
+        "speaker": "Quentin ADAM",
+        "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Maitriser le Temps: Event Sourcing",
+        "cospeaker": [
+            
+        ],
+        "id": 150,
+        "track": "Architecture",
+        "description": "Le temps qui passe dans nos syst\u00E8me est un point critique pour la plupart des applications m\u00E9tier.\nMais que faisons nous pour l'appr\u00E9hender ?\nQuelques horloges, threads et locks ne sont pas suffisant.\n\nL'**Event Sourcing** prend un point de vu radical et propose de placer la question du temps au centre du probl\u00E8me.\n\nBien que consid\u00E9r\u00E9 souvent pour ses nombreux avantages techniques, l'Event Sourcing permet avant tout de mod\u00E9liser concr\u00E8tement le temps. \n\nAutour des concepts cl\u00E9s du temps et de la d\u00E9finition fonctionnelle de l'Event Sourcing, nous explorerons ce que cette technique apporte et comment aborder son impl\u00E9mentation.",
+        "speaker": "J\u00E9r\u00E9mie Chassaing",
+        "format": "Conf\u00E9rence"
+    }
+]

@@ -143,6 +143,17 @@
         "format": "Hands-on"
     },
     {
+        "title": "Hands on elasticsearch and Kibana",
+        "cospeaker": [
+            
+        ],
+        "id": 52,
+        "track": "Cloud et BigData",
+        "description": "**Let's start to discover elasticsearch and Kibana.**\n\nFor this session, you will need:\n\n* a JVM\n* a browser\n\nWe will install elasticsearch, Kibana and Marvel and will use that tools to:\n\n* index/update/get/delete documents\n* search\n* compute\n* build dashboards to make sense of marketing data",
+        "speaker": "David Pilato",
+        "format": "Hands-on"
+    },
+    {
         "title": "Premiers pas avec Symfony",
         "cospeaker": [
             
@@ -206,17 +217,6 @@
         "track": "Web et Mobile",
         "description": "Ionic est un framework permettant de construire des applications mobiles hybrides avec HTML5. Il propose un mod\u00E8le de programmation reposant sur des briques technologiques existantes (AngularJS, Sass, etc.).\n\nCette session vous propose en 30 min une pr\u00E9sentation de Ionic et une d\u00E9monstration.",
         "speaker": "Rossi ODDET",
-        "format": "Tools in Action"
-    },
-    {
-        "title": "Behat : Automatisation des tests fonctionnels",
-        "cospeaker": [
-            "Tony Dubreil"
-        ],
-        "id": 113,
-        "track": "Web et Mobile",
-        "description": "**Behat** ([site officiel][1]) est un produit openSource permettant de piloter l\u2019ex\u00E9cution de plans de tests fonctionnels. Interfac\u00E9 avec **Selenium** ([site officiel][2]) il permet notamment l\u2019ex\u00E9cution de tests dans de vrais navigateurs.\n\nCette pr\u00E9sentation abordera les points suivants :\n\n 1. Pr\u00E9sentation d\u2019une architecture compl\u00E8te mettant en jeu Behat et\n    Selenium, \n 2. Premier pas et d\u00E9mo, \n 3. Tips&Tricks, CI : Int\u00E9gration dans Jenkins, \n 4. Et le futur ? D\u00E9monstration du tasperbot, robot physique de test sur mobile.\n \nFort d\u2019une exp\u00E9rience de plus d\u2019un an sur l\u2019utilisation industrielle de Behat, cette pr\u00E9sentation r\u00E9sumera l\u2019exp\u00E9rience acquise par Niji sur le produit Behat. Nous en profiterons \u00E9galement pour pr\u00E9senter le robot **tapsterbot** ([site officiel][3]), derni\u00E8re acquisition de Niji et solution prometteuse pour tester physiquement sur devices mobiles.\n\n  [1]: http://behat.org/\n  [2]: http://docs.seleniumhq.org/\n  [3]: https://www.tindie.com/products/hugs/tapster/",
-        "speaker": "Joel Seguillon",
         "format": "Tools in Action"
     },
     {
@@ -341,17 +341,6 @@
         "format": "Conf\u00E9rence"
     },
     {
-        "title": "Trend it",
-        "cospeaker": [
-            
-        ],
-        "id": 67,
-        "track": "DevOps",
-        "description": "Vous \u00EAtes surpris par les retour d'utilisateurs m\u00E9contents de la lenteur de votre application?\n\nVous ignorez quelle version a introduit cette nouvelle fuite m\u00E9moire?\n\nLe copier-coller de donn\u00E9es sous Excel pour cr\u00E9er des graphs ou la complexit\u00E9 des templates [Cacti][1] vous insupporte?\n\nLe product owner vous demande sans cesse de nouveaux graphs pour illustrer ses pr\u00E9sentations?\n\n[Graphite][2] est la solution \u00E0 vos probl\u00E8mes. Je vais pr\u00E9senter durant ce talk cet outil de monitoring temps r\u00E9el ainsi que les moyens de cr\u00E9er les graphiques dont vous avez besoin pour monitorer votre production.\n\n\n  [1]: http://www.cacti.net/\n  [2]: http://graphite.wikidot.com/",
-        "speaker": "Philippe Mioulet",
-        "format": "Conf\u00E9rence"
-    },
-    {
         "title": "D\u00E9veloppeurs, venez jouer avec les pratiques XP !",
         "cospeaker": [
             "Julien Balas"
@@ -407,6 +396,17 @@
         "format": "quickie"
     },
     {
+        "title": "Behat : Automatisation des tests fonctionnels",
+        "cospeaker": [
+            "Tony Dubreil"
+        ],
+        "id": 113,
+        "track": "Web et Mobile",
+        "description": "**Behat** ([site officiel][1]) est un produit openSource permettant de piloter l\u2019ex\u00E9cution de plans de tests fonctionnels. Interfac\u00E9 avec **Selenium** ([site officiel][2]) il permet notamment l\u2019ex\u00E9cution de tests dans de vrais navigateurs.\n\nCette pr\u00E9sentation abordera les points suivants :\n\n 1. Pr\u00E9sentation d\u2019une architecture compl\u00E8te mettant en jeu Behat et\n    Selenium, \n 2. Premier pas et d\u00E9mo, \n 3. Tips&Tricks, CI : Int\u00E9gration dans Jenkins, \n 4. Et le futur ? D\u00E9monstration du tasperbot, robot physique de test sur mobile.\n \nFort d\u2019une exp\u00E9rience de plus d\u2019un an sur l\u2019utilisation industrielle de Behat, cette pr\u00E9sentation r\u00E9sumera l\u2019exp\u00E9rience acquise par Niji sur le produit Behat. Nous en profiterons \u00E9galement pour pr\u00E9senter le robot **tapsterbot** ([site officiel][3]), derni\u00E8re acquisition de Niji et solution prometteuse pour tester physiquement sur devices mobiles.\n\n  [1]: http://behat.org/\n  [2]: http://docs.seleniumhq.org/\n  [3]: https://www.tindie.com/products/hugs/tapster/",
+        "speaker": "Joel Seguillon",
+        "format": "Tools in Action"
+    },
+    {
         "title": "AngularJS \u00E0 60fps",
         "cospeaker": [
             "Wassim Chegham"
@@ -438,6 +438,17 @@
         "description": "Toi, oui toi qui utilises encore des GOTO dans tes scripts .bat.\nToi qui fais encore du vbs pour appeller des objets COM.\nToi qui penses que Windows c'est uniquement des UI.\nEt m\u00EAme toi, qui fait du shell sur tes serveurs linux, si tu veux voir un peu son cousin chez Microsoft.\n\nEt bien, cette session est pour toi !\n\nAu programme des d\u00E9mos, encore des d\u00E9mos et que des d\u00E9mos !",
         "speaker": "Fabien Dibot",
         "format": "Tools in Action"
+    },
+    {
+        "title": "Trend it",
+        "cospeaker": [
+            
+        ],
+        "id": 67,
+        "track": "DevOps",
+        "description": "Vous \u00EAtes surpris par les retour d'utilisateurs m\u00E9contents de la lenteur de votre application?\n\nVous ignorez quelle version a introduit cette nouvelle fuite m\u00E9moire?\n\nLe copier-coller de donn\u00E9es sous Excel pour cr\u00E9er des graphs ou la complexit\u00E9 des templates [Cacti][1] vous insupporte?\n\nLe product owner vous demande sans cesse de nouveaux graphs pour illustrer ses pr\u00E9sentations?\n\n[Graphite][2] est la solution \u00E0 vos probl\u00E8mes. Je vais pr\u00E9senter durant ce talk cet outil de monitoring temps r\u00E9el ainsi que les moyens de cr\u00E9er les graphiques dont vous avez besoin pour monitorer votre production.\n\n\n  [1]: http://www.cacti.net/\n  [2]: http://graphite.wikidot.com/",
+        "speaker": "Philippe Mioulet",
+        "format": "Conf\u00E9rence"
     },
     {
         "title": "Le monitoring \u00E0 l'heure de DevOps et BigData",
@@ -559,17 +570,6 @@
         "track": "Langages",
         "description": "RAML est un langage de mod\u00E9lisation d'API REST (ressources REST, verbes HTTP, repr\u00E9sentations des donn\u00E9es, etc). \n\nAutour de ce langage (ind\u00E9pendant de toute impl\u00E9mentation REST), un \u00E9cosyst\u00E8me d'outils permettant de booster la productivit\u00E9 des d\u00E9veloppeurs d'API REST (\u00E9diteurs, outils de test, g\u00E9n\u00E9rateur de code) est en train d'\u00E9merger.\n\nL'objectif de ce quickie, est de pr\u00E9senter rapidement ce langage ainsi que certains \u00E9l\u00E9ments de cet \u00E9cosyst\u00E8me.\n\nPour commencer, nous mod\u00E9liserons une API REST simple (gestion de personnages) en utilisant l'\u00E9diteur en ligne API Designer.\n\nPuis nous g\u00E9n\u00E9rerons le squelette des services REST mod\u00E9lis\u00E9s (Spec Java EE JAX-RS) en utilisant le g\u00E9n\u00E9rateur JAX-RS Codegen. \n\nPour terminer, nous utiliserons l'\u00E9diteur pour tester les services impl\u00E9ment\u00E9s.",
         "speaker": "Mehdi Elkouhen",
-        "format": "quickie"
-    },
-    {
-        "title": "Branchez Node.js \u00E0 votre compteur EDF",
-        "cospeaker": [
-            
-        ],
-        "id": 131,
-        "track": "Internet of Things",
-        "description": "Venez voir comment coupler votre compteur EDF \u00E0 une carte RaspberryPi / Beaglebone / ... pour avoir une vision temps r\u00E9el de votre consommation \u00E9lectrique.\n\nCot\u00E9 hardware, un montage \u00E9lectronique rudimentaire est utilis\u00E9 (< 2 \u20AC).\n\nCot\u00E9 soft, Node.js, MongoDB et AngularJS constituent les briques applicatives principales.",
-        "speaker": "Laurent HUET",
         "format": "quickie"
     },
     {
@@ -725,5 +725,16 @@
         "description": "Le temps qui passe dans nos syst\u00E8me est un point critique pour la plupart des applications m\u00E9tier.\nMais que faisons nous pour l'appr\u00E9hender ?\nQuelques horloges, threads et locks ne sont pas suffisant.\n\nL'**Event Sourcing** prend un point de vu radical et propose de placer la question du temps au centre du probl\u00E8me.\n\nBien que consid\u00E9r\u00E9 souvent pour ses nombreux avantages techniques, l'Event Sourcing permet avant tout de mod\u00E9liser concr\u00E8tement le temps. \n\nAutour des concepts cl\u00E9s du temps et de la d\u00E9finition fonctionnelle de l'Event Sourcing, nous explorerons ce que cette technique apporte et comment aborder son impl\u00E9mentation.",
         "speaker": "J\u00E9r\u00E9mie Chassaing",
         "format": "Conf\u00E9rence"
+    },
+    {
+        "title": "Branchez Node.js \u00E0 votre compteur EDF",
+        "cospeaker": [
+            
+        ],
+        "id": 131,
+        "track": "Internet of Things",
+        "description": "Venez voir comment coupler votre compteur EDF \u00E0 une carte RaspberryPi / Beaglebone / ... pour avoir une vision temps r\u00E9el de votre consommation \u00E9lectrique.\n\nCot\u00E9 hardware, un montage \u00E9lectronique rudimentaire est utilis\u00E9 (< 2 \u20AC).\n\nCot\u00E9 soft, Node.js, MongoDB et AngularJS constituent les briques applicatives principales.",
+        "speaker": "Laurent HUET",
+        "format": "quickie"
     }
 ]

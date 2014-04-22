@@ -25,7 +25,7 @@
                         "proposals":[
                             {"id":149, "start":"15:00", "end":"15:30", "format":"tools in action", "room":""},
                             {"id":149, "start":"16:00", "end":"16:30", "format":"tools in action", "room":""},
-                            {"id":149, "start":"17:00", "end":"17:30", "format":"tools in action", "room":""},
+                            {"id":149, "start":"17:00", "end":"17:30", "format":"tools in action", "room":""}
                         ]
                     },
                     {

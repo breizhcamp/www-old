@@ -3805,7 +3805,7 @@ function AgendaEventRenderer() {
 			seg.left = left;
 			// YBO : solution crade...
 			if (availWidth != outerWidth) {
-			    outerWidth = availWidth / 6 - 3;
+			    outerWidth = availWidth / 5 - 3;
 			} else {
 			    outerWidth = availWidth - 3;
 			}

@@ -49,13 +49,21 @@
                   ]
                },
                {
-                  "type":"NAO",
+                  "type":"NAO & ORA Smart Glasses",
                   "proposals":[
                      {
                         "id":149,
                         "start":"14:00",
                         "end":"14:30",
                         "title":"Présentation NAO",
+                        "format":"tools in action",
+                        "room":""
+                     },
+                     {
+                        "id":100,
+                        "start":"14:30",
+                        "end":"15:00",
+                        "title":"Présentation ORA Smart Glasses",
                         "format":"tools in action",
                         "room":""
                      },
@@ -68,13 +76,29 @@
                         "room":""
                      },
                      {
+                        "id":100,
+                        "start":"15:30",
+                        "end":"16:00",
+                        "title":"Présentation ORA Smart Glasses",
+                        "format":"tools in action",
+                        "room":""
+                     },
+                     {
                         "id":149,
                         "start":"16:00",
                         "end":"16:30",
                         "title":"Présentation NAO",
                         "format":"tools in action",
                         "room":""
-                     }
+                     },
+                     {
+                        "id":100,
+                        "start":"16:30",
+                        "end":"17:00",
+                        "title":"Présentation ORA Smart Glasses",
+                        "format":"tools in action",
+                        "room":""
+                     },
                   ]
                },
                {
@@ -174,7 +198,7 @@
                         "id":0,
                         "start":"10:30",
                         "end":"12:30",
-                        "title":null,
+                        "title":"To be announced",
                         "format":"hands-on",
                         "room":""
                      },
@@ -206,7 +230,7 @@
                         "id":0,
                         "start":"15:00",
                         "end":"17:00",
-                        "title":null,
+                        "title":"To be announced",
                         "format":"hands-on",
                         "room":""
                      },
@@ -713,7 +737,7 @@
                         "id":0,
                         "start":"14:00",
                         "end":"14:50",
-                        "title":null,
+                        "title":"To be announced",
                         "format":"conference",
                         "room":""
                      },

@@ -53,9 +53,17 @@
                   "proposals":[
                      {
                         "id":149,
+                        "start":"14:00",
+                        "end":"14:30",
+                        "title":"Présentation NAO",
+                        "format":"tools in action",
+                        "room":""
+                     },
+                     {
+                        "id":149,
                         "start":"15:00",
                         "end":"15:30",
-                        "title":"Démo NAO",
+                        "title":"Présentation NAO",
                         "format":"tools in action",
                         "room":""
                      },
@@ -63,15 +71,7 @@
                         "id":149,
                         "start":"16:00",
                         "end":"16:30",
-                        "title":"Démo NAO",
-                        "format":"tools in action",
-                        "room":""
-                     },
-                     {
-                        "id":149,
-                        "start":"17:00",
-                        "end":"17:30",
-                        "title":"Démo NAO",
+                        "title":"Présentation NAO",
                         "format":"tools in action",
                         "room":""
                      }
@@ -113,7 +113,7 @@
                   "type":"keynote",
                   "proposals":[
                      {
-                        "id":0,
+                        "id":145,
                         "start":"9:00",
                         "end":"10:00",
                         "title":"Keynote",

@@ -450,18 +450,18 @@
                   "type":"track 1",
                   "proposals":[
                      {
-                        "id":54,
+                        "id":67,
                         "start":"10:30",
                         "end":"11:25",
-                        "title":"Vers des infrastructures agiles",
+                        "title":"Trend it",
                         "format":"conference",
                         "room":""
                      },
                      {
-                        "id":67,
+                        "id":89,
                         "start":"11:30",
                         "end":"12:25",
-                        "title":"Trend it",
+                        "title":"Le monitoring à l'heure de DevOps et BigData",
                         "format":"conference",
                         "room":""
                      },
@@ -482,10 +482,10 @@
                         "room":""
                      },
                      {
-                        "id":89,
+                        "id":54,
                         "start":"16:30",
                         "end":"17:25",
-                        "title":"Le monitoring à l'heure de DevOps et BigData",
+                        "title":"Vers des infrastructures agiles",
                         "format":"conference",
                         "room":""
                      },

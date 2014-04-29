@@ -187,10 +187,10 @@
                   "type":"track 2",
                   "proposals":[
                      {
-                        "id":0,
+                        "id":56,
                         "start":"10:30",
                         "end":"12:30",
-                        "title":"To be announced",
+                        "title":"Vulnérabilité des applications web : théorie et pratique",
                         "format":"hands-on",
                         "room":""
                      },

@@ -1,0 +1,273 @@
+---
+layout: layout
+label: Accueil
+---
+
+
+<h3>Programme</h3>
+
+<div>
+
+    <style type="text/css">
+        .ng-cloak {
+            display:none;
+        }
+
+        .fc-event { cursor: pointer; }
+        .room {
+            float:right;
+            color:#000;
+            border: solid 1px #888;
+            background-color: #eee;
+            padding: 2px; }
+    </style>
+
+    <div class="alert hidden-desktop">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <h4>Le programme optimisé pour les mobiles <a href="http://2013.breizhcamp.org/mobile.html">ici</a> et sur <a href="http://app.voxxr.in/#event~bzh13">voxrr.in</a></h4>
+    </div>
+
+    <div class="container" ng-app="Programme" ng-controller="ProgrammeCtrl">
+        <h3 ng-show="loading">Chargement du programme...</h3>
+
+        <div id="programme" class="ng-cloak">
+
+            <fieldset  ng-repeat="jour in programme.jours" >
+                <legend ng-click="loadCalendar(jour)">{{jour.date}}</legend>
+                <div id='calendar{{jour.title}}'></div>
+                <div calendar umbilical="programme.jours[$index]"></div>
+            </fieldset>
+        </div>
+
+        <div id="talk" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="talkLabel">{{talkModal.title}}</h4>
+            </div>
+            <div class="github-fork-ribbon-wrapper right" ng-show="talkModal.room">
+                <div class="github-fork-ribbon">
+                    <span>{{talkModal.room}}</span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>Présenté par
+                <ul class="media-list">
+                    <li ng-repeat="speaker in talkModal.speakers" class="media">
+                        <a class="pull-left" ng-click="showSpeakerDetail(talk.id, speaker)">
+                            <img ng-src="{{speaker.avatar}}" style="max-height: 64px;max-width: 64px"/>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <br/>
+                                <a ng-click="showSpeakerDetail(talk.id, speaker)">{{speaker.fullname}}</a>
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+                </p>
+                <p ng-bind-html-unsafe="getSafeDescription(talkModal.description)"></p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+
+        <div id="speaker" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="speakerLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <div class="media">
+                    <img class="pull-left" ng-src="{{speakerModal.avatar}}" style="max-height: 64px;max-width: 64px"/>
+                    <div class="media-body">
+                        <br/>
+                        <h3 class="media-heading" id="speakerLabel">{{speakerModal.fullname}}</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p ng-bind-html-unsafe="getSafeDescription(speakerModal.description)"></p>
+                <p><b ng-show="speakerModal.liens.length > 0"><u>Liens :</u></b>
+                <ul>
+                    <li ng-repeat="lien in speakerModal.liens"><a href="{{lien.url}}" target="_blank">{{lien.label}}</a></li>
+                </ul>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var app = angular.module("Programme", []);
+
+        var colors = {};
+        colors['universite'] = '#9900FF';
+        colors['quickie'] = '#38761D';
+        colors['hands-on'] = '#DD0000';
+        colors['tools in action'] = '#3D85C6';
+        colors['conference'] = '#FF9900';
+        colors['lab'] = '#696969';
+        colors['biglab'] = '#696969';
+
+        function ProgrammeCtrl($scope, $http, $log) {
+            $scope.loading = true;
+
+            $http.get("json/schedule.json")
+                    .success(function(data) {
+                        $scope.programme = data.programme;
+                        $scope.loading = false;
+                    });
+
+            $http.get("json/talks.json")
+                    .success(function(talks) {
+                    	$scope.talks = [];
+                        angular.forEach(talks, function(talk){
+                            $scope.talks['t' + talk.id] = talk;
+                        });
+                    });
+
+            $scope.converter = new Markdown.getSanitizingConverter();
+
+            $scope.getSafeDescription = function(description) {
+                if (description) {
+                    return $scope.converter.makeHtml(description);
+                }
+                return "";
+            };
+
+            $scope.loadAllCalendar = function() {
+                angular.forEach($scope.programme.jours, function(jour){
+                    $scope.loadCalendar(jour);
+                });
+            };
+
+            $scope.loadCalendar = function(jour) {
+
+                var dateInFields = jour.date.split('/');
+                var year = parseInt(dateInFields[2]);
+                var month = parseInt(dateInFields[1]);
+                var day = parseInt(dateInFields[0]);
+
+                var events = [];
+
+                angular.forEach(jour.tracks, function(track){
+                    angular.forEach(track.proposals, function(talk){
+
+                        var timeInField = talk.start.split(':');
+                        var startHour = parseInt(timeInField[0]);
+                        var startMinutes = parseInt(timeInField[1]);
+                        timeInField = talk.end.split(':');
+                        var endHour = parseInt(timeInField[0]);
+                        var endMinutes = parseInt(timeInField[1]);
+
+                        var event = {
+                            title: talk.title + (talk.room ? " (" + talk.room + ")" : ''),
+                            start: new Date(year, month-1, day, startHour,startMinutes),
+                            end: new Date(year, month-1, day, endHour,endMinutes),
+                            id : talk.id,
+                            allDay: false,
+                            color:colors[talk.format]
+                        };
+                        events.push(event);
+                    });
+                });
+
+
+                $('#calendar' + jour.title).fullCalendar('removeEvents');
+
+                $('#calendar' + jour.title).html('');
+
+                $('#calendar' + jour.title).fullCalendar({
+                    defaultView: 'agendaDay',
+                    slotMinutes: 15,
+                    header: {
+                        left:   '',
+                        center: '',
+                        right: ''
+                    },
+                    titleFormat: {
+                        day: ''
+                    },
+                    columnFormat: {
+                        day: ''
+                    },
+                    allDaySlot: false,
+                    minTime: jour.title == 'day1' ? 13 : 8,
+                    maxTime: 20,
+                    axisFormat: 'HH:mm',
+                    contentHeight:10000,
+                    height:10000,
+                    timeFormat: {
+                        agenda: 'HH:mm{ - HH:mm}'
+                    },
+                    eventClick:function(calEvent, jsEvent, view) {
+                        $scope.showDetailOfTalk(calEvent.id);
+                    },
+                    events: events
+                });
+
+                $('#calendar' + jour.title).fullCalendar(
+                        'gotoDate',
+                        year,
+                        month - 1,
+                        day);
+            };
+
+            $scope.showDetailOfTalk = function(talkId) {
+                if (talkId) {
+                    $scope.talkModal = $scope.talks['t' + talkId];
+                    if ($scope.talkModal) {
+                        angular.forEach($scope.talkModal.speakers, function(speaker){
+                            // Optim gravatar
+                            if (speaker.avatar && speaker.avatar.indexOf("gravatar") !== -1) {
+                                speaker.avatar = speaker.avatar + "&s=200";
+                            }
+                            // Optim twitter
+                            if (speaker.avatar && speaker.avatar.indexOf("twimg") !== -1) {
+                                if (speaker.avatar.indexOf("_normal") !== -1) {
+                                     speaker.avatar = speaker.avatar.replace("_normal", "");
+                                }
+                            }
+                        });
+                        $scope.$apply();
+                        $('#talk').modal('show');
+                    }
+                }
+            };
+
+            $scope.showSpeakerDetail = function(talkId, speaker) {
+                $scope.speakerModal = speaker;
+                $('#talk').modal('hide');
+                $('#speaker').modal('show');
+            }
+        }
+
+        app.directive('calendar', function($parse, $timeout) {
+            return {
+                restrict: "A",
+                replace: true,
+                scope: {
+                    umbilical: "&"
+                },
+                transclude: false,
+                compile: function($parse) {
+                    return function(scope, el, attrs) {
+                        var jour = scope.umbilical();
+                        $timeout(function() {
+                            scope.$parent.loadCalendar(jour);
+                        }, 0);
+                    }
+                }
+            };
+        });
+    </script>
+
+</div>
+
+
+
+
+<div class="information">
+    <b>Equivalence en DIF : 7 heures par journée</b>
+</div>

@@ -117,6 +117,7 @@ label: Programme
                     .success(function(data) {
                         $scope.programme = data.programme;
                         $scope.loading = false;
+                        console.log($scope.programme);
                     });
 
             $http.get("../json/talks.json")
@@ -125,6 +126,7 @@ label: Programme
                         angular.forEach(talks, function(talk){
                             $scope.talks['t' + talk.id] = talk;
                         });
+                        console.log($scope.talks);
                     });
 
             $scope.converter = new Markdown.getSanitizingConverter();

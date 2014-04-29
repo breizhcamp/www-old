@@ -115,7 +115,7 @@ label: Speakers
                     <h4 id="talkLabel{{speaker.id}}">Talks présentés par {{speaker.fullname}}</h4>
                 </div>
                 <div class="modal-body">
-                    <div ng-repeat="talk in speaker.talks">
+                    <div ng-repeat="talk in speaker.proposals">
                         <h4>{{talk.title}}</h4>
                         <p ng-show="talk.otherspeakers.length > 0">Également présenté par
                             <ul>

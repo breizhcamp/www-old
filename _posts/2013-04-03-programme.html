@@ -1,6 +1,6 @@
 ---
 layout: layout
-label: Accueil
+label: Programme
 ---
 
 
@@ -113,13 +113,13 @@ label: Accueil
         function ProgrammeCtrl($scope, $http, $log) {
             $scope.loading = true;
 
-            $http.get("json/schedule.json")
+            $http.get("../json/schedule.json")
                     .success(function(data) {
                         $scope.programme = data.programme;
                         $scope.loading = false;
                     });
 
-            $http.get("json/talks.json")
+            $http.get("../json/talks.json")
                     .success(function(talks) {
                     	$scope.talks = [];
                         angular.forEach(talks, function(talk){

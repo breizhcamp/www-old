@@ -1,5 +1,32 @@
 [
   {
+    "id": 56,
+    "title": "Vulnérabilité des applications web : théorie et pratique",
+    "description": "L'objet de cette conférence est de présenter les vulnérabilités les plus fréquemment rencontrées et exploitées dans les applications web. Au delà des aspects théoriques de ces vulnérabilités, c'est une présentation pratique des exploitations et l'énoncé de quelques pistes de bonnes pratiques qui est proposée.",
+    "format": "Hands-on",
+    "speakers": [
+      {
+        "id": 121,
+        "fullname": "Clément DOMINGO",
+        "avatar": "https://www.gravatar.com/avatar/70337856c098230bdc6457e2ee0daf04?s=100",
+        "liens": [
+          {
+            "label": "Twitter",
+            "url": "https://twitter.com/@_SaxX_"
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "fullname": "Anthony Gaultier",
+        "avatar": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/4/000/1b0/253/0c56faf.jpg?s=100",
+        "liens": [
+        ]
+      }
+    ],
+    "track": "Tool"
+  },
+  {
     "id": 34,
     "title": "De 20 000 à 4 millions d\u0027utilisateurs",
     "description": "Passer de 20 000 utilisateurs à 4 millions : c\u0027est le challenge qui était demandé.\n\nPour ce faire, il a été nécessaire de revoir certaines parties du SI afin de pouvoir stocker en masse les données des utilisateurs mais également afin d\u0027être capable de les traiter.\n\nCe retour d\u0027expérience montrera comment, avec une approche et des technologies simples, il a été possible de revoir la façon de faire et comment il a été proposé de traiter le sujet.\n\nIl montrera également les pistes qui ont été étudiées et les solutions qui ont été retenues.\n\nLes différents points qui seront abordés seront : Cassandra, REST, Netty, Spring Integration, Jolokia, Metrics saupoudré d\u0027un peu de \"Big Data\".",

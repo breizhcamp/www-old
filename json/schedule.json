@@ -219,19 +219,11 @@
                         "room":""
                      },
                      {
-                        "id":1000,
-                        "start":"15:00",
-                        "end":"15:55",
-                        "title":"Machine learning et régulation numérique",
-                        "format":"conference",
-                        "room":""
-                     },
-                     {
                         "id":0,
-                        "start":"16:00",
-                        "end":"16:55",
+                        "start":"15:00",
+                        "end":"17:00",
                         "title":"To be announced",
-                        "format":"conference",
+                        "format":"hands-on",
                         "room":""
                      },
                      {
@@ -734,10 +726,10 @@
                         "room":""
                      },
                      {
-                        "id":0,
-                        "start":"14:00",
-                        "end":"14:55",
-                        "title":"To be announced",
+                        "id":1000,
+                        "start":"15:00",
+                        "end":"15:55",
+                        "title":"Machine learning et régulation numérique",
                         "format":"conference",
                         "room":""
                      },

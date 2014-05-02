@@ -78,14 +78,14 @@
     "speakers": [
       {
         "id": 83,
-        "fullName":"Aurélien Morvant",
+        "fullname":"Aurélien Morvant",
         "avatar":"https://www.gravatar.com/avatar/88ff74e1323fe0aacfeaf8ed95738f5e?d=https%3A%2F%2Flh6.googleusercontent.com%2F-RpBc_5bS6Oo%2FAAAAAAAAAAI%2FAAAAAAAAAcs%2Fp3PpsBPEe9g%2Fphoto.jpg",
         "liens": [
         ]
       },
       {
         "id": 127,
-        "fullName":"Julien Fallet",
+        "fullname":"Julien Fallet",
         "avatar":"https://s.gravatar.com/avatar/7f6f56e21788186839ec9cf675471599?s=80",
         "liens": [
           {

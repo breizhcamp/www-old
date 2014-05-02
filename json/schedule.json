@@ -402,10 +402,10 @@
                         "room":""
                      },
                      {
-                        "id":117,
+                        "id":70,
                         "start":"16:00",
                         "end":"16:55",
-                        "title":"De zéro à héros en 5 minutes avec Spring Boot",
+                        "title":"Créer des jeux 3D pour le web",
                         "format":"conference",
                         "room":""
                      },
@@ -649,10 +649,10 @@
                         "room":""
                      },
                      {
-                        "id":70,
+                        "id":117,
                         "start":"11:30",
                         "end":"12:25",
-                        "title":"Créer des jeux 3D pour le web",
+                        "title":"De zéro à héros en 5 minutes avec Spring Boot",
                         "format":"conference",
                         "room":""
                      },

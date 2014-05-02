@@ -219,11 +219,19 @@
                         "room":""
                      },
                      {
-                        "id":0,
+                        "id":1000,
                         "start":"15:00",
-                        "end":"17:00",
+                        "end":"15:55",
+                        "title":"Machine learning et régulation numérique",
+                        "format":"conference",
+                        "room":""
+                     },
+                     {
+                        "id":0,
+                        "start":"16:00",
+                        "end":"16:55",
                         "title":"To be announced",
-                        "format":"hands-on",
+                        "format":"conference",
                         "room":""
                      },
                      {

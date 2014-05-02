@@ -1,5 +1,37 @@
 [
   {
+    "id": 1000,
+    "title": "Machine learning et régulation numérique",
+    "description": "Le machine learning est la science qui permet à un algorithme d’apprendre sans avoir été explicitement programmé pour cela. Elle est utilisée par les acteurs de la nouvelle économie pour le traitement de gros volumes de données, dans la traduction automatique, la reconnaissance de la parole, la classification de consommateur, la construction de réputation, ou la prévision des trafics. C’est la “régulation numérique”. Nous parlerons des champs d’application du machine learning par les gros acteurs du numérique, de ses fondements mathématiques, des grands familles d’algorithmes et des outils disponibles pour mettre en pratique. Découvrez les bases pour comprendre cette science et mesurer le potentiel des possibilités de son utilisation.",
+    "format": "Conférence",
+    "speakers": [
+      {
+        "id": 141,
+        "fullname": "Guillaume Laforge",
+        "avatar": "https://www.gravatar.com/avatar/137d3908243acfc30e126615d59d4e6d?d\u003dhttps%3A%2F%2Favatars.githubusercontent.com%2Fu%2F47907%3F",
+        "liens": [
+          {
+            "label": "Twitter",
+            "url": "https://twitter.com/glaforge"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/glaforge"
+          },
+          {
+            "label": "Google Plus",
+            "url": "https://plus.google.com/+GuillaumeLaforge"
+          },
+          {
+            "label": "Blog",
+            "url": "http://glaforge.appspot.com/"
+          }
+        ]
+      }
+    ],
+    "track": "Cloud et BigData"
+  },
+  {
     "id": 56,
     "title": "Vulnérabilité des applications web : théorie et pratique",
     "description": "L'objet de cette conférence est de présenter les vulnérabilités les plus fréquemment rencontrées et exploitées dans les applications web. Au delà des aspects théoriques de ces vulnérabilités, c'est une présentation pratique des exploitations et l'énoncé de quelques pistes de bonnes pratiques qui est proposée.",

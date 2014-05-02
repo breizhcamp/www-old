@@ -32,6 +32,45 @@
     "track": "Cloud et BigData"
   },
   {
+    "id": 68,
+    "title": "Angular from scratch",
+    "description": "On a tous vu une présentation d’AngularJS montrant la magie des bindings et des directives. Oui, mais comment ça marche ? Rien de mieux pour le comprendre que de le construire étape par étape. C’est finalement avec assez peu de code et un code très intéressant à détailler que les principaux mécanismes d’AngularJS apparaissent. Avant la fin de la séance, binding, directives, templates, tout fonctionne.",
+    "format": "Hands-on",
+    "speakers": [
+      {
+        "id": 126,
+        "fullname": "Swiip",
+        "avatar": "http://www.zenika.com/images/experts/Matthieu_Lux.jpg?s=100",
+        "liens": [
+          {
+            "label": "Twitter",
+            "url": "https://twitter.com/Swiip"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/Swiip"
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "fullname": "Olivier Huber",
+        "avatar": "https://www.gravatar.com/avatar/f3297524e6d2f113a5874d43514015b1?d=https%3A%2F%2Flh3.googleusercontent.com%2F-gTUxVoYDe-0%2FAAAAAAAAAAI%2FAAAAAAAAAGI%2FeinoSaThWQ4%2Fphoto.jpg?s=100",
+        "liens": [
+          {
+            "label": "Twitter",
+            "url": "https://twitter.com/olivierhuber"
+          },
+          {
+            "label": "Société", 
+            "url": "http://www.zenika.com"
+          }
+        ]
+      }
+    ],
+    "track": "Web"
+  },
+  {
     "id": 56,
     "title": "Vulnérabilité des applications web : théorie et pratique",
     "description": "L'objet de cette conférence est de présenter les vulnérabilités les plus fréquemment rencontrées et exploitées dans les applications web. Au delà des aspects théoriques de ces vulnérabilités, c'est une présentation pratique des exploitations et l'énoncé de quelques pistes de bonnes pratiques qui est proposée.",

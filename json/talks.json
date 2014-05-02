@@ -71,6 +71,37 @@
     "track": "Web"
   },
   {
+    "id":145,
+    "title":"Buy a game - Jouons Sérieusement !",
+    "description":"Venez découvrir de nouvelles approches pour communiquer, rencontrer des gens et travailler de manière collaborative, efficace et innovante. \nCes jeux prennent une part de plus en plus prépondérante dans l'accompagnement d'équipes ainsi que dans la formation aux méthodes et principes agiles. \nNous vous proposons dans cette session de tout réaliser via des jeux sérieux et innovants ! \nDe votre présentation à la sélection des jeux en passant par votre participation, tout, tout, tout, vous saurez tout sur les jeux agiles. Et même votre sortie de la session sera conditionnée à la pratique d'un serious game",
+    "format": "Hands-on",
+    "speakers": [
+      {
+        "id": 83,
+        "fullName":"Aurélien Morvant",
+        "avatar":"https://www.gravatar.com/avatar/88ff74e1323fe0aacfeaf8ed95738f5e?d=https%3A%2F%2Flh6.googleusercontent.com%2F-RpBc_5bS6Oo%2FAAAAAAAAAAI%2FAAAAAAAAAcs%2Fp3PpsBPEe9g%2Fphoto.jpg",
+        "liens": [
+        ]
+      },
+      {
+        "id": 127,
+        "fullName":"Julien Fallet",
+        "avatar":"https://s.gravatar.com/avatar/7f6f56e21788186839ec9cf675471599?s=80",
+        "liens": [
+          {
+            "label": "Twitter",
+            "url": "https://twitter.com/jfallet"
+          },
+          {
+            "label": "Blog",
+            "url": "http://jfallet.wordpress.com/"
+          },
+        ]
+      }
+    ],
+    "track": "Agilité"
+  },
+  {
     "id": 56,
     "title": "Vulnérabilité des applications web : théorie et pratique",
     "description": "L'objet de cette conférence est de présenter les vulnérabilités les plus fréquemment rencontrées et exploitées dans les applications web. Au delà des aspects théoriques de ces vulnérabilités, c'est une présentation pratique des exploitations et l'énoncé de quelques pistes de bonnes pratiques qui est proposée.",

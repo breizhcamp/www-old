@@ -264,11 +264,19 @@
                         "room":""
                      },
                      {
-                        "id":47,
+                        "id":34,
                         "start":"15:00",
-                        "end":"17:00",
-                        "title":"Démarrer avec SaltStack",
-                        "format":"hands-on",
+                        "end":"15:55",
+                        "title":"De 20 000 à 4 millions d'utilisateurs",
+                        "format":"conference",
+                        "room":""
+                     },
+                     {
+                        "id":0,
+                        "start":"16:00",
+                        "end":"16:55",
+                        "title":"Faire la conception en équipe sans architecte, non mais allô quoi ?",
+                        "format":"conference",
                         "room":""
                      },
                      {
@@ -503,19 +511,11 @@
                   "type":"track 2",
                   "proposals":[
                      {
-                        "id":163,
+                        "id":47,
                         "start":"10:30",
-                        "end":"11:25",
-                        "title":"Developpez en mode kick-ass",
-                        "format":"conference",
-                        "room":""
-                     },
-                     {
-                        "id":83,
-                        "start":"11:30",
-                        "end":"12:25",
-                        "title":"Des petits pas vers le Continuous Delivery",
-                        "format":"conference",
+                        "end":"12:30",
+                        "title":"Démarrer avec SaltStack",
+                        "format":"hands-on",
                         "room":""
                      },
                      {
@@ -702,10 +702,10 @@
                         "room":""
                      },
                      {
-                        "id":34,
+                        "id":83,
                         "start":"11:30",
                         "end":"12:25",
-                        "title":"De 20 000 à 4 millions d'utilisateurs",
+                        "title":"Des petits pas vers le Continuous Delivery",
                         "format":"conference",
                         "room":""
                      },
@@ -734,10 +734,10 @@
                         "room":""
                      },
                      {
-                        "id":27,
+                        "id":0,
                         "start":"15:00",
                         "end":"15:55",
-                        "title":"Android bashing : apprendre des erreurs des grands",
+                        "title":"Voteriez-vous pour un Web Déconnecté ?",
                         "format":"conference",
                         "room":""
                      },

@@ -2,7 +2,7 @@
   {
     "id": 149,
     "title": "NAO Connected",
-    "description": "Afin d'illustrer la conférence \"Objets connectés : démystification\", et principalement dans un contexte Domotique orienté service, nous proposons un "POC" maison autour de différents objets connectés tels que : NAO, la STB et notre indispensable \"Smartphone\".\nLe robot NAO dans un futur proche fait partie de notre quotidien, acheté chez IKEA il s'intègre parfaitement à notre habitat. A l'image d'un autre objet connecté Karotz, NAO se connecte à internet, récupère nos mails, nous propose d'extraire nos photos de vacances et de les afficher sur notre écran 50. \nVous nous direz,  ça existe déjà !!!! Oui mais nous on vous explique comment ça marche !!!!!",
+    "description": "Afin d'illustrer la conférence \"Objets connectés : démystification\", et principalement dans un contexte Domotique orienté service, nous proposons un \"POC\" maison autour de différents objets connectés tels que : NAO, la STB et notre indispensable \"Smartphone\".\nLe robot NAO dans un futur proche fait partie de notre quotidien, acheté chez IKEA il s'intègre parfaitement à notre habitat. A l'image d'un autre objet connecté Karotz, NAO se connecte à internet, récupère nos mails, nous propose d'extraire nos photos de vacances et de les afficher sur notre écran 50. \nVous nous direz,  ça existe déjà !!!! Oui mais nous on vous explique comment ça marche !!!!!",
     "format": "Tools in Action",
     "speakers": [
       ],
@@ -18,7 +18,7 @@
    },{
     "id": 1001,
     "title": "Devoxx4Kids",
-    "description": "Programmer, coder, développer, concevoir du logiciel, pisser du code, ... autant de mots pour expliquer notre métier. Mais comment l'expliquer à nos enfants ? Surtout qu'ils vont vivre de plus en plus avec du code omniprésent. Le but de l'atelier n'est pas d'en faire le prochain Bill Gates ou Linus Torvald (quoique). Mais de les initier au monde de la robotique. Du coup ce qui est génial, c'est que l'on touche à la mécanique, l'électronique et au code. La plate-forme utilisée, va être des Lego Mindstorms EV3. Cela va leur permettre de voir qu'un PC ne sert pas qu'à faire du Facebook et regarder les vidéos de Cyprien sur YouTube :) Et d'entrevoir que le robot aspirateur qui parait un peu con, et bien en fait c'est que c'est plus compliqué à programmer qu'il n'y parait.",
+    "description": "Programmer, coder, développer, concevoir du logiciel, pisser du code, ... autant de mots pour expliquer notre métier. Mais comment l'expliquer à nos enfants ? Surtout qu'ils vont vivre de plus en plus avec du code omniprésent. Le but de l'atelier n'est pas d'en faire le prochain Bill Gates ou Linus Torvald (quoique). Mais de les initier au monde de la robotique. Du coup ce qui est génial, c'est que l'on touche à la mécanique, l'électronique et au code. La plate-forme utilisée, va être des Lego Mindstorms EV3.\n Cela va leur permettre de voir qu'un PC ne sert pas qu'à faire du Facebook et regarder les vidéos de Cyprien sur YouTube :)\n Et d'entrevoir que le robot aspirateur qui parait un peu con, et bien en fait c'est que c'est plus compliqué à programmer qu'il n'y parait.",
     "format": "Hands-on",
     "speakers": [
     ],

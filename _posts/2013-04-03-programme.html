@@ -28,6 +28,19 @@ label: Programme
         <h3 ng-show="loading">Chargement du programme...</h3>
 
         <div id="programme" class="ng-cloak">
+        
+            <div class="room">
+                <label>Salles
+                   <select ng-model="room" ng-change="loadAllCalendar()">
+                       <option value="">Toutes</option>
+                       <option value="Belle-Île-en-Mer">Belle-Île-en-Mer</option>
+                       <option value="Groix">Groix</option>
+                       <option value="Bréhat">Bréhat</option>
+                       <option value="Molène">Molène</option>
+                       <option value="Ouessant">Ouessant</option>
+                   </select>
+                </label>
+            </div>
 
             <fieldset  ng-repeat="jour in programme.jours" >
                 <legend ng-click="loadCalendar(jour)">{{jour.date}}</legend>
@@ -109,6 +122,7 @@ label: Programme
 
         function ProgrammeCtrl($scope, $http, $log) {
             $scope.loading = true;
+            $scope.room = "";
 
             $http.get("../json/schedule.json")
                     .success(function(data) {
@@ -152,24 +166,25 @@ label: Programme
 
                 angular.forEach(jour.tracks, function(track){
                     angular.forEach(track.proposals, function(talk){
-
-                        var timeInField = talk.start.split(':');
-                        var startHour = parseInt(timeInField[0]);
-                        var startMinutes = parseInt(timeInField[1]);
-                        timeInField = talk.end.split(':');
-                        var endHour = parseInt(timeInField[0]);
-                        var endMinutes = parseInt(timeInField[1]);
-
-                        var event = {
-                            title: talk.title + (talk.room ? " (" + talk.room + ")" : ''),
-                            start: new Date(year, month-1, day, startHour,startMinutes),
-                            end: new Date(year, month-1, day, endHour,endMinutes),
-                            id : talk.id,
-                            room : talk.room,
-                            allDay: false,
-                            color:colors[talk.format]
-                        };
-                        events.push(event);
+                        if ($scope.room == "" || $scope.room == talk.room) {
+                           var timeInField = talk.start.split(':');
+                           var startHour = parseInt(timeInField[0]);
+                           var startMinutes = parseInt(timeInField[1]);
+                           timeInField = talk.end.split(':');
+                           var endHour = parseInt(timeInField[0]);
+                           var endMinutes = parseInt(timeInField[1]);
+   
+                           var event = {
+                               title: talk.title + (talk.room ? " (" + talk.room + ")" : ''),
+                               start: new Date(year, month-1, day, startHour,startMinutes),
+                               end: new Date(year, month-1, day, endHour,endMinutes),
+                               id : talk.id,
+                               room : talk.room,
+                               allDay: false,
+                               color:colors[talk.format]
+                           };
+                           events.push(event);
+                        }
                     });
                 });
 

@@ -1,5 +1,13 @@
 [
   {
+    "id": 1001,
+    "title": "Devoxx4Kids",
+    "description": "Programmer, coder, développer, concevoir du logiciel, pisser du code, ... autant de mots pour expliquer notre métier. Mais comment l'expliquer à nos enfants ? Surtout qu'ils vont vivre de plus en plus avec du code omniprésent. Le but de l'atelier n'est pas d'en faire le prochain Bill Gates ou Linus Torvald (quoique). Mais de les initier au monde de la robotique. Du coup ce qui est génial, c'est que l'on touche à la mécanique, l'électronique et au code. La plate-forme utilisée, va être des Lego Mindstorms EV3. Cela va leur permettre de voir qu'un PC ne sert pas qu'à faire du Facebook et regarder les vidéos de Cyprien sur YouTube :) Et d'entrevoir que le robot aspirateur qui parait un peu con, et bien en fait c'est que c'est plus compliqué à programmer qu'il n'y parait.",
+    "format": "Hands-on",
+    "speakers": [
+    ],
+    "track": "Devoxx4Kids"
+    },{
     "id": 1000,
     "title": "Machine learning et régulation numérique",
     "description": "Le machine learning est la science qui permet à un algorithme d’apprendre sans avoir été explicitement programmé pour cela. Elle est utilisée par les acteurs de la nouvelle économie pour le traitement de gros volumes de données, dans la traduction automatique, la reconnaissance de la parole, la classification de consommateur, la construction de réputation, ou la prévision des trafics. C’est la “régulation numérique”. Nous parlerons des champs d’application du machine learning par les gros acteurs du numérique, de ses fondements mathématiques, des grands familles d’algorithmes et des outils disponibles pour mettre en pratique. Découvrez les bases pour comprendre cette science et mesurer le potentiel des possibilités de son utilisation.",

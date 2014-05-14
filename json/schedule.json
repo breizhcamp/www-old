@@ -15,7 +15,7 @@
                         "end":"14:55",
                         "title":"Objets connectés : démystification",
                         "format":"conference",
-                        "room":""
+                        "room":"Molène"
                      },
                      {
                         "id":24,
@@ -23,7 +23,7 @@
                         "end":"17:00",
                         "title":"NodeSchool : workshops NodeJS en self-service",
                         "format":"hands-on",
-                        "room":""
+                        "room":"Molène"
                      }
                   ]
                },
@@ -36,7 +36,7 @@
                         "end":"17:00",
                         "title":"Buy a game",
                         "format":"hands-on",
-                        "room":""
+                        "room":"Groix"
                      }
                   ]
                },
@@ -102,7 +102,7 @@
                         "end":"17:00",
                         "title":"Devoxx4Kids",
                         "format":"hands-on",
-                        "room":""
+                        "room":"Ouessant"
                      }
                   ]
                },
@@ -115,7 +115,7 @@
                         "end":"17:00",
                         "title":"LabFab",
                         "format":"hands-on",
-                        "room":""
+                        "room":"Bréhat"
                      }
                   ]
                }

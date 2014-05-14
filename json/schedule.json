@@ -94,13 +94,13 @@
                   ]
                },
                {
-                  "type":"BreizhKids",
+                  "type":"Devoxx4Kids",
                   "proposals":[
                      {
-                        "id":0,
+                        "id":1001,
                         "start":"14:00",
                         "end":"17:00",
-                        "title":"BreizhKids",
+                        "title":"Devoxx4Kids",
                         "format":"hands-on",
                         "room":""
                      }

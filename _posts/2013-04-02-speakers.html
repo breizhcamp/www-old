@@ -95,13 +95,13 @@ label: Speakers
             <div id="speaker{{speaker.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="speakerLabel{{speaker.id}}" aria-hidden="true">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="speakerLabel{{speaker.id}}">{{speaker.fullname}}</h3>
+                    <h3 id="speakerLabel{{speaker.id}}">{{speaker.fullName}}</h3>
                 </div>
                 <div class="modal-body">
                     <p ng-bind-html-unsafe="getSafeDescription(speaker.description)"></p>
-                    <p><b ng-show="speaker.liens.length > 0"><u>Liens :</u></b>
+                    <p><b ng-show="speaker.links.length > 0"><u>Liens :</u></b>
                     <ul>
-                        <li ng-repeat="lien in speaker.liens"><a href="{{lien.url}}" target="_blank">{{lien.label}}</a></li>
+                        <li ng-repeat="link in speaker.links"><a href="{{link.url}}" target="_blank">{{link.label}}</a></li>
                     </ul>
                     </p>
                 </div>
@@ -112,7 +112,7 @@ label: Speakers
             <div id="talks{{speaker.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="talkLabel{{speaker.id}}" aria-hidden="true">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 id="talkLabel{{speaker.id}}">Talks présentés par {{speaker.fullname}}</h4>
+                    <h4 id="talkLabel{{speaker.id}}">Talks présentés par {{speaker.fullName}}</h4>
                 </div>
                 <div class="modal-body">
                     <div ng-repeat="talk in speaker.proposals">
@@ -141,7 +141,7 @@ label: Speakers
 
             $scope.loading = true;
 
-            $http.jsonp("http://breizhcamp.call-for-papers.io/accepted/speakers/jsonp?callback=JSON_CALLBACK")
+            $http.jsonp("http://breizhcamp.call-for-papers.io/speakers?status=A&jsonp=JSON_CALLBACK")
                     .success(function(data) {
 
                         $scope.speakers = data;

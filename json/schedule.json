@@ -102,7 +102,7 @@
                         "end":"17:00",
                         "title":"Devoxx4Kids",
                         "format":"hands-on",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      }
                   ]
                },
@@ -134,7 +134,7 @@
                         "end":"10:00",
                         "title":"Keynote",
                         "format":"keynote",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      }
                   ]
                },
@@ -155,7 +155,7 @@
                         "end":"14:55",
                         "title":"We Are Family",
                         "format":"conference",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":26,
@@ -192,7 +192,7 @@
                         "end":"12:30",
                         "title":"Vulnérabilité des applications web : théorie et pratique",
                         "format":"hands-on",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":160,
@@ -200,7 +200,7 @@
                         "end":"13:15",
                         "title":"Yeoman, génère moi un générateur",
                         "format":"quickie",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":131,
@@ -208,7 +208,7 @@
                         "end":"13:45",
                         "title":"Branchez Node.js à votre compteur EDF",
                         "format":"quickie",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":72,
@@ -224,7 +224,7 @@
                         "end":"17:00",
                         "title":"Angular from scratch",
                         "format":"hands-on",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":91,
@@ -232,7 +232,7 @@
                         "end":"18:00",
                         "title":"faire un jeu sur Leap Motion en Java",
                         "format":"tools in action",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":75,
@@ -240,7 +240,7 @@
                         "end":"18:35",
                         "title":"Vagrant pour les développeurs",
                         "format":"tools in action",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      }
                   ]
                },
@@ -261,7 +261,7 @@
                         "end":"14:55",
                         "title":"Continuous Delivery chez Capitaine Train",
                         "format":"conference",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":34,
@@ -346,7 +346,7 @@
                         "end":"18:00",
                         "title":"5 ingrédients pour pimenter Elasticsearch",
                         "format":"tools in action",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":23,
@@ -367,7 +367,7 @@
                         "end":"11:25",
                         "title":"Une partie de cache-cache",
                         "format":"conference",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":124,
@@ -375,7 +375,7 @@
                         "end":"12:25",
                         "title":"Le tour de Varnish en 80 jours",
                         "format":"conference",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":44,
@@ -407,7 +407,7 @@
                         "end":"15:55",
                         "title":"Approche des architectures micro-services",
                         "format":"conference",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":70,
@@ -415,7 +415,7 @@
                         "end":"16:55",
                         "title":"Créer des jeux 3D pour le web",
                         "format":"conference",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":136,
@@ -431,7 +431,7 @@
                         "end":"18:35",
                         "title":"Centralisez vos logs avec logstash",
                         "format":"tools in action",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      }
                   ]
                }
@@ -450,7 +450,7 @@
                         "end":"10:00",
                         "title":"Keynote",
                         "format":"keynote",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      }
                   ]
                },
@@ -487,7 +487,7 @@
                         "end":"15:55",
                         "title":"Demarrer avec Docker",
                         "format":"conference",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":54,
@@ -516,7 +516,7 @@
                         "end":"12:30",
                         "title":"Démarrer avec SaltStack",
                         "format":"hands-on",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":55,
@@ -524,7 +524,7 @@
                         "end":"13:15",
                         "title":"Développer en Java et en Caleçon",
                         "format":"quickie",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":140,
@@ -532,7 +532,7 @@
                         "end":"13:45",
                         "title":"Dur d'être à son compte : mythe && réalité",
                         "format":"quickie",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":144,
@@ -540,7 +540,7 @@
                         "end":"14:55",
                         "title":"Faire agile c'est bien, être agile c'est mieux, vivre agile c'est...",
                         "format":"conference",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":53,
@@ -556,7 +556,7 @@
                         "end":"17:25",
                         "title":"Trois bonnes raisons de travailler avec agilité",
                         "format":"conference",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":32,
@@ -564,7 +564,7 @@
                         "end":"18:00",
                         "title":"Soyez Productifs ! \"I MEAN it !\"",
                         "format":"tools in action",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      }
                   ]
                },
@@ -577,7 +577,7 @@
                         "end":"11:25",
                         "title":"Dart, it's Angular too!",
                         "format":"conference",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":78,
@@ -617,7 +617,7 @@
                         "end":"15:55",
                         "title":"RxJava + Java8 pour sortir de l'enfer des Callback",
                         "format":"conference",
-                        "room":"Ouessant"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":79,
@@ -654,7 +654,7 @@
                         "end":"12:25",
                         "title":"De zéro à héros en 5 minutes avec Spring Boot",
                         "format":"conference",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":62,
@@ -662,7 +662,7 @@
                         "end":"14:55",
                         "title":"HTML5 Gaming",
                         "format":"conference",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":22,
@@ -686,7 +686,7 @@
                         "end":"18:00",
                         "title":"AngularJS à 60fps",
                         "format":"tools in action",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      }
                   ]
                },
@@ -747,7 +747,7 @@
                         "end":"17:25",
                         "title":"Mutualiser du code natif multiplateforme",
                         "format":"conference",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Ouessant"
                      },
                      {
                         "id":85,

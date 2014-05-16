@@ -5,6 +5,14 @@
     "description": "Le mercredi après-midi, vous pourrez venir voir fonctionner de multiples machines du LabFab :\n\n- Fraiseuse\n- Imprimante 3D\n- Arduino\n- Robot humanoïde\n-Montages divers et variés\n\nUne initiation à Processing (http://processing.org/) sera également proposée pour permettre de relier le monde réel au monde virtuel.",
     "format": "Hands-on",
     "speakers": [
+       {
+        "id": 1002,
+        "fullname": "Thomas Meghe"
+      },
+      {
+        "id": 1003,
+        "fullname": "John Lejeune"
+      }
       ],
     "track": "Hardware"
    },{

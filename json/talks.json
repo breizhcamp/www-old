@@ -1,5 +1,13 @@
 [
-  {
+   {
+    "id": 149,
+    "title": "LabFab",
+    "description": "Le mercredi après-midi, vous pourrez venir voir fonctionner de multiples machines du LabFab :\n\n- Fraiseuse\n - Imprimante 3D\n - Arduino\n - Robot humanoïde\n -Montages divers et variés\n\nUne initiation à Processing (http://processing.org/) sera également proposée pour permettre de relier le monde réel au monde virtuel.",
+    "format": "Hands-on",
+    "speakers": [
+      ],
+    "track": "Hardware"
+   },{
     "id": 149,
     "title": "NAO Connected",
     "description": "Afin d'illustrer la conférence \"Objets connectés : démystification\", et principalement dans un contexte Domotique orienté service, nous proposons un \"POC\" maison autour de différents objets connectés tels que : NAO, la STB et notre indispensable \"Smartphone\".\n\nLe robot NAO dans un futur proche fait partie de notre quotidien, acheté chez IKEA il s'intègre parfaitement à notre habitat. A l'image d'un autre objet connecté Karotz, NAO se connecte à internet, récupère nos mails, nous propose d'extraire nos photos de vacances et de les afficher sur notre écran 50. \n\nVous nous direz,  ça existe déjà !!!! Oui mais nous on vous explique comment ça marche !!!!!",

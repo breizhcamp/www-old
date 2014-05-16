@@ -124,6 +124,13 @@ a {
     font-size:large;
 }
 
+.versionPdf {
+  float: right;
+  background: transparent url(../img/pdf-icon.png) no-repeat left center;
+  line-height: 32px;
+  padding-left: 35px;
+}
+
 .violet {
     color: rgb(153, 0, 255);
 }
@@ -309,10 +316,3 @@ a {
     width: 250px;
     line-height: 50px;
 }
-
-
-
-
-
-
-

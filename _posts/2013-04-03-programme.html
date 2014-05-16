@@ -16,23 +16,25 @@ label: Programme
         }
 
         .fc-event { cursor: pointer; }
-        
+
     </style>
 
     <div class="container" ng-app="Programme" ng-controller="ProgrammeCtrl">
         <h3 ng-show="loading">Chargement du programme...</h3>
 
         <div id="programme" class="ng-cloak">
-        
+
+            <a href="../programme.pdf" target="_blank" class="versionPdf">Version PDF</a>
+
             <div class="room">
                 <label>Salle
                    <select ng-model="room" ng-change="loadAllCalendar()">
                        <option value="">Toutes</option>
-                       <option value="Belle-Île-en-Mer">Belle-Île-en-Mer</option>
+                       <option value="Ouessant">Ouessant</option>
+                       <option value="Molène">Molène</option>
                        <option value="Groix">Groix</option>
                        <option value="Bréhat">Bréhat</option>
-                       <option value="Molène">Molène</option>
-                       <option value="Ouessant">Ouessant</option>
+                       <option value="Belle-Île-en-Mer">Belle-Île-en-Mer</option>
                    </select>
                 </label>
             </div>
@@ -168,7 +170,7 @@ label: Programme
                            timeInField = talk.end.split(':');
                            var endHour = parseInt(timeInField[0]);
                            var endMinutes = parseInt(timeInField[1]);
-   
+
                            var event = {
                                title: talk.title + (talk.room ? " (" + talk.room + ")" : ''),
                                start: new Date(year, month-1, day, startHour,startMinutes),

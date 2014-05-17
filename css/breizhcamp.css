@@ -131,6 +131,14 @@ a {
   padding-left: 35px;
 }
 
+.appMobile {
+  float: right;
+  background: transparent url(../img/icon_smartphone.png) no-repeat left center;
+  line-height: 32px;
+  padding-left: 35px;
+  margin-right: 15px;
+}
+
 .violet {
     color: rgb(153, 0, 255);
 }

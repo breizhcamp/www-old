@@ -49,7 +49,7 @@
                         "end":"14:30",
                         "title":"NAO Connected",
                         "format":"tools in action",
-                        "room":""
+                        "room":"Hall"
                      },
                      {
                         "id":100,
@@ -57,39 +57,39 @@
                         "end":"15:00",
                         "title":"Démo ORA Smart Glasses",
                         "format":"tools in action",
-                        "room":""
+                        "room":"Hall"
                      },
                      {
-                        "id":149,
+                        "id":1004,
                         "start":"15:00",
                         "end":"15:30",
                         "title":"NAO Connected",
                         "format":"tools in action",
-                        "room":""
+                        "room":"Hall"
                      },
                      {
-                        "id":100,
+                        "id":1005,
                         "start":"15:30",
                         "end":"16:00",
                         "title":"Démo ORA Smart Glasses",
                         "format":"tools in action",
-                        "room":""
+                        "room":"Hall"
                      },
                      {
-                        "id":149,
+                        "id":1006,
                         "start":"16:00",
                         "end":"16:30",
                         "title":"NAO Connected",
                         "format":"tools in action",
-                        "room":""
+                        "room":"Hall"
                      },
                      {
-                        "id":100,
+                        "id":1007,
                         "start":"16:30",
                         "end":"17:00",
                         "title":"Démo ORA Smart Glasses",
                         "format":"tools in action",
-                        "room":""
+                        "room":"Hall"
                      }
                   ]
                },

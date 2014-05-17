@@ -1,5 +1,18 @@
 [
    {
+    "id": 1008,
+    "title": "Faire la conception en équipe sans architecte, non mais allô quoi ?",
+    "description": "\"Les équipes s'auto-organisent afin de faire émerger les meilleures architectures, spécifications et conceptions.\" C'est sur ce principe du manifeste agile que se base la notion d'équipe auto-organisée de Scrum. En pratique, beaucoup d'entreprises qui ont mis en place Scrum gardent leurs architectes dans leurs tours d'ivoire. \n\nC'est une décision normale car peut-on imaginer qu'une équipe puisse concevoir une architecture ? Et puis soyons sérieux, est-ce qu'un design par des développeurs pourrait être meilleur que celui d'un architecte ? Qu'allez-vous faire de vos architectes sinon ?\n\nÀ travers un retour d'expérience, nous verrons qu'effectivement confier l'architecture aux équipes n'est pas rentable si ce n'est pas fait intelligemment. En revanche, si la conception en équipe est bien maîtrisée, les bénéfices iront bien au-delà du cercle des développeurs. Nous identifierons également quelques pièges à éviter et des astuces pour faciliter la conception en équipe.",
+    "format": "Conférence",
+    "speakers": [
+       {
+        "id": 74,
+        "fullname": "Ly-Jia Goldstein",
+	"avatar": "https://www.gravatar.com/avatar/643b080c3c880aa0e69d1fecce01336f?d=http%3A%2F%2Fm.c.lnkd.licdn.com%2Fmpr%2Fmprx%2F0_ndxXK8SNFAM8FIK-nDuBKig4FqpKbm8-qawUKiY64AH8ZoBtVf7HO_oHdsy7XWTOBogVxkhLgW4d"
+       }
+      ],
+    "track": "Agilité"
+   },{
     "id": 1002,
     "title": "LabFab",
     "description": "Le mercredi après-midi, vous pourrez venir voir fonctionner de multiples machines du LabFab :\n\n- Fraiseuse\n- Imprimante 3D\n- Arduino\n- Robot humanoïde\n-Montages divers et variés\n\nUne initiation à Processing (http://processing.org/) sera également proposée pour permettre de relier le monde réel au monde virtuel.",

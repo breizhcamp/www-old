@@ -32,6 +32,38 @@
       ],
     "track": "Hardware"
    },{
+    "id": 1004,
+    "title": "NAO Connected",
+    "description": "Afin d'illustrer la conférence \"Objets connectés : démystification\", et principalement dans un contexte Domotique orienté service, nous proposons un \"POC\" maison autour de différents objets connectés tels que : NAO, la STB et notre indispensable \"Smartphone\".\n\nLe robot NAO dans un futur proche fait partie de notre quotidien, acheté chez IKEA il s'intègre parfaitement à notre habitat. A l'image d'un autre objet connecté Karotz, NAO se connecte à internet, récupère nos mails, nous propose d'extraire nos photos de vacances et de les afficher sur notre écran 50. \n\nVous nous direz,  ça existe déjà !!!! Oui mais nous on vous explique comment ça marche !!!!!",
+    "format": "Tools in Action",
+    "speakers": [
+      {
+        "id": 1000,
+        "fullname": "Gaël Durand"
+      },
+      {
+        "id": 1001,
+        "fullname": "Lamine Cheniki"
+      }
+      ],
+    "track": "Hardware"
+   },{
+    "id": 1006,
+    "title": "NAO Connected",
+    "description": "Afin d'illustrer la conférence \"Objets connectés : démystification\", et principalement dans un contexte Domotique orienté service, nous proposons un \"POC\" maison autour de différents objets connectés tels que : NAO, la STB et notre indispensable \"Smartphone\".\n\nLe robot NAO dans un futur proche fait partie de notre quotidien, acheté chez IKEA il s'intègre parfaitement à notre habitat. A l'image d'un autre objet connecté Karotz, NAO se connecte à internet, récupère nos mails, nous propose d'extraire nos photos de vacances et de les afficher sur notre écran 50. \n\nVous nous direz,  ça existe déjà !!!! Oui mais nous on vous explique comment ça marche !!!!!",
+    "format": "Tools in Action",
+    "speakers": [
+      {
+        "id": 1000,
+        "fullname": "Gaël Durand"
+      },
+      {
+        "id": 1001,
+        "fullname": "Lamine Cheniki"
+      }
+      ],
+    "track": "Hardware"
+   },{
     "id": 148,
     "title": "Objets connectés : démystification",
     "description": "Depuis quelques années, les objets connectés font partie intégrante de notre quotidien : ils nous assistent dans nos tâches ; ils nous aident à nous rendre plus efficaces et performants ; ils nous maintiennent en bonne santé ; ils assurent notre protection… Et cette liste est loin d’être exhaustive. Les meilleurs consultants évaluent ainsi à plusieurs dizaines de milliards d’objets connectés en circulation dès 2020 pour un marché pesant plusieurs milliers de milliards d’euros. Les domaines d’application sont tellement nombreux qu’il est possible d’avancer que n’importe quel domaine peut en bénéficier.\n\nLe premier temps de présentation sera dédié aux usages actuels et futurs : Santé avec la surveillance des signes vitaux ; domotique avec le contrôle de sa maison ; sécurité avec la surveillance de ses biens, ....\n\nDans un second temps, décortiquons ces objets connectés, quelles sont les technologies embarquées dans ces objets ?\n\nPour finir, focusons sur la maison intelligente. Il est fini le temps de la domotique simple et orientée appareil avec une interface minimaliste. Désormais, nous sommes passés à la maison intelligente complexe et orientée service, capable de communiquer et de s’adapter à ses habitants en toute harmonie. Quels sont les besoins et enjeux de demain ?\n\nCette conférence sera illustrée lors du Tools In Action : **NAO Connected**",
@@ -1680,6 +1712,46 @@
   },
   {
     "id": 100,
+    "title": "Présentation de la Plateforme de RA ORA-1",
+    "description": "The ORA-1 is a best in class hands free wireless see-through wearable display platform in the form of digital eyewear allowing hands-free mobile computing applications. It is based on Optinvent\u0027s patented Clear-Vu display engine. ORA-1 will enable many yet unimagined \"always-on\" hands free mobile applications including geo-localization (GPS), sports, messaging, situation awareness, and more. It can be connected via a standard wi-fi connection to a smartphone or tablet and will act as a hands-free wearable computer.\n\nOptinvent\u0027s ORA-1 is the most viable product to achieve widespread industry and consumer acceptance for AR glasses based on its bright, see-through, large field of view display with true seethrough capability. Furthermore, the display has a patented \"Flip-Vu\" feature which can position the virtual image in full augmented reality mode (directly in the user\u0027s line of sight), and a dashboard mode (below the user\u0027s line of sight). Along with the patented display engine, the ORA-1 includes a WiFi and Bluetooth connectivity, front facing camera, 9 axis motion sensor, ambient light sensor, microphone, loudspeaker, and a high capacity rechargeable battery.\n\nOptinvent\u0027s ORA-1 is a standalone Android based device.",
+    "format": "quickie",
+    "speakers": [
+      {
+        "id": 158,
+        "fullname": "Valentin de Montis",
+        "avatar": "https://www.gravatar.com/avatar/26d614c1960049e08b8eb1f74495fd7d",
+        "liens": [
+          {
+            "label": "Linked-in",
+            "url": "https://www.linkedin.com/pub/valentin-de-montis/46/155/674"
+          }
+        ]
+      }
+    ],
+    "track": "Tooling"
+  },
+{
+    "id": 1005,
+    "title": "Présentation de la Plateforme de RA ORA-1",
+    "description": "The ORA-1 is a best in class hands free wireless see-through wearable display platform in the form of digital eyewear allowing hands-free mobile computing applications. It is based on Optinvent\u0027s patented Clear-Vu display engine. ORA-1 will enable many yet unimagined \"always-on\" hands free mobile applications including geo-localization (GPS), sports, messaging, situation awareness, and more. It can be connected via a standard wi-fi connection to a smartphone or tablet and will act as a hands-free wearable computer.\n\nOptinvent\u0027s ORA-1 is the most viable product to achieve widespread industry and consumer acceptance for AR glasses based on its bright, see-through, large field of view display with true seethrough capability. Furthermore, the display has a patented \"Flip-Vu\" feature which can position the virtual image in full augmented reality mode (directly in the user\u0027s line of sight), and a dashboard mode (below the user\u0027s line of sight). Along with the patented display engine, the ORA-1 includes a WiFi and Bluetooth connectivity, front facing camera, 9 axis motion sensor, ambient light sensor, microphone, loudspeaker, and a high capacity rechargeable battery.\n\nOptinvent\u0027s ORA-1 is a standalone Android based device.",
+    "format": "quickie",
+    "speakers": [
+      {
+        "id": 158,
+        "fullname": "Valentin de Montis",
+        "avatar": "https://www.gravatar.com/avatar/26d614c1960049e08b8eb1f74495fd7d",
+        "liens": [
+          {
+            "label": "Linked-in",
+            "url": "https://www.linkedin.com/pub/valentin-de-montis/46/155/674"
+          }
+        ]
+      }
+    ],
+    "track": "Tooling"
+  },
+  {
+    "id": 1007,
     "title": "Présentation de la Plateforme de RA ORA-1",
     "description": "The ORA-1 is a best in class hands free wireless see-through wearable display platform in the form of digital eyewear allowing hands-free mobile computing applications. It is based on Optinvent\u0027s patented Clear-Vu display engine. ORA-1 will enable many yet unimagined \"always-on\" hands free mobile applications including geo-localization (GPS), sports, messaging, situation awareness, and more. It can be connected via a standard wi-fi connection to a smartphone or tablet and will act as a hands-free wearable computer.\n\nOptinvent\u0027s ORA-1 is the most viable product to achieve widespread industry and consumer acceptance for AR glasses based on its bright, see-through, large field of view display with true seethrough capability. Furthermore, the display has a patented \"Flip-Vu\" feature which can position the virtual image in full augmented reality mode (directly in the user\u0027s line of sight), and a dashboard mode (below the user\u0027s line of sight). Along with the patented display engine, the ORA-1 includes a WiFi and Bluetooth connectivity, front facing camera, 9 axis motion sensor, ambient light sensor, microphone, loudspeaker, and a high capacity rechargeable battery.\n\nOptinvent\u0027s ORA-1 is a standalone Android based device.",
     "format": "quickie",

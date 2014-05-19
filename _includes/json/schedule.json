@@ -15,7 +15,7 @@
                         "end":"14:55",
                         "title":"Objets connectés : démystification",
                         "format":"conference",
-                        "room":"Molène"
+                        "room":"Belle-Île-en-Mer"
                      },
                      {
                         "id":24,
@@ -23,7 +23,7 @@
                         "end":"17:00",
                         "title":"NodeSchool : workshops NodeJS en self-service",
                         "format":"hands-on",
-                        "room":"Molène"
+                        "room":"Belle-Île-en-Mer"
                      }
                   ]
                },
@@ -36,7 +36,7 @@
                         "end":"17:00",
                         "title":"Buy a game",
                         "format":"hands-on",
-                        "room":"Groix"
+                        "room":"Bréhat"
                      }
                   ]
                },
@@ -102,7 +102,7 @@
                         "end":"17:00",
                         "title":"Devoxx4Kids",
                         "format":"hands-on",
-                        "room":"Belle-Île-en-Mer"
+                        "room":"Molène"
                      }
                   ]
                },
@@ -115,7 +115,7 @@
                         "end":"17:00",
                         "title":"LabFab",
                         "format":"hands-on",
-                        "room":"Bréhat"
+                        "room":"Groix"
                      }
                   ]
                }

@@ -394,10 +394,10 @@
                         "room":"Molène"
                      },
                      {
-                        "id":150,
+                        "id":84,
                         "start":"14:00",
                         "end":"14:55",
-                        "title":"Maitriser le Temps: Event Sourcing",
+                        "title":"Voteriez-vous pour un Web Déconnecté ?",
                         "format":"conference",
                         "room":"Bréhat"
                      },
@@ -535,10 +535,10 @@
                         "room":"Belle-Île-en-Mer"
                      },
                      {
-                        "id":144,
+                        "id":105,
                         "start":"14:00",
                         "end":"14:55",
-                        "title":"Faire agile c'est bien, être agile c'est mieux, vivre agile c'est...",
+                        "title":"Google Glass - Ma première application",
                         "format":"conference",
                         "room":"Belle-Île-en-Mer"
                      },
@@ -734,10 +734,10 @@
                         "room":"Bréhat"
                      },
                      {
-                        "id":0,
+                        "id":144,
                         "start":"15:00",
                         "end":"15:55",
-                        "title":"Voteriez-vous pour un Web Déconnecté ?",
+                        "title":"Faire agile c'est bien, être agile c'est mieux, vivre agile c'est...",
                         "format":"conference",
                         "room":"Bréhat"
                      },

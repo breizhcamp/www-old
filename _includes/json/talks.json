@@ -822,6 +822,30 @@
     "track": "Cloud et BigData"
   },
   {
+    "id": 84,
+    "title": "Voteriez-vous pour un Web Déconnecté ?",
+    "description": "Le protocole HTTP, à la base du Web, est sans état et déconnecté.\n\nL'aspect 'sans état' a bonne presse actuellement grâce au style d'architecture REST. Qu'en est-il de la propriété 'déconnecté' ? Est-ce raisonnable de continuer à créer des applications web 'connectées' alors que le protocole de communication est, lui, déconnecté ?\n\nNous allons aborder dans cette session : \n\n* Ce qu'est une application déconnectée\n* Un tour d'horizon des usages\n* Le cas particulier du navigateur : ce qu'il est possible de faire et les limites associées\n* Le mode déconnecté et les patterns de programmation réactive\n* Ce que serait le Web si les développeurs décidaient, dès à présent, de 'Penser Déconnecté'.",
+    "format": "Conférence",
+    "speakers": [
+      {
+        "id": 149,
+        "fullname": "Rossi ODDET",
+        "avatar": "https://www.gravatar.com/avatar/7b3ffda0746f3f4503b7a3094ec1ef95?d\u003dhttps%3A%2F%2Flh5.googleusercontent.com%2F-iSNVdvJODm4%2FAAAAAAAAAAI%2FAAAAAAAAATo%2FnUJfAPF-mW4%2Fphoto.jpg",
+        "liens": [
+          {
+            "label": "Twitter",
+            "url": "https://twitter.com/rossioddet"
+          },
+          {
+            "label": "Blog",
+            "url": "http://blog.roddet.com"
+          }
+        ]
+      }
+    ],
+    "track": "Web et Mobile"
+  },
+  {
     "id": 85,
     "title": "Ionic In Action",
     "description": "Ionic est un framework permettant de construire des applications mobiles hybrides avec HTML5. Il propose un modèle de programmation reposant sur des briques technologiques existantes (AngularJS, Sass, etc.).\n\nCette session vous propose en 30 min une présentation de Ionic et une démonstration.",

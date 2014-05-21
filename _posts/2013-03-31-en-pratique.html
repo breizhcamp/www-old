@@ -5,6 +5,29 @@ label: En pratique
 
 <h3>En pratique</h3>
 
+<h4>Prochains bus à partir du breizhcamp (ligne 4)</h4>
+
+{% raw %}
+<div ng-app ng-controller="BusCtrl">
+<ul>
+	<li ng-repeat="prochainDepart in prochainsDeparts">{{prochainDepart | date : 'HH:mm:ss'}}</li>
+</ul>
+</div>
+
+<script type="text/javascript">
+	function BusCtrl($scope, $http) {
+		$scope.tutu = "tata";
+		$http.jsonp("http://bus.breizhcamp.eu.cloudbees.net/next?CALLBACK=JSON_CALLBACK")
+            .success(function(data) {
+                $scope.prochainsDeparts = data;
+                for (var i=0;i<$scope.prochainsDeparts.length;i++) {
+                	// Désolé...
+                	$scope.prochainsDeparts[i] = $scope.prochainsDeparts[i].replace("Z", "+0200");
+                }
+            });
+	}
+</script>
+{% endraw %}
 
 <h4>Voyage</h4>
 

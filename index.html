@@ -14,7 +14,8 @@
         'track3': '#87A10F',
         'track4': '#F67906',
         'track5': '#5D5094',
-        'track6': '#9D3FC9'
+        'track6': '#9D3FC9',
+        'break': '#eee'
     };
     var formatIcons = {
         'Autres': 'fa-gears',
@@ -75,6 +76,7 @@
                             room: talk.room,
                             allDay: false,
                             color: trackColors[track.type],
+                            textColor: 'black',
                             format: talk.format
                         };
                         events.push(event);

@@ -1,0 +1,752 @@
+{
+  "titre": "breizhcamp",
+  "programme": {
+    "jours": [{
+      "title": "day1",
+      "date": "10/06/2015",
+      "tracks": [{
+        "type": "track1",
+        "proposals": [{
+          "id": "GXE-0181",
+          "start": "14:00",
+          "end": "15:55",
+          "title": "Lego Collaboration game - adultes et enfants",
+          "format": "Autres",
+          "room": "TBD"
+        },
+        {
+          "id": "CRS-9058",
+          "start": "16:30",
+          "end": "17:25",
+          "title": "Lego 4 Devops",
+          "format": "Autres",
+          "room": "TBD"
+        },
+        {
+          "id": "FTC-0794",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "Des jeux et énigmes \"grandeur nature\" avec Raspberry Pi, Arduino et de l'électronique",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track2",
+        "proposals": [{
+          "id": "GFP-9786",
+          "start": "14:00",
+          "end": "17:25",
+          "title": "Mesos University",
+          "format": "Autres",
+          "room": "TBD"
+        },
+        {
+          "id": "NVC-0472",
+          "start": "17:30",
+          "end": "18:25",
+          "title": "Coder son jeu de shoot 2D avec HTML5 et Javascript",
+          "format": "Conférence",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track3",
+        "proposals": [{
+          "id": "WLN-4787",
+          "start": "14:00",
+          "end": "15:55",
+          "title": "Java Superstar",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "MTN-5373",
+          "start": "16:30",
+          "end": "18:25",
+          "title": "Hands on Kibana 4",
+          "format": "Lab",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track4",
+        "proposals": [{
+          "id": "EAW-9531",
+          "start": "14:00",
+          "end": "16:55",
+          "title": "DevConferences, l'annuaire des conférences et communautés de développeurs en France",
+          "format": "Hackaton",
+          "room": "TBD"
+        },
+        {
+          "id": "OHD-9075",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "Java EE en 30 minutes",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        },
+        {
+          "id": "QHI-8405",
+          "start": "18:00",
+          "end": "18:25",
+          "title": "Les bons outils CSS font les bons ouvriers du Web",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      }]
+    },
+    {
+      "title": "day2",
+      "date": "11/06/2015",
+      "tracks": [{
+        "type": "keynote",
+        "proposals": [{
+          "id": "TBD",
+          "start": "09:00",
+          "end": "09:55",
+          "title": "KeyNote jeudi",
+          "format": "Keynote",
+          "room": "amphi"
+        }]
+      },
+      {
+        "type": "track1",
+        "proposals": [{
+          "id": "BDY-5360",
+          "start": "10:30",
+          "end": "12:25",
+          "title": "Mindstorms4Scrum - l'agilité en codant",
+          "format": "Hand's on Labs",
+          "room": "TBD"
+        },
+        {
+          "id": "NFI-6145",
+          "start": "13:00",
+          "end": "13:15",
+          "title": "Comment git a sauvé notre projet (ou presque)",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "BWN-5658",
+          "start": "14:00",
+          "end": "14:55",
+          "title": "On a connecté le Studio !",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "PRB-2103",
+          "start": "15:00",
+          "end": "15:55",
+          "title": "La technique de la bulle",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "KAG-5932",
+          "start": "16:30",
+          "end": "17:25",
+          "title": "BDD & Cucumber - features first",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "CJQ-5273",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "Infrastructure as a code avec PowerShell DSC",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        },
+        {
+          "id": "EYM-5983",
+          "start": "18:00",
+          "end": "18:25",
+          "title": "Modulariser son application AngularJS avec Browserify",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track2",
+        "proposals": [{
+          "id": "PPU-2384",
+          "start": "10:30",
+          "end": "12:25",
+          "title": "Hand's on Web Components with Polymer",
+          "format": "Hand's on Labs",
+          "room": "TBD"
+        },
+        {
+          "id": "LQY-9418",
+          "start": "13:00",
+          "end": "13:15",
+          "title": "Savoir faire le deuil de son code",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "HRG-4766",
+          "start": "14:00",
+          "end": "14:55",
+          "title": "Introduction to Android Wear - A Glimpse Into the Future",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "NJF-3989",
+          "start": "15:00",
+          "end": "15:55",
+          "title": "ASP.NET 5  et MVC 6 : la révolution est en marche",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "VMG-5038",
+          "start": "16:30",
+          "end": "17:25",
+          "title": "L'expérience utilisateur est importante pour nous",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "FTJ-9395",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "Déboguage de JavaScript",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        },
+        {
+          "id": "XOF-2187",
+          "start": "18:00",
+          "end": "18:25",
+          "title": "Développer des applications multiplateformes facilement à l'aide de Ionic",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track3",
+        "proposals": [{
+          "id": "MHR-6960",
+          "start": "10:30",
+          "end": "11:25",
+          "title": "Cryptography : THE swiss army knife of secured APIs",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "ZGZ-8998",
+          "start": "11:30",
+          "end": "12:25",
+          "title": "Venez découvrir CDI, la perle de Java EE ! ",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "EXS-7794",
+          "start": "13:00",
+          "end": "13:15",
+          "title": "Forger son propre clavier. Pourquoi ? Comment ?",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "NYC-2865",
+          "start": "13:30",
+          "end": "13:45",
+          "title": "Créez une véritable application kiosque avec Android Lollipop",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "OTL-6921",
+          "start": "14:00",
+          "end": "14:55",
+          "title": "DIY : Java Static Analysis",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "YKG-8055",
+          "start": "15:00",
+          "end": "15:55",
+          "title": "LP4J, a song of Java, MIDI and websockets",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "BND-7435",
+          "start": "16:30",
+          "end": "17:25",
+          "title": "Everything you wanted to know about writing async, high-concurrency HTTP applications in Java, but were afraid to ask",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "KHP-2295",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "MQTT en action",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        },
+        {
+          "id": "VWC-7991",
+          "start": "18:00",
+          "end": "18:25",
+          "title": "OpenBCI ou comment lire dans les pensées en Java",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track4",
+        "proposals": [{
+          "id": "QSZ-1636",
+          "start": "10:30",
+          "end": "11:25",
+          "title": "Sculpter votre infrastructure avec Terraform",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "DDO-8160",
+          "start": "11:30",
+          "end": "12:25",
+          "title": "[Le Dev et l'Ops] Docker en production ?",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "EGH-3031",
+          "start": "13:00",
+          "end": "13:15",
+          "title": "F**k your code - with style",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "ZXE-2599",
+          "start": "13:30",
+          "end": "13:45",
+          "title": "Security matters",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "SGC-7345",
+          "start": "14:00",
+          "end": "14:55",
+          "title": "Premiers pas avec Docker",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "XXU-3862",
+          "start": "15:00",
+          "end": "15:55",
+          "title": "Introduction au Software Defined Networking",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "TNY-9911",
+          "start": "16:30",
+          "end": "17:25",
+          "title": "Advanced search for your legacy application",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "IAQ-2630",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "Merci Docker, tu m'as aidé à respecter les SLA de mon service Support Client.",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        },
+        {
+          "id": "TBD",
+          "start": "18:00",
+          "end": "18:25",
+          "title": "Docktor Monitoring Stack",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track5",
+        "proposals": [{
+          "id": "YTT-5400",
+          "start": "10:30",
+          "end": "11:25",
+          "title": "De Java à Erlang, je suis toujours vivant!",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "WWD-5815",
+          "start": "11:30",
+          "end": "12:25",
+          "title": "Groovy, son histoire, son oeuvre !",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "BKA-5177",
+          "start": "14:00",
+          "end": "14:55",
+          "title": "Introduction à Rust",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "JOH-4392",
+          "start": "15:00",
+          "end": "15:55",
+          "title": "Pourquoi PHP ?",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "WGE-9820",
+          "start": "16:30",
+          "end": "17:25",
+          "title": "Rest groovy, man!",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "AXE-2491",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "D3js par l'exemple",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track6",
+        "proposals": [{
+          "id": "LJF-6972",
+          "start": "14:00",
+          "end": "15:55",
+          "title": "Initiation au Machine Learning avec Spark",
+          "format": "Hand's on Labs",
+          "room": "TBD"
+        }]
+      }
+      ]
+    },
+    {
+      "title": "day3",
+      "date": "12/06/2015",
+      "tracks": [{
+        "type": "keynote",
+        "proposals": [{
+          "id": "",
+          "start": "9:00",
+          "end": "10:00",
+          "title": "Keynote",
+          "format": "Keynote",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track1",
+        "proposals": [{
+          "id": "IOD-0638",
+          "start": "10:30",
+          "end": "11:25",
+          "title": "Haskell : du sol au plafond ",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        },
+        {
+          "id": "AVE-3614",
+          "start": "11:30",
+          "end": "12:25",
+          "title": "Passez à ES6 dès aujourd'hui avec BabelJS",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "QSK-3510",
+          "start": "14:00",
+          "end": "14:55",
+          "title": "Stockage et analyse temps réel d'événements avec Riak chez Booking.com",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "SSS-9318",
+          "start": "15:00",
+          "end": "15:55",
+          "title": "Comment (ne pas réussir à) modéliser ses data dans Elasticsearch",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "KZY-0431",
+          "start": "16:30",
+          "end": "17:25",
+          "title": "Apache Lucene",
+          "format": "Conférence",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track2",
+        "proposals": [{
+          "id": "TSF-4040",
+          "start": "10:30",
+          "end": "11:25",
+          "title": "Et la diversité dans tout ça ? ",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "LIP-2417",
+          "start": "11:30",
+          "end": "12:25",
+          "title": "Changing the wheel of a moving car - faire évoluer l'infra sans interruption ",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "NWS-3930",
+          "start": "13:00",
+          "end": "13:15",
+          "title": "Thermosmart, le thermostat connecté ",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "TZD-6114",
+          "start": "13:30",
+          "end": "13:45",
+          "title": "TDD: is it all about tests ? ",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "ATJ-4642",
+          "start": "14:00",
+          "end": "14:55",
+          "title": "Microplugins avec Docker",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "XBR-5060",
+          "start": "15:00",
+          "end": "15:55",
+          "title": "Déploiement incrémental chez Pages Jaunes : feature flipping et traffic manager",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "DPI-6386",
+          "start": "16:30",
+          "end": "17:25",
+          "title": "Les développeurs aussi maîtrisent le systemd",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "QBY-7723",
+          "start": "17:30",
+          "end": "18:00",
+          "title": "Retour vers le (passé|futur)* avec Git",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track3",
+        "proposals": [{
+          "id": "LNX-9869",
+          "start": "10:30",
+          "end": "11:25",
+          "title": "Angular 2, Le Réveil de la Force",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "EKC-0429",
+          "start": "11:30",
+          "end": "12:25",
+          "title": "Tester une application Javascript ",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "TYR-8750",
+          "start": "13:00",
+          "end": "13:15",
+          "title": "Refactoring avec 1,22% de code couvert par les tests ... Golden Master testing à la rescousse ! ",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "DHA-6726",
+          "start": "13:30",
+          "end": "13:45",
+          "title": "Travailler dans une startup la tête dans les nuages ",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "KCI-8164",
+          "start": "14:00",
+          "end": "14:55",
+          "title": "Designing Capitaine Train Mobile Experience",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "JWD-7708",
+          "start": "15:00",
+          "end": "15:55",
+          "title": "Latence applicative et API en streaming",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "YKF-0326",
+          "start": "16:30",
+          "end": "17:25",
+          "title": "45 outils pour doper votre front-end",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "KEC-1221",
+          "start": "17:30",
+          "end": "18:00",
+          "title": "DevOps dans ton chat !",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track4",
+        "proposals": [{
+          "id": "WZN-5052",
+          "start": "10:30",
+          "end": "11:25",
+          "title": "The Art of Parsing",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "OJO-6750",
+          "start": "11:30",
+          "end": "11:25",
+          "title": "Not only SQL avec PostgreSQL",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "RPB-2839",
+          "start": "13:00",
+          "end": "13:15",
+          "title": "History of cryptography : the sod Machofeminist way",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "KPY-0613",
+          "start": "13:00",
+          "end": "13:45",
+          "title": "Dropwizard en un éclair",
+          "format": "Quickie",
+          "room": "TBD"
+        },
+        {
+          "id": "OMG-8971",
+          "start": "14:00",
+          "end": "14:55",
+          "title": "Hashons peu mais hashons bien",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "MYR-5569",
+          "start": "15:00",
+          "end": "15:55",
+          "title": "JHipster, le générateur d'applications Spring + AngularJS",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "MYR-5569",
+          "start": "16:30",
+          "end": "17:25",
+          "title": "Python après 15 ans de JAVA",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "MYR-5569",
+          "start": "17:30",
+          "end": "18:00",
+          "title": "Gulp Fiction : surveiller, tester, builder, livrer... sans tomber dans les poms",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track5",
+        "proposals": [{
+          "id": "DOI-7300",
+          "start": "10:30",
+          "end": "11:25",
+          "title": "Broker de messages Kafka, retour d'expérience",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "UFF-0999",
+          "start": "11:30",
+          "end": "12:25",
+          "title": "Performance Pudding, une recette simple et économique.",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "IOT-0245",
+          "start": "14:00",
+          "end": "14:55",
+          "title": "A Saner Management for a Multi-facet Development Environment with Vagrant and Docker",
+          "format": "Conférence",
+          "room": "TBD"
+        },
+        {
+          "id": "VFQ-1867",
+          "start": "15:00",
+          "end": "15:55",
+          "title": "MongoDB et Elastic{search}, meilleurs ennemis ?",
+          "format": "Conférence",
+          "room": "TBD"
+        }]
+      },
+      {
+        "type": "track6",
+        "proposals": [{
+          "id": "PRP-8244",
+          "start": "10:30",
+          "end": "12:25",
+          "title": "Kanbanzine : comment aborder Kanban de manière ludique",
+          "format": "Tools-in-Action",
+          "room": "TBD"
+        }]
+      }]
+    }]
+  }
+}

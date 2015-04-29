@@ -434,10 +434,10 @@
           "room": "TBD"
         },
         {
-          "id": "TBD",
-          "start": "18:00",
-          "end": "18:25",
-          "title": "Docktor Monitoring Stack",
+          "id": "MYR-5569",
+          "start": "17:30",
+          "end": "18:00",
+          "title": "Gulp Fiction : surveiller, tester, builder, livrer... sans tomber dans les poms",
           "format": "Tools-in-Action",
           "room": "TBD"
         }]
@@ -787,10 +787,10 @@
           "room": "TBD"
         },
         {
-          "id": "MYR-5569",
-          "start": "17:30",
-          "end": "18:00",
-          "title": "Gulp Fiction : surveiller, tester, builder, livrer... sans tomber dans les poms",
+          "id": "TBD",
+          "start": "18:00",
+          "end": "18:25",
+          "title": "Docktor Monitoring Stack",
           "format": "Tools-in-Action",
           "room": "TBD"
         }]

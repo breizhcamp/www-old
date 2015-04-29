@@ -29,6 +29,14 @@
           "title": "Des jeux et énigmes \"grandeur nature\" avec Raspberry Pi, Arduino et de l'électronique",
           "format": "Tools-in-Action",
           "room": "TBD"
+        },
+        {
+          "id": "VUJ-5031",
+          "start": "18:00",
+          "end": "18:25",
+          "title": "Débuter avec Apache Storm",
+          "format": "Tools-in-Action",
+          "room": "TBD"  
         }]
       },
       {
@@ -74,7 +82,7 @@
         "proposals": [{
           "id": "EAW-9531",
           "start": "14:00",
-          "end": "16:55",
+          "end": "17:25",
           "title": "DevConferences, l'annuaire des conférences et communautés de développeurs en France",
           "format": "Hackaton",
           "room": "TBD"

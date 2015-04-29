@@ -122,14 +122,6 @@
           "room": "TBD"
         },
         {
-          "id": "NFI-6145",
-          "start": "13:00",
-          "end": "13:15",
-          "title": "Comment git a sauvé notre projet (ou presque)",
-          "format": "Quickie",
-          "room": "TBD"
-        },
-        {
           "id": "BWN-5658",
           "start": "14:00",
           "end": "14:55",
@@ -188,6 +180,14 @@
           "format": "Quickie",
           "room": "TBD"
         },
+        {
+          "id": "NFI-6145",
+          "start": "13:30",
+          "end": "13:45",
+          "title": "Comment git a sauvé notre projet (ou presque)",
+          "format": "Quickie",
+          "room": "TBD"
+        },        
         {
           "id": "HRG-4766",
           "start": "14:00",

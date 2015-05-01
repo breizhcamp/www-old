@@ -1,0 +1,1189 @@
+[
+    {
+        "description": "Le but de cet atelier est de faire collaborer des enfants et des adultes pour construire une machine a r\u00e9action en chaine avec des Lego. \r\nPendant la construction, Aur\u00e9lien prendra en graphic recording (facilitation graphique) les remarques et les points marquants qui ressortiront pendant l'atelier.\r\nA la fin de l'atelier, une r\u00e9trospective sera r\u00e9alis\u00e9e avec les enfants pour exprimer ce qu'ils ont aim\u00e9 et ce qu'ils am\u00e9lioreraient s'ils pouvaient refaire l'atelier", 
+        "format": "Tools-in-Action", 
+        "id": "GXE-0181", 
+        "speakers": [
+            {
+                "fullname": "Aur\u00e9lien Morvant", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/d3412204cfa55cd12d488475f234b883fed3afd9"
+            }, 
+            {
+                "fullname": "Damien ROQUEL", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/4ea2bfa2e9fce562781bc24de29f1224c2fbd4ad"
+            }
+        ], 
+        "title": "Lego Collaboration game - adultes et enfants", 
+        "track": ""
+    }, 
+    {
+        "description": "Cette atelier ludique vous invite \u00e0 vivre la vie de d\u00e9veloppeurs et d'op\u00e9rationnels qui doivent mettre un produit \u00e0 disposition des utilisateurs.\r\n\r\nComp\u00e9tences requises: Savoir manipuler des legos \r\n\r\nA travers ce jeu, vous comprendrez l'importance du mouvement DevOps dans la r\u00e9ussite des projets informatiques.  ", 
+        "format": "Autres formats de conf\u00e9rence", 
+        "id": "CRS-9058", 
+        "speakers": [
+            {
+                "fullname": "S\u00e9bastien Fauvel", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/7c553a4b165ea79bd3d66ff1ad94cc833cbe4f50"
+            }
+        ], 
+        "title": "Lego 4 Devops", 
+        "track": ""
+    }, 
+    {
+        "description": "Vous connaissez sans doute les \"escape rooms\", ces jeux vid\u00e9os dans lesquels il faut sortir d'une salle en r\u00e9solvant des \u00e9nigmes... mais saviez-vous qu'il existe \u00e9galement des escape room \"grandeur nature\" ?\r\nL'association B.R.A.I.N. \u00e0 Rennes propose ce type d'activit\u00e9, avec 2 salles dans lesquelles vous \u00eates enferm\u00e9s en \u00e9quipe, avec 1 heure pour r\u00e9soudre les \u00e9nigmes et sortir.\r\nAyant trouv\u00e9 le concept g\u00e9nial, j'ai propos\u00e9 de les aider \u00e0 r\u00e9aliser leur 3\u00e8me salle en ajoutant des \u00e9nigmes bas\u00e9es sur l'\u00e9lectronique, Arduino et RPi. Dans cet Hacker Space je vous pr\u00e9senterai quelques r\u00e9alisations...\r\n", 
+        "format": "Tools-in-Action", 
+        "id": "FTC-0794", 
+        "speakers": [
+            {
+                "fullname": "Sylvain R\u00e9v\u00e9reault", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/79d6d96c347168a9813699bfee80e5fb40228d36"
+            }
+        ], 
+        "title": "Des jeux et \u00e9nigmes \"grandeur nature\" avec Raspberry Pi, Arduino et de l'\u00e9lectronique", 
+        "track": ""
+    }, 
+    {
+        "description": "Besoin de compter les moutons pour vous endormir ? Laissez faire Storm ! Alors qu'Hadoop ne vous donnera le r\u00e9sultat qu'\u00e0 votre r\u00e9veil, Storm peut le faire en temps r\u00e9el.\r\n\r\nCe Tools In Action vous permettra d'une part de d\u00e9couvrir l'outil et son interface de gestion, mais vous montrera aussi la simplicit\u00e9 pour cr\u00e9er sa propre cha\u00eene de traitement.", 
+        "format": "Tools-in-Action", 
+        "id": "VUJ-5031", 
+        "speakers": [
+            {
+                "fullname": "Cl\u00e9ment Juste", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/b3713ee84b6c14bb7960623a4d85350299593bdf"
+            }
+        ], 
+        "title": "D\u00e9buter avec Apache Storm", 
+        "track": ""
+    }, 
+    {
+        "description": "Apache Mesos apporte une abstraction des ressources CPU, m\u00e9moire et stockage, d'un ensemble de machines (physiques ou virtuelles). Un cluster Mesos forme un syst\u00e8me distribu\u00e9, tol\u00e9rant \u00e0 la panne et permettant de scaler les services d\u00e9ploy\u00e9s. Venez d\u00e9couvrir fonctionnalit\u00e9s, strat\u00e9gies de d\u00e9ploiement, et son \u00e9cosyst\u00e8me qui apporte scalabilit\u00e9 et d\u00e9couverte de services. Nous visiterons un cluster h\u00e9bergeant une application Play, du InfluxDB, du Grafana, dont certains dans des containers Docker. Pour finir, nous jouerons au Chaos Monkey afin de prouver la r\u00e9silience du syst\u00e8me mis en place.", 
+        "format": "Autres formats de conf\u00e9rence", 
+        "id": "GFP-9786", 
+        "speakers": [
+            {
+                "fullname": "Aur\u00e9lien Maury", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/0dccad8554a9fb25ceaab997be0b3998f3d57bc3"
+            }, 
+            {
+                "fullname": "Pablo Lopez", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/fbeacaccc082a6ecb97c53b83b7c9a6b477249a6"
+            }, 
+            {
+                "fullname": "Jean-Baptiste Claramonte", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/0c06a5b0eb901f40f6ff992df1e7174b1dab463d"
+            }, 
+            {
+                "fullname": "Jean-Pascal Thiery", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/27af91355b6304ad9d2387b956fc032150b2a632"
+            }
+        ], 
+        "title": "Mesos University", 
+        "track": ""
+    }, 
+    {
+        "description": "Venez d\u00e9couvrir comment coder votre propre jeu de shoot 2D old school.\r\nNous verrons en d\u00e9tail comment fonctionnent l'animation graphique, la gestion du clavier, la musique, la d\u00e9tection des collisions, l'automatisation des ennemis, un peu de math\u00e9matiques et le moteur g\u00e9n\u00e9ral de jeu.", 
+        "format": "Conf\u00e9rence", 
+        "id": "NVC-0472", 
+        "speakers": [
+            {
+                "fullname": "Alan Menant", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/e59d9ce66fa118ca27689ec25f73f283c73b76ba"
+            }
+        ], 
+        "title": "Coder son jeu de shoot 2D avec HTML5 et Javascript", 
+        "track": ""
+    }, 
+    {
+        "description": "2h pour savourer quelques morceaux choisis de la formation \"_Masterclass Expertise Java_\"  d'Olivier Croisier\r\n\r\nLa Masterclass Expertise Java est un cursus d'\u00e9lite visant \u00e0 former les meilleurs leaders techniques et architectes Java. En 4 jours intenses, les futurs experts acquerront une compr\u00e9hension claire des principes de conception des principales API du JDK, ainsi que des d\u00e9tails techniques de leur impl\u00e9mentation. Un fort accent sera mis sur les performances, la robustesse du code et les bonnes pratiques industrielles.", 
+        "format": "Hand's on Labs", 
+        "id": "WLN-4787", 
+        "speakers": [
+            {
+                "fullname": "Olivier Croisier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/b462c88b3fed6718e5693cf67d530fd8ffb271a2"
+            }
+        ], 
+        "title": "Masterclass Expertise Java", 
+        "track": ""
+    }, 
+    {
+        "description": "Kibana 4 est la derni\u00e8re version de la plate-forme de visualisation d'Elastic. Elle permet de donner forme \u00e0 vos donn\u00e9es et fournit des dashboards temps r\u00e9el au dessus de votre cluster Elasticsearch.\r\nDans cet atelier, nous allons parcourir toutes les \u00e9tapes de construction de dashboards Kibana 4, faisant parler de mani\u00e8re presque instantan\u00e9e de tr\u00e8s gros volumes de donn\u00e9es. Nous allons utiliser les fonctionnalit\u00e9s avanc\u00e9es d'Elasticsearch comme les agr\u00e9gations hi\u00e9rarchiques et quelques fonctionnalit\u00e9s phare de Kibana 4 comme la navigation avec des interfaces sophistiqu\u00e9es et le partage de dashboards.", 
+        "format": "Hand's on Labs", 
+        "id": "MTN-5373", 
+        "speakers": [
+            {
+                "fullname": "Lucian Precup", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/e1dbce5d6e6743287401b8abdeed76408740e7de"
+            }, 
+            {
+                "fullname": "Nicolas Giraud", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/a15d86a35bc282fd27aad3d793cd9d26ca3207b5"
+            }
+        ], 
+        "title": "Hands on Kibana 4", 
+        "track": ""
+    }, 
+    {
+        "description": "Le site [DevConferences.org](http://www.devconferences.org) permet de lister les conf\u00e9rences et communaut\u00e9s de d\u00e9veloppeurs en France.\r\n\r\nLa version 1 actuellement en ligne est un simple site statique r\u00e9alis\u00e9 avec Jekyll sur Github pages. Chacun peut contribuer en faisant une pull request.\r\n\r\nL'objectif de ce Hackaton est de mettre en ligne la version 2 ! Une version plus dynamique, avec des fonctionnalit\u00e9s telles que la recherche avanc\u00e9e par ville ou cat\u00e9gorie, la gestion de notifications, la gestion d'agendas, des statistiques sur les conf\u00e9rences, etc ...", 
+        "format": "Hackaton", 
+        "id": "EAW-9531", 
+        "speakers": [
+            {
+                "fullname": "S\u00e9bastien Prunier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/809da953e557d60714a52cbc655ea3483f43e1cb"
+            }, 
+            {
+                "fullname": "Chris Woodrow", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/02496209ad79f5f33926319d1ddeaba80fde9dfd"
+            }, 
+            {
+                "fullname": "Mathieu ANCELIN", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/311bcc7b196c80dd4ee5236f06872a951982aa3e"
+            }
+        ], 
+        "title": "DevConferences, l'annuaire des conf\u00e9rences et communaut\u00e9s de d\u00e9veloppeurs en France", 
+        "track": ""
+    }, 
+    {
+        "description": "Un projet Java EE pour faire du CRUD c'est : 4j pour un pom.xml, 12j pour les entities, 24j pour une couche de service, 19j pour des pages web et 11j pour \u00e9crire les tests! Mais non !!! Je vous fais tout \u00e7a en 30 minutes top chrono avec JBoss Forge.... et j'aurai m\u00eame le temps de vous montrer les entrailles de Forge et comment l'\u00e9tendre pour r\u00e9pondre \u00e0 vos besoins.", 
+        "format": "Tools-in-Action", 
+        "id": "OHD-9075", 
+        "speakers": [
+            {
+                "fullname": "Antonio Goncalves", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/17b46aebf003f4795a92cd2fe66ba1d3d88436f5"
+            }
+        ], 
+        "title": "Java EE en 30 minutes", 
+        "track": ""
+    }, 
+    {
+        "description": "Le CSS est un pilier de la programmation Web et son int\u00e9r\u00eat n\u2019est plus \u00e0 justifier. Pourtant il ne suscite pas franchement l\u2019enthousiasme parmi de nombreux d\u00e9veloppeurs. Cela se traduit g\u00e9n\u00e9ralement par des d\u00e9veloppements \u201c\u00e0 d\u00e9faut\u201d pour en arriver \u00e0 des feuilles de styles chaotiques lors de la maintenance.\r\n\r\nDans cette session, voyons pourquoi il est temps de s\u2019y int\u00e9resser s\u00e9rieusement et surtout comment reprendre le contr\u00f4le d\u2019une production CSS de qualit\u00e9 et ma\u00eetris\u00e9e gr\u00e2ce \u00e0 un outillage adapt\u00e9.", 
+        "format": "Tools-in-Action", 
+        "id": "QHI-8405", 
+        "speakers": [
+            {
+                "fullname": "Alvin Berthelot", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/237a3dc45ec7650188bce38e5797edbbf5c33511"
+            }
+        ], 
+        "title": "Les bons outils CSS font les bons ouvriers du Web", 
+        "track": ""
+    }, 
+    {
+        "description": "Nous proposons ici de relever un challenge simple en construisant un robot qui est capable de mouvement\r\nles fonctionnels d\u00e9finiront les US\r\nles d\u00e9veloppeurs/testeurs programmeront le robot et le construirons\r\nBien sur le tout, sans plan et en appliquant une m\u00e9thode agile\r\nSeul pr\u00e9-requis : avoir 10 ou plus\r\n", 
+        "format": "Hand's on Labs", 
+        "id": "BDY-5360", 
+        "speakers": [
+            {
+                "fullname": "Aur\u00e9lien Morvant", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/d3412204cfa55cd12d488475f234b883fed3afd9"
+            }, 
+            {
+                "fullname": "Simon JAILLAIS", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/2a1447e32cf9a054dca4322d432420cb883056ac"
+            }
+        ], 
+        "title": "Mindstorms4Scrum - l'agilit\u00e9 en codant", 
+        "track": ""
+    }, 
+    {
+        "description": "Vous souhaitez voir \u00e0 quoi ressemble un environnement de travail connect\u00e9 ? Venez voir notre exp\u00e9rience du Studio connect\u00e9 !\r\nDe l\u2019installation des capteurs dans les bureaux du Studio \u00e0 l\u2019envoi des donn\u00e9es via MQTT  et leur analyse, \u00e0 la visualisation des informations \u00e0 travers une application mobile, vous saurez tout sur notre d\u00e9marche !\r\nMais surtout venez d\u00e9couvrir nos retours sur cette exp\u00e9rience, nos impressions et celles de nos coll\u00e8gues du Studio...\r\n\r\n", 
+        "format": "Conf\u00e9rence", 
+        "id": "BWN-5658", 
+        "speakers": [
+            {
+                "fullname": "Sameh BEN FREDJ", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/de652738867f1132700f7f659bb6c7a4c2a024f8"
+            }, 
+            {
+                "fullname": "Qian Jin", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/aa61131dd3937414f72bbc62d120987ef2204502"
+            }
+        ], 
+        "title": "On a connect\u00e9 le Studio !", 
+        "track": ""
+    }, 
+    {
+        "description": "Je voudrais vous partager quelques petits secrets. Comment, dans une startup qui livre tous les jours, d\u00e9velopper sur le long terme, mener \u00e0 bien des chantiers lourds, impliquant par exemple des changements d'infrastructures, des renommages ou des changements de technologies ?\r\n\r\nIl s'agit de refactoring, \u00e0 diff\u00e9rentes \u00e9chelles. Mais une entreprise sous pression ne se pr\u00eate pas aux grands chantiers. Il vous faut agir vite et discr\u00e8tement.\r\n\r\nPour ce faire, j'ai ma technique : la technique de la bulle.\r\n\r\ngit, du scripting, beaucoup de rigueur et un peu d'ing\u00e9niosit\u00e9 en sont les ingr\u00e9dients.", 
+        "format": "Conf\u00e9rence", 
+        "id": "PRB-2103", 
+        "speakers": [
+            {
+                "fullname": "Fr\u00e9d\u00e9ric Menou", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/b83bea316afe36c9bcb224487bab9ef93448c12d"
+            }
+        ], 
+        "title": "La technique de la bulle", 
+        "track": ""
+    }, 
+    {
+        "description": "Imaginez un projet d\u2019envergure men\u00e9 en SCRUM avec un backlog constitu\u00e9 d\u2019une multitude d\u2019US plus ou moins organis\u00e9es. Pensez-vous que ce Backlog ayant l\u2019emprunte forte de la vie courante du BUILD puisse constituer votre r\u00e9f\u00e9rentiel fonctionnel ? Nous pensons que non et nous vous proposons d\u2019aborder l\u2019approche BDD que nous avons mis en \u0153uvre avec cucumber. Mais ce n\u2019est pas tout, cette approche nous a permis de renforcer la pluridisciplinarit\u00e9 de l\u2019\u00e9quipe de delivery dont chacun des \u00e9l\u00e9ments contribue \u00e0 la constitution du r\u00e9f\u00e9rentiel.\r\n\r\nTags: BDD, Cucumber, outils, automatisation", 
+        "format": "Conf\u00e9rence", 
+        "id": "KAG-5932", 
+        "speakers": [
+            {
+                "fullname": "Renan Michaud", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/6583ecd18f37d1cc3fd0aa851c3d2077c78da20a"
+            }, 
+            {
+                "fullname": "Cyrille CAILLAUD", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/749ca65e4d4d58a7e72798fee4d4bf0ab093997d"
+            }
+        ], 
+        "title": "BDD & Cucumber - features first", 
+        "track": ""
+    }, 
+    {
+        "description": "Desired State Configuration.. quelle expression bizarre! Dans cette session, vous pourrez d\u00e9couvrir comment il est possible de scripter son infrastructure dans Azure de mani\u00e8re d\u00e9clarative et de faire du test unitaire, le tout uniquement en PowerShell. ", 
+        "format": "Tools-in-Action", 
+        "id": "CJQ-5273", 
+        "speakers": [
+            {
+                "fullname": "Fabien Dibot", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/20f258299c7baf1f0f03433f448bd7b9c185379d"
+            }
+        ], 
+        "title": "Infrastructure as a code avec PowerShell DSC", 
+        "track": ""
+    }, 
+    {
+        "description": "Et si le syst\u00e8me de modules de Node.js, simple et efficace, pouvait am\u00e9liorer notre quotidien de d\u00e9veloppeurs front-end ?\r\n\r\nL\u2019outil Browserify nous propose d\u2019adopter les standards de modularisation de Node.js pour structurer nos clients web. Il nous offre \u00e9galement l\u2019opportunit\u00e9 de g\u00e9rer nos d\u00e9pendances avec npm et de b\u00e9n\u00e9ficier ainsi de ce formidable \u00e9cosyst\u00e8me.\r\n\r\nApr\u00e8s une rapide introduction du syst\u00e8me de modules de Node.js et de Browserify, un live-coding pr\u00e9sentera les b\u00e9n\u00e9fices d\u2019une modularisation \u201c\u00e0 la Node.js\u201d d\u2019une application AngularJS.", 
+        "format": "Tools-in-Action", 
+        "id": "EYM-5983", 
+        "speakers": [
+            {
+                "fullname": "Antoine Richard", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/dd64536a0be4bd06086472603102f227130f3ced"
+            }
+        ], 
+        "title": "Modulariser son application AngularJS avec Browserify", 
+        "track": ""
+    }, 
+    {
+        "description": "The W3C has been working on a Web Components standard for almost three years, but it is still a work in progress. But polyfills like allows current developers to use Web Components today, and incorporate to their apps widgets from any library  of web components. The best known of these libraries is Google's Polymer. In this lab you will use Material Design Polymer Elements on to design and develop a web application using web components.\r\n\r\nYou will learn to use the following technologies:\r\n- Polymer and Web Components (for mobile and desktop)\r\n- The Paper Elements for Polymer (material design)\r\n\r\nMandatory Installs prior to lab:\r\n+ npm \r\n+ bower\r\n+ your favorite HTML/CSS/JS IDE (I suggest Sublime Text)", 
+        "format": "Hand's on Labs", 
+        "id": "PPU-2384", 
+        "speakers": [
+            {
+                "fullname": "Horacio Gonzalez", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/1a6ffd3489d3859681ce34f593ea3b8edb6cfaeb"
+            }, 
+            {
+                "fullname": "Audrey Neveu", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/9d720104445df34116c00ebf208e03404dfdb1b6"
+            }
+        ], 
+        "title": "Hand's on Web Components with Polymer", 
+        "track": ""
+    }, 
+    {
+        "description": "Mal coder n\u2019est pas une maladie ! Tout d\u00e9veloppeur passe par cette phase et cela peut provoquer un choc traumatique qui peut ressurgir des semaines, des mois voire des ann\u00e9es apr\u00e8s l\u2019\u00e9v\u00e8nement. Les plus fragiles n\u2019arrivent pas \u00e0 faire face \u00e0 cette souffrance et commettent des actes irr\u00e9parables comme l\u2019abandon du d\u00e9veloppement ou pire, s\u2019entourent de logiciels aguicheurs promettant de cr\u00e9er des applications sans code ! Pour s\u2019en sortir, il est important de comprendre ce que l\u2019on vit et de se faire aider. Ce quickie est l\u00e0 pour aider les d\u00e9veloppeurs en souffrance. Vous pouvez vous en sortir !", 
+        "format": "Quickie", 
+        "id": "LQY-9418", 
+        "speakers": [
+            {
+                "fullname": "Ell\u00e8ne Dijoux Siber", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/3d5f08caa8f71b11f4ecd0968cbdec1d4855050f"
+            }
+        ], 
+        "title": "Savoir faire le deuil de son code", 
+        "track": ""
+    }, 
+    {
+        "description": "Avec des versions diff\u00e9rentes du progiciel simultan\u00e9ment chez de nombreux clients, pourquoi avons-nous d\u00e9cid\u00e9 de passer de SVN \u00e0 Git ? Pourquoi notre choix s\u2019est-il port\u00e9 sur le mod\u00e8le GitFlow pour g\u00e9rer toutes les branches ? Comment s\u2019est d\u00e9roul\u00e9e cette migration ? Et surtout, sommes-nous satisfaits du r\u00e9sultat ? ", 
+        "format": "Quickie", 
+        "id": "NFI-6145", 
+        "speakers": [
+            {
+                "fullname": "C\u00e9cilia Bossard", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/25ad846ddc852cf72537bced0f9aed8b9042df84"
+            }
+        ], 
+        "title": "Comment git a sauv\u00e9 notre projet (ou presque)", 
+        "track": ""
+    }, 
+    {
+        "description": "The recent unveiling of Android Wear introduced a brand new set of challenges and opportunities for application designers and developers. Indeed, wearable computing requires designers to think in a radically different manner while offering tremendous new ways to improve people lives. This session acts as a complete overview of the new Android Wear ecosystem and explains how developers can push their existing apps to the wearable level from both a designer and a developer perspective.", 
+        "format": "Conf\u00e9rence", 
+        "id": "HRG-4766", 
+        "speakers": [
+            {
+                "fullname": "Cyril Mottier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/2e15eb74e12b2ced91aeb74046a72c2bf587d150"
+            }
+        ], 
+        "title": " Introduction to Android Wear - A Glimpse Into the Future", 
+        "track": ""
+    }, 
+    {
+        "description": "ASP.Net 5 a pour vocation de r\u00e9concilier la puissance de .NET avec les besoins de modularit\u00e9 et d'efficacit\u00e9 des plateformes web modernes. \r\nDans cette session, nous pr\u00e9senterons les principaux caract\u00e9ristiques et changements de cette nouvelle version, l'\u00e9volution d'ASP.NET MVC dans sa version 6, les nouveaut\u00e9s apport\u00e9es par Visual Studio 2015 dans ce domaine et les impacts des aspects open source et cross-platform d'ASP.NET 5.", 
+        "format": "Conf\u00e9rence", 
+        "id": "NJF-3989", 
+        "speakers": [
+            {
+                "fullname": "Benjamin Talmard", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/83029e503504b1c72a5afa1538360aca8219dd84"
+            }, 
+            {
+                "fullname": "Jean-Philippe Gouigoux", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/d57dff8f63cbe3a40a1c748d4c6314cbb1088afc"
+            }
+        ], 
+        "title": "ASP.NET 5  et MVC 6 : la r\u00e9volution est en marche", 
+        "track": ""
+    }, 
+    {
+        "description": "L'exp\u00e9rience utilisateur est une discipline peu connue et encore tr\u00e8s n\u00e9glig\u00e9e en France, en particulier lors de la conception d'applications m\u00e9tier. Pourtant, une bonne ergonomie am\u00e9liore la productivit\u00e9 et facilite l'adoption par les usagers.\r\nDans beaucoup de projets, en particulier en mode agile, le d\u00e9veloppeur participe \u00e0 la d\u00e9finition de l'interface et des fonctionnalit\u00e9s. Cette conf\u00e9rence le sensibilisera \u00e0 l'importance de l'exp\u00e9rience utilisateur et lui donnera quelques cl\u00e9s pour savoir comment l'am\u00e9liorer. ", 
+        "format": "Conf\u00e9rence", 
+        "id": "VMG-5038", 
+        "speakers": [
+            {
+                "fullname": "Florence Herrou", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/16f904190645256456e417859b692ecb03e0c8f1"
+            }
+        ], 
+        "title": "L'exp\u00e9rience utilisateur est importante pour nous", 
+        "track": ""
+    }, 
+    {
+        "description": "Vous avez c\u00e9d\u00e9 \u00e0 la mode des applications JavaScript, que ce soit pour le Front ou bien en full stack. Mais comment allez vous d\u00e9buguer votre application ? Avec des \u201calert\u201d ?\r\nSaviez vous que les consoles des navigateurs peuvent mettre en forme les objets ou bien r\u00e9soudre les piles d\u2019appels asynchrones ? Avez-vous d\u00e9j\u00e0 essay\u00e9 de modifier des valeurs ou carr\u00e9ment des fonctions pendant un d\u00e9bogage ?\r\n\r\nAu cours de ce tools in action, nous ferons un panorama des outils de d\u00e9bogage pour JavaScript et des possibilit\u00e9s qu\u2019offre ce langage.\r\n", 
+        "format": "Tools-in-Action", 
+        "id": "FTJ-9395", 
+        "speakers": [
+            {
+                "fullname": "Christophe Jollivet", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/024fb98ae59f59139731aa5ee8cf024f510278c7"
+            }
+        ], 
+        "title": "D\u00e9boguage de JavaScript", 
+        "track": ""
+    }, 
+    {
+        "description": "Cr\u00e9er une application c\u2019est chouette mais cr\u00e9er pour plusieurs plateformes (Android, iOs, ChromeOS\u2026) deviens vite fastidieux. Et si on essayait de cr\u00e9er une seule application que l'on pourrait g\u00e9n\u00e9rer pour ces plateformes? Et pourquoi on n'essaierait pas de la faire \u00e0 l'aide des outils de g\u00e9n\u00e9ration multiplateforme comme Cordova et PhoneGap, de Ionic (s\u2019appuyant sur ces outils de g\u00e9n\u00e9ration) et  des technologies web (HTML, CSS, AngularJS...)? Lors de ce TIA, je vous propose de cr\u00e9er une application en live \u00e0 l\u2019aide de Ionic.", 
+        "format": "Tools-in-Action", 
+        "id": "XOF-2187", 
+        "speakers": [
+            {
+                "fullname": "St\u00e9phanie MOALLIC", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/4f3604eb9c7a1e202a936dc045b0c39b98e76efa"
+            }
+        ], 
+        "title": "D\u00e9velopper des applications multiplateformes facilement \u00e0 l'aide de Ionic", 
+        "track": ""
+    }, 
+    {
+        "description": "Il parait que cr\u00e9er une API pour votre app Angular c'est simple ! Quand il s'agit de la s\u00e9curiser, votre API se transforme souvent en \"usine \u00e0  lisier\"... Avec des solutions souvent contre performantes et une complexit\u00e9 inutile et bien de triviales failles de s\u00e9curit\u00e9.\r\nPourtant cypher, tokens, hash et autres \"time based algorithms\" sont vos meilleurs alli\u00e9s. Venez d\u00e9couvrir comment la cryptographie vous permet de renforcer structurellement votre API sans complexifier son interface.", 
+        "format": "Conf\u00e9rence", 
+        "id": "MHR-6960", 
+        "speakers": [
+            {
+                "fullname": "S\u00e9bastien Lambour", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/3ead0851d2ea4a1a93385626497d268b7d53f962"
+            }
+        ], 
+        "title": "Cryptography : THE swiss army knife of secured APIs", 
+        "track": ""
+    }, 
+    {
+        "description": "Dans cette session, je pr\u00e9senterai CDI (Contexte & Dependency Injection), expliquerai la plupart des concepts (injection, alternatives, producteurs, intercepteurs, d\u00e9corateurs, \u00e9v\u00e9nements ...), mais aussi vous montrerai pourquoi CDI est devenu la sp\u00e9cification principale de Java EE (tout simplement car elle utilis\u00e9e dans la plupart des sp\u00e9cifications Java EE ;o). Tout ceci avec un doux m\u00e9lange de slides et de d\u00e9mos qui fonctionnent (aid\u00e9 de JBoss Forge et JRebel). CDI 2.0 \u00e9tant dans les starting blocks, je terminerai la session en vous donnant la feuille de route de cette nouvelle version.", 
+        "format": "Conf\u00e9rence", 
+        "id": "ZGZ-8998", 
+        "speakers": [
+            {
+                "fullname": "Antonio Goncalves", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/17b46aebf003f4795a92cd2fe66ba1d3d88436f5"
+            }
+        ], 
+        "title": "Venez d\u00e9couvrir CDI, la perle de Java EE !", 
+        "track": ""
+    }, 
+    {
+        "description": "Faire son propre clavier, du mat\u00e9riel au logiciel, mais diable pourquoi ? Mais diable comment ? Nous r\u00e9pondrons \u00e0 toutes ces questions que vous ne vous \u00eates jamais pos\u00e9es.", 
+        "format": "Quickie", 
+        "id": "EXS-7794", 
+        "speakers": [
+            {
+                "fullname": "Guillaume Collic", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/8a4f3f1fee2feefab582e98253bbbad2df4bd236"
+            }
+        ], 
+        "title": "Forger son propre clavier. Pourquoi ? Comment ?", 
+        "track": ""
+    }, 
+    {
+        "description": "Vous voulez exposer votre tablette \u00e0 vos clients, leurs donner acc\u00e8s \u00e0 une application sans pour autant qu'ils puissent installer d'applications ou changer les param\u00e8tres ? C'est conf\u00e9rence est pour vous !\r\n \r\nUne des nouveaut\u00e9s d'Android Lollipop est d'apporter un ensemble d'API \"pour les espaces de travail et l'\u00e9ducation\". Nous verrons, en 15 minutes, comment tirer parti de ces API - notamment  autour du Screen Pinning et du Device Policy Manager -  pour cr\u00e9er une application Android Lollipop (API 21) type \"Kiosque\", pour restreindre les utilisateurs \u00e0 n'utiliser qu'une application sp\u00e9cifique. \r\n\r\nCe talk peut r\u00e9pondre \u00e0 des besoins clients pr\u00e9cis qui souhaitent ouvrir leurs tablettes au public tout en en limitant l'usage : showrooms, agences & services publics, bar & restaurants, centre a\u00e9r\u00e9s, \u00e9coles, etc..", 
+        "format": "Quickie", 
+        "id": "NYC-2865", 
+        "speakers": [
+            {
+                "fullname": "Florent DUPONT", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/401ad1a4b71994b15f558c88c750d86133e3f00f"
+            }
+        ], 
+        "title": "Cr\u00e9ez une v\u00e9ritable application kiosque avec Android Lollipop", 
+        "track": ""
+    }, 
+    {
+        "description": "L'analyse statique permet de detecter des bugs et des probl\u00e8mes dans votre code sans l'executer. Cette pr\u00e9sentation vous promet, en toute simplicit\u00e9, d'ecrire votre propre analyseur pour Java bas\u00e9 sur SonarQube. Pour y arriver il faudra comprendre les challenges d'analyse du langage, du parsing \u00e0 l'execution symbolique,  pour pouvoir coder des v\u00e9rifications specifiques \u00e0 vos projets ! ", 
+        "format": "Conf\u00e9rence", 
+        "id": "OTL-6921", 
+        "speakers": [
+            {
+                "fullname": "Nicolas PERU", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/5d1d12db41e59e80952d00f33c6473432edd49a9"
+            }
+        ], 
+        "title": "DIY : Java Static Analysis", 
+        "track": ""
+    }, 
+    {
+        "description": "C'est l'histoire d'un mec qui voulait jouer avec un Launchpad pour devenir le prochain Daft Punk. Mais comme c'\u00e9tait plus difficile que pr\u00e9vu, il a pr\u00e9f\u00e9r\u00e9 d\u00e9velopper une API Java pour piloter l'appareil et lui trouver des usages inattendus. \r\n\r\nPuis, comme tout le monde n'a pas de Launchpad chez soi, le mec (sympa) a d\u00e9velopp\u00e9 un \u00e9mulateur web temps r\u00e9el ultra-moderne avec du Vertx embedded, des websockets et du SVG.\r\n\r\nVous l'avez devin\u00e9, le mec en question, c'est moi, et je vous attends nombreux pour une session color\u00e9e et interactive !", 
+        "format": "Conf\u00e9rence", 
+        "id": "YKG-8055", 
+        "speakers": [
+            {
+                "fullname": "Olivier Croisier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/b462c88b3fed6718e5693cf67d530fd8ffb271a2"
+            }
+        ], 
+        "title": "LP4J, a song of Java, MIDI and websockets", 
+        "track": ""
+    }, 
+    {
+        "description": "With tens of millions of clients continuously downloading binaries from our repositories, we decided to offer an OSS client that natively supports these downloads.\r\nIn this talk, we will share the main challenges in developing a highly-concurrent, resumable, async download library on top of Apache HTTP client. We will cover other libraries we tested and why we decided to reinvent the wheel. We will see important pitfalls we came across when working with HTTP and how using the right combination of techniques can improve performance by an order of magnitude. We will also see why your initial assumptions may completely change when faced with other players on the network.\r\nConsider yourself forewarned: lots of HTTP internals, NIO and concurrency ahead!", 
+        "format": "Conf\u00e9rence", 
+        "id": "BND-7435", 
+        "speakers": [
+            {
+                "fullname": "Fred Simon", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/099381b9b1baa7d47ee44b93cc7113db64774c4e"
+            }
+        ], 
+        "title": "Everything you wanted to know about writing async, high-concurrency HTTP applications in Java, but were afraid to ask", 
+        "track": ""
+    }, 
+    {
+        "description": "L'internet des objets est un sujet 'hype' et de nombreux joujous sortent r\u00e9guli\u00e8rement sur le march\u00e9. Seuls, ces objets vous lasseront vite ! Il faut un moyen de les faire communiquer et pouvoir r\u00e9cup\u00e9rer (et traiter) les donn\u00e9es associ\u00e9es.\r\nMQTT est un protocole standardis\u00e9 r\u00e9cemment \u00e0 l'OASIS. Il est con\u00e7u (entre autre) pour les objets connect\u00e9s et est donc un incontournable du domaine.\r\nAu del\u00e0 de la pr\u00e9sentation du protocole, cette pr\u00e9sentation montrera MQTT en action avec du code et des d\u00e9mos avec des objets vari\u00e9s (dont un clone du thermostat NEST r\u00e9alis\u00e9 en DIY).", 
+        "format": "Tools-in-Action", 
+        "id": "KHP-2295", 
+        "speakers": [
+            {
+                "fullname": "Laurent HUET", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/250af81330bb52de5dfae8dce450d5b72191419f"
+            }
+        ], 
+        "title": "MQTT en action", 
+        "track": ""
+    }, 
+    {
+        "description": "Open BCI est un \u00e9lectro-enc\u00e9phalogramme en kit opensource (Brain Computer Interface) permettant de lire les diff\u00e9rentes ondes provenant de nos cerveaux (EEG), de nos muscles (EMG) et de notre coeur (EKG). Gr\u00e2ce aux outils fournis avec le kit et \u00e0 la nature opensource du projet, les possibilit\u00e9s sont sont infinies :-)\r\n\r\nDans cette session nous verrons comment acc\u00e9der \u00e0 toutes les mesures offertes par le kit, comment les traiter et peut-\u00eatre comment piloter vos application par la pens\u00e9e \u00e0 travers divers exemples et d\u00e9mos. ", 
+        "format": "Tools-in-Action", 
+        "id": "VWC-7991", 
+        "speakers": [
+            {
+                "fullname": "Mathieu ANCELIN", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/311bcc7b196c80dd4ee5236f06872a951982aa3e"
+            }
+        ], 
+        "title": "OpenBCI ou comment lire dans les pens\u00e9es en Java", 
+        "track": ""
+    }, 
+    {
+        "description": "Terraform est un outil Open-Source, d\u00e9velopp\u00e9 en Go, d\u00e9velopp\u00e9 par les cr\u00e9ateurs de Vagrant, Packer, Consul & Serf. \r\n\r\nQuand Les outils comme Puppet, Chef ou Ansible vous permettent de provisionner des machines d\u00e9j\u00e0 en place, Terraform permet de manager une infrastructure virtuelle de mani\u00e8re d\u00e9clarative, et multi-providers.\r\n\r\nDans ce talk, nous parlerons d\u2019\u201dInfrastructure as Code\u201d et pr\u00e9senterons comment Terraform fonctionne et comment  en profiter rapidement et efficacement ,le tout agr\u00e9ment\u00e9 d'un retour d\u2019exp\u00e9rience de son utilisation pour g\u00e9rer des infrastructures actuellement en production.", 
+        "format": "Conf\u00e9rence", 
+        "id": "QSZ-1636", 
+        "speakers": [
+            {
+                "fullname": "Julien Vey", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/692376e644585a27aafad9aa2274ec26f7645715"
+            }, 
+            {
+                "fullname": "\u00c9ric Bellemon", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/9624d8599ea99dd116179ab5afd4054093564d2c"
+            }
+        ], 
+        "title": "Sculpter votre infrastructure avec Terraform", 
+        "track": ""
+    }, 
+    {
+        "description": "Si l'int\u00e9r\u00eat de Docker pour les environnements de d\u00e9veloppement et le packaging est incontestable, les choses peuvent se compliquer lorsqu'il s'agit de pousser les containers jusqu'en prod. Dans cette conf\u00e9rence le Dev (Nicolas) et l'Ops (Sylvain) discuteront des possibilit\u00e9s offertes par Docker et son \u00e9cosyst\u00e8me pour r\u00e9pondre aux enjeux de production tels que la s\u00e9curit\u00e9, la performance et l'exploitabilit\u00e9.", 
+        "format": "Conf\u00e9rence", 
+        "id": "DDO-8160", 
+        "speakers": [
+            {
+                "fullname": "Sylvain R\u00e9v\u00e9reault", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/79d6d96c347168a9813699bfee80e5fb40228d36"
+            }, 
+            {
+                "fullname": "Nicolas De loof", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/f501a00c32061ea929c2fd75bcd36210218c7878"
+            }
+        ], 
+        "title": "[Le Dev et l'Ops] Docker en production ?", 
+        "track": ""
+    }, 
+    {
+        "description": "La grammaire de Java contient certaines subtilit\u00e9s syntaxiques qui permettent, par hasard ou mesquinerie, de jouer avec les nerfs de vos coll\u00e8gues. \r\nAvouez que ce serait dommage de s'en priver !", 
+        "format": "Quickie", 
+        "id": "EGH-3031", 
+        "speakers": [
+            {
+                "fullname": "Olivier Croisier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/b462c88b3fed6718e5693cf67d530fd8ffb271a2"
+            }
+        ], 
+        "title": "F**k your code - with style", 
+        "track": ""
+    }, 
+    {
+        "description": "La s\u00e9curit\u00e9, pourtant primordiale dans nos SI, est souvent n\u00e9glig\u00e9e par incompr\u00e9hension et consid\u00e9r\u00e9e comme la responsabilit\u00e9 d'experts en cryptographie mol\u00e9culaire.\r\n\r\nPourtant, en tant que dev / ops, j'ai \u00e9t\u00e9 amener \u00e0 diagnostiquer des probl\u00e8mes obscures de certificats avec des messages d'erreurs qui sont souvent incompr\u00e9hensible.\r\n\r\nMais je m'en suis sortie et ce domaine n'est en fait pas si complexe si on prend 15 minutes pour l'expliquer.", 
+        "format": "Quickie", 
+        "id": "ZXE-2599", 
+        "speakers": [
+            {
+                "fullname": "Mathieu Pousse", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/b4e1b616e00e912a30cab347d346a5831b8cc029"
+            }
+        ], 
+        "title": "Security matters", 
+        "track": ""
+    }, 
+    {
+        "description": "Cette pr\u00e9sentation est une introduction \u00e0 Docker. Elle s'adresse \u00e0 des\r\npersonnes qui connaissent l'environnement Linux, ont entendu parler de\r\nDocker est se demandent ce que c'est, comment \u00e7a fonctionne, pourquoi\r\ntout le monde en parle et surtout, concr\u00e8tement, ce que \u00e7a permet de faire.\r\n\r\nLa premi\u00e8re partie pr\u00e9sente ce qu'est un conteneur, en partant d'un sac\r\n\u00e0 dos et se termine par une pr\u00e9sentation de Docker \"vue d'h\u00e9licopt\u00e8re\"\r\net expliquant sur quoi Docker est construit.\r\n\r\nLa deuxi\u00e8me partie entre dans le vif sujet avec un cas concret. Elle\r\nmontre comment installer le couple Ghost/MySQL dans Docker en\r\nr\u00e9utilisant une image du hub et \"dockerisant\" Ghost. Ce qui permet de\r\npr\u00e9senter les principales bonne pratiques.\r\n\r\nEn conclusion, elle ajoute quelques pistes pour aller plus loin, en\r\nparticulier docker-compose qui permet de rejouer l'ensemble de la\r\ndeuxi\u00e8me partie en une seule commande.", 
+        "format": "Conf\u00e9rence", 
+        "id": "SGC-7345", 
+        "speakers": [
+            {
+                "fullname": "Jean-Tiare Le Bigot", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/92aeb26e2f1d8e6962ac3e8cc5ab294b9b970c4e"
+            }
+        ], 
+        "title": "Premiers pas avec Docker", 
+        "track": ""
+    }, 
+    {
+        "description": "L'approche SDN vise \u00e0 apporter la m\u00eame souplesse d'administration et d'utilisation de la couche r\u00e9seau que celle apport\u00e9e par les outils de Cloud Management sur les couches syst\u00e8mes et virtualisation, en permettant de manipuler le r\u00e9seau par des APIs, compl\u00e9tant ainsi l'approche \"infrastructure as code\".\r\nCe talk a pour but de pr\u00e9senter les principaux concepts de l'approche SDN (architecture, protocoles, outils), d'illustrer par quelques cas d'usage et d\u00e9monstrations, et de parler de l'avancement du chantier SDN ainsi que de ses limitations.", 
+        "format": "Conf\u00e9rence", 
+        "id": "XXU-3862", 
+        "speakers": [
+            {
+                "fullname": "Sylvain R\u00e9v\u00e9reault", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/79d6d96c347168a9813699bfee80e5fb40228d36"
+            }
+        ], 
+        "title": "Introduction au Software Defined Networking", 
+        "track": ""
+    }, 
+    {
+        "description": "How to mix SQL and NoSQL worlds without a revolution?\r\n\r\nThis live coding talk will show you how to add elasticsearch in your legacy application without changing all your habits. Your application will be able to have advanced search features without the need of writing complex SQL code!\r\n\r\nDavid will start from a RestX, Hibernate, Postgresql application and will add live during this session a complete integration of elasticsearch:\r\n\r\n* Why should we add NoSQL search?\r\n* bad practices (JDBC river, external batch...)\r\n* how to represent business entities in NoSQL documents?\r\n* elasticsearch beyonder project\r\n* How to live without transactions inside a transactional application?\r\n", 
+        "format": "Conf\u00e9rence", 
+        "id": "TNY-9911", 
+        "speakers": [
+            {
+                "fullname": "David Pilato", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/a0249ef2f61a29025b325afb7e76bb256412576e"
+            }
+        ], 
+        "title": "Advanced search for your legacy application", 
+        "track": ""
+    }, 
+    {
+        "description": "Pour un service support client, respecter le SLA est un objectif primordial. Le non respect des diff\u00e9rents niveaux SLA pourraient avoir des cons\u00e9quences d\u00e9sastreuses surtout en cas de crise. \r\nAvec les outils tels que Docker, il devient plus facile de maintenir les environnements \"semblables\" \u00e0 ceux du client et de pouvoir reproduire quasi-imm\u00e9diatement le probl\u00e8me report\u00e9. L'\u00e9quipe est donc capable d'apporter au client une r\u00e9ponse satisfaisante plus rapidement. \r\nCela permet d'am\u00e9liorer la r\u00e9activit\u00e9/productivit\u00e9 de l'\u00e9quipe, donc de respecter le SLA engag\u00e9.", 
+        "format": "Tools-in-Action", 
+        "id": "IAQ-2630", 
+        "speakers": [
+            {
+                "fullname": "Hung BUI", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/ecb1cb28fb9a22e6a6ad3b9b3cd6089637ac7a35"
+            }
+        ], 
+        "title": "Merci Docker, tu m'as aid\u00e9 \u00e0 respecter les SLA de mon service Support Client.", 
+        "track": ""
+    }, 
+    {
+        "description": "[Gulp](http://gulpjs.com/) est un module node.js de gestion des diff\u00e9rentes \u00e9tapes de construction (build) d'une application.\r\n\r\nCet atelier sera anim\u00e9 par Matthieu BRECHET et Lo\u00efc TRUCHOT sous la forme d'un Tools In Action (on vous fait d\u00e9couvrir l'outil dans des conditions r\u00e9elles).\r\n\r\nNiveau requis : les bases du d\u00e9veloppement en JavaScript\r\n", 
+        "format": "Tools-in-Action", 
+        "id": "KRN-1003", 
+        "speakers": [
+            {
+                "fullname": "Lo\u00efc Truchot", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/11fd8eec8ef916bd8e882c0b707b2dc6c715e028"
+            }, 
+            {
+                "fullname": "Matthieu Br\u00e9chet", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/b1f772b5cf753f38775a68a12624814f57ab9c12"
+            }
+        ], 
+        "title": "Gulp\u00a0Fiction\u00a0: surveiller, tester, builder, livrer... sans tomber dans les poms", 
+        "track": ""
+    }, 
+    {
+        "description": "Il y a quelques mois j'ai eu l'occasion de me _brutaliser_ en commen\u00e7ant une mission Erlang.\r\nCe passage a \u00e9t\u00e9 difficile mais tr\u00e8s instructif car Erlang a _une philosophie_ qui en fait vraiment un langage \u00e0 part. Ce talk donnera donc un  feedback sur ce changement, du point de vue d'un ex-d\u00e9veloppeur Android/Java.\r\nAu passage, je vous montrerais le quotidien d'un d\u00e9veloppeur Erlang et ce qui se passe dans sa t\u00eate!", 
+        "format": "Conf\u00e9rence", 
+        "id": "YTT-5400", 
+        "speakers": [
+            {
+                "fullname": "Olivier Gonthier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/f96bd89a914525fd0a2d7f83795e3af85667c519"
+            }
+        ], 
+        "title": "De Java \u00e0 Erlang, je suis toujours vivant!", 
+        "track": ""
+    }, 
+    {
+        "description": "En ann\u00e9es de chien... euh d'Open Source, c'est un projet tr\u00e8s mature, comme le prouve ses 4.5 millions de t\u00e9l\u00e9chargements par an ! Le langage Groovy est certainement le langage alternatif le plus utilis\u00e9 aujourd'hui sur la JVM.\r\nMais comment est on pass\u00e9 d'un hobby \u00e0 un projet professionnel sponsoris\u00e9 ? Quid de ses r\u00e9cents d\u00e9boires niveau funding ? Etre contributeur alors que d'autres sont pay\u00e9s, est-ce un probl\u00e8me ?\r\n\r\nVenez d\u00e9couvrir l'histoire du langage, ses r\u00e9ussites, ses drames, ses rebondissements, suspens assur\u00e9 !\r\n\r\nCe talk sera aussi l'occasion de discuter de l'Open Source professionnel !", 
+        "format": "Conf\u00e9rence", 
+        "id": "WWD-5815", 
+        "speakers": [
+            {
+                "fullname": "Guillaume Laforge", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/56c19f66be390dbf4093c4064a0797289b38c66c"
+            }, 
+            {
+                "fullname": "C\u00e9dric Champeau", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/0db6540bc3b90622c8142ec596981ced1c13d4a3"
+            }
+        ], 
+        "title": "Groovy, son histoire, son oeuvre !", 
+        "track": ""
+    }, 
+    {
+        "description": "Rust est un langage de programmation orient\u00e9 syst\u00e8mes dont les performances se veulent \u00e9quivalentes au C mais qui au contraire du C \u00e9vite quasiment tous les crashs et \u00e9limine les probl\u00e8mes lors de concurrence sur l'acc\u00e8s aux donn\u00e9es.\r\nApr\u00e8s avoir beaucoup \u00e9volu\u00e9 syntaxiquement et s\u00e9mantiquement le langage se stabilise pour la version 1.0 en cours de finalisation.\r\n\r\nSi vous en avez marre du C/C++ et recherchez un langage plus s\u00fbre, si vous venez du monde web et voulez faire du bas niveau sans vous br\u00fbler sur les pointeurs, venez d\u00e9couvrir Rust.\r\n", 
+        "format": "Conf\u00e9rence", 
+        "id": "BKA-5177", 
+        "speakers": [
+            {
+                "fullname": "Christophe Augier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/23fbec879b9b14daba85d935cf4be1b8341a3ec6"
+            }
+        ], 
+        "title": "Introduction \u00e0 Rust", 
+        "track": ""
+    }, 
+    {
+        "description": "\"Quand on est un vrai d\u00e9veloppeur, on ne fait pas de PHP !\" C'est, dans l'esprit, une remarque assez courante dans le milieu du d\u00e9veloppement. Il y a du vrai dans les propos lanc\u00e9s contre ce langage, mais cela fait-il avancer le d\u00e9bat ? Laissez moi vous parler de PHP, son pass\u00e9, son pr\u00e9sent et son futur. Car une technologie, qui fait fonctionner autant de sites Internet \u00e0 tr\u00e8s fort trafic, ne peut pas avoir que des mauvais cot\u00e9s ... ", 
+        "format": "Conf\u00e9rence", 
+        "id": "JOH-4392", 
+        "speakers": [
+            {
+                "fullname": "Frederic Bouchery", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/75807110bd0329b4c1ccf1bd35d8e827844543ed"
+            }
+        ], 
+        "title": "Pourquoi PHP ?", 
+        "track": ""
+    }, 
+    {
+        "description": "Les APIs sont partout, \u00e0 tous les coins de rue du Web !\r\nDe pr\u00e9f\u00e9rence, soyons \"rest\", dans le style, pour \u00eatre hip.\r\nEt pour \u00eatre encore plus hype, qu'est-ce qu'on peut faire de fun avec Groovy et ses APIs ?\r\nDans cette session, je vous proposer de nous int\u00e9resser \u00e0 ces APIs Web, \u00e0 l'interaction qu'on peut avoir avec un langage tel que Groovy, comment les tester avec Spock pour le petit c\u00f4t\u00e9 \"Enterprise\".", 
+        "format": "Conf\u00e9rence", 
+        "id": "WGE-9820", 
+        "speakers": [
+            {
+                "fullname": "Guillaume Laforge", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/56c19f66be390dbf4093c4064a0797289b38c66c"
+            }
+        ], 
+        "title": "Rest groovy, man!", 
+        "track": ""
+    }, 
+    {
+        "description": "Tu as d\u00e9j\u00e0 vu de jolies graphiques sur le Web cr\u00e9\u00e9s avec D3js et tu te demandes comment \u00e7a marche ?\r\nJe te propose cette session compos\u00e9e d'une s\u00e9rie de \"d\u00e9mo + explication de code\" pour te donner un aper\u00e7u du potentiel de la librairie et de ses fondements.", 
+        "format": "Tools-in-Action", 
+        "id": "AXE-2491", 
+        "speakers": [
+            {
+                "fullname": "Rossi Oddet", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/c267414b8df33907b95721087ad4663dd4cc0a94"
+            }
+        ], 
+        "title": "D3js par l'exemple", 
+        "track": ""
+    }, 
+    {
+        "description": "Savoir faire du machine learning est une comp\u00e9tence de plus en plus recherch\u00e9e de nos jours, pourtant cette discipline est loin d'\u00eatre la plus simple \u00e0 acqu\u00e9rir. Le but de cette universit\u00e9 est donc de vous initier progressivement au machine learning en commen\u00e7ant par l'impl\u00e9mentation de quelques algorithmes basiques (Kmeans, naive Bayes) en Scala. Puis, nous utiliserons les outils plus r\u00e9cents des data-scientists au travers de la librairie MLlib de Apache Spark, framework reconnu dans le domaine du machine learning et du traitement de gros volume dans l'\u00e9co-syst\u00e8me Java. Vous serez guid\u00e9 par un tutoriel et des tests unitaires (en plus des animateurs) tout au long des exercices.", 
+        "format": "Hand's on Labs", 
+        "id": "LJF-6972", 
+        "speakers": [
+            {
+                "fullname": "Mathieu Breton", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/daeab377e37617a89604540fb4ab70e23d81d78c"
+            }, 
+            {
+                "fullname": "Alban Ph\u00e9lip", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/53b6b577754673ac2bf1b909a2b198ccda7fa7e1"
+            }, 
+            {
+                "fullname": "Yoann Benoit", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/19215b819b8eed94a741f0958c7f86e0b4b3e118"
+            }
+        ], 
+        "title": "Initiation au Machine Learning avec Spark", 
+        "track": ""
+    }, 
+    {
+        "description": "D\u00e9velopper une plate-forme pour une startup implique de concilier des contraintes oppos\u00e9es: livrer rapidement du code de qualit\u00e9, avec une \u00e9quipe limit\u00e9e tout en n'insultant pas l'avenir. En tant que d\u00e9veloppeurs, il est tentant de vouloir utiliser le langage que l'on utiliser pour l'application \u00e0 toutes les \u00e9tapes du processus de d\u00e9veloppement. Surtout quand ce langage, Haskell, offre un niveau de s\u00e9curit\u00e9 \u00e0 la compilation bien sup\u00e9rieur aux alternatives disponibles. \r\n\r\nCette pr\u00e9sentation est donc un retour d'exp\u00e9rience sur notre utilisation de l'\u00e9co-syst\u00e8me Haskell pour (presque) tous les aspects du d\u00e9veloppement de notre plate-forme: serveur et services r\u00e9partis bien s\u00fbr, mais aussi syst\u00e8me de \"build\" avec Cabal et Shake, int\u00e9gration continue avec Bake, configuration de syst\u00e8mes avec Propellor. Nous y exposerons sans fard les choix que nous avons faits et leurs cons\u00e9quences, heureuses ou malheureuses, et pourquoi nous pensons que Haskell est appel\u00e9 \u00e0 se d\u00e9mocratiser...", 
+        "format": "Tools-in-Action", 
+        "id": "IOD-0638", 
+        "speakers": [
+            {
+                "fullname": "Arnaud Bailly", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/4d5d61401ff925662135805c4c0ada87f08372d2"
+            }
+        ], 
+        "title": "Haskell : du sol au plafond", 
+        "track": ""
+    }, 
+    {
+        "description": "Apr\u00e8s avoir pr\u00e9sent\u00e9 rapidement le parcours chaotique d'EcmaScript 6, nous verrons ensemble les nouvelles fonctionnalit\u00e9s apport\u00e9es par cette version : Modules, Class, Arrow Functions, Param\u00e8tres d\u00e9structur\u00e9s... Nous aborderons enfin comment int\u00e9grer d\u00e8s aujourd'hui ces nouveaut\u00e9s dans le code d'un projet via le transpileur BabelJS", 
+        "format": "Conf\u00e9rence", 
+        "id": "AVE-3614", 
+        "speakers": [
+            {
+                "fullname": "Gr\u00e9gory Houllier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/b57dde0a9688e26e8a6f11b4f99673a76ee3e210"
+            }
+        ], 
+        "title": "Passez \u00e0 ES6 d\u00e8s aujourd'hui avec BabelJS", 
+        "track": ""
+    }, 
+    {
+        "description": "Chez Booking.com, un flux constant d'\u00e9v\u00e9nements provient des diff\u00e9rents syst\u00e8mes et applications internes. Ces \"events\" sont des donn\u00e9es critiques, et doivent \u00eatre stock\u00e9s pour \u00eatre analys\u00e9s en temps r\u00e9el, ou bien sur du moyen et long terme. Ces donn\u00e9es sont tr\u00e8s peu structur\u00e9es et de nature changeante, rendant difficile l'utilisation d'outils standards d'analyse.\r\n\r\nCette pr\u00e9sentation montre comment fut construit un syst\u00e8me de stockage complet avec analyse temps-r\u00e9el, bas\u00e9 sur Riak.\r\n\r\nRiak est une base de donn\u00e9e NoSQL distribu\u00e9e hybride tr\u00e8s robuste et rapide.\r\n\r\nLes points abord\u00e9s seront: s\u00e9rialisation et aggr\u00e9gation des donn\u00e9es, la configuration de Riak, les solutions pour diminuer la consommation de bande passante du cluster, l'impl\u00e9mentation de l'analyse temps-r\u00e9el grace aux fonctions avanc\u00e9es de Riak: MapReduce, Secondary Indexes, commit-hooks.", 
+        "format": "Conf\u00e9rence", 
+        "id": "QSK-3510", 
+        "speakers": [
+            {
+                "fullname": "Damien krotkine", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/6b12a2f979182a293135b1a36808502e8cad0167"
+            }
+        ], 
+        "title": "Stockage et analyse temps r\u00e9el d'\u00e9v\u00e9nements avec Riak chez Booking.com", 
+        "track": ""
+    }, 
+    {
+        "description": "Mod\u00e9liser ses donn\u00e9es dans ElasticSearch peut para\u00eetre simple quand il s'agit de benner ses logs, mais cela se complique quand on veut y faire entrer toutes les donn\u00e9es de son m\u00e9tier, issues de diff\u00e9rents SI en prenant en compte toutes les contraintes techniques  et/ou organisationnelles d'une grosse (et ancienne) entreprise. L\u00e0, \u00e7a devient un vrai casse-t\u00eate ! ", 
+        "format": "Conf\u00e9rence", 
+        "id": "SSS-9318", 
+        "speakers": [
+            {
+                "fullname": "Bruno Bonnin", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/deeee961f87318719698761fcc1cd3289a8bd526"
+            }
+        ], 
+        "title": "Comment (ne pas r\u00e9ussir \u00e0) mod\u00e9liser ses  data dans Elasticsearch", 
+        "track": ""
+    }, 
+    {
+        "description": "En 16 ans d'existence, Lucene s'est fait une place de choix dans le monde des moteurs de recherche et fait figure de pionnier dans le monde des bases de donn\u00e9es NoSQL open-source. Con\u00e7u \u00e0 l'origine pour r\u00e9soudre des probl\u00e8mes de recherche plein texte, Lucene est aussi une alternative de plus en plus cr\u00e9dible comme document store ou moteur d'analytics. Dans cette pr\u00e9sentation je vous propose d'expliquer ce que Lucene sait faire et les grandes lignes de son fonctionnement, notamment en comparaison par rapport aux autres bases de donn\u00e9es existentes.", 
+        "format": "Conf\u00e9rence", 
+        "id": "KZY-0431", 
+        "speakers": [
+            {
+                "fullname": "Adrien Grand", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/d335baf10412c0d2addb7eeb41f6e742283f456a"
+            }
+        ], 
+        "title": "Apache Lucene", 
+        "track": ""
+    }, 
+    {
+        "description": "On entend beaucoup parler en ce moment du besoin d\u2019avoir plus de femmes dans les m\u00e9tiers du num\u00e9rique. Mais la diversit\u00e9 ne s\u2019arr\u00eate pas l\u00e0.\r\n\r\nQu'est ce qu\u2019on entend par diversit\u00e9 ?\r\nQu'est ce que \u00e7a peut apporter \u00e0 mon \u00e9quipe ?\r\nQuelles sont les bonnes pratiques ?\r\n\r\nNous tenterons de r\u00e9pondre \u00e0 ces questions lors de cette pr\u00e9sentation qui ne se veut pas moralisatrice, mais souhaite juste proposer des pistes de r\u00e9flexions sur ce d\u00e9bat.", 
+        "format": "Conf\u00e9rence", 
+        "id": "TSF-4040", 
+        "speakers": [
+            {
+                "fullname": "C\u00e9cilia Bossard", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/25ad846ddc852cf72537bced0f9aed8b9042df84"
+            }, 
+            {
+                "fullname": "H\u00e9l\u00e9na Jacob", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/d9aba1b23f72c7bfd6fa88dc7a189c583f6cb0bc"
+            }
+        ], 
+        "title": "Et la diversit\u00e9 dans tout \u00e7a ?", 
+        "track": ""
+    }, 
+    {
+        "description": "Chez CloudBees nous avons mut\u00e9 au cours des quatre derni\u00e8res ann\u00e9es de l'\u00e9tat de startup d\u00e9cousue \u00e0 celui d'un syst\u00e8me bien r\u00f4d\u00e9. Certaines d\u00e9cisions techniques initiales ont \u00e9t\u00e9 am\u00e8rement regrett\u00e9es, d'autres souffrent simplement d'obsolescence. Dans les deux cas, nous avons du g\u00e9rer l'\u00e9volution du syst\u00e8me sans que l'utilisateur n'en souffre : avec une couverture mondiale, il n'y a aucune downtime possible. \r\n\r\nPour illustrer ce challenge avec quelques exemples je vais pr\u00e9senter la migration de l'infrastructure de build-on-demand vers une solution multi-tenant, ainsi que le passage d'une solution con\u00e7ue sur mesure avec LXC \u00e0 des conteneurs Docker - dans les deux cas une transition en douceur sur plusieurs mois sans que les utilisateurs n'aient \u00e0 s'en soucier.\r\n", 
+        "format": "Conf\u00e9rence", 
+        "id": "LIP-2417", 
+        "speakers": [
+            {
+                "fullname": "Nicolas De loof", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/f501a00c32061ea929c2fd75bcd36210218c7878"
+            }
+        ], 
+        "title": "Changing the wheel of a moving car - faire \u00e9voluer l'infra sans interruption", 
+        "track": ""
+    }, 
+    {
+        "description": "Nest, Qivivo, Netatmo vous disent quelque chose ? Une d\u00e8s premi\u00e8re application des objets connect\u00e9s concerne la gestion du chauffage via le thermostat d'ambiance.\r\n\r\nDans cette pr\u00e9sentation, je parlerais du syst\u00e8me que j'ai mis en place chez moi pour r\u00e9aliser un thermostat connect\u00e9 \u00e0 base de :\r\n\r\n* raspberry pi\r\n* connecteur Z-Wave\r\n* [JeeNode](http://jeelabs.net/projects/hardware/wiki/JeeNode)\r\n* sondes de temp\u00e9ratures\r\n* mqtt\r\n\r\nVous obtenez alors un thermostat connect\u00e9 permettant de g\u00e9rer votre chauffage de n'importe o\u00f9.", 
+        "format": "Quickie", 
+        "id": "NWS-3930", 
+        "speakers": [
+            {
+                "fullname": "Alexandre Thomazo", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/7bfd2f2b1a9030d0532c90d301e58db2116db533"
+            }
+        ], 
+        "title": "Thermosmart, le thermostat connect\u00e9", 
+        "track": ""
+    }, 
+    {
+        "description": "\"Mais le Test Driven Development je connais, c'est cette technique o\u00f9 tu \u00e9cris les tests avant et tu met un temps fou avant d'\u00e9crire du vrai code ? Ils sont mignons avec leurs m\u00e9thodologies modernes mais avant on n'\u00e9crivait pas de tests et \u00e7a marchait tout aussi bien, il suffit de d\u00e9velopper sans bugs! Et puis m\u00eame il parait selon certains que dans le TDD finalement les tests, c'est pas ce qu'il y a de plus int\u00e9ressant !\"\r\n", 
+        "format": "Quickie", 
+        "id": "TZD-6114", 
+        "speakers": [
+            {
+                "fullname": "Nicolas PERU", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/5d1d12db41e59e80952d00f33c6473432edd49a9"
+            }
+        ], 
+        "title": "TDD: is it all about tests ?", 
+        "track": ""
+    }, 
+    {
+        "description": "Si vous n\u2019avez pas pass\u00e9 les 18 derniers mois dans une hutte en Mongolie, alors vous n\u2019avez pas d\u2019excuses pour ne pas avoir entendu parler de Docker. D\u00e9sormais, vous devriez conna\u00eetre cet \u201coutil\u201d indispensable \u00e0 tout bon d\u00e9veloppeur. Mais savez-vous quand le d\u00e9gainer ? Au del\u00e0 des usages de packaging, d\u00e9ploiement continu, \"microservices\"... Docker se r\u00e9v\u00e8le tr\u00e8s efficace pour r\u00e9soudre des probl\u00e9matiques de \u201cworkload\u201d Nous vous proposons d\u2019aborder Docker sous ce nouvel aspect: r\u00e9aliser une architecture modulaire \u00e0 base de conteneurs. Nous parlerons de \u201cmeta-conteneurs\u201d, Docker-in-Docker...", 
+        "format": "Conf\u00e9rence", 
+        "id": "ATJ-4642", 
+        "speakers": [
+            {
+                "fullname": "Julien Vey", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/692376e644585a27aafad9aa2274ec26f7645715"
+            }, 
+            {
+                "fullname": "\u00c9ric Bellemon", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/9624d8599ea99dd116179ab5afd4054093564d2c"
+            }
+        ], 
+        "title": "Microplugins avec Docker", 
+        "track": ""
+    }, 
+    {
+        "description": "Suite \u00e0 une refonte, comment migrer progressivement les utilisateurs d'un site grand public vers sa nouvelle version?\r\n\r\nComment activer de mani\u00e8re incr\u00e9mentale des fonctionnalit\u00e9s en production?\r\n\r\nComment d\u00e9velopper sur une seule branche dans un contexte de continuous delivery?\r\n\r\nSi vous vous posez ces questions ou si le sujet vous int\u00e9resse, nous vous pr\u00e9senterons les architectures mises en place pour r\u00e9pondre \u00e0 ces probl\u00e9matiques sur le portail **[pagesjaunes.fr][1]** avec un retour d'exp\u00e9rience sur les projets **traffic manager** et **feature flipping**.\r\n[1]:http://www.pagesjaunes.fr", 
+        "format": "Conf\u00e9rence", 
+        "id": "XBR-5060", 
+        "speakers": [
+            {
+                "fullname": "Christophe Desmarest", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/95d908536fd4575d2a3dc7872a00e43aa572846f"
+            }, 
+            {
+                "fullname": "St\u00e9phane PIEL", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/9c4c32ea2922800e1e3976c6487113ff5ca56ac9"
+            }
+        ], 
+        "title": "D\u00e9ploiement incr\u00e9mental chez Pages Jaunes : feature flipping et traffic manager", 
+        "track": ""
+    }, 
+    {
+        "description": "Le syst\u00e8me d'initialisation de linux est historiquement g\u00e9r\u00e9 par system V. En 2010, Lennart Poettering, de la soci\u00e9t\u00e9 red hat, constate que celui-ci n'est plus adapt\u00e9 aux contraintes des environnements modernes, et d\u00e9cide, avec l'appui de red hat, d'en d\u00e9velopper un nouveau : systemd.\r\n\r\nApr\u00e8s un tour d'horizon de l'architecture de systemd, nous verrons, comment dev et ops peuvent l'utiliser afin de g\u00e9rer le cycle de vie de leur application, ordonnancer des t\u00e2ches, red\u00e9marrer automatiquement une application en cas de crash, g\u00e9r\u00e9r des d\u00e9pendances entre processus, ...", 
+        "format": "Conf\u00e9rence", 
+        "id": "DPI-6386", 
+        "speakers": [
+            {
+                "fullname": "Jean-Eudes Couignoux", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/c7038433933d2344191764c85b94f8d2e81b6116"
+            }
+        ], 
+        "title": "Les d\u00e9veloppeurs aussi ma\u00eetrisent le systemd", 
+        "track": ""
+    }, 
+    {
+        "description": "Git vous parle ? \r\n\r\nEn fait ce n'\u00e9tait pas vraiment une question mais plut\u00f4t une double affirmation : \r\n\r\n* soit il cause avec vous de mani\u00e8re interractive; \r\n\r\n* soit c'est ce que vous allez vous dire \u00e0 la sortie de ce TIA d'une 1/2 heure.\r\n\r\nJe vous propose \u00e0 travers quelques tips and tricks de d\u00e9couvrir ce qui se cache vraiment derri\u00e8re git en mode interractif, les rebases avanc\u00e9es et toute la r\u00e9\u00e9criture d'histoire pour que ca devienne vos refl\u00e8xes quotidiens.\r\n\r\nAu passage, en bonus, vous allez vous r\u00e9concillier avec la ligne de commande :)\r\n", 
+        "format": "Tools-in-Action", 
+        "id": "QBY-7723", 
+        "speakers": [
+            {
+                "fullname": "Haja Rambelontsalama", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/3bee18d5af001139c1a6595f63c7f1001336cea0"
+            }
+        ], 
+        "title": "Retour vers le (pass\u00e9|futur)* avec Git", 
+        "track": ""
+    }, 
+    {
+        "description": "Angular est un des blockbusters des frameworks Javascript. Pourtant, depuis l\u2019annonce de la version 2 en octobre dernier, le doute et la pr\u00e9occupation r\u00e8gne au sein de la communaut\u00e9 des d\u00e9veloppeurs : rupture de concepts, pas de r\u00e9tro-compatibilit\u00e9, nouveau langage... Cette r\u00e9volution ne risque-t-elle pas de se terminer par un abandon ? Faut-il migrer ? Que va devenir mon projet en Angular 1 ?\r\nCette conf\u00e9rence vous pr\u00e9sentera les nouveaut\u00e9s d\u2019Angular 2, ainsi que l\u2019\u00e9tat d\u2019avancement du framework, \u2026 bref vous aidera \u00e0 y voir plus claire.", 
+        "format": "Conf\u00e9rence", 
+        "id": "LNX-9869", 
+        "speakers": [
+            {
+                "fullname": "Gr\u00e9gory Houllier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/b57dde0a9688e26e8a6f11b4f99673a76ee3e210"
+            }, 
+            {
+                "fullname": "Nicolas Pennec", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/41fc60b615b4a365b9cc83844484357ab39f3342"
+            }
+        ], 
+        "title": "Angular 2, Le R\u00e9veil de la Force", 
+        "track": ""
+    }, 
+    {
+        "description": "Je vais essayer de vous expliquer en 50 minutes pourquoi et comment faire des tests unitaires et d'int\u00e9gration dans une application Javascript. Je vous montrerai sur un exemple simple en live coding comment on peut utiliser Jasmine, Karma et Protractor.\r\n \r\nL'application qui sera prise en exemple sera une application Angular JS. Jasmine et Karma peuvent \u00eatre utilis\u00e9s quelque soit le framework Javascript alors que Protractor est sp\u00e9cifique aux applicatons Angular.\r\n\r\n", 
+        "format": "Conf\u00e9rence", 
+        "id": "EKC-0429", 
+        "speakers": [
+            {
+                "fullname": "Guillaume Ehret", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/43a25054914813084e115374856c5a9f842c4ead"
+            }
+        ], 
+        "title": "Tester une application Javascript", 
+        "track": ""
+    }, 
+    {
+        "description": "Plus de 10000 lignes de code \u00e0 refactorer, tr\u00e8s peu de tests unitaires, seulement 1,22% de code couvert par les tests ... Voil\u00e0 le challenge auquel j'ai \u00e9t\u00e9 r\u00e9cemment confront\u00e9 !\r\n\r\nVoici mon retour d'exp\u00e9rience sur la technique \"Golden Master testing\" que j'ai utilis\u00e9e pour sereinement venir \u00e0 bout de ce refactoring.", 
+        "format": "Quickie", 
+        "id": "TYR-8750", 
+        "speakers": [
+            {
+                "fullname": "S\u00e9bastien Prunier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/809da953e557d60714a52cbc655ea3483f43e1cb"
+            }
+        ], 
+        "title": "Refactoring avec 1,22% de code couvert par les tests ... Golden Master testing \u00e0 la rescousse !", 
+        "track": ""
+    }, 
+    {
+        "description": "Comment je suis pass\u00e9 d\u2019un openspace dans une grosse boite au nom fruit\u00e9  \u00e0 une startup en t\u00e9l\u00e9travail. Et tout ce que cela implique dans les m\u00e9thodes de travail.", 
+        "format": "Quickie", 
+        "id": "DHA-6726", 
+        "speakers": [
+            {
+                "fullname": "Nicolas Ledez", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/e5f7b4d8c9e624414d863371969f33c60557401b"
+            }
+        ], 
+        "title": "Travailler dans une startup la t\u00eate dans les nuages", 
+        "track": ""
+    }, 
+    {
+        "description": "Developing a mobile application is a complex process. It requires UI & UX design skills as well as great development capabilities. The process is even more difficult when the application you are building acts as a companion to an existing web application. In this talk we explain the process of creating a mobile application from the ground up using an existing web app as a starting point. We will use the Capitaine Train Android app as our main example and will explain how most of the issues were faced and solved in order to create a mobile-friendly user experience.", 
+        "format": "Conf\u00e9rence", 
+        "id": "KCI-8164", 
+        "speakers": [
+            {
+                "fullname": "Cyril Mottier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/2e15eb74e12b2ced91aeb74046a72c2bf587d150"
+            }
+        ], 
+        "title": "Designing Capitaine Train Mobile Experience", 
+        "track": ""
+    }, 
+    {
+        "description": "Nous savons tous qu'il est pr\u00e9f\u00e9rable de coder une application qui soit rapide \u00e0 utiliser ... Mais quel effort mettre sur l'optimisation de la latence applicative ? Pourquoi Netflix a \u00e9t\u00e9 jusqu'\u00e0 cr\u00e9er un nouveau format (le JSONG ?!?) juste pour am\u00e9liorer l'affichage des affiches de films ?\r\nVenez comprendre l'impact de latence sur l'adoption, le fonctionnement de votre cerveau et vous enrichir des derni\u00e8res tendances pour am\u00e9liorer la latence (de Netflix \u00e0 Google, du JSON Patch \u00e0 SPDY).", 
+        "format": "Conf\u00e9rence", 
+        "id": "JWD-7708", 
+        "speakers": [
+            {
+                "fullname": "Nicolas Babel", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/0c420b457d168d907e2de6cdf807edf442169389"
+            }
+        ], 
+        "title": "Latence applicative et API en streaming ", 
+        "track": ""
+    }, 
+    {
+        "description": "D\u00e9veloppeur Web Front-End est devenu un m\u00e9tier \u00e0 part enti\u00e8re, un poste exigeant qui demande de plus en plus d'expertise. Les technologies Web \u00e9voluent en permanence et faire de la veille devient vite chronophage.\r\n\r\nPour vous faciliter la t\u00e2che, je vous propose un tour d'horizon de 45 outils \u00e0 ne pas manquer ou \u00e0 surveiller en tant que d\u00e9veloppeur web en 2015 : frameworks, librairies, tests, qualit\u00e9 du code, automatisation, web perfs, ...\r\n\r\nLe principe de la pr\u00e9sentation est simple : 45 minutes pour 45 outils, 1 minute par outil.\r\n\r\n", 
+        "format": "Conf\u00e9rence", 
+        "id": "YKF-0326", 
+        "speakers": [
+            {
+                "fullname": "Nicolas Pennec", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/41fc60b615b4a365b9cc83844484357ab39f3342"
+            }
+        ], 
+        "title": "45 outils pour doper votre front-end", 
+        "track": ""
+    }, 
+    {
+        "description": "Venez d\u00e9couvrir comment lancer vos builds, d\u00e9ployer vos applications, et m\u00eame g\u00e9rer vos issues rien qu'en discutant !\r\nLes m\u00e9thodes \"ChatOps\" sont de plus en plus populaires avec la mise \u00e0 disposition des bots de discussion tel que le Hubot de Github et l'essor des logiciels de chat room persistantes. Profitez de l'occasion pour voir comment un simple outil de communication peut briser des silos.\r\n\r\n", 
+        "format": "Tools-in-Action", 
+        "id": "KEC-1221", 
+        "speakers": [
+            {
+                "fullname": "S\u00e9bastien BROUSSE", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/c5d811edb66411fd4e584a1d9e47b4dd5985d482"
+            }
+        ], 
+        "title": "DevOps dans ton chat !", 
+        "track": ""
+    }, 
+    {
+        "description": "What attracts researchers starting from the 60s till nowadays? What is studied in university by engineers in computer science and then successfully forgotten? What is at the heart of the compilers used daily by any software developer? Parsers! From a practical point of view using a small pill of theory, this session will bring lights on questions like: if there is so many parser-generators based on formal theory, then why javac, GCC and Clang are all hand-written? And how we, insiders of the world of parsing, do this at SonarSource for languages like Java, C/C++, C#, JavaScript, Python, COBOL?", 
+        "format": "Conf\u00e9rence", 
+        "id": "WZN-5052", 
+        "speakers": [
+            {
+                "fullname": "Evgeny Mandrikov", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/291d102cf233b65f7e55379ab26d2d19df8276fe"
+            }, 
+            {
+                "fullname": "Nicolas PERU", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/5d1d12db41e59e80952d00f33c6473432edd49a9"
+            }
+        ], 
+        "title": "The Art of Parsing", 
+        "track": ""
+    }, 
+    {
+        "description": "La version 9.4 de PostgreSQL a largement am\u00e9lior\u00e9 le support de documents JSON. Plusieurs bench ont m\u00eame montr\u00e9 des performances impressionnantes du moteur en comparaison d'autres bases No-SQL. \r\nCette conf\u00e9rence permettra de pr\u00e9senter comment int\u00e9grer et manipuler des donn\u00e9es semi structur\u00e9es avec PostgreSQL et son driver JDBC.\r\n", 
+        "format": "Conf\u00e9rence", 
+        "id": "OJO-6750", 
+        "speakers": [
+            {
+                "fullname": "Pierre-Alban DEWITTE", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/e352aadd96af61bb9f95f0106c37db556fe35ba9"
+            }
+        ], 
+        "title": "Not only SQL avec PostgreSQL", 
+        "track": ""
+    }, 
+    {
+        "description": "La cryptographie il parait que c'est con et pour les autistes ! \r\nIl est tant de reparcourir les fondements de la cryptographie moderne ainsi que de la s\u00e9curit\u00e9 web de mani\u00e8re... moins conventionnel !\r\nAinsi, mettre en sc\u00e8nes les acteurs f\u00e9tiches de la crypto \"Bob\" et \"Alice\" avec le prisme d\u00e9lur\u00e9 du machisme pour Bob et du f\u00e9minisme pour Alice, agr\u00e9ment\u00e9 de vitriol \u00e0 la Desproges et un fond de Jean-Marie Bigard !\r\nSachez le vous en sortirez pas indemnes !", 
+        "format": "Quickie", 
+        "id": "RPB-2839", 
+        "speakers": [
+            {
+                "fullname": "S\u00e9bastien Lambour", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/3ead0851d2ea4a1a93385626497d268b7d53f962"
+            }, 
+            {
+                "fullname": "Audrey Neveu", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/9d720104445df34116c00ebf208e03404dfdb1b6"
+            }
+        ], 
+        "title": "History of cryptography : the sod Machofeminist way", 
+        "track": ""
+    }, 
+    {
+        "description": "Marre de votre serveur d'application ? Envie d'un framework l\u00e9ger pour d\u00e9velopper des web services ? Alors venez essayer Dropwizard ! \r\nDans une session de live coding nous allons d\u00e9velopper un service REST, y ajouter des m\u00e9triques pour \u00eatre pote avec les Ops, le tester unitairement et d\u00e9ployer tout \u00e7a sans serveur d'application.", 
+        "format": "Quickie", 
+        "id": "KPY-0613", 
+        "speakers": [
+            {
+                "fullname": "Ludovic Chane Won In", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/805b5f033dfcf7d22c6b5de5103e5b65d3b74b2b"
+            }
+        ], 
+        "title": "Dropwizard en un \u00e9clair", 
+        "track": ""
+    }, 
+    {
+        "description": "Si le Prince Charmant avait connu les fonctions de hachage, il n'aurait pas \u00e9t\u00e9 oblig\u00e9 de tester les pieds de tout le royaume avant de trouver Cendrillon !\r\n\r\nOn pr\u00eate g\u00e9n\u00e9ralement peu d'attention \u00e0 la m\u00e9thode hashCode(), pr\u00e9sente sur tous les objets Java. Pourtant, elle est fondamentale pour les performances et la coh\u00e9rence des donn\u00e9es - Java 8 en propose d'ailleurs une nouvelle impl\u00e9mentation plus efficace.\r\n\r\nAlors, d'o\u00f9 vient-elle ? A quoi sert-elle ? Comment l'impl\u00e9menter efficacement ? \r\nEt surtout, le Prince Charmant aurait-il pu retrouver sa dulcin\u00e9e en O(1) ?", 
+        "format": "Conf\u00e9rence", 
+        "id": "OMG-8971", 
+        "speakers": [
+            {
+                "fullname": "Olivier Bourgain", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/dd3344790966398519493a236e2f4130afb92811"
+            }, 
+            {
+                "fullname": "Olivier Croisier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/b462c88b3fed6718e5693cf67d530fd8ffb271a2"
+            }
+        ], 
+        "title": "Hashons peu mais hashons bien", 
+        "track": ""
+    }, 
+    {
+        "description": "JHipster est un g\u00e9n\u00e9rateur de code permettant de cr\u00e9er une application Spring Boot + AngularJS en quelques minutes. Cette pr\u00e9sentation couvrira rapidement les technologies utilis\u00e9es par JHipster (Spring Boot, AngularJS, Bower, Grunt, etc...), et se focalisera sur une session de 'live coding' o\u00f9 nous d\u00e9velopperons une application m\u00e9tier, la modifierons, et la d\u00e9ploierons dans le cloud.", 
+        "format": "Conf\u00e9rence", 
+        "id": "MYR-5569", 
+        "speakers": [
+            {
+                "fullname": "Julien Dubois", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/96e503d35f86872fe830fa2bdc9905a30312215f"
+            }
+        ], 
+        "title": "JHipster, le g\u00e9n\u00e9rateur d'applications Spring + AngularJS", 
+        "track": ""
+    }, 
+    {
+        "description": "JHipster est un g\u00e9n\u00e9rateur de code permettant de cr\u00e9er une application Spring Boot + AngularJS en quelques minutes. Cette pr\u00e9sentation couvrira rapidement les technologies utilis\u00e9es par JHipster (Spring Boot, AngularJS, Bower, Grunt, etc...), et se focalisera sur une session de 'live coding' o\u00f9 nous d\u00e9velopperons une application m\u00e9tier, la modifierons, et la d\u00e9ploierons dans le cloud.", 
+        "format": "Conf\u00e9rence", 
+        "id": "MYR-5569", 
+        "speakers": [
+            {
+                "fullname": "Julien Dubois", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/96e503d35f86872fe830fa2bdc9905a30312215f"
+            }
+        ], 
+        "title": "JHipster, le g\u00e9n\u00e9rateur d'applications Spring + AngularJS", 
+        "track": ""
+    }, 
+    {
+        "description": "Cette session est l'occasion de d\u00e9couvrir Kafka : un broker de messages de nouvelle g\u00e9n\u00e9ration scalable, avec des performances impressionnantes, une garantie de persistance et de r\u00e9plication des messages.\r\n\r\nVous verrez :\r\n\r\n- quels sont les concepts de Kafka\r\n- l'architecture de Kafka\r\n- comment faire scaler horizontalement un cluster Kafka\r\n- quels sont les compromis \u00e0 faire\r\n- quelles performances attendre\r\n- dans quel \u00e9cosyst\u00e8me BigData Kafka s'inscrit (Storm, Hadoop, HBase, ...)\r\n- mon retour d'exp\u00e9rience, les points d'attention, ...", 
+        "format": "Conf\u00e9rence", 
+        "id": "DOI-7300", 
+        "speakers": [
+            {
+                "fullname": "Vladislav Pernin", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/5547233c7fb87229808421c4d1c11bbbcb9ff301"
+            }
+        ], 
+        "title": "Broker de messages Kafka, retour d'exp\u00e9rience", 
+        "track": ""
+    }, 
+    {
+        "description": "L'objectif de cette pr\u00e9sentation est de fournir une recette simple pour diagnostiquer et am\u00e9liorer les performances d'une application.\r\nCette conf\u00e9rence sera l'opportunit\u00e9 de r\u00e9-expliquer certains concepts de base (percentiles, latency, points de contention, GC, ...) utiles au quotidien ou lors d'une phase de tirs de performance. Nous verrons \u00e9galement les outils simples et disponibles de base dans les diff\u00e9rentes briques d'une application type (JVM, Unix, BDD, ..) et comment ils peuvent nous aider au mieux dans cette d\u00e9marche.", 
+        "format": "Conf\u00e9rence", 
+        "id": "UFF-0999", 
+        "speakers": [
+            {
+                "fullname": "Vincent Beretti", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/97f32b3772c69b7a19b605d79ab6313a144237b4"
+            }
+        ], 
+        "title": "Performance Pudding, une recette simple et \u00e9conomique.", 
+        "track": ""
+    }, 
+    {
+        "description": "Databases, servers and micro-services all set up automatically on a developer machine in a matter of minutes. Testing, staging and production environments built with the click of a button. Yesterday\u2019s dream has become today\u2019s reality, and we at JFrog have been doing it for several years with the help of tools like Vagrant, Chef, Artifactory and Jenkins.\r\nBut can we do better? Of course we can...thanks to Docker! By breaking up our monolithic environment into interconnected containers, we can achieve a faster setup and amazing flexibility. But with this flexibility comes a list of unexpected headaches and challenges.\r\nIn this session we will talk about our experience migrating a complicated, multi-faceted dev environment from a Vagrant-Chef combo to Docker, and about the challenges and opportunities that this new setup brings.", 
+        "format": "Conf\u00e9rence", 
+        "id": "IOT-0245", 
+        "speakers": [
+            {
+                "fullname": "Fred Simon", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/099381b9b1baa7d47ee44b93cc7113db64774c4e"
+            }
+        ], 
+        "title": "A Saner Management for a Multi-facet Development Environment with Vagrant and Docker", 
+        "track": ""
+    }, 
+    {
+        "description": "MongoDB ? Elastic ? Ces techonologies sont elles faites pour \u00eatre concurrentes ? \r\n\r\nC'est l'histoire d'une rencontre entre deux technologies. A l'occasion de cette conf\u00e9rence vous apprendrez comment MongoDB et Elastic peuvent se compl\u00e9ter, comment tirer partie du meilleur de chaque monde : \"le bon outil pour le bon usage\".\r\n\r\nEnfin, nous vous pr\u00e9senterons les principaux patterns d'architecture permettant d'int\u00e9grer ces deux technologies.", 
+        "format": "Conf\u00e9rence", 
+        "id": "VFQ-1867", 
+        "speakers": [
+            {
+                "fullname": "S\u00e9bastien Prunier", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/809da953e557d60714a52cbc655ea3483f43e1cb"
+            }, 
+            {
+                "fullname": "Chris Woodrow", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/02496209ad79f5f33926319d1ddeaba80fde9dfd"
+            }
+        ], 
+        "title": "MongoDB et Elastic{search}, meilleurs ennemis ?", 
+        "track": ""
+    }, 
+    {
+        "description": "Deux \u00e9quipes s\u2019affronteront, celle qui gagnera le plus de lecteurs remportera le prix du meilleur magazine de l\u2019ann\u00e9e. Saurez-vous tirer partie \u00e0 120% de Kanban et battre vos comp\u00e9titeurs ?\r\nQuel que soit votre m\u00e9tier, informatique ou non, venez voir les bases de la m\u00e9thode Kanban faite pour mod\u00e9liser facilement tout process. D\u00e9couvrez en quoi la limitation de la quantit\u00e9 de travail en cours acc\u00e9l\u00e8re la production. R\u00e9fl\u00e9chissez sur la quantit\u00e9 de stock n\u00e9cessaire, ainsi que sur les goulots d\u2019\u00e9tranglement.", 
+        "format": "Hand's on Labs", 
+        "id": "PRP-8244", 
+        "speakers": [
+            {
+                "fullname": "Denis ROUDET", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/3da33e5a95fd622bb1a01e5a902d1c0c16f3bc87"
+            }, 
+            {
+                "fullname": "Serge HARDY", 
+                "href": "http://cfp.breizhcamp.org/api/conferences/BreizhCamp2015/speakers/d219209e4ba8b5001ac5ad0b30b4eba394cd1744"
+            }
+        ], 
+        "title": "Kanbanzine : comment aborder Kanban de mani\u00e8re ludique", 
+        "track": ""
+    }
+]

@@ -153,7 +153,7 @@
                     agenda: timeFormat
                 },
                 eventClick: function (calEvent, jsEvent, view) {
-                    if (event.id != 'TBD' && event.id != '') {
+                    if (calEvent.id != 'TBD' && calEvent.id != '') {
                         $scope.showDetailOfTalk(calEvent.id);
                     }
                 },

@@ -153,7 +153,9 @@
                     agenda: timeFormat
                 },
                 eventClick: function (calEvent, jsEvent, view) {
-                    $scope.showDetailOfTalk(calEvent.id);
+                    if (event.id != 'TBD' && event.id != '') {
+                        $scope.showDetailOfTalk(calEvent.id);
+                    }
                 },
                 eventRender: function (event, element) {
                     element.find('.fc-event-title').html(renderTitle(event));
@@ -164,22 +166,25 @@
                         element.find('.fc-event-time')
                             .html($.fullCalendar.formatDate(event.start, timeFormat) + ' ' + renderTitle(event));
                     }
+
                     // gestion favoris
-                    var favClass = event.favorite ? 'fa-star' : 'fa-star-o';
-                    var favIcon = $('<i class="favorite fa ' + favClass + '" title="Ajouter/supprimer des favoris"></i>');
-                    favIcon.on('click', event, function(evt) {
-                        evt.stopPropagation();
-                        $(this).toggleClass('fa-star');
-                        $(this).toggleClass('fa-star-o');
+                    if (event.id != 'TBD' && event.id != '') {
+                        var favClass = event.favorite ? 'fa-star' : 'fa-star-o';
+                        var favIcon = $('<i class="favorite fa ' + favClass + '" title="Ajouter/supprimer des favoris"></i>');
+                        favIcon.on('click', event, function(evt) {
+                            evt.stopPropagation();
+                            $(this).toggleClass('fa-star');
+                            $(this).toggleClass('fa-star-o');
 
-                        evt.data.favorite = !evt.data.favorite;
-                        favorites[evt.data.id] = evt.data.favorite;
-                        localStorage.setItem('favorites', JSON.stringify(favorites));
+                            evt.data.favorite = !evt.data.favorite;
+                            favorites[evt.data.id] = evt.data.favorite;
+                            localStorage.setItem('favorites', JSON.stringify(favorites));
 
-                        $scope.toggleFavorite(evt.data);
+                            $scope.toggleFavorite(evt.data);
 
-                    });
-                    element.find('.fc-event-time').prepend(favIcon);
+                        });
+                        element.find('.fc-event-time').prepend(favIcon);
+                    }
                 },
                 events: events
             });

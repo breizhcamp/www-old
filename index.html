@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="fr"><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><title>BreizhCamp - Conférence des développeurs du grand ouest</title><meta name="description" content="3 jours de conférence et de hacker-space du 10 au 12 juin 2015 à Rennes"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><link rel="stylesheet" href="styles/4e112c84.vendor.css"><link rel="stylesheet" href="styles/7f4d75e7.main.css"><!--[if lt IE 9]>
+<!DOCTYPE html><html lang="fr"><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><title>BreizhCamp - Conférence des développeurs du grand ouest</title><meta name="description" content="3 jours de conférence et de hacker-space du 10 au 12 juin 2015 à Rennes"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><link rel="stylesheet" href="styles/4bd09989.vendor.css"><link rel="stylesheet" href="styles/7f4d75e7.main.css"><!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]--><link rel="icon" href="favicon.ico" type="image/x-icon"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><body><header class="masthead"><div class="container"><div class="row"><div class="col-sm-10"><a href="#" title="BreizhCamp 2015"><img src="./img/logo.png" alt="BreizhCamp 2015" class="logo"></a> <img style="position:absolute; top:0; right: 0; z-index:1" src="./img/soldout.png"></div><div class="col-sm-2"><div class="pull-right hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><h3><i class="glyphicon glyphicon-align-justify"></i></h3></a><ul class="dropdown-menu"><li><a href="#accueil">Accueil</a></li><li><a href="#actualites">Actualités</a></li><li><a href="#agenda">Programme</a></li><li><a href="#sponsors">Sponsors</a></li><li><a href="#team">Team</a></li></ul></div></div></div><div class="row spacer"></div><div class="row text-center"><div class="row text-center"><div class="col-md-6 col-md-offset-3 info"><h2>5<sup>ème</sup> édition</h2><h3>10 au 12 juin 2015 - Rennes</h3><div class="text-center video"><a href="https://www.youtube.com/watch?v=cWIq5rQlo10a"><img src="http://img.youtube.com/vi/cWIq5rQlo10/mqdefault.jpg" title="Vidéo Trailer"></a></div><div class="btn btn-large"><a href="https://www.weezevent.com/breizhcamp-2015" target="_blank">Inscription</a></div></div></div></div></div></header><!-- Fixed navbar --><div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav nav-justified"><li><a href="#accueil">Accueil</a></li><li><a href="#actualites">Actualités</a></li><li><a href="#agenda">Programme</a></li><li><a href="#sponsors">Sponsors</a></li><li><a href="#team">Team</a></li><li><a href="https://www.youtube.com/playlist?list=PLHWl6dPnEb4l9S-nl4od10OkTOyZEn5Ef" target="_blank">Édition 2014</a></li></ul></div><!--/.nav-collapse --></div><!--/.container --></div><!--/.navbar --><!-- Begin page content --><div class="divider"></div><div id="accueil" class="container"><h2>Introduction</h2><p class="lead">La conférence des développeurs du grand ouest</p><p>Le <b>BreizhCamp</b>, c’est 3 jours de conférences et d’ateliers. Créé en 2011 à l’initiative du <a href="http://www.breizhjug.org">BreizhJUG</a>, sa 5<sup>ème</sup> édition aura lieu du 10 au 12 juin 2015 à Rennes, à l’<a href="http://www.istic.univ-rennes1.fr/">ISTIC</a>.</p><p>Le <b>BreizhCamp</b> propose de rencontrer une communauté de développeurs et d’experts, avec un contenu à la carte sur plus de 100 thèmes présentés. Chaque participant est libre de suivre les sujets qui ont retenu son attention ou de préférer les ateliers pour mettre en pratique les connaissances acquises.</p></div><div class="divider"></div><div id="actualites" class="container"><h2>Actualités</h2><div class="row"><div class="col-sm-6"><h3>Sold out !</h3><p>A peine une semaine après avoir été ouverte, la <a href="https://www.weezevent.com/breizhcamp-2015"><i>billetterie</i></a> a fermé suite à une affluence record. Nous n'avons plus de place ! N'hésitez pas cependant à vous inscrire en liste d'attente, certains sponsors n'utilisant pas toutes les places qui leur sont réservées nous permettent de procéder à un tirage au sort.</p></div><div class="col-sm-6 col-right"><h3>Programme</h3><p>Nous avons reçu près de deux fois plus de propositions que de sessions disponibles, le commité de sélection a donc patiemment revu chaque sujet et voté, et a publié le <a href="http://cfp.breizhcamp.org/2015/talks.html">programme de la conférence</a>. L'agenda détaillé sera publié rapidement.</p></div></div></div><div class="divider"></div><div id="agenda" class="container" ng-app="Programme" ng-controller="ProgrammeCtrl"><h2>Programme</h2><h3 ng-show="loading">Chargement du programme...</h3><div id="programme" class="ng-cloak"><div class="room"><label>Salle<select ng-model="room" ng-change="loadAllCalendar()"><option value="">Toutes<option value="Ouessant">Ouessant<option value="Molène">Molène<option value="Groix">Groix<option value="Bréhat">Bréhat<option value="Belle-Île-en-Mer">Belle-Île-en-Mer</select></label></div><fieldset ng-repeat="jour in programme.jours"><legend ng-click="loadCalendar(jour)">{{jour.date}}</legend><div id="calendar{{jour.title}}"></div><div calendar umbilical="programme.jours[$index]"></div></fieldset></div><style type="text/css">.ng-cloak {
             display: none;
@@ -6,6 +6,10 @@
 
         .fc-event {
             cursor: pointer;
+        }
+        .favorite {
+            float: right;
+            margin: 3px;
         }</style></div><div class="divider"></div><div id="challenge" class="container"><!-- serez vous assez malin pour trouver tous les indices et décortiquer le challenge BreizhCamp 2015 --><div class="row"><div class="col-md-offset-3 col-sm-6 text-center"><i class="glyphicon glyphicon-barcode"></i> 633d52433428646174612c6b657929 (1/14)</div></div></div><div class="divider"></div><div id="sponsors" class="container"><h2>Sponsors &amp; Partenaires</h2><div class="row"><h3>Platinum</h3></div><div class="row platinum"><div class="col-sm-6"><div class="logo_sponsor"><a href="http://zenika.com/"><img src="img/logo_zenika.png" alt="Zenika"></a></div></div><div class="col-sm-6"><div class="logo_sponsor"><a href="http://ovh.com/"><img src="img/logo_ovh.png" alt="OVH"></a></div></div></div><div class="row"><h3>Gold</h3></div><div class="row gold"><div class="col-sm-4"><div class="logo_sponsor"><a href="https://developers.google.com/"><img src="img/logo_google.png" alt="Google Developers"></a></div></div><div class="col-sm-4"><div class="logo_sponsor"><a href="http://www.jfrog.com/"><img src="img/logo_jfrog.png" alt="JFrog"></a></div></div></div><div class="row gold"><div class="col-sm-4"><div class="logo_sponsor"><a href="http://www.groupe-sii.com/fr"><img src="img/logo_sii.png" alt="SII"></a></div></div><div class="col-sm-4"><div class="logo_sponsor"><a href="http://www.jouve.com/"><img src="img/logo_jouve.png" alt="Jouve"></a></div></div></div><div class="row"><h3>Silver</h3></div><div class="row silver"><div class="col-sm-3"><div class="logo_sponsor"><a href="http://www.sqli.com/"><img src="img/logo_sqli.png" alt="SQLI"></a></div></div><div class="col-sm-3"><div class="logo_sponsor"><a href="https://www.cloudbees.com/"><img src="img/logo_cloudbees.png" alt="Cloudbees"></a></div></div><div class="col-sm-3"><div class="logo_sponsor"><a href="https://github.com/"><img src="img/logo_github.png" alt="GitHub"></a></div></div><div class="col-sm-3"><div class="logo_sponsor"><a href="http://www.sonarsource.com/"><img src="img/logo_sonarsource.png" alt="SonarSource"></a></div></div></div><div class="row"><h3>Partenaires</h3></div><div class="row partenaires"><div class="col-sm-6"><div class="logo_sponsor"><a href="http://www.istic.univ-rennes1.fr/"><img src="img/logo_istic.png" alt="ISTIC"></a></div></div></div></div><div class="divider"></div><div id="team"><div class="container"><h2>Team BreizhCamp</h2></div></div><div id="footer"><div class="container"><p class="text-muted text-center">credits Dylan Cozian + Horacio Gonzalez &copy 2015 BreizhCamp</p></div></div><ul class="nav pull-right scroll-top"><li><a href="#" title="Retour en haut"><i class="glyphicon glyphicon-chevron-up"></i></a></li></ul><ul class="nav feedback"><li><a href="mailto:team@breizhjug.org" title="Feedback">Feedback</a></li></ul><script src="scripts/453a4f11.vendor.js"></script><script src="js/scroll.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.1/angular.min.js"></script><script src="https://pagedown.googlecode.com/hg/Markdown.Converter.js"></script><script src="https://pagedown.googlecode.com/hg/Markdown.Sanitizer.js"></script><script>var app = angular.module("Programme", []);
     var trackColors = {
         'keynote': '#2D6B5F',
@@ -30,11 +34,10 @@
     function ProgrammeCtrl($scope, $http, $log) {
         $scope.loading = true;
         $scope.room = "";
-        $http.get("../json/schedule.json")
+        $http.get("./json/schedule.json")
             .success(function (data) {
                 $scope.programme = data.programme;
                 $scope.loading = false;
-                console.log($scope.programme);
             });
         $scope.converter = new Markdown.getSanitizingConverter();
         $scope.showDetailOfTalk = function (id) {
@@ -45,14 +48,47 @@
                 $scope.loadCalendar(jour);
             });
         };
+        $scope.getDevice = function() {
+            $scope.deviceId = localStorage.getItem('deviceId');
+            if ($scope.deviceId) {
+                $http.defaults.headers.common.Authorization = 'a@' + $scope.deviceId;
+            }
+            else {
+                $http.post('http://app.voxxr.in/r/devices/', { 'userAgent': navigator.userAgent })
+                    .success(function(data) {
+                        localStorage.setItem('deviceId', data.id);
+                        $scope.getDevice();
+                })
+            }
+        };
+
+        $scope.getDevice();
+
+        $scope.toggleFavorite = function(talk) {
+            var voxxrinId = '15-' + talk.id.toLowerCase();
+            $http.post('http://app.voxxr.in/r/events/bzh15/presentations/' + voxxrinId + '/my', {
+                "userid":$scope.deviceId,
+                "deviceid":$scope.deviceId,
+                "eventId":"bzh15",
+                "presId":voxxrinId,
+                "favorite":talk.favorite,
+                "id":$scope.deviceId+'/bzh15/'+voxxrinId})
+                    .success(function(data){
+                          console.log(data);
+                    })
+        };
+
         $scope.loadCalendar = function (jour) {
             var dateInFields = jour.date.split('/');
             var year = parseInt(dateInFields[2]);
             var month = parseInt(dateInFields[1]);
             var day = parseInt(dateInFields[0]);
             var events = [];
-
             var timeFormat = 'HH:mm{ - HH:mm}';
+            var favorites = JSON.parse(localStorage.getItem('favorites'));
+            if (!favorites) {
+                favorites = {};
+            }
 
             function renderTitle(event) {
                 return '<i class="fa fa-fw ' + formatIcons[event.format] + '"></i> ' + event.title +
@@ -77,7 +113,8 @@
                             allDay: false,
                             color: trackColors[track.type],
                             textColor: 'black',
-                            format: talk.format
+                            format: talk.format,
+                            favorite: favorites[talk.id]
                         };
                         events.push(event);
                     }
@@ -110,7 +147,9 @@
                     agenda: timeFormat
                 },
                 eventClick: function (calEvent, jsEvent, view) {
-                    $scope.showDetailOfTalk(calEvent.id);
+                    if (calEvent.id != 'TBD' && calEvent.id != '') {
+                        $scope.showDetailOfTalk(calEvent.id);
+                    }
                 },
                 eventRender: function (event, element) {
                     element.find('.fc-event-title').html(renderTitle(event));
@@ -120,6 +159,24 @@
                     if (element.find('.fc-event-title').length === 0) { // fullcalendar supprime la div .fc-event-title sur les «petit» créneau
                         element.find('.fc-event-time')
                             .html($.fullCalendar.formatDate(event.start, timeFormat) + ' ' + renderTitle(event));
+                    }
+                    // gestion favoris
+                    if (event.id != 'TBD' && event.id != '') {
+                        var favClass = event.favorite ? 'fa-star' : 'fa-star-o';
+                        var favIcon = $('<i class="favorite fa ' + favClass + '" title="Ajouter/supprimer des favoris"></i>');
+                        favIcon.on('click', event, function(evt) {
+                            evt.stopPropagation();
+                            $(this).toggleClass('fa-star');
+                            $(this).toggleClass('fa-star-o');
+
+                            evt.data.favorite = !evt.data.favorite;
+                            favorites[evt.data.id] = evt.data.favorite;
+                            localStorage.setItem('favorites', JSON.stringify(favorites));
+
+                            $scope.toggleFavorite(evt.data);
+
+                        });
+                        element.find('.fc-event-time').prepend(favIcon);                    
                     }
                 },
                 events: events

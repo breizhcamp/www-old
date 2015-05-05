@@ -243,14 +243,14 @@
                     "track": "track4"
         },
         {
-          "id": "EYM-5983",
-          "start": "18:00",
-          "end": "18:25",
-          "title": "Modulariser son application AngularJS avec Browserify",
+          "id": "KEC-1221",
+          "start": "18:0",
+          "end": "18:30",
+          "title": "DevOps dans ton chat !",
           "format": "Tools-in-Action",
           "room": "TBD",
-                    "track": "track8"
-        },
+          "track": "track4"
+        },        
         {
           "id": "PPU-2384",
           "start": "10:30",
@@ -781,13 +781,13 @@
           "track": "track8"
         },
         {
-          "id": "KEC-1221",
+          "id": "EYM-5983",
           "start": "17:30",
-          "end": "18:00",
-          "title": "DevOps dans ton chat !",
+          "end": "17:55",
+          "title": "Modulariser son application AngularJS avec Browserify",
           "format": "Tools-in-Action",
           "room": "TBD",
-          "track": "track4"
+                    "track": "track8"
         },
         {
           "id": "WZN-5052",

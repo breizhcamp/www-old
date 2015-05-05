@@ -7,7 +7,6 @@
       "proposals": [
         {
           "id": "TBD",
-          "track": "track",
           "start": "13:00",
           "end": "14:00",
           "title": "Accueil",
@@ -17,7 +16,6 @@
         },
         {
           "id": "TBD",
-          "track": "track",
           "start": "16:00",
           "end": "16:30",
           "title": "Pause café",
@@ -32,7 +30,6 @@
           "title": "Lego Collaboration game - adultes et enfants",
           "format": "Autres",
           "room": "TBD",
-          "track": "track",
           "track": "track2"
         },
         {
@@ -42,7 +39,6 @@
           "title": "Lego 4 Devops",
           "format": "Autres",
           "room": "TBD",
-          "track": "track",
           "track": "track4"
         },
         {
@@ -52,7 +48,6 @@
           "title": "Des jeux et énigmes \"grandeur nature\" avec Raspberry Pi, Arduino et de l'électronique",
           "format": "Tools-in-Action",
           "room": "TBD",
-          "track": "track",
           "track": "track6"
         },
         {
@@ -62,7 +57,6 @@
           "title": "Débuter avec Apache Storm",
           "format": "Tools-in-Action",
           "room": "TBD",
-          "track": "track",
           "track": "track5"  
         },
         {
@@ -72,7 +66,6 @@
           "title": "Mesos University",
           "format": "Autres",
           "room": "TBD",
-          "track": "track",
           "track": "track4"
         },
         {
@@ -82,7 +75,6 @@
           "title": "Coder son jeu de shoot 2D avec HTML5 et Javascript",
           "format": "Conférence",
           "room": "TBD",
-          "track": "track",
           "track": "track8"
         },
         {
@@ -92,7 +84,6 @@
           "title": "Masterclass Expertise Java",
           "format": "Conférence",
           "room": "TBD",
-          "track": "track",
           "track": "track3"
         },
         {
@@ -102,7 +93,6 @@
           "title": "Hands on Kibana 4",
           "format": "Lab",
           "room": "TBD",
-          "track": "track",
           "track": "track5"
         },
         {
@@ -112,7 +102,6 @@
           "title": "DevConferences, l'annuaire des conférences et communautés de développeurs en France",
           "format": "Hackaton",
           "room": "TBD",
-          "track": "track",
           "track": "track2"
         },
         {
@@ -122,7 +111,6 @@
           "title": "Java EE en 30 minutes",
           "format": "Tools-in-Action",
           "room": "TBD",
-          "track": "track",
           "track": "track3"
         },
         {
@@ -132,7 +120,6 @@
           "title": "Les bons outils CSS font les bons ouvriers du Web",
           "format": "Tools-in-Action",
           "room": "TBD",
-          "track": "track",
           "track": "track8"
         }
       ]
@@ -143,7 +130,6 @@
       "proposals": [
         {
           "id": "TBD",
-          "track": "track",
           "start": "09:00",
           "end": "09:55",
           "title": "KeyNote jeudi",
@@ -153,7 +139,6 @@
         },
         {
           "id": "TBD",
-          "track": "track",
           "start": "08:00",
           "end": "09:00",
           "title": "Accueil et Petit Dej'",
@@ -162,7 +147,6 @@
           "track": "break"
         },{
           "id": "TBD",
-          "track": "track",
           "start": "10:00",
           "end": "10:30",
           "title": "Pause café",
@@ -171,7 +155,6 @@
           "track": "break"
         },{
           "id": "TBD",
-          "track": "track",
           "start": "12:30",
           "end": "14:00",
           "title": "Repas",
@@ -180,7 +163,6 @@
           "track": "break"
         },{
           "id": "TBD",
-          "track": "track",
           "start": "16:00",
           "end": "16:30",
           "title": "Pause café",
@@ -189,13 +171,12 @@
           "track": "break"
         },{
           "id": "TBD",
-          "track": "track",
           "start": "18:30",
           "end": "21:00",
           "title": "Soirée Meet and Greet",
           "format": "break",
           "room": "hall",
-          "track": "keynote"
+          "track": "break"
         },
         {
           "id": "BDY-5360",
@@ -565,7 +546,6 @@
         },
         {
           "id": "TBD",
-          "track": "track",
           "start": "08:00",
           "end": "09:00",
           "title": "Accueil et Petit Dej'",
@@ -574,7 +554,6 @@
           "track": "break"
         },{
           "id": "TBD",
-          "track": "track",
           "start": "10:00",
           "end": "10:30",
           "title": "Pause café",
@@ -583,7 +562,6 @@
           "track": "break"
         },{
           "id": "TBD",
-          "track": "track",
           "start": "12:30",
           "end": "14:00",
           "title": "Repas",
@@ -592,7 +570,6 @@
           "track": "break"
         },{
           "id": "TBD",
-          "track": "track",
           "start": "16:00",
           "end": "16:30",
           "title": "Pause café",

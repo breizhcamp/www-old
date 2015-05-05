@@ -195,7 +195,7 @@
           "title": "Soirée Meet and Greet",
           "format": "break",
           "room": "hall",
-          "track": "break"
+          "track": "keynote"
         },
         {
           "id": "BDY-5360",
@@ -213,7 +213,7 @@
           "title": "On a connecté le Studio !",
           "format": "Conférence",
           "room": "TBD",
-                    "track": "track7"
+                    "track": "track6"
         },
         {
           "id": "PRB-2103",
@@ -652,7 +652,7 @@
           "title": "Et la diversité dans tout ça ? ",
           "format": "Conférence",
           "room": "TBD",
-          "track": "track1"
+          "track": "track2"
         },
         {
           "id": "LIP-2417",

@@ -688,7 +688,7 @@
         {
           "id": "QBY-7723",
           "start": "17:30",
-          "end": "18:00",
+          "end": "17:55",
           "title": "Retour vers le (passé|futur)* avec Git",
           "format": "Tools-in-Action",
           "room": "TBD",
@@ -832,7 +832,7 @@
         {
           "id": "YFY-4614",
           "start": "17:30",
-          "end": "18:00",
+          "end": "17:55",
           "title": "Docktor Monitoring Stack",
           "format": "Tools-in-Action",
           "room": "TBD",

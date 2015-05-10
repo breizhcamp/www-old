@@ -115,8 +115,7 @@
             }
 
             function renderTitle(event) {
-                return '<i class="fa fa-fw ' + formatIcons[event.format] + '"></i> ' + event.title +
-                    (event.room ? ' (' + event.room + ')' : '');
+                return '<i class="fa fa-fw ' + formatIcons[event.format] + '"></i> ' + event.title;
             }
 
             angular.forEach(jour.proposals, function (talk) {

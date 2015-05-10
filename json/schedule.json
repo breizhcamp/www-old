@@ -233,15 +233,6 @@
           "track": "track4"
         },       
         {
-          "id": "ELC-5223",
-          "start": "17:30",
-          "end": "17:55",
-          "title": "React, une autre façon de penser vos composants graphiques",
-          "format": "Tools-in-Action",
-          "room": "TBD",
-          "track": "track8"
-        }, 
-        {
           "id": "FOP-2577",
           "start": "18:0",
           "end": "18:25",
@@ -900,6 +891,15 @@
           "format": "Lab",
           "room": "TBD",
           "track": "track2"
+        },
+        {
+          "id": "ELC-5223",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "React, une autre façon de penser vos composants graphiques",
+          "format": "Tools-in-Action",
+          "room": "TBD",
+          "track": "track8"
         }
       ]
     }]

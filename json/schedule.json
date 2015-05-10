@@ -522,7 +522,7 @@
         },
         {
           "id": "AXE-2491",
-          "start": "18:0",
+          "start": "18:00",
           "end": "18:25",
           "title": "D3js par l'exemple",
           "format": "Tools-in-Action",

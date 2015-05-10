@@ -305,6 +305,14 @@
           "track": "track8"
         },
         {
+          "id": "ELC-5223",
+          "start": "17:30",
+          "end": "17:55",
+          "title": "React, une autre façon de penser vos composants graphiques",
+          "format": "Tools-in-Action",
+          "room": "Bréhat",
+          "track": "track8"
+        {
           "id": "XOF-2187",
           "start": "18:00",
           "end": "18:25",
@@ -465,15 +473,6 @@
           "format": "Tools-in-Action",
           "room": "Groix",
           "track": "track4"
-        },
-        {
-          "id": "KRN-1003",
-          "start": "17:30",
-          "end": "17:55",
-          "title": "Gulp Fiction : surveiller, tester, builder, livrer... sans tomber dans les poms",
-          "format": "Tools-in-Action",
-          "room": "Molène",
-          "track": "track8"
         },
         {
           "id": "YTT-5400",
@@ -893,12 +892,12 @@
           "track": "track2"
         },
         {
-          "id": "ELC-5223",
+          "id": "KRN-1003",
           "start": "17:30",
           "end": "17:55",
-          "title": "React, une autre façon de penser vos composants graphiques",
+          "title": "Gulp Fiction : surveiller, tester, builder, livrer... sans tomber dans les poms",
           "format": "Tools-in-Action",
-          "room": "Bréhat",
+          "room": "Molène",
           "track": "track8"
         }
       ]

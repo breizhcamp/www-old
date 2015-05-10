@@ -234,8 +234,8 @@
         },       
         {
           "id": "ELC-5223",
-          "start": "18:0",
-          "end": "18:25",
+          "start": "17:30",
+          "end": "17:55",
           "title": "React, une autre façon de penser vos composants graphiques",
           "format": "Tools-in-Action",
           "room": "TBD",
@@ -531,8 +531,8 @@
         },
         {
           "id": "AXE-2491",
-          "start": "17:30",
-          "end": "17:55",
+          "start": "18:0",
+          "end": "18:25",
           "title": "D3js par l'exemple",
           "format": "Tools-in-Action",
           "room": "TBD",

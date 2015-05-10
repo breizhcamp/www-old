@@ -231,7 +231,25 @@
           "format": "Tools-in-Action",
           "room": "TBD",
           "track": "track4"
-        },        
+        },       
+        {
+          "id": "ELC-5223",
+          "start": "18:0",
+          "end": "18:25",
+          "title": "React, une autre façon de penser vos composants graphiques",
+          "format": "Tools-in-Action",
+          "room": "TBD",
+          "track": "track8"
+        }, 
+        {
+          "id": "FOP-2577",
+          "start": "18:0",
+          "end": "18:25",
+          "title": "Réduis ton empreinte carbone avec du Push et JSON-Patch",
+          "format": "Tools-in-Action",
+          "room": "TBD",
+          "track": "track8"
+        }, 
         {
           "id": "PPU-2384",
           "start": "10:30",

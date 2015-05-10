@@ -128,7 +128,7 @@
                     var endHour = parseInt(timeInField[0]);
                     var endMinutes = parseInt(timeInField[1]);
                     var event = {
-                        title: event.title + (event.room ? ' (' + event.room + ')' : ''),
+                        title: talk.title + (talk.room ? ' (' + talk.room + ')' : ''),
                         start: new Date(year, month - 1, day, startHour, startMinutes),
                         end: new Date(year, month - 1, day, endHour, endMinutes),
                         id: talk.id,

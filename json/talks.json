@@ -774,7 +774,7 @@
         "track": ""
     }, 
     {
-        "description": "En 16 ans d'existence, Lucene s'est fait une place de choix dans le monde des moteurs de recherche et fait figure de pionnier dans le monde des bases de donn\u00e9es NoSQL open-source. Con\u00e7u \u00e0 l'origine pour r\u00e9soudre des probl\u00e8mes de recherche plein texte, Lucene est aussi une alternative de plus en plus cr\u00e9dible comme document store ou moteur d'analytics. Dans cette pr\u00e9sentation je vous propose d'expliquer ce que Lucene sait faire et les grandes lignes de son fonctionnement, notamment en comparaison par rapport aux autres bases de donn\u00e9es existentes.", 
+        "description": "En 16 ans d'existence, Lucene s'est fait une place de choix dans le monde des moteurs de recherche et fait figure de pionnier dans le monde des bases de donn\u00e9es NoSQL open-source. Con\u00e7u \u00e0 l'origine pour r\u00e9soudre des probl\u00e8mes de recherche plein texte, Lucene est aussi une alternative de plus en plus cr\u00e9dible comme document store ou moteur d'analytics. Dans cette pr\u00e9sentation je vous propose d'expliquer ce que Lucene sait faire et les grandes lignes de son fonctionnement, notamment en comparaison par rapport aux autres bases de donn\u00e9es existantes.", 
         "format": "Conf\u00e9rence", 
         "id": "KZY-0431", 
         "speakers": [

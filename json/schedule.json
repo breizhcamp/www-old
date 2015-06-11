@@ -131,8 +131,26 @@
         {
           "id": "TBD",
           "start": "09:00",
-          "end": "09:55",
-          "title": "KeyNote jeudi",
+          "end": "09:20",
+          "title": "KeyNote 1",
+          "format": "Keynote",
+          "room": "Ouessant",
+          "track": "keynote"
+        },
+        {
+          "id": "TBD",
+          "start": "09:20",
+          "end": "09:40",
+          "title": "KeyNote 2",
+          "format": "Keynote",
+          "room": "Ouessant",
+          "track": "keynote"
+        },
+        {
+          "id": "TBD",
+          "start": "09:40",
+          "end": "10:00",
+          "title": "KeyNote 3",
           "format": "Keynote",
           "room": "Ouessant",
           "track": "keynote"

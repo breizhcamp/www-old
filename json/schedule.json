@@ -563,10 +563,19 @@
       "date": "12/06/2015",
       "proposals": [
         {
-          "id": "KEY11",
+          "id": "KEY99",
           "start": "9:00",
+          "end": "9:30",
+          "title": "Keynote BreizhCamp",
+          "format": "Keynote",
+          "room": "Ouessant",
+          "track": "keynote"
+        },
+        {
+          "id": "KEY11",
+          "start": "9:30",
           "end": "10:00",
-          "title": "Keynote",
+          "title": "Tristan Nitot",
           "format": "Keynote",
           "room": "Ouessant",
           "track": "keynote"

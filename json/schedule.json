@@ -91,7 +91,7 @@
           "start": "16:30",
           "end": "18:25",
           "title": "Hands on Kibana 4",
-          "format": "Lab",
+          "format": "Hand's on Labs",
           "room": "Molène",
           "track": "track5"
         },
@@ -353,7 +353,7 @@
           "id": "ZGZ-8998",
           "start": "11:30",
           "end": "12:25",
-          "title": "Venez découvrir CDI, la perle de Java EE ! ",
+          "title": "Venez découvrir CDI, la perle de Java EE !",
           "format": "Conférence",
           "room": "Molène",
           "track": "track3"
@@ -617,7 +617,7 @@
           "id": "IOD-0638",
           "start": "10:30",
           "end": "11:25",
-          "title": "Haskell : du sol au plafond ",
+          "title": "Haskell : du sol au plafond",
           "format": "Tools-in-Action",
           "room": "Groix",
           "track": "track7"
@@ -662,7 +662,7 @@
           "id": "TSF-4040",
           "start": "10:30",
           "end": "11:25",
-          "title": "Et la diversité dans tout ça ? ",
+          "title": "Et la diversité dans tout ça ?",
           "format": "Conférence",
           "room": "Bréhat",
           "track": "track2"
@@ -671,7 +671,7 @@
           "id": "LIP-2417",
           "start": "11:30",
           "end": "12:25",
-          "title": "Changing the wheel of a moving car - faire évoluer l'infra sans interruption ",
+          "title": "Changing the wheel of a moving car - faire évoluer l'infra sans interruption",
           "format": "Conférence",
           "room": "Groix",
           "track": "track4"
@@ -680,7 +680,7 @@
           "id": "NWS-3930",
           "start": "13:00",
           "end": "13:15",
-          "title": "Thermosmart, le thermostat connecté ",
+          "title": "Thermosmart, le thermostat connecté",
           "format": "Quickie",
           "room": "Groix",
           "track": "track6"
@@ -689,7 +689,7 @@
           "id": "TZD-6114",
           "start": "13:30",
           "end": "13:45",
-          "title": "TDD: is it all about tests ? ",
+          "title": "TDD: is it all about tests ?",
           "format": "Quickie",
           "room": "Belle-Ile-en-Mer",
           "track": "track2"
@@ -743,7 +743,7 @@
           "id": "EKC-0429",
           "start": "11:30",
           "end": "12:25",
-          "title": "Tester une application Javascript ",
+          "title": "Tester une application Javascript",
           "format": "Conférence",
           "room": "Molène",
           "track": "track8"
@@ -752,7 +752,7 @@
           "id": "TYR-8750",
           "start": "13:00",
           "end": "13:15",
-          "title": "Refactoring avec 1,22% de code couvert par les tests ... Golden Master testing à la rescousse ! ",
+          "title": "Refactoring avec 1,22% de code couvert par les tests ... Golden Master testing à la rescousse !",
           "format": "Quickie",
           "room": "Molène",
           "track": "track2"
@@ -761,7 +761,7 @@
           "id": "DHA-6726",
           "start": "13:30",
           "end": "13:45",
-          "title": "Travailler dans une startup la tête dans les nuages ",
+          "title": "Travailler dans une startup la tête dans les nuages",
           "format": "Quickie",
           "room": "Molène",
           "track": "track2"
@@ -915,7 +915,7 @@
           "start": "10:30",
           "end": "12:25",
           "title": "Kanbanzine : comment aborder Kanban de manière ludique",
-          "format": "Lab",
+          "format": "Hand's on Labs",
           "room": "Arz",
           "track": "track2"
         },

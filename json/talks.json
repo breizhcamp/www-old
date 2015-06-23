@@ -747,7 +747,7 @@
         ],
         "title": "D3js par l'exemple",
         "track": "",
-        "replay": ""
+        "replay": "https://www.parleys.com/tutorial/d3js-par-lexemple"
     },
     {
         "description": "Savoir faire du machine learning est une comp\u00e9tence de plus en plus recherch\u00e9e de nos jours, pourtant cette discipline est loin d'\u00eatre la plus simple \u00e0 acqu\u00e9rir. Le but de cette universit\u00e9 est donc de vous initier progressivement au machine learning en commen\u00e7ant par l'impl\u00e9mentation de quelques algorithmes basiques (Kmeans, naive Bayes) en Scala. Puis, nous utiliserons les outils plus r\u00e9cents des data-scientists au travers de la librairie MLlib de Apache Spark, framework reconnu dans le domaine du machine learning et du traitement de gros volume dans l'\u00e9co-syst\u00e8me Java. Vous serez guid\u00e9 par un tutoriel et des tests unitaires (en plus des animateurs) tout au long des exercices.",

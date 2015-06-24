@@ -381,7 +381,7 @@
         ],
         "title": "D\u00e9boguage de JavaScript",
         "track": "",
-        "replay": ""
+        "replay": "https://www.parleys.com/talk/deboguage-de-javascript-1"
     },
     {
         "description": "Cr\u00e9er une application c\u2019est chouette mais cr\u00e9er pour plusieurs plateformes (Android, iOs, ChromeOS\u2026) deviens vite fastidieux. Et si on essayait de cr\u00e9er une seule application que l'on pourrait g\u00e9n\u00e9rer pour ces plateformes? Et pourquoi on n'essaierait pas de la faire \u00e0 l'aide des outils de g\u00e9n\u00e9ration multiplateforme comme Cordova et PhoneGap, de Ionic (s\u2019appuyant sur ces outils de g\u00e9n\u00e9ration) et  des technologies web (HTML, CSS, AngularJS...)? Lors de ce TIA, je vous propose de cr\u00e9er une application en live \u00e0 l\u2019aide de Ionic.",

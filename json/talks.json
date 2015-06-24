@@ -1097,7 +1097,7 @@
         ],
         "title": "The Art of Parsing",
         "track": "",
-        "replay": ""
+        "replay": "https://www.parleys.com/talk/the-art-parsing/"
     },
     {
         "description": "La version 9.4 de PostgreSQL a largement am\u00e9lior\u00e9 le support de documents JSON. Plusieurs bench ont m\u00eame montr\u00e9 des performances impressionnantes du moteur en comparaison d'autres bases No-SQL. \r\nCette conf\u00e9rence permettra de pr\u00e9senter comment int\u00e9grer et manipuler des donn\u00e9es semi structur\u00e9es avec PostgreSQL et son driver JDBC.\r\n",

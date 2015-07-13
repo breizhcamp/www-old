@@ -995,7 +995,7 @@
         ],
         "title": "Tester une application Javascript",
         "track": "",
-        "replay": ""
+        "replay": "https://www.parleys.com/tutorial/tester-une-application-javascript"
     },
     {
         "description": "Plus de 10000 lignes de code \u00e0 refactorer, tr\u00e8s peu de tests unitaires, seulement 1,22% de code couvert par les tests ... Voil\u00e0 le challenge auquel j'ai \u00e9t\u00e9 r\u00e9cemment confront\u00e9 !\r\n\r\nVoici mon retour d'exp\u00e9rience sur la technique \"Golden Master testing\" que j'ai utilis\u00e9e pour sereinement venir \u00e0 bout de ce refactoring.",

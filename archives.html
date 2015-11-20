@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>BreizhCamp - Conférence des développeurs du grand ouest</title>
+    <meta name="description" content="3 jours de conférence et de hacker-space du 23 au 25 mars 2016 à Rennes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main-56fe16e6.css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+<header class="smallhead">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10">
+                <a href="#" title="BreizhCamp 2016"><img src="./img/logo.png" alt="BreizhCamp 2016" class="logo"></a>
+            </div>
+            <div class="col-sm-2">
+                <div class="pull-right  hidden-xs">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <h3><i class="glyphicon glyphicon-align-justify"></i></h3>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Accueil</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav nav-justified">
+                <li><a href="index.html">Accueil</a></li>
+
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+    <!--/.container -->
+</div>
+<!--/.navbar -->
+
+<!-- Begin page content -->
+<div class="divider"></div>
+
+<div id="2015" class="container">
+
+
+    <h2 class="breizhcamp-style">2015</h2>
+
+    <h3 class="breizhcamp-style">Nos lettres d'informations</h3>
+
+      
+            <ul>
+                <li><a href="http://eepurl.com/be2x8X">Numéro 1</a></li>
+                <li><a href="http://eepurl.com/bgCC2r">Numéro 2</a></li>
+                <li><a href="http://eepurl.com/bhQqjn">Numéro 3</a></li>
+                <li><a href="http://eepurl.com/bi8wYr">Numéro 4</a></li>
+                <li><a href="http://eepurl.com/bklwrP">Numéro 5</a></li>
+                <li><a href="http://eepurl.com/blNdV9">Numéro 6</a></li>
+            </ul>
+    <h3 class="breizhcamp-style">Séance de rattrapage</h3>
+
+            <p>
+                La majorité des sessions ont été filmées et seront publiées prochainement sur <a
+                href="https://www.parleys.com/channel/breizh-jug">Parleys</a>. Merci de votre patience, l'upload par
+                ADSL sur Youtube prend un peu de temps ;-)
+            </p>
+
+            <p>
+                Vous pouvez aussi aller voir notre <a href="https://plus.google.com/photos/109669109238504787835/albums/6160312629840787329">
+                album photo</a> mais, les mieux placés pour parler de la conférence ce sont ceux qui y ont assités !
+            <ul>
+                <li><a target="_blank" href="http://javamind-fr.blogspot.fr/search/label/Breizhcamp">
+                    Ma première édition au Breizhcamp à Rennes</a></li>
+                <li><a target="_blank" href="http://gouigoux.com/blog-fr/?p=1332">Retours sur le BreizhCamp 2015</a>
+                </li>
+                <li><a target="_blank" href="http://www.tocea.fr/2015/06/breizhcamp-2015-notre-retour/">BreizhCamp 2015
+                    : Notre retour</a></li>
+                <li><a target="_blank" href="http://blog.ellixo.com/2015/06/19/Breizhcamp-Saison-5.html">Breizhcamp -
+                    Saison 5</a></li>
+                <li><a target="_blank" href="http://www.mobizel.com/2015/06/nous-etions-au-breizhcamp-2015/">
+                    Nous étions au BreizhCamp 2015</a></li>
+                <li><a target="_blank" href="http://www.journaldunet.com/developpeur/expert/61569/scalabilite--cloud-personnel--sex-toy-connecte---retour-sur-le-breizhcamp-2015.shtml">Scalabilité, cloud personnel, sex toy connecté : retour sur le Breizhcamp 2015</a></li>
+                <li><a target="_blank" href="http://streamdata.io/blog/streaming-api-conferences-and-talks/">A month of conferences and talks!</a></li>
+                <li>Faites nous une
+                    <a target="_blank" href="https://github.com/BreizhJUG/breizhcamp/blob/master/app/index.html#L164">pull-request</a>
+                    si vous publiez un article sur l'événement</a></li>
+            </ul>
+            </p>
+
+    <div id="videos" class="container" ng-app="replay" ng-controller="ReplayCtrl">
+    <h2 class="breizhcamp-style">Les sessions</h2>
+
+    <input class="form-control input-sm" type="search" placeholder="Filtrer les sessions affichées ci-dessous…"
+           autofocus
+           ng-model="talkFilter">
+    <br>
+
+    <div class="table-responsive">
+        <table class="table table-condensed table-striped table-hover">
+            <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Speakers</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="talk in talks | filter:talkFilter track by talk.id">
+                <td ng-switch="!!talk.replay">
+                    <a ng-switch-when="true" href="{{talk.replay}}" target="_blank" ng-bind="talk.title"></a>
+                    <span ng-switch-default ng-bind="talk.title"></span>
+                </td>
+                <td ng-bind="::speakers(talk)"></td>
+            </tr> 
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+
+
+<div id="2014" class="container">
+
+    <h2 class="breizhcamp-style">2014</h2>
+
+    <h3 class="breizhcamp-style">Séance de rattrapage</h3>
+
+    La plupart des sessions ont été filmées et sont disponibles sur la chaîne youtube du BreizhJUG :  <a href="https://www.youtube.com/playlist?list=PLHWl6dPnEb4l9S-nl4od10OkTOyZEn5Ef" target="_blank">Sessions</a>
+    <div class="divider"></div>
+
+   
+</div>
+
+
+
+<div id="footer">
+    <div class="container">
+        <p class="text-muted text-center">credits Dylan Cozian + Horacio Gonzalez &copy 2015 BreizhCamp</p>
+    </div>
+</div>
+
+<ul class="nav pull-right scroll-top">
+    <li><a href="#" title="Retour en haut"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+</ul>
+
+<ul class="nav feedback">
+    <li><a href="mailto:team@breizhcamp.org" title="Feedback">Feedback</a></li>
+</ul>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+<script src="js/app-91956186.js"></script>
+<script>
+    require('app').init();
+</script>
+</body>
+</html>

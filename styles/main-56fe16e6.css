@@ -97,7 +97,7 @@ body {
 #footer a {
   color: #efefef;
 }
-.masthead {
+.smallhead .masthead {
   background: url(../img/header.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -106,62 +106,65 @@ body {
   height: 700px;
   color: #202020;
 }
-.masthead h1,
-.masthead h2,
-.masthead h3,
-.masthead h4 {
+.smallhead .masthead h1,
+.smallhead .masthead h2,
+.smallhead .masthead h3,
+.smallhead .masthead h4 {
   color: #202020;
   font-weight: 800;
   text-decoration: none;
 }
-.masthead a h3 {
+.smallhead .masthead a h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 3em;
   padding: 12px 10px 6px 10px;
   color: #f36f21;
 }
-.masthead a:hover h3 {
+.smallhead .masthead a:hover h3 {
   color: #202020;
   background: #f36f21;
   border-radius: 3px;
 }
-.masthead .logo {
+.smallhead .masthead .logo {
   max-width: 100%;
 }
-.masthead .dropdown-menu {
+.smallhead .masthead .dropdown-menu {
   top: 74px;
   background: #f36f21;
   color: #202020;
   border-width: 0;
 }
-.masthead .spacer {
+.smallhead .masthead .spacer {
   height: 20px;
 }
-.masthead .info {
+.smallhead .masthead .info {
   padding: 10px;
   background: #ffffff;
   border: solid 1px #f36f21;
 }
-.masthead .info h2 {
+.smallhead .masthead .info h2 {
   font-size: 2.5em;
   color: #f36f21;
 }
-.masthead .info .btn {
+.smallhead .masthead .info .btn {
   font-size: 1.5em;
   background-color: #f36f21;
   color: #ffffff;
   text-transform: uppercase;
 }
-.masthead .info .btn a {
+.smallhead .masthead .info .btn a {
   color: #ffffff;
 }
-.masthead .info .btn a:hover,
-.masthead .info .btn a:visited {
+.smallhead .masthead .info .btn a:hover,
+.smallhead .masthead .info .btn a:visited {
   color: #ffffff;
   text-decoration: none;
 }
-.masthead .info .video {
+.smallhead .masthead .info .video {
   margin: 10px;
+}
+.smallhead {
+  height: 300px;
 }
 h1 {
   font-size: 50px;

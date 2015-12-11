@@ -8921,6 +8921,84 @@ body {
   height: 700px;
   color: #202020;
 }
+.smallhead .video-bg,
+.masthead .video-bg {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  /* 1. Pas de support d'object-fit */
+  /* 2. En cas de support d'object-fit, écrase les règles en (1) */
+  /*
+    video {
+      width: 100%;
+      height: 100%;
+    }
+
+    @media (max-width: 1280px) {
+      video {
+        width: inherit;
+        height: inherit;
+      }
+    }
+
+    &.demo-video {
+      background-image: url(videos/programming-ide.jpg);
+    }
+    */
+}
+.smallhead .video-bg video,
+.masthead .video-bg video {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  .smallhead .video-bg video,
+  .masthead .video-bg video {
+    height: 300%;
+    top: -100%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .smallhead .video-bg video,
+  .masthead .video-bg video {
+    width: 300%;
+    left: -100%;
+  }
+}
+@supports (object-fit: cover) {
+  .smallhead .video-bg video,
+  .masthead .video-bg video {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: fill;
+  }
+}
+.smallhead .video-bg.demo-video,
+.masthead .video-bg.demo-video {
+  background-image: url(videos/programming-ide.jpg);
+}
+.smallhead .container-on-video,
+.masthead .container-on-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.smallhead .video-overlay,
+.masthead .video-overlay {
+  pointer-events: none;
+  /* Allows right click menu on the video */
+  background: rgba(0, 0, 0, 0.5);
+  /* You can play with the opacity */
+}
 .smallhead h1,
 .masthead h1,
 .smallhead h2,

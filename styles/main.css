@@ -9087,16 +9087,19 @@ h4.breizhcamp-style {
   color: #f36f21;
 }
 #accueil a,
+#edition2016 a,
 #actualites a,
 #pratique a,
 #sponsors a,
 #team a,
 #accueil b,
+#edition2016 b,
 #actualites b,
 #pratique b,
 #sponsors b,
 #team b,
 #accueil i,
+#edition2016 i,
 #actualites i,
 #pratique i,
 #sponsors i,
@@ -9104,11 +9107,13 @@ h4.breizhcamp-style {
   color: #f36f21;
 }
 #accueil a:hover,
+#edition2016 a:hover,
 #actualites a:hover,
 #pratique a:hover,
 #sponsors a:hover,
 #team a:hover,
 #accueil a:visited,
+#edition2016 a:visited,
 #actualites a:visited,
 #pratique a:visited,
 #sponsors a:visited,
@@ -9117,6 +9122,7 @@ h4.breizhcamp-style {
   text-decoration: none;
 }
 #accueil .col-right,
+#edition2016 .col-right,
 #actualites .col-right,
 #pratique .col-right,
 #sponsors .col-right,
@@ -9124,6 +9130,7 @@ h4.breizhcamp-style {
   border-left: 1px solid red;
 }
 #accueil img,
+#edition2016 img,
 #actualites img,
 #pratique img,
 #sponsors img,
@@ -9135,6 +9142,7 @@ h4.breizhcamp-style {
   transition: all 0.3s ease-in-out;
 }
 #accueil img:hover,
+#edition2016 img:hover,
 #actualites img:hover,
 #pratique img:hover,
 #sponsors img:hover,

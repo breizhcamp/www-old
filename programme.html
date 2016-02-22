@@ -74,47 +74,56 @@
 <!-- Begin page content -->
 <div class="divider"></div>
 
-<div id="2015" class="container" ng-controller="programmeCtrl">
+<div class="container" ng-controller="programmeCtrl">
 
+  <div ng-repeat="jour in jours" ng-init="parentIndex = $index">
+    <h1 class="breizhcamp-style" ng-click="changeJourVisible(parentIndex)">
+      <span class="glyphicon glyphicon" style="font-size: 25px"
+            ng-class="{'glyphicon-chevron-down': journee[parentIndex].visible, 'glyphicon-chevron-right': !journee[parentIndex].visible}"></span>
+      {{jour}}
+    </h1>
 
-    <h1 class="breizhcamp-style">Conférences</h1>
-    <div ng-repeat="conf in confs">
-      <h3 class="breizhcamp-style">{{conf.name}}</h3>
-      <p ng-bind-html="conf.description"></p>
-      <p><i>Speaker</i> : {{conf.speakers}}
+    <div ng-class="{'ng-show': journee[parentIndex].visible, 'ng-hide': !journee[parentIndex].visible}">
+
+      <h2 class="breizhcamp-style" ng-show="confs[parentIndex+3].length > 0">Conférences</h2>
+      <div ng-repeat="conf in confs[parentIndex+3]">
+        <h3 class="breizhcamp-style">{{conf.name}}</h3>
+        <p ng-bind-html="conf.description"></p>
+        <p><i>Speaker</i> : {{conf.speakers}}
+      </div>
+
+      <h2 class="breizhcamp-style" ng-show="univs[parentIndex+3].length > 0">Universités</h2>
+      <div ng-repeat="conf in univs[parentIndex+3]">
+        <h3 class="breizhcamp-style">{{conf.name}}</h3>
+        <p ng-bind-html="conf.description"></p>
+        <p><i>Speaker</i> : {{conf.speakers}}
+      </div>
+
+      <h2 class="breizhcamp-style" ng-show="tias[parentIndex+3].length > 0">Tools In Action</h2>
+      <div ng-repeat="conf in tias[parentIndex+3]">
+        <h3 class="breizhcamp-style">{{conf.name}}</h3>
+        <p ng-bind-html="conf.description"></p>
+        <p><i>Speaker</i> : {{conf.speakers}}
+      </div>
+
+      <h2 class="breizhcamp-style" ng-show="labs[parentIndex+3].length > 0">Labs</h2>
+      <div ng-repeat="conf in labs[parentIndex+3]">
+        <h3 class="breizhcamp-style">{{conf.name}}</h3>
+        <p ng-bind-html="conf.description"></p>
+        <p><i>Speaker</i> : {{conf.speakers}}
+      </div>
+
+      <h2 class="breizhcamp-style" ng-show="quickies[parentIndex+3].length > 0">Quickies</h2>
+      <div ng-repeat="conf in quickies[parentIndex+3]">
+        <h3 class="breizhcamp-style">{{conf.name}}</h3>
+        <p ng-bind-html="conf.description"></p>
+        <p><i>Speaker</i> : {{conf.speakers}}
+      </div>
+
     </div>
 
-    <h1 class="breizhcamp-style">Universités</h1>
-    <div ng-repeat="conf in univs">
-      <h3 class="breizhcamp-style">{{conf.name}}</h3>
-      <p ng-bind-html="conf.description"></p>
-      <p><i>Speaker</i> : {{conf.speakers}}
-    </div>
-
-    <h1 class="breizhcamp-style">Tools In Action</h1>
-    <div ng-repeat="conf in tias">
-      <h3 class="breizhcamp-style">{{conf.name}}</h3>
-      <p ng-bind-html="conf.description"></p>
-      <p><i>Speaker</i> : {{conf.speakers}}
-    </div>
-
-    <h1 class="breizhcamp-style">Labs</h1>
-    <div ng-repeat="conf in labs">
-      <h3 class="breizhcamp-style">{{conf.name}}</h3>
-      <p ng-bind-html="conf.description"></p>
-      <p><i>Speaker</i> : {{conf.speakers}}
-    </div>
-
-    <h1 class="breizhcamp-style">Quickies</h1>
-    <div ng-repeat="conf in quickies">
-      <h3 class="breizhcamp-style">{{conf.name}}</h3>
-      <p ng-bind-html="conf.description"></p>
-      <p><i>Speaker</i> : {{conf.speakers}}
-    </div>
-
+  </div>
 </div>
-
-
 
 <div id="footer">
     <div class="container">

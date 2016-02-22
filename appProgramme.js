@@ -3,11 +3,16 @@
 angular.module('programme', ['ngSanitize','hc.marked'])
   .controller('programmeCtrl', ['$scope', '$http', 'marked', function ($scope, $http, marked) {
 
-    $scope.confs = [];
-    $scope.tias = [];
-    $scope.quickies = [];
-    $scope.univs = [];
-    $scope.labs = [];
+    $scope.jours = ['Mercredi', 'Jeudi', 'Vendredi'];
+    $scope.journee = [0, 1, 2];
+    $scope.journee[0] = {"visible": true};
+    $scope.journee[1] = {"visible": true};
+    $scope.journee[2] = {"visible": true};
+    $scope.confs = [3, 4, 5];
+    $scope.tias = [3, 4, 5];
+    $scope.quickies = [3, 4, 5];
+    $scope.univs = [3, 4, 5];
+    $scope.labs = [3, 4, 5];
 
     var toViewData = function (itemResponse) {
       var item = {name: itemResponse.name,
@@ -17,24 +22,34 @@ angular.module('programme', ['ngSanitize','hc.marked'])
       return item;
     }
 
+    $scope.changeJourVisible = function(index) {
+      $scope.journee[index].visible = !$scope.journee[index].visible;
+    }
+
     $http.get('json/2016/schedule.json').then(function (response) {
 
         for (var i = 0; i < response.data.length; i++) {
+          var dateConf = (new Date(response.data[i].event_start)).getDay();
           switch (response.data[i].format) {
             case "Conf":
-              $scope.confs.push(toViewData(response.data[i]));
+              if (!$scope.confs[dateConf]) $scope.confs[dateConf]=[];
+              $scope.confs[dateConf].push(toViewData(response.data[i]));
               break;
             case "TiA":
-              $scope.tias.push(toViewData(response.data[i]));
+              if (!$scope.tias[dateConf]) $scope.tias[dateConf]=[];
+              $scope.tias[dateConf].push(toViewData(response.data[i]));
               break;
             case "Univ":
-              $scope.univs.push(toViewData(response.data[i]));
+              if (!$scope.univs[dateConf]) $scope.univs[dateConf]=[];
+              $scope.univs[dateConf].push(toViewData(response.data[i]));
               break;
             case "Quickie":
-              $scope.quickies.push(toViewData(response.data[i]));
+              if (!$scope.quickies[dateConf]) $scope.quickies[dateConf]=[];
+              $scope.quickies[dateConf].push(toViewData(response.data[i]));
               break;
             case "Lab":
-              $scope.labs.push(toViewData(response.data[i]));
+              if (!$scope.labs[dateConf]) $scope.labs[dateConf]=[];
+              $scope.labs[dateConf].push(toViewData(response.data[i]));
               break;
           }
         }

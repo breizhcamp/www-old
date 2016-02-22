@@ -9135,6 +9135,7 @@ h4.breizhcamp-style {
 #pratique img,
 #sponsors img,
 #team img {
+  margin: 10px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;

@@ -36,9 +36,9 @@
     {
         "active": "Y",
         "description": "Au travers d’une application de chat géolocalisée dont les données proviennent d'[OpenStreetMap](http://openstreetmap.fr/) et permettant de discuter avec les personnes situées à proximité, je montrerai comment l’utilisation combinée de [Kotlin](https://kotlinlang.org/) et de [Spring Boot](http://projects.spring.io/spring-boot/) permet de développer simplement et élégamment des applications puissantes.\n\nCe sera également l’occasion de montrer l’utilisation d’une base de donnée relationnelle avec Spring DATA mais SANS JPA via le module [spring-data-jdbc-repository](https://github.com/nurkiewicz/spring-data-jdbc-repository) afin d'utiliser simplement les fonctionnalités de PostgreSQL telles que son cartouche géographique PostGIS ou le support JSON natif tout en gardant une stack technologique légère et optimisée. La libraries [Exposed](https://github.com/JetBrains/Exposed) qui est une DSL SQL Kotlin sera utilisée pour faire du code SQL statiquement typé.\n\nLes aspects suivants de Kotlin seront abordés de manière concrète avec de nombreux exemples de code tirés de cette application:\n- Inférence de type surpuissante pour du code concis et 0 overhead\n- Excellente interopérabilité Java\n- Sureté du code, via une meilleure prise en charge des valeurs nulles\n- Rapide à écrire, facile à lire",
-        "event_end": "2016-03-24T11:30:00",
+        "event_end": "2016-03-24T15:30:00",
         "event_key": "tobedefined",
-        "event_start": "2016-03-24T10:30:00",
+        "event_start": "2016-03-24T14:30:00",
         "event_type": "Langages",
         "format": "Conf",
         "goers": "tobedefined",
@@ -121,9 +121,9 @@
     {
         "active": "Y",
         "description": "La collecte, le stockage et l'analyse de donn\u00e9es issues de capteurs confronte les d\u00e9veloppeurs \u00e0 un triple challenge : \n- La performance: supporter un fort niveau d'ingestion- L'analyse: r\u00e9sonner avec des s\u00e9ries temporelles ne se ferra pas en SQL\n- La s\u00e9curit\u00e9: au centre de la solution\n\nWarp10 a \u00e9t\u00e9 cr\u00e9\u00e9 pour r\u00e9pondre \u00e0 ce challenge :\n* d\u00e9ployer un backend de collecte/stockage avec Docker, \n* stocker des donn\u00e9es en HTTP, WebSocket ou encore le d\u00e9mon de collecte Sensision,\n* analyser vos donn\u00e9es avec WarpScript,\n* d\u00e9couvrir les  web components d'\u00e9dition de script et visualisation de donn\u00e9es.",
-        "event_end": "2016-03-24T15:30:00",
+        "event_end": "2016-03-24T11:30:00",
         "event_key": "tobedefined",
-        "event_start": "2016-03-24T14:30:00",
+        "event_start": "2016-03-24T10:30:00",
         "event_type": "BigData et Analytics",
         "format": "Conf",
         "goers": "tobedefined",

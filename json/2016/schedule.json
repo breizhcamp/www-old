@@ -86,20 +86,20 @@
     },
     {
         "active": "Y",
-        "description": "Dans l'esprit de la cha\u00eene Youtube \"Quoi d'neuf Docker\", une pr\u00e9sentation de l'histoire du projet Docker ... en animation",
+        "description": "Vous n\u2019\u00eates pas sur un projet qui \u00e0 le dernier outil de collecte et d'analyse de log \u00e0 la mode du cloud ?\nOn vous demande de trouver ce qui cloche dans l'appli de prod ?\nPas de panique : avec une grosse poign\u00e9e de commandes de bases linux vous pourrez trouver rapidement cette proverbiale aiguille dans les gigas de logs du serveur.\nNote : on parle ici de : cut, grep, sed, awk et companie",
         "event_end": "2016-03-24T13:15:00",
         "event_key": "tobedefined",
         "event_start": "2016-03-24T13:00:00",
         "event_type": "Cloud, DevOps, Outils",
         "format": "Quickie",
         "goers": "tobedefined",
-        "id": 220,
+        "id": 50,
         "invite_only": "N",
-        "name": "Quoi d'neuf Docker (live) : Histoire br\u00e8ve",
+        "name": "Kit de survie : 10 outils en ligne de commande",
         "seats": "tobedefined",
-        "speakers": "De Loof Nicolas",
-        "venue": "Track1",
-        "venue_id": 1
+        "speakers": "Julien Balas",
+        "venue": "Track3",
+        "venue_id": 3
     },
     {
         "active": "Y",
@@ -902,20 +902,20 @@
     },
     {
         "active": "Y",
-        "description": "Vous n\u2019\u00eates pas sur un projet qui \u00e0 le dernier outil de collecte et d'analyse de log \u00e0 la mode du cloud ?\nOn vous demande de trouver ce qui cloche dans l'appli de prod ?\nPas de panique : avec une grosse poign\u00e9e de commandes de bases linux vous pourrez trouver rapidement cette proverbiale aiguille dans les gigas de logs du serveur.\nNote : on parle ici de : cut, grep, sed, awk et companie",
+        "description": "Dans l'esprit de la cha\u00eene Youtube \"Quoi d'neuf Docker\", une pr\u00e9sentation de l'histoire du projet Docker ... en animation",
         "event_end": "2016-03-25T13:00:00",
         "event_key": "tobedefined",
         "event_start": "2016-03-25T12:45:00",
         "event_type": "Cloud, DevOps, Outils",
         "format": "Quickie",
         "goers": "tobedefined",
-        "id": 50,
+        "id": 220,
         "invite_only": "N",
-        "name": "Kit de survie : 10 outils en ligne de commande",
+        "name": "Quoi d'neuf Docker (live) : Histoire br\u00e8ve",
         "seats": "tobedefined",
-        "speakers": "Julien Balas",
-        "venue": "Track3",
-        "venue_id": 3
+        "speakers": "De Loof Nicolas",
+        "venue": "Track1",
+        "venue_id": 1
     },
     {
         "active": "Y",

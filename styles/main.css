@@ -18696,7 +18696,7 @@ be a descendant of the grid when it is being dragged.
 .fc-time-grid-event {
   cursor: pointer;
 }
-.format-legend {
+.calendar-legend {
   margin-bottom: 0;
 }
 #soldout {

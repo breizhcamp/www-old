@@ -1,0 +1,14 @@
+<div class="modal-header">
+    <button type="button" class="close" ng-click="$close()"><span>&times;</span></button>
+    <h3 class="modal-title">
+        <span class="fa-stack" title="{{::detailsCtrl.formats[detailsCtrl.talk.format].label}}">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-stack-1x fa-inverse" ng-class="::detailsCtrl.formats[detailsCtrl.talk.format].icon"></i>
+        </span>
+        <span ng-bind="::detailsCtrl.talk.title"></span>
+    </h3>
+</div>
+<div class="modal-body">
+    <div marked="::detailsCtrl.talk.description"></div>
+    <p><em>Speaker(s)</em>&nbsp;: {{::detailsCtrl.talk.speakers}}</p>
+</div>

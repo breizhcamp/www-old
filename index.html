@@ -263,6 +263,17 @@
 
     <h2 class="breizhcamp-style">Programme</h2>
 
+    <div class="pull-left">
+        <ul class="format-legend list-inline">
+            <li ng-repeat="formatDef in progCtrl.formatDefinitions track by $index">
+                <span class="fa-stack" title="Universités">
+                    <i class="fa fa-square fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse" ng-class="::formatDef.icon"></i>
+                </span>
+                <span ng-bind="::formatDef.label"></span>
+            </li>
+        </ul>
+    </div>
     <div ui-calendar="progCtrl.calendarConfig" ng-model="progCtrl.agenda" ng-if="progCtrl.agenda"></div>
     <!--
     <uib-accordion close-others="false">

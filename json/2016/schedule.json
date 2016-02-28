@@ -114,7 +114,7 @@
         "invite_only": "N",
         "name": "RabbitMQ 101 : job scheduling, micro service communication, event based data stream\u2026 How to cook the rabbit?",
         "seats": "tobedefined",
-        "speakers": "Quentin ADAM",
+        "speakers": "Quentin Adam",
         "venue": "Track1",
         "venue_id": 1
     },
@@ -165,7 +165,7 @@
         "invite_only": "N",
         "name": "Apache Zeppelin, un notebook d'avenir pour l'\u00e9co-syst\u00e8me Big Data",
         "seats": "tobedefined",
-        "speakers": "DuyHai DOAN",
+        "speakers": "DuyHai Doan",
         "venue": "Track1",
         "venue_id": 1
     },
@@ -199,7 +199,7 @@
         "invite_only": "N",
         "name": "Sp\u00e9cifications en milieu agile",
         "seats": "tobedefined",
-        "speakers": "Arnaud LEMAIRE",
+        "speakers": "Arnaud Lemaire",
         "venue": "Track1",
         "venue_id": 1
     },
@@ -284,7 +284,7 @@
         "invite_only": "N",
         "name": "La relecture de code : avant tout des pratiques !",
         "seats": "tobedefined",
-        "speakers": "Eric SIBER",
+        "speakers": "Éric Siber",
         "venue": "Track1",
         "venue_id": 1
     },
@@ -318,7 +318,7 @@
         "invite_only": "N",
         "name": "Feedback Loop pour le d\u00e9veloppeur",
         "seats": "tobedefined",
-        "speakers": "Christophe Jollivet, mickael Debonnaire",
+        "speakers": "Christophe Jollivet, Mickael Debonnaire",
         "venue": "Track1",
         "venue_id": 1
     },
@@ -335,7 +335,7 @@
         "invite_only": "N",
         "name": "Guide de survie du d\u00e9veloppeur perdu dans une application qui rame",
         "seats": "tobedefined",
-        "speakers": "Brice LEPORINI",
+        "speakers": "Brice Leporini",
         "venue": "Track2",
         "venue_id": 2
     },
@@ -352,7 +352,7 @@
         "invite_only": "N",
         "name": "Let's React : le lab !",
         "seats": "tobedefined",
-        "speakers": "S\u00e9bastien Prunier, Mathieu ANCELIN",
+        "speakers": "S\u00e9bastien Prunier, Mathieu Ancelin",
         "venue": "Track2",
         "venue_id": 2
     },
@@ -369,7 +369,7 @@
         "invite_only": "N",
         "name": "D\u00e9velopper une application mobile avec Ionic",
         "seats": "tobedefined",
-        "speakers": "St\u00e9phanie MOALLIC",
+        "speakers": "St\u00e9phanie Moallic",
         "venue": "Track3",
         "venue_id": 3
     },
@@ -403,7 +403,7 @@
         "invite_only": "N",
         "name": "Immutability: from code to infrastructure, the way to scalability",
         "seats": "tobedefined",
-        "speakers": "Quentin ADAM",
+        "speakers": "Quentin Adam",
         "venue": "Track2",
         "venue_id": 2
     },
@@ -505,7 +505,7 @@
         "invite_only": "N",
         "name": "Flexbox, et le CSS redevient fun !",
         "seats": "tobedefined",
-        "speakers": "Hubert SABLONNI\u00c8RE",
+        "speakers": "Hubert Sablonnière",
         "venue": "Track2",
         "venue_id": 2
     },
@@ -522,7 +522,7 @@
         "invite_only": "N",
         "name": "U2F, l'authentification forte pour votre site web",
         "seats": "tobedefined",
-        "speakers": "Yoann Dubreuil, Alexandre THOMAZO",
+        "speakers": "Yoann Dubreuil, Alexandre Thomazo",
         "venue": "Track2",
         "venue_id": 2
     },
@@ -573,7 +573,7 @@
         "invite_only": "N",
         "name": "XSS is beautiful ou comment j'ai hack\u00e9 le CFP du BreizhCamp",
         "seats": "tobedefined",
-        "speakers": "Michel DAVID",
+        "speakers": "Michel David",
         "venue": "Track2",
         "venue_id": "2"
     },
@@ -692,7 +692,7 @@
         "invite_only": "N",
         "name": "Tout ce que le getting started MongoDB ne vous dira pas",
         "seats": "tobedefined",
-        "speakers": "Dewitte Pierre-Alban, Bruno Bonnin",
+        "speakers": "Pierre-Alban Dewitte, Bruno Bonnin",
         "venue": "Track3",
         "venue_id": 3
     },
@@ -845,7 +845,7 @@
         "invite_only": "N",
         "name": "D\u00e9ploiement ELK en conditions r\u00e9elles",
         "seats": "tobedefined",
-        "speakers": "Geoffroy ARNOUD",
+        "speakers": "Geoffroy Arnoud",
         "venue": "Track3",
         "venue_id": 3
     },
@@ -879,7 +879,7 @@
         "invite_only": "N",
         "name": "Ionic, Native Script, React native... Quel framework mobile hybride choisir?",
         "seats": "tobedefined",
-        "speakers": "St\u00e9phanie MOALLIC",
+        "speakers": "St\u00e9phanie Moallic",
         "venue": "Track3",
         "venue_id": 3
     },
@@ -896,7 +896,7 @@
         "invite_only": "N",
         "name": "Let's React",
         "seats": "tobedefined",
-        "speakers": "Mathieu ANCELIN",
+        "speakers": "Mathieu Ancelin",
         "venue": "Track3",
         "venue_id": 3
     },
@@ -913,7 +913,7 @@
         "invite_only": "N",
         "name": "Quoi d'neuf Docker (live) : Histoire br\u00e8ve",
         "seats": "tobedefined",
-        "speakers": "De Loof Nicolas",
+        "speakers": "Nicolas De Loof",
         "venue": "Track1",
         "venue_id": 1
     },
@@ -1066,7 +1066,7 @@
         "invite_only": "N",
         "name": "Les fausses bonnes id\u00e9es que j\u2019ai crois\u00e9 dans ma carri\u00e8re",
         "seats": "tobedefined",
-        "speakers": "Arnaud LEMAIRE",
+        "speakers": "Arnaud Lemaire",
         "venue": "Track4",
         "venue_id": 4
     },
@@ -1083,7 +1083,7 @@
         "invite_only": "N",
         "name": "100% Stateless avec JWT (JSON Web Token)",
         "seats": "tobedefined",
-        "speakers": "Hubert SABLONNI\u00c8RE",
+        "speakers": "Hubert Sablonnière",
         "venue": "Track4",
         "venue_id": 4
     },
@@ -1134,7 +1134,7 @@
         "invite_only": "N",
         "name": "Vert.x dans le \"hardware\"",
         "seats": "tobedefined",
-        "speakers": "Laurent HUET",
+        "speakers": "Laurent Huet",
         "venue": "Track4",
         "venue_id": 4
     },
@@ -1253,7 +1253,7 @@
         "invite_only": "N",
         "name": "Suivi des vuln\u00e9rabilit\u00e9s dans les d\u00e9pendances",
         "seats": "tobedefined",
-        "speakers": "Maxime OLIVIER, Georges Bossert",
+        "speakers": "Maxime Olivier, Georges Bossert",
         "venue": "Track4",
         "venue_id": 4
     },
@@ -1287,7 +1287,7 @@
         "invite_only": "N",
         "name": "Les nouveaux supers pouvoir du web",
         "seats": "tobedefined",
-        "speakers": "jean-francois garreau",
+        "speakers": "Jean-Francois Garreau",
         "venue": "Track4",
         "venue_id": 4
     },

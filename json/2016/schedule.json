@@ -614,9 +614,9 @@
     {
         "active": "Y",
         "description": "Il y a un peu plus d'un an, j'ai \u00e9crit puis lancer un programme.\nDepuis lors, il me regarde, il note tout ce que je fais au moins une fois par minute.\n\nMon objectif ? Mieux comprendre ma vie, l'am\u00e9liorer gr\u00e2ce aux donn\u00e9es que ce programme r\u00e9cup\u00e8re.\n\nJe me retrouve ainsi avec un bien beau projet de DataScience !\n\nA travers cette session, je vais vous montrer les diff\u00e9rentes techniques d'apprentissage automatique que j'ai utilis\u00e9es pour cr\u00e9er plusieurs mod\u00e8les de mon activit\u00e9.\nNous aborderons ainsi les bases du Machine Learning \u00e0 travers une \u00e9tude de cas appliqu\u00e9e \u00e0 un contexte r\u00e9el.\nNous tirerons ensemble les conclusions imm\u00e9diatement appliquables \u00e0 mon activit\u00e9 et nous verrons ensemble comment vous pourriez r\u00e9aliser cette exp\u00e9rience chez vous.",
-        "event_end": "2016-03-25T15:30:00",
+        "event_end": "2016-03-23T12:00:00",
         "event_key": "tobedefined",
-        "event_start": "2016-03-25T14:30:00",
+        "event_start": "2016-03-23T11:00:00",
         "event_type": "BigData et Analytics",
         "format": "Conf",
         "goers": "tobedefined",
@@ -1022,9 +1022,9 @@
     {
         "active": "Y",
         "description": "La plupart du temps, les donn\u00e9es ne sont pas int\u00e9ressantes en elles-m\u00eames, ce sont les informations qui peuvent en \u00eatre extraite qui le sont.\nParmi les diff\u00e9rentes techniques de communication d'une information, la visualisation repr\u00e9sente sans doute l'une des meilleures. Elle offre au public cibl\u00e9  l'opportunit\u00e9 d'explorer et de comprendre un large ensemble de donn\u00e9es.\n\nA travers de nombreux exemples, cette session va vous donner les cl\u00e9s de r\u00e9alisation d'une bonne visualisation.\n\nAu programme :\n* Bien distinguer la donn\u00e9e de l'information\n* Notion de mod\u00e8les & relations pouvant \u00eatre extraits des donn\u00e9es\n* Corr\u00e9lation et Causalit\u00e9\n* Donner le contexte d'une visualisation\n* Comprendre l'impact des formes g\u00e9om\u00e9triques\n* De l'importance des sources\n* Visualiser des mod\u00e8les temporels\n* Visualiser des proportions\n* Visualiser des relations\n* Identifier des diff\u00e9rences\n* Int\u00e9ractivit\u00e9\n* Bonnes pratiques & erreurs courantes\n* Les outils du march\u00e9, Focus sur D3",
-        "event_end": "2016-03-23T12:00:00",
+        "event_end": "2016-03-25T15:30:00",
         "event_key": "tobedefined",
-        "event_start": "2016-03-23T11:00:00",
+        "event_start": "2016-03-25T14:30:00",
         "event_type": "BigData et Analytics",
         "format": "Conf",
         "goers": "tobedefined",

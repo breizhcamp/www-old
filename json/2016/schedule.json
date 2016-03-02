@@ -291,9 +291,9 @@
     {
         "active": "Y",
         "description": "L'Open Source, truc de hippy des ann\u00e9es 90 est devenu LE lifestyle de toute tech company. \nMais alors comment s'y prendre ? Beaucoup de d\u00e9veloppeurs en ont violemment souffert.\nVous ne voulez pas subir le m\u00eame sort ? Je vous d\u00e9voilerai avec impertinence tous les secrets de cette savante alchimie.",
-        "event_end": "2016-03-25T13:00:00",
+        "event_end": "2016-03-24T13:00:00",
         "event_key": "tobedefined",
-        "event_start": "2016-03-25T12:45:00",
+        "event_start": "2016-03-24T12:45:00",
         "event_type": "Keynote",
         "format": "Quickie",
         "goers": "tobedefined",
@@ -478,9 +478,9 @@
     {
         "active": "Y",
         "description": "Dans ce talk nous verrons comment en quinze minutes et en utilisant deux outils d'une simplicit\u00e9 redoutable, nous allons pouvoir r\u00e9aliser une application mobile affichant la position de l'ISS sur une carte, en temps r\u00e9el. \nD'un c\u00f4t\u00e9, Streamdata.io et son SDK qui en moins de dix lignes de code est capable de streamer n'importe quelle API et nous donnera la position de l'ISS comme si nous \u00e9tions \u00e0 bord. De l'autre, Ionic, un framework mobile hybride aussi efficace que puissant pour l'afficher et le d\u00e9ployer sur toutes les plateformes en moins de temps qu'il n'en faut pour le dire. \nAlors, on parie ?",
-        "event_end": "2016-03-24T13:00:00",
+        "event_end": "2016-03-25T13:00:00",
         "event_key": "tobedefined",
-        "event_start": "2016-03-24T12:45:00",
+        "event_start": "2016-03-25T12:45:00",
         "event_type": "Objects connect\u00e9s, IoT, Robotique",
         "format": "Quickie",
         "goers": "tobedefined",
@@ -1423,7 +1423,7 @@
         "invite_only": "N",
         "name": "Angular 2 Getting Started",
         "seats": "tobedefined",
-        "speakers": "Wassim Chegham",
+        "speakers": "Wassim Chegham, Vincent Ogloblinsky",
         "venue": "Track5 (labs)",
         "venue_id": 5
     },

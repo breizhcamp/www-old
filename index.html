@@ -41,6 +41,7 @@
                         <li><a href="#accueil">Accueil</a></li>
                         <li><a href="#actualites">Actualités</a></li>
                         <li><a href="#programme">Programme</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
                         <li><a href="#sponsors">Sponsors</a></li>
                         <li><a href="#team">Team</a></li>
                         <li><a href="archives.html">Éditions précédentes</a></li>
@@ -91,6 +92,7 @@
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#actualites">Actualités</a></li>
                 <li><a href="#programme">Programme</a></li>
+                <li><a href="#speakers">Speakers</a></li>
                 <li><a href="#sponsors">Sponsors</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="archives.html">Éditions précédentes</a></li>
@@ -258,8 +260,8 @@
 </div>
 
 <div class="divider"></div>
-
-<div id="programme" class="container" ng-app="programme" ng-controller="ProgrammeCtrl as progCtrl">
+<div ng-app="programme" ng-controller="ProgrammeCtrl as progCtrl">
+<div id="programme" class="container" >
 
     <h2 class="breizhcamp-style">Programme</h2>
 
@@ -322,6 +324,21 @@
     </uib-accordion>
     -->
 </div>
+<div id="speakers" class="container" >
+
+        <h2 class="breizhcamp-style">Speakers</h2>
+
+        <div class="row">
+            <div class="col-sm-1" ng-repeat="speaker in progCtrl.speakers | orderBy: 'lastname' ">
+                <a href="" ng-click="progCtrl.detailsSpeaker(speaker)" title="{{speaker.lastname}} {{speaker.firstname}}"><img ng-src="{{speaker.imageProfilURL}}" height="60" width="60"/></a>
+            </div>
+        </div>
+</div>
+<div class="divider"></div>
+
+
+</div>
+
 
 <div class="divider"></div>
 

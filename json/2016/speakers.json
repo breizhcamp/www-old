@@ -32,7 +32,7 @@
     "social": "",
     "twitter": null,
     "googleplus": "https://plus.google.com/109669109238504787835",
-    "github": "https://api.github.com/users/ydubreuil",
+    "github": "ydubreuil",
     "imageProfilURL": "https://lh4.googleusercontent.com/-akAJz17Pv7c/AAAAAAAAAAI/AAAAAAAAUg4/GjCjZPR341Y/photo.jpg?sz=360"
   },
   {
@@ -44,7 +44,7 @@
     "social": "",
     "twitter": "http://twitter.com/julienrf",
     "googleplus": null,
-    "github": "https://api.github.com/users/julienrf",
+    "github": "julienrf",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/332812?v=3"
   },
   {
@@ -68,7 +68,7 @@
     "social": "https://github.com/dgageot, https://twitter.com/dgageot",
     "twitter": "https://twitter.com/dgageot",
     "googleplus": null,
-    "github": "https://api.github.com/users/dgageot",
+    "github": "dgageot",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/153495?v=3"
   },
   {
@@ -90,7 +90,7 @@
     "company": "Apside Top",
     "bio": "Lead Developer chez Apside Top à Tours. Passionné et partageur, j'interviens principalement sur la plateforme Java mais j'explore d'autres contrées comme l’écosystème Javascript et la programmation fonctionnelle.",
     "social": "",
-    "twitter": "mdebonnaire",
+    "twitter": "https://twitter.com/mdebonnaire",
     "googleplus": null,
     "github": "calden",
     "imageProfilURL": "https://pbs.twimg.com/profile_images/3452095857/36239f4d3f15ff460f02f70ec7c73382_400x400.jpeg"
@@ -164,7 +164,7 @@
     "social": "",
     "twitter": "https://twitter.com/steffy_29",
     "googleplus": "https://plus.google.com/109255135544802513030",
-    "github": "https://api.github.com/users/Steffy29",
+    "github": "Steffy29",
     "imageProfilURL": "https://lh4.googleusercontent.com/-TOivudf-W-Q/AAAAAAAAAAI/AAAAAAAAEfs/97Eco6figh0/photo.jpg?sz=360"
   },
   {
@@ -260,7 +260,7 @@
     "social": "arnaudmorin.fr",
     "twitter": "mangerduchien",
     "googleplus": null,
-    "github": "https://api.github.com/users/arnaudmorin",
+    "github": "arnaudmorin",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/1382001?v=3"
   },
   {
@@ -320,7 +320,7 @@
     "social": "",
     "twitter": null,
     "googleplus": null,
-    "github": "https://api.github.com/users/nicolsc",
+    "github": "nicolsc",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/526931?v=3"
   },
   {
@@ -368,7 +368,7 @@
     "social": "wassimchegham.com, https://twitter.com/manekinekko, https://github.com/manekinekko",
     "twitter": "https://twitter.com/manekinekko",
     "googleplus": "https://plus.google.com/u/0/+WassimCheghamJavaScript",
-    "github": "https://api.github.com/users/manekinekko",
+    "github": "manekinekko",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/1699357?v=3"
   },
   {
@@ -389,10 +389,10 @@
     "firstname": "Bruno",
     "company": "MyScript",
     "bio": "Architecte et développeur sur toutes les couches des applications (du front- au back-end) avec une prédilection pour les technologies Java, JS, NoSQL (MongoDB, Elasticsearch, ArangoDB) et Big Data (Hadoop). Développe depuis l'époque du ZX Spectrum et pense toujours que c'est la meilleure machine de tous les temps !",
-    "social": "https://twitter.com/_bruno_b_, https://github.com/bbonnin",
+    "social": null,
     "twitter": "https://twitter.com/_bruno_b_",
     "googleplus": null,
-    "github": "https://api.github.com/users/bbonnin",
+    "github": "bbonnin",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/1908593?v=3"
   },
   {
@@ -452,7 +452,7 @@
     "social": "",
     "twitter": "@blep",
     "googleplus": "https://plus.google.com/107572865808176083945",
-    "github": "https://api.github.com/users/bleporini",
+    "github": "bleporini",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/1412771?v=3"
   },
   {
@@ -461,7 +461,7 @@
     "firstname": "Timothée",
     "company": "SII",
     "bio": "J’ai découvert l’agilité en 2009 par les pratiques. Bof ?! En 2011 on m’a fait redécouvrir l’agilité par les valeurs : Boum !\nJ’ai tout de suite été intéressé puis passionné par l’agilité. Depuis je fais mon petit bout de chemin et j’élargis, grâce à des rencontres, mes champs d’intérêts sur des concepts tels que le bonheur au travail, le leadership, la connaissance de soi, etc. \n« Buzz words » pour certains, cela a du sens pour moi. Et demain ? Rien de certain mais en tout cas je souhaite continuer d’apprendre avec les autres, c’est ce qui m’anime.",
-    "social": "https://fr.linkedin.com/in/timothée-chevrier-13a8a725, https://twitter.com/msieur_tim, https://blog.groupe-sii.com/, http://www.viadeo.com/fr/profile/timothée.chevrier",
+    "social": "https://fr.linkedin.com/in/timothée-chevrier-13a8a725, https://blog.groupe-sii.com/, http://www.viadeo.com/fr/profile/timothée.chevrier",
     "twitter": "https://twitter.com/msieur_tim",
     "googleplus": "https://plus.google.com/+TimothéeChevrier",
     "github": null,
@@ -488,7 +488,7 @@
     "social": "www.doanduyhai.com/blog",
     "twitter": "@doanduyhai",
     "googleplus": null,
-    "github": "https://api.github.com/users/doanduyhai",
+    "github": "doanduyhai",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/1532977?v=3"
   },
   {
@@ -509,10 +509,10 @@
     "firstname": "Jean-Marc",
     "company": "Worldline (be)",
     "bio": "A perpetual learner, admirative of all the cool stuff out there.",
-    "social": "@jm_meessen, https://github.com/jmMeessen, https://www.the-captains-shack.com",
+    "social": "https://www.the-captains-shack.com",
     "twitter": "@jm_meessen",
     "googleplus": "https://plus.google.com/112610036133548976032",
-    "github": "https://api.github.com/users/jmMeessen",
+    "github": "jmMeessen",
     "imageProfilURL": "https://lh3.googleusercontent.com/-OG2EWhNYJ08/AAAAAAAAAAI/AAAAAAAAAE0/lRZiOUeQTuQ/photo.jpg?sz=360"
   },
   {
@@ -560,7 +560,7 @@
     "social": "",
     "twitter": "@gcollic",
     "googleplus": "+GuillaumeCollic",
-    "github": "https://api.github.com/users/gcollic",
+    "github": "gcollic",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/763200?v=3"
   },
   {
@@ -581,10 +581,10 @@
     "firstname": "Mario",
     "company": "Zenika",
     "bio": "Mario est le directeur technique de Zenika Paris et formateur officiel Docker. Il est également auteur des projets Open Source [doclipser](https://github.com/domeide/doclipser), [sublime docker](https://github.com/domeide/sublime-docker) et [docker-unit](https://github.com/l0rd/docker-unit) et speaker en 2015 à dot.Scale, EclipseCon, SoftShake et Codeurs en Seine.",
-    "social": "https://twitter.com/mariolet, https://github.com/l0rd",
+    "social": null,
     "twitter": "https://twitter/mariolet",
     "googleplus": null,
-    "github": "https://api.github.com/users/l0rd",
+    "github": "l0rd",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/606959?v=3"
   },
   {
@@ -596,7 +596,7 @@
     "social": "",
     "twitter": "@ygravrand",
     "googleplus": null,
-    "github": "https://api.github.com/users/ygravrand",
+    "github": "ygravrand",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/3704957?v=3"
   },
   {
@@ -704,7 +704,7 @@
     "social": "",
     "twitter": "ghoullier",
     "googleplus": null,
-    "github": "https://api.github.com/users/ghoullier",
+    "github": "ghoullier",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/2315749?v=3"
   },
   {
@@ -776,7 +776,7 @@
     "social": "http://loic.knuchel.org/blog/",
     "twitter": "loicknuchel",
     "googleplus": null,
-    "github": "https://api.github.com/users/loicknuchel",
+    "github": "loicknuchel",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/653009?v=3"
   },
   {
@@ -857,10 +857,10 @@
     "firstname": "Quentin",
     "company": "Clever Cloud",
     "bio": "Quentin ADAM is the CEO of Clever Cloud : a Platform as a Service company allowing you to run java, scala, ruby, node.js, php, python or go applications, with auto scaling and auto healing features. This position allow him to study lots of applications, code, practice, and extract some talks and advises. Regular speaker at various tech conference, he’s focused to help developers to deliver quickly and happily good applications.",
-    "social": "http://www.clever-cloud.com/blog/, https://twitter.com/waxzce",
+    "social": "http://www.clever-cloud.com/blog/",
     "twitter": "https://twitter.com/waxzce",
     "googleplus": null,
-    "github": "https://api.github.com/users/waxzce",
+    "github": "waxzce",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/137284?v=3"
   },
   {
@@ -896,7 +896,7 @@
     "social": "http://david.pilato.fr/",
     "twitter": "dadoonet",
     "googleplus": null,
-    "github": "https://api.github.com/users/dadoonet",
+    "github": "dadoonet",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/274222?v=3"
   },
   {
@@ -920,7 +920,7 @@
     "social": "",
     "twitter": "https://twitter.com/ldoguin",
     "googleplus": null,
-    "github": "https://api.github.com/users/ldoguin",
+    "github": "ldoguin",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/608902?v=3"
   },
   {
@@ -956,7 +956,7 @@
     "social": "http://swiip.github.io/, https://github.com/Swiip/generator-gulp-angular, https://github.com/FountainJS/",
     "twitter": "https://twitter.com/Swiip",
     "googleplus": "https://plus.google.com/114267295816087906296",
-    "github": "https://api.github.com/users/Swiip",
+    "github": "Swiip",
     "imageProfilURL": "https://avatars.githubusercontent.com/u/475895?v=3"
   },
   {

@@ -16,7 +16,9 @@
 </div>
 
 <div class="modal-footer">
-      <span><a ng-if="detailsCtrl.speaker.social" href="{{::detailsCtrl.speaker.social}}" target="_blank">{{::detailsCtrl.speaker.social}}</a> </span>
+      <span ng-if="detailsCtrl.speaker.social" ng-repeat="link in detailsCtrl.speaker.social.split(', ')">
+        <a ng-if="link" href="{{::link}}" target="_blank">{{::link}}</a>
+      </span>
       <span><a ng-if="detailsCtrl.speaker.twitter && detailsCtrl.speaker.twitter.indexOf('twitter') === -1" href="https://twitter.com/{{::detailsCtrl.speaker.twitter}}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a> </span>
       <span><a ng-if="detailsCtrl.speaker.twitter && detailsCtrl.speaker.twitter.indexOf('twitter')  !== -1" href="{{::detailsCtrl.speaker.twitter}}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a> </span>
       <span><a ng-if="detailsCtrl.speaker.github && !detailsCtrl.speaker.github.indexOf('github')  === -1" href="https://github.com/{{::detailsCtrl.speaker.github}}" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>

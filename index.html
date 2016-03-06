@@ -346,8 +346,9 @@
         <div class="row">
             <div class="col-sm-1" ng-repeat="speaker in progCtrl.speakers | orderBy: 'lastname' ">
                 <a href="" ng-click="progCtrl.detailsSpeaker(speaker)"
-                   title="{{speaker.lastname}} {{speaker.firstname}}"><img ng-src="{{speaker.imageProfilURL}}"
-                                                                           height="60" width="60"/></a>
+                   title="{{speaker.lastname}} {{speaker.firstname}}">
+                    <img ng-src="{{speaker.imageProfilURL}}" height="60" width="60">
+                </a>
             </div>
         </div>
     </div>

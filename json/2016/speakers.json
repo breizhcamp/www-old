@@ -49,7 +49,7 @@
   },
   {
     "id": 4,
-    "lastname": "THOMAZO",
+    "lastname": "Thomazo",
     "firstname": "Alexandre",
     "company": null,
     "bio": "C'est moi",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "lastname": "HUET",
+    "lastname": "Huet",
     "firstname": "Laurent",
     "company": null,
     "bio": "--",
@@ -86,7 +86,7 @@
   {
     "id": 138,
     "lastname": "Debonnaire",
-    "firstname": "mickael",
+    "firstname": "Mickael",
     "company": "Apside Top",
     "bio": "Lead Developer chez Apside Top à Tours. Passionné et partageur, j'interviens principalement sur la plateforme Java mais j'explore d'autres contrées comme l’écosystème Javascript et la programmation fonctionnelle.",
     "social": "",
@@ -145,8 +145,8 @@
   },
   {
     "id": 14,
-    "lastname": "Pierre-Alban",
-    "firstname": "Dewitte",
+    "lastname": "Dewitte",
+    "firstname": "Pierre-Alban",
     "company": "MyScript",
     "bio": "Pierre-Alban est responsable de l'équipe Cloud à MyScript. Artisan du logiciel il aime mettre en pratique sa veille technologique avide pour gagner en rapidité et en simplicité. Que ce soit MongoDB, Docker, Polymer ou Gulp il aime apprivoiser les nouveautés pour ensuite partager ce savoir.",
     "social": "padewitte.tumblr.com",
@@ -157,7 +157,7 @@
   },
   {
     "id": 15,
-    "lastname": "MOALLIC",
+    "lastname": "Moallic",
     "firstname": "Stéphanie",
     "company": "MOALLIC",
     "bio": "D&#233;veloppeuse informatique depuis plus de 15 ans, avec une pr&#233;dilection pour le front-end, les trucs pour faire joli et les bonnes pratiques, dans les techno autour de Java et de la JVM, du web et du mobile. Passionn&#233;e d'informatique mais pas que...",
@@ -181,7 +181,7 @@
   },
   {
     "id": 145,
-    "lastname": "LEMAIRE",
+    "lastname": "Lemaire",
     "firstname": "Arnaud",
     "company": "Le même en mieux",
     "bio": "Après une période en tant qu’indépendant, j’ai occupé le poste d’architecte logiciel dans une entreprise spécialisée dans les logiciels à destination du secteur public.  \nJ’ai alors pu créer des logiciels pour des contextes métiers particulièrement complexes.?Il y a deux ans, redevenant indépendant, j’ai mis à profit mes compétences en développement logiciel pour aider de jeunes entreprises innovantes, à \"scaler\" en complexité. \nPendant cette période j’ai eu la chance de travailler depuis  Bucarest, Hambourg et Raleigh (US). C’est fort de cette expérience que je suis à présent en charge de la partie technique pour la start-up lmem.net. \n\nPolyglotte, je travaille au quotidien avec les langages : Java, PHP, Ruby, Python et JavaScript le tout soupoudré d'une pointe de fonctionnel. \nJe me définis comme Software Craftsman et pratique au quotidien l'eXtrem Programming. \n\nPar ailleurs je m’occupe des communautés 1cup expert, Agnostech et while42 sur Bordeaux et Pau.",
@@ -242,7 +242,7 @@
   {
     "id": 31,
     "lastname": "Martinez",
-    "firstname": "Jeremie",
+    "firstname": "Jérémie",
     "company": "Captain Train",
     "bio": "Jeremie est développeur Android depuis plus de 4 ans et travaille actuellement chez CaptainTrain. Passionné par le développement Android, il est un fervent adepte des bonnes pratiques et des principes du Software Craftsmanship.",
     "social": "jeremie-martinez.com",
@@ -301,7 +301,7 @@
   },
   {
     "id": 162,
-    "lastname": "OLIVIER",
+    "lastname": "Olivier",
     "firstname": "Maxime",
     "company": "Prolepse",
     "bio": "Expert en s&#233;curit&#233; des syst&#232;mes d'information",
@@ -445,7 +445,7 @@
   },
   {
     "id": 181,
-    "lastname": "LEPORINI",
+    "lastname": "Leporini",
     "firstname": "Brice",
     "company": "Indépendant",
     "bio": "Brice est un développeur sénior qui totalise 20 ans d’expérience sur différentes technologies dont dix focalisées sur l’ecosystème Java et les architectures n-tiers. Freelance depuis dix ans, son activité actuelle oscille entre le coaching technique d’équipes de jeunes geeks, les travaux d’amélioration de performance et les études préalables.",
@@ -481,7 +481,7 @@
   },
   {
     "id": 59,
-    "lastname": "DOAN",
+    "lastname": "Doan",
     "firstname": "DuyHai",
     "company": "Datastax",
     "bio": "Duy Hai est évangéliste technique pour Datastax, l’entreprise commerciale derrière Apache Cassandra.\n\nIl partage son temps entre donner des présentations/meetups/talks sur Cassandra, développer sur des projets open-source pour la communauté et aider les projets utilisant Cassandra.\n\nAvant Datastax, Duy Hai a été développeur freelance Java/Cassandra",
@@ -493,8 +493,8 @@
   },
   {
     "id": 62,
-    "lastname": "garreau",
-    "firstname": "jean-francois",
+    "lastname": "Garreau",
+    "firstname": "Jean-Francois",
     "company": "SQLI / GDG Nantes",
     "bio": "Je suis développeur depuis maintenant 10 ans. J'ai toujours évolué dans un monde java et j'ai découvert Android en 2009 avec la version 1.1. Depuis, je continue de suivre les évolutions de la plateforme. Depuis maintenant 2 ans je m’intéresse plus en profondeur au Web avec des sujets comme AngularJS / WebRTC / WebSockets. Je me spécialise aussi dans les sujets innovants et les sujets type Internet Of Things\n\nChez SQLI depuis 2012, je suis le responsable du Pôle Internet Of Things à Nantes.\n\nEn dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, co-créateur des Nantes Wit et organisateur de Devoxx4Kids\n\nRetrouvez l'ensemble de mes contributions sur https://github.com/jefBinomed",
     "social": "http://jef.binomed.fr",
@@ -517,7 +517,7 @@
   },
   {
     "id": 68,
-    "lastname": "ANCELIN",
+    "lastname": "Ancelin",
     "firstname": "Mathieu",
     "company": "SERLI",
     "bio": "Mathieu ANCELIN est développeur à SERLI, spécialisé dans la programmation web et les frameworks web modernes avec un bon background autour des technologies Java EE. Mathieu est impliqué dans plusieurs projets open-source comme GlassFish et Weld, et en lead également quelques un comme ReactiveCouchbase et Weld-OSGi; Il est membre de l'expert group de la JSR-346, de la JSR 371 et fait partie de l'équipe du Poitou-Charentes JUG.",
@@ -541,7 +541,7 @@
   },
   {
     "id": 198,
-    "lastname": "ARNOUD",
+    "lastname": "Arnoud",
     "firstname": "Geoffroy",
     "company": null,
     "bio": "Chez Capgemini depuis plus de 10 ans, j'ai eu l'occasion de jouer avec différentes technologies, sur différents sujets...",
@@ -625,7 +625,7 @@
   },
   {
     "id": 204,
-    "lastname": "DAVID",
+    "lastname": "David",
     "firstname": "Michel",
     "company": "DGA",
     "bio": "alert('XSS')",
@@ -721,7 +721,7 @@
   },
   {
     "id": 85,
-    "lastname": "SIBER",
+    "lastname": "Siber",
     "firstname": "Eric",
     "company": "Novedia, groupe VISEO",
     "bio": "Dans le monde du développement depuis plus de 10 ans, actuellement :\n- Agile Java Craftsman\n- Creative Ecosystem Architect pour le compte de VISEO Technologies\n- Runner et Papa 2.0\n\nPrécédemment pour Novedia (en plus de ma casquette de développeur) : Consultant Manager de 2010 à 2014, responsable Expertise IT de 2013 à 2014. Rôles pour lesquels je me suis évertué à accentuer la dimension humaine dans l'organisation et l'accompagner dans son évolution, fonction que j'occupe désormais à l'échelle de la BU Technologies du groupe VISEO que Novedia à rejoint en 2014.\n\nAncien membre actif, modérateur, rédacteur et responsable bénévole Java sur [Developpez.com](http://www.developpez.com/) pendant 4 ans.\n\nEnfin, j'ai participé à l'organisation de la [conférence Agile France](http://conf.agile-france.org/) 2013.",
@@ -793,7 +793,7 @@
   },
   {
     "id": 94,
-    "lastname": "SABLONNIÈRE",
+    "lastname": "Sablonnière",
     "firstname": "Hubert",
     "company": "INEAT Conseil",
     "bio": "Hubert est développeur Web et passionné d’HTML, CSS et JavaScript. Il travaille depuis 7 ans chez INEAT Conseil et passe une bonne partie de sa semaine à développer sur des projets. Il intervient de temps en temps chez d'autres clients pour du conseil et de l'audit.\n\nIl a travaillé avec du PHP, du Java et beaucoup de JavaScript pour des sites et webapp Intranet/Internet, mobile/tablettes et desktop. Il a également une casquette CSS/intégration.\n\nSur son temps libre, il bidouille beaucoup avec les dernières technologies pour essayer de trouver des nouveaux usages pour ses utilisateurs et des facilités pour les développeurs.",
@@ -853,7 +853,7 @@
   },
   {
     "id": 98,
-    "lastname": "ADAM",
+    "lastname": "Adam",
     "firstname": "Quentin",
     "company": "Clever Cloud",
     "bio": "Quentin ADAM is the CEO of Clever Cloud : a Platform as a Service company allowing you to run java, scala, ruby, node.js, php, python or go applications, with auto scaling and auto healing features. This position allow him to study lots of applications, code, practice, and extract some talks and advises. Regular speaker at various tech conference, he’s focused to help developers to deliver quickly and happily good applications.",
@@ -913,7 +913,7 @@
   },
   {
     "id": 236,
-    "lastname": "Doguin",
+    "lastname": "Dogui",
     "firstname": "Laurent",
     "company": "Couchbase",
     "bio": "Laurent is a Paris based Developer Advocate where he focuses on helping Java developers and the French community. He writes code in Java and blog posts in Markdown.?Prior to joining Couchbase he was Nuxeo’s community liaison where he devoted his time and expertise to helping the entire Nuxeo Community become more active and efficient.",

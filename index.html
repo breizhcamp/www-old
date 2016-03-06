@@ -42,6 +42,7 @@
                         <li><a href="#actualites">Actualités</a></li>
                         <li><a href="#programme">Programme</a></li>
                         <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#pratique">Pratique</a></li>
                         <li><a href="#sponsors">Sponsors</a></li>
                         <li><a href="#team">Team</a></li>
                         <li><a href="archives.html">Éditions précédentes</a></li>
@@ -93,6 +94,7 @@
                 <li><a href="#actualites">Actualités</a></li>
                 <li><a href="#programme">Programme</a></li>
                 <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#pratique">Pratique</a></li>
                 <li><a href="#sponsors">Sponsors</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="archives.html">Éditions précédentes</a></li>
@@ -260,87 +262,158 @@
 </div>
 
 <div class="divider"></div>
+
 <div ng-app="programme" ng-controller="ProgrammeCtrl as progCtrl">
-<div id="programme" class="container" >
 
-    <h2 class="breizhcamp-style">Programme</h2>
+    <div id="programme" class="container">
 
-    <div class="pull-left">
-        <ul class="list-inline">
-            <li ng-repeat="(category, color) in progCtrl.categoryColors track by category">
-                <label class="btn btn-default" ng-model="progCtrl.filters.category[category]" uib-btn-checkbox>
-                    <i class="fa fa-square fa-fw" ng-style="{color: color}"></i>
-                    <span ng-bind="::category"></span>
-                </label>
-            </li>
-        </ul>
-    </div>
+        <h2 class="breizhcamp-style">Programme</h2>
 
-    <div class="pull-left">
-        <ul class="list-inline">
-            <li ng-repeat="formatDef in progCtrl.formatDefinitions track by $index">
-                <label class="btn btn-default" ng-model="progCtrl.filters.format[formatDef.format]" uib-btn-checkbox>
+        <div class="pull-left">
+            <ul class="list-inline">
+                <li ng-repeat="(category, color) in progCtrl.categoryColors track by category">
+                    <label class="btn btn-default" ng-model="progCtrl.filters.category[category]" uib-btn-checkbox>
+                        <i class="fa fa-square fa-fw" ng-style="{color: color}"></i>
+                        <span ng-bind="::category"></span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pull-left">
+            <ul class="list-inline">
+                <li ng-repeat="formatDef in progCtrl.formatDefinitions track by $index">
+                    <label class="btn btn-default" ng-model="progCtrl.filters.format[formatDef.format]"
+                           uib-btn-checkbox>
                     <span class="fa-stack">
                         <i class="fa fa-square fa-stack-2x"></i>
                         <i class="fa fa-stack-1x fa-inverse" ng-class="::formatDef.icon"></i>
                     </span>
-                    <span ng-bind="::formatDef.label"></span>
-                </label>
-            </li>
-        </ul>
-    </div>
-
-    <div ui-calendar="progCtrl.calendarConfig" ng-model="progCtrl.agenda" ng-if="progCtrl.agenda"
-         calendar="calendar"></div>
-    <!--
-    <uib-accordion close-others="false">
-        <uib-accordion-group ng-repeat="(day, program) in progCtrl.days track by day">
-            <uib-accordion-heading>
-                <h2 class="breizhcamp-style" ng-bind="::day"></h2>
-            </uib-accordion-heading>
-
-
-            <ul class="list-unstyled">
-                <li ng-repeat="format in progCtrl.formatOrder track by $index" ng-if="program.talks[format]">
-                    <h3 class="breizhcamp-style">
-                        <span class="fa-stack">
-                            <i class="fa fa-square fa-stack-2x"></i>
-                            <i class="fa fa-stack-1x fa-inverse" ng-class="progCtrl.formats[format].icon"></i>
-                        </span>
-                        <span ng-bind="::progCtrl.formats[format].label"></span>
-                    </h3>
-                    <ul class="list-unstyled">
-                        <li ng-repeat="talk in program.talks[format] track by talk.id">
-                            <h4 class="breizhcamp-style" ng-bind="::talk.name"></h4>
-                            <div marked=talk.description></div>
-                            <p><em>Speaker(s)</em>&nbsp;: {{::talk.speakers}}</p>
-                        </li>
-                    </ul>
+                        <span ng-bind="::formatDef.label"></span>
+                    </label>
                 </li>
             </ul>
+        </div>
+
+        <div ui-calendar="progCtrl.calendarConfig" ng-model="progCtrl.agenda" ng-if="progCtrl.agenda"
+             calendar="calendar"></div>
+        <!--
+        <uib-accordion close-others="false">
+            <uib-accordion-group ng-repeat="(day, program) in progCtrl.days track by day">
+                <uib-accordion-heading>
+                    <h2 class="breizhcamp-style" ng-bind="::day"></h2>
+                </uib-accordion-heading>
 
 
-        </uib-accordion-group>
-    </uib-accordion>
-    -->
-</div>
-<div id="speakers" class="container" >
+                <ul class="list-unstyled">
+                    <li ng-repeat="format in progCtrl.formatOrder track by $index" ng-if="program.talks[format]">
+                        <h3 class="breizhcamp-style">
+                            <span class="fa-stack">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa fa-stack-1x fa-inverse" ng-class="progCtrl.formats[format].icon"></i>
+                            </span>
+                            <span ng-bind="::progCtrl.formats[format].label"></span>
+                        </h3>
+                        <ul class="list-unstyled">
+                            <li ng-repeat="talk in program.talks[format] track by talk.id">
+                                <h4 class="breizhcamp-style" ng-bind="::talk.name"></h4>
+                                <div marked=talk.description></div>
+                                <p><em>Speaker(s)</em>&nbsp;: {{::talk.speakers}}</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+            </uib-accordion-group>
+        </uib-accordion>
+        -->
+    </div>
+    <div id="speakers" class="container">
 
         <h2 class="breizhcamp-style">Speakers</h2>
 
         <div class="row">
             <div class="col-sm-1" ng-repeat="speaker in progCtrl.speakers | orderBy: 'lastname' ">
-                <a href="" ng-click="progCtrl.detailsSpeaker(speaker)" title="{{speaker.lastname}} {{speaker.firstname}}"><img ng-src="{{speaker.imageProfilURL}}" height="60" width="60"/></a>
+                <a href="" ng-click="progCtrl.detailsSpeaker(speaker)"
+                   title="{{speaker.lastname}} {{speaker.firstname}}"><img ng-src="{{speaker.imageProfilURL}}"
+                                                                           height="60" width="60"/></a>
             </div>
         </div>
-</div>
-<div class="divider"></div>
-
+    </div>
 
 </div>
 
 
 <div class="divider"></div>
+
+<div id="pratique" class="container">
+
+    <h2 class="breizhcamp-style">Informations pratiques</h2>
+
+    <div class="row">
+        <div class="col-sm-6">
+
+            <p>Le BreizhCamp se tient dans le bâtiment 2A de l’Université Rennes 1, sur le campus de Beaulieu à
+                Rennes.</p>
+
+            <h3 class="breizhcamp-style">Adresse</h3>
+
+            <address>
+                Campus de Beaulieu<br>
+                263, avenue du Général Leclerc<br>
+                35042 RENNES
+            </address>
+
+            <h3 class="breizhcamp-style">Transports en commun</h3>
+
+            <p>Le bus vous permet de vous rendre facilement sur place depuis…</p>
+            <p>… la station <em>République</em> située au centre-ville de Rennes. Vous pourrez y emprunter, au choix&nbsp;:
+            </p>
+            <ul>
+                <li>
+                    la ligne <a target="_blank"
+                                href="https://data.explore.star.fr/explore/dataset/mkt-information-documents-td/files/0d78a07dd7b04535c3f007b3eda2a1c2/download/"
+                                title="C4">
+                    <img src="./img/0004.png">
+                </a>, ou la ligne express <a target="_blank"
+                                             href="https://data.explore.star.fr/explore/dataset/mkt-information-documents-td/files/0d78a07dd7b04535c3f007b3eda2a1c2/download/"
+                                             title="40ex">
+                    <img src="./img/0040.png">
+                </a> direction <em>ZA SAINT-SULPICE</em>&nbsp;
+                </li>
+                <li>
+                    la ligne <a target="_blank"
+                                href="https://data.explore.star.fr/explore/dataset/mkt-information-documents-td/files/d6c3c36e76e251d03fbcddd281b7549b/download/"
+                                title="6">
+                    <img src="./img/0006.png">
+                </a>, direction <em>CESSON-SÉVIGNÉ</em>.
+                </li>
+            </ul>
+            <p>… la gare SNCF&nbsp;:</p>
+            <p>Il est possible, le matin entre 7H30 et 9H, d'emprunter la ligne express <a target="_blank"
+                                                                                           href="https://data.explore.star.fr/explore/dataset/mkt-information-documents-td/files/74e4f1503722353c92832845c6de49e4/download/"
+                                                                                           title="41ex">
+                <img src="./img/0041.png">
+            </a> direction <em>PÂTIS TATELIN</em>.
+                En dehors de cette période, le plus simple est de prendre le métro direction <em>Kennedy</em> jusqu'à
+                <em>République</em> avant d'emprunter l'un des bus indiqués ci-dessus.</p>
+
+            <p>Dans tous les cas, pensez simplement à descendre à la station <em>Tournebride</em>&nbsp;!</p>
+        </div>
+        <div class="col-sm-6">
+            <iframe width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="http://www.openstreetmap.org/export/embed.html?bbox=-1.6422092914581299%2C48.112596194714214%2C-1.634838581085205%2C48.11801853444614&amp;layer=mapnik&amp;marker=48.11551%2C-1.63701"
+                    style="border: 1px solid black"></iframe>
+            <br>
+            <small>
+                <a target="_blank" href="http://www.openstreetmap.org/way/157241701#map=17/48.11531/-1.63718">Afficher
+                    une carte plus grande</a>
+            </small>
+        </div>
+    </div>
+
+</div>
 
 <div id="sponsors" class="container">
 
@@ -382,23 +455,23 @@
             </div>
         </div>
         <div class="col-sm-4">
-          <div class="logo_sponsor">
-            <a href="http://www.niji.fr"><img src="img/logo_niji.png" alt="Niji"></a>
-          </div>
+            <div class="logo_sponsor">
+                <a href="http://www.niji.fr"><img src="img/logo_niji.png" alt="Niji"></a>
+            </div>
         </div>
     </div>
     <div class="row gold">
         <div class="col-sm-2">
         </div>
         <div class="col-sm-4">
-          <div class="logo_sponsor">
-            <a href="https://www.jfrog.com/"><img src="img/logo_jfrog.png" alt="JFrog"></a>
-          </div>
+            <div class="logo_sponsor">
+                <a href="https://www.jfrog.com/"><img src="img/logo_jfrog.png" alt="JFrog"></a>
+            </div>
         </div>
         <div class="col-sm-4">
-          <div class="logo_sponsor">
-            <a href="https://www.fr.capgemini.com/"><img src="img/logo_capgemini.png" alt="Capgemini"></a>
-          </div>
+            <div class="logo_sponsor">
+                <a href="https://www.fr.capgemini.com/"><img src="img/logo_capgemini.png" alt="Capgemini"></a>
+            </div>
         </div>
         <div class="col-sm-2">
         </div>

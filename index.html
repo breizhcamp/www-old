@@ -165,6 +165,11 @@
                 <a href="http://eepurl.com/bSKBtz">Lettre d'information #6</a>
             </div>
         </div>
+        <div class="col-sm-3">
+            <div>
+                <a href="http://eepurl.com/bTiIoD">Lettre d'information #7</a>
+            </div>
+        </div>
     </div>
 
 </div>
@@ -280,6 +285,7 @@
         <h2 class="breizhcamp-style">Programme</h2>
 
         <div class="pull-left">
+            <h4>Track</h4>
             <ul class="list-inline">
                 <li ng-repeat="(category, color) in progCtrl.categoryColors track by category">
                     <label class="btn btn-default" ng-model="progCtrl.filters.category[category]" uib-btn-checkbox>
@@ -290,7 +296,8 @@
             </ul>
         </div>
 
-        <div class="pull-left">
+        <div class="pull-left clearfix">
+            <h4>Format</h4>
             <ul class="list-inline">
                 <li ng-repeat="formatDef in progCtrl.formatDefinitions track by $index">
                     <label class="btn btn-default" ng-model="progCtrl.filters.format[formatDef.format]"
@@ -305,39 +312,19 @@
             </ul>
         </div>
 
+        <div class="pull-left">
+            <h4>Salle</h4>
+            <ul class="list-inline">
+                <li ng-repeat="(venue, room) in progCtrl.rooms track by room">
+                    <label class="btn btn-default" ng-model="progCtrl.filters.room[room]" uib-btn-checkbox>
+                        <em ng-bind="::room"></em>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
         <div ui-calendar="progCtrl.calendarConfig" ng-model="progCtrl.agenda" ng-if="progCtrl.agenda"
              calendar="calendar"></div>
-        <!--
-        <uib-accordion close-others="false">
-            <uib-accordion-group ng-repeat="(day, program) in progCtrl.days track by day">
-                <uib-accordion-heading>
-                    <h2 class="breizhcamp-style" ng-bind="::day"></h2>
-                </uib-accordion-heading>
-
-
-                <ul class="list-unstyled">
-                    <li ng-repeat="format in progCtrl.formatOrder track by $index" ng-if="program.talks[format]">
-                        <h3 class="breizhcamp-style">
-                            <span class="fa-stack">
-                                <i class="fa fa-square fa-stack-2x"></i>
-                                <i class="fa fa-stack-1x fa-inverse" ng-class="progCtrl.formats[format].icon"></i>
-                            </span>
-                            <span ng-bind="::progCtrl.formats[format].label"></span>
-                        </h3>
-                        <ul class="list-unstyled">
-                            <li ng-repeat="talk in program.talks[format] track by talk.id">
-                                <h4 class="breizhcamp-style" ng-bind="::talk.name"></h4>
-                                <div marked=talk.description></div>
-                                <p><em>Speaker(s)</em>&nbsp;: {{::talk.speakers}}</p>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
-
-            </uib-accordion-group>
-        </uib-accordion>
-        -->
     </div>
     <div id="speakers" class="container">
 
@@ -347,7 +334,7 @@
             <div class="col-sm-1" ng-repeat="speaker in progCtrl.speakers | orderBy: 'lastname' ">
                 <a href="#" ng-click="progCtrl.detailsSpeaker(speaker)"
                    title="{{speaker.lastname}} {{speaker.firstname}}">
-                    <img ng-src="{{speaker.imageProfilURL}}" height="60" width="60">
+                    <img ng-src="{{speaker.imageProfilURL}}" height="60" width="60" class="img-rounded">
                 </a>
             </div>
         </div>

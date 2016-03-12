@@ -710,7 +710,7 @@
         "name": "Mais qu'est-ce que je fous ?",
         "seats": "tobedefined",
         "speakers": "Jeff Abrahamson",
-        "venue": "Track2",
+        "venue": "Track4",
         "venue_id": 2
     },
     {
@@ -855,7 +855,7 @@
         "event_end": "2016-03-24T13:15:00",
         "event_key": "tobedefined",
         "event_start": "2016-03-24T13:00:00",
-        "event_type": "Keynote",
+        "event_type": "BigData et Analytics",
         "format": "Quickie",
         "goers": "tobedefined",
         "id": 177,

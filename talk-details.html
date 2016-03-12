@@ -9,6 +9,7 @@
     </h3>
 </div>
 <div class="modal-body">
+    <em class="pull-right clearfix" ng-bind="::detailsCtrl.talk.room"></em>
     <p class="text-muted" ng-bind="::detailsCtrl.talk.category"></p>
     <div marked="::detailsCtrl.talk.description"></div>
     <p><strong>Speaker{{::detailsCtrl.talk.speakers.indexOf(',') !== -1 ? 's' : ''}}</strong>&nbsp;: {{::detailsCtrl.talk.speakers}}</p>

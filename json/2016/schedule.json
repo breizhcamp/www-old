@@ -87,7 +87,7 @@
     {
         "active": "Y",
         "description": "Docker a 3 ans, et pour f\u00eater l'\u00e9v\u00e9nement Docker Inc. organise \u00e0 travers le monde des _training_ pour initier les d\u00e9butants. Profites du BreizhCamp pour d\u00e9couvrir cette techno les mains dans le cambouis.",
-        "event_end": "2016-03-23T18:00:00",
+        "event_end": "2016-03-23T17:30:00",
         "event_key": "tobedefined",
         "event_start": "2016-03-23T13:30:00",
         "event_type": "Cloud, DevOps, Outils",
@@ -223,9 +223,9 @@
     {
         "active": "Y",
         "description": "**Spark** et **Cassandra** sont des projets tr\u00e8s populaires, mais avez vous entendu parler d'**Apache Zeppelin** ? **Zeppelin** propose un syst\u00e8me de notebook pour pouvoir manipuler les donn\u00e9es de mani\u00e8re interactive. **Zeppelin** repose sur un syst\u00e8me de plugins qui permet de traiter des t\u00e2ches **Spark**, des requ\u00eates **Spark SQL** mais aussi des requ\u00eates **CQL** de **Cassandra**. \n\n Je montrerai comment construire un pipeline de transformation BigData en m\u00e9langeant du Spark, du Cassandra, du Shell, du Markdown, du _ce-que-vous-voulez_ etc.\n\n**Votre framework pr\u00e9f\u00e9r\u00e9 n'a pas encore de plugin pour Zeppelin ? Ecrivez-en un et partager le avec la communaut\u00e9!**",
-        "event_end": "2016-03-24T17:30:00",
+        "event_end": "2016-03-23T18:00:00",
         "event_key": "tobedefined",
-        "event_start": "2016-03-24T17:00:00",
+        "event_start": "2016-03-23T17:30:00",
         "event_type": "BigData et Analytics",
         "format": "TiA",
         "goers": "tobedefined",

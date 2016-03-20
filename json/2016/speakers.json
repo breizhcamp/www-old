@@ -13,8 +13,8 @@
   },
   {
     "id": 1,
-    "lastname": "Nicolas",
-    "firstname": "De Loof",
+    "lastname": "De Loof",
+    "firstname": "Nicolas",
     "company": "CloudBees",
     "bio": "Cinéaste amateur",
     "social": "http://blog.loof.fr",
@@ -242,7 +242,7 @@
   {
     "id": 31,
     "lastname": "Martinez",
-    "firstname": "Jérémie",
+    "firstname": "Jeremie",
     "company": "Captain Train",
     "bio": "Jeremie est développeur Android depuis plus de 4 ans et travaille actuellement chez CaptainTrain. Passionné par le développement Android, il est un fervent adepte des bonnes pratiques et des principes du Software Craftsmanship.",
     "social": "jeremie-martinez.com",
@@ -722,7 +722,7 @@
   {
     "id": 85,
     "lastname": "Siber",
-    "firstname": "Eric",
+    "firstname": "Éric",
     "company": "Novedia, groupe VISEO",
     "bio": "Dans le monde du développement depuis plus de 10 ans, actuellement :\n- Agile Java Craftsman\n- Creative Ecosystem Architect pour le compte de VISEO Technologies\n- Runner et Papa 2.0\n\nPrécédemment pour Novedia (en plus de ma casquette de développeur) : Consultant Manager de 2010 à 2014, responsable Expertise IT de 2013 à 2014. Rôles pour lesquels je me suis évertué à accentuer la dimension humaine dans l'organisation et l'accompagner dans son évolution, fonction que j'occupe désormais à l'échelle de la BU Technologies du groupe VISEO que Novedia à rejoint en 2014.\n\nAncien membre actif, modérateur, rédacteur et responsable bénévole Java sur [Developpez.com](http://www.developpez.com/) pendant 4 ans.\n\nEnfin, j'ai participé à l'organisation de la [conférence Agile France](http://conf.agile-france.org/) 2013.",
     "social": "https://www.linkedin.com/in/siber, http://www.brownbaglunch.fr/baggers.html#Eric_Siber_Paris",
@@ -913,7 +913,7 @@
   },
   {
     "id": 236,
-    "lastname": "Dogui",
+    "lastname": "Doguin",
     "firstname": "Laurent",
     "company": "Couchbase",
     "bio": "Laurent is a Paris based Developer Advocate where he focuses on helping Java developers and the French community. He writes code in Java and blog posts in Markdown.?Prior to joining Couchbase he was Nuxeo’s community liaison where he devoted his time and expertise to helping the entire Nuxeo Community become more active and efficient.",
@@ -994,5 +994,42 @@
     "googleplus": null,
     "github": null,
     "imageProfilURL": "http://www.gravatar.com/avatar/bbd4d65db0818b474c3c784c39075084"
+  },
+  
+  {
+    "id": 1000,
+    "lastname": "Galvao",
+    "firstname": "Pauline",
+    "company": "",
+    "bio": "",
+    "social": "",
+    "twitter": "",
+    "googleplus": null,
+    "github": null,
+    "imageProfilURL": ""
+  },
+  {
+    "id": 1001,
+    "lastname": "Ogloblinsky",
+    "firstname": "Vincent",
+    "company": "",
+    "bio": "",
+    "social": "",
+    "twitter": "",
+    "googleplus": null,
+    "github": null,
+    "imageProfilURL": ""
+  },
+  {
+    "id": 1002,
+    "lastname": "Darritchon",
+    "firstname": "Herve",
+    "company": "",
+    "bio": "",
+    "social": "",
+    "twitter": "",
+    "googleplus": null,
+    "github": null,
+    "imageProfilURL": ""
   }
 ]

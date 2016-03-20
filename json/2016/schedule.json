@@ -732,7 +732,7 @@
     },
     {
         "active": "Y",
-        "description": "Le refactoring, c'est bien. Le refactoring, c'est beau. Mais le refactoring, est-ce vraiment pragmatique ?\n\nEt si on arr\u00eatait les d\u00e9bats st\u00e9riles ? Avec Xtreme Refactoring, la seule loi : c'est le code. Dans cet environnement hostile, toutes les techniques sont permises.\n\nRejoignez le temps de ce hands-on le projet \"Tennis Underground\" en pleine expansion o\u00f9 vous pourrez d\u00e9montrer vos talents de codeur face aux autres en livrant le plus rapidement possible toutes les nouvelles fonctionnalit\u00e9s qui ne cessent de germer dans les t\u00eates de nos Products Owners.\n\nTDDeur, DDDeur, Crapman : imposez votre style !",
+        "description": "Le refactoring, c'est bien. Le refactoring, c'est beau. Mais le refactoring, est-ce vraiment pragmatique ?\n\nEt si on arr\u00eatait les d\u00e9bats st\u00e9riles ? Avec Xtreme Refactoring, la seule loi : c'est le code. Dans cet environnement hostile, toutes les techniques sont permises.\n\nRejoignez le temps de ce hands-on le projet \"Tennis Underground\" en pleine expansion o\u00f9 vous pourrez d\u00e9montrer vos talents de codeur face aux autres en livrant le plus rapidement possible toutes les nouvelles fonctionnalit\u00e9s qui ne cessent de germer dans les t\u00eates de nos Products Owners.\n\nTDDeur, DDDeur, Crapman : imposez votre style !\n\nCe slot est un atelier de d\u00e9veloppement. Un ordinateur pour 2 au minimum est donc n\u00e9cessaire, \u00e9quip\u00e9 du Wifi. Ce sont les seules choses r\u00e9ellement n\u00e9cessaires.",
         "event_end": "2016-03-23T12:00:00",
         "event_key": "tobedefined",
         "event_start": "2016-03-23T10:00:00",

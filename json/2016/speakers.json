@@ -28,7 +28,7 @@
     "lastname": "Dubreuil",
     "firstname": "Yoann",
     "company": "CloudBees",
-    "bio": "bioman",
+    "bio": "Yoann Dubreuil travaille chez CloudBees. A mi-chemin entre développeur et administrateur système, il s'occupe aujourd'hui du maintien de la solution hébergée DEV@cloud après avoir accompagné les clients CloudBees à tirer le meilleur de Jenkins dans l'équipe support. Il est aussi Gentil Organisateur du BreizhCamp",
     "social": "",
     "twitter": null,
     "googleplus": "https://plus.google.com/109669109238504787835",
@@ -995,7 +995,7 @@
     "github": null,
     "imageProfilURL": "http://www.gravatar.com/avatar/bbd4d65db0818b474c3c784c39075084"
   },
-  
+
   {
     "id": 1000,
     "lastname": "Galvao",

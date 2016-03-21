@@ -936,6 +936,23 @@
     },
     {
         "active": "Y",
+        "description": "Tat, the powerfull self hosted communication Tool.\n\nDu texte, des tags, des labels, des humains et des robots. Vous mixez tout cela \net vous avez une recette pr\u00EAte \u00E0 l'emploi que vous pourrez consommer sans mod\u00E9ration.\n\nMix d'IRC, de Jabber, de Slack, de Mattermost, mais \u00E0 la fois compl\u00E8tement diff\u00E9rent, venez d\u00E9couvrir comment cette recette s'adapte \u00E0 n'importe quel sujet:\n - Dashboard d'alerting et de monitoring d'applications\n - Communications intra / inter Team\n - Surveillance des pipelines de Continuous Delivery : PullRequest, Build, Test, Deploy\n - Personal & Team Workflow: tableau agile, stats & reporting\n\nUne seule limite: votre imagination.\nKeywords : Golang, AngularJS, API, CLI, Hackable WebUI, Self-Hosted",
+        "event_end": "2016-03-24T17:30:00",
+        "event_key": "tobedefined",
+        "event_start": "2016-03-24T17:00:00",
+        "event_type": "Cloud, DevOps, Outils",
+        "format": "TiA",
+        "goers": "tobedefined",
+        "id": 4444,
+        "invite_only": "N",
+        "name": "TAT, the powerfull self hosted communication Tool.",
+        "seats": "tobedefined",
+        "speakers": "Yvonnick Esnault",
+        "venue": "Track1",
+        "venue_id": 3
+    },
+    {
+        "active": "Y",
         "description": "Vous avez envie de d\u00e9velopper une application mobile, mais quel framework choisir parmi les plus populaires? Et si nous faisions un comparatif entre ces framework pour savoir comment orienter notre choix...",
         "event_end": "2016-03-25T11:30:00",
         "event_key": "tobedefined",

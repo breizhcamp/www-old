@@ -1429,6 +1429,23 @@
     },
     {
         "active": "Y",
+        "description": "C'est quoi ?\nProgrammer, coder, d\u00e9velopper, concevoir du logiciel, pisser du code, ... autant de mots pour expliquer notre m\u00e9tier. Mais comment l'expliquer \u00e0 nos enfants ?\nSurtout qu'ils vont vivre de plus en plus avec du code omnipr\u00e9sent. Le but de l'atelier n'est pas d'en faire le prochain Bill Gates ou Linus Torvald (quoique). Mais de les initier au monde de la robotique. Du coup ce qui est g\u00e9nial, c'est que l'on touche \u00e0 la m\u00e9canique, l'\u00e9lectronique et au code. La plate-forme utilis\u00e9e, va \u00eatre des Lego Mindstorms EV3.\n\nCela va leur permettre de voir qu'un PC ne sert pas qu'\u00e0 faire du Facebook et regarder les vid\u00e9os de Cyprien sur YouTube :)\n\nEt d'entrevoir que le robot aspirateur qui parait un peu con, et bien en fait c'est que c'est plus compliqu\u00e9 \u00e0 programmer qu'il n'y parait.\n\n\u00c7a se passe comment ?\n\n\u00c7a s\u2019est d\u00e9j\u00e0 pass\u00e9 comme \u00e7a :\n<a href=\"http://li.ro/6PKe\">Les photos de l'ann\u00e9e derni\u00e8re</a> et les vid\u00e9os :\n\nhttps://www.youtube.com/watch?v=ysMG2SF1qO4\n\nhttps://www.youtube.com/watch?v=rPCWyFF_bac\n\nImportant :\n\nAttention, il faut minimum avoir 10 ans et venir avec un adulte.",
+        "event_end": "2016-03-23T17:00:00",
+        "event_key": "tobedefined",
+        "event_start": "2016-03-23T16:00:00",
+        "event_type": "Objects connect\u00e9s, IoT, Robotique",
+        "format": "Lab",
+        "goers": "tobedefined",
+        "id": 4445,
+        "invite_only": "N",
+        "name": "devoxx4kids",
+        "seats": "tobedefined",
+        "speakers": "Nicolas Ledez",
+        "venue": "Track5 (labs)",
+        "venue_id": 5
+    },
+    {
+        "active": "Y",
         "description": "Tu as entendu tout le monde parler d'Angular 2 mais tu n'as pas eu le temps de mettre les mains dans le code. Alors, retrousse tes manches et rejoins-nous dans ce hands on consacr\u00e9 \u00e0 la d\u00e9couverte du monde merveilleux d'Angular 2.",
         "event_end": "2016-03-24T11:30:00",
         "event_key": "tobedefined",

@@ -640,7 +640,7 @@
     "lastname": "David",
     "firstname": "Michel",
     "company": "DGA",
-    "bio": "alert('XSS')",
+    "bio": "alert('XSS');<img src='fake' onerror='this.onerror=\"\";console.log(\"xss\");'/>",
     "social": "",
     "twitter": null,
     "googleplus": null,
